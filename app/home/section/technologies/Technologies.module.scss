@@ -1,0 +1,15 @@
+@import '@/style/variables.module.scss';
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.showMoreButton{
+  display: flex;
+  justify-content: center;
+}
+

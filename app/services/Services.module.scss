@@ -1,0 +1,15 @@
+@import '@/style/variables.module.scss';
+
+.services{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  gap: 20px;
+}

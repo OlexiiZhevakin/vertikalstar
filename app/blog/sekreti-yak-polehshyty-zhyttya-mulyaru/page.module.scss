@@ -1,0 +1,44 @@
+@import '@/style/variables.module.scss';
+
+.head{
+  padding-top: 144px;
+  h1{
+    font-size: 54px;
+    color: $title;
+    margin-bottom: 30px;
+    text-transform: none;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
+.blog{
+  h2{
+    font-size: 36px;
+  }
+  p{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  ol{
+    margin-left: 30px;
+  }
+  li{
+      font-size: 22px;
+  }
+  figure{
+    margin-bottom: 30px;
+  }
+  figcaption{
+    text-align: center;
+    color: $cement;
+  }
+  span{
+    text-transform: uppercase;
+    color: $orange;
+  }
+  img{
+    margin: 0 auto;
+  }
+}

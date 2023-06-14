@@ -1,0 +1,32 @@
+@import '@/style/variables.module.scss';
+.card{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 280px;
+
+  div{
+    padding: 40px 10px 20px;
+  }
+
+  h3{
+    padding-bottom: 60px;
+    position: relative;
+    color: $title;
+    font-size: 22px;
+    span{
+      position: absolute;
+      top: -35px;
+      left: 0;
+      font-size: 120px;
+      line-height: 1;
+      color: #D3D3D3;
+      z-index: -1;
+    }
+  }
+
+  p{
+    font-size: 17px;
+    color: $title;
+  }
+}

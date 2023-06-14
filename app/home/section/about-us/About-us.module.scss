@@ -1,0 +1,44 @@
+@import '@/style/variables.module.scss';
+
+.about{
+  padding: 60px 0;
+}
+
+.inner{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.item{
+  max-width: 290px;
+  width: 100%;
+
+  span{
+    font-size: 40px;
+  }
+
+  div{
+    padding-left: 30px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 0;
+      background-color: $orange;
+    }
+
+    h3{
+      color: $title;
+      font-size: 26px;
+      margin-bottom: 16px;
+      max-width: 80%;
+    }
+  }
+}

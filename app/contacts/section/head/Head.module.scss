@@ -1,0 +1,36 @@
+@import '@/style/variables.module.scss';
+
+.head{
+   min-height: 600px;
+  background: url(/img/contacts/contacts-bg.webp) center/cover no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  div{
+    z-index: 2;
+  }
+
+  h1{
+    text-align: center;
+    z-index: 2;
+  }
+
+  p{
+    font-size: 26px;
+    color: $white;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,136 @@
+
+@import '/style/variables.module.scss';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: $bg;
+}
+
+main {
+  flex-grow: 1;
+}
+
+section:first-child{
+  padding: 144px 0 0;
+}
+
+section{
+  padding: 60px 0;
+}
+
+.active {
+  color: red;
+}
+
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1{
+  font-size: 76px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: $orange;
+}
+
+h2{
+  font-size: 42px;
+  color: $title;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn{
+  padding: 8px;
+  margin-top: auto;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: $orange;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: all .4s;
+  border: 1px solid $orange;
+  &:hover{
+    background-color: #fff;
+    color: $default;
+  }
+}
+
+.headTitle{
+  text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 22px;
+}
+

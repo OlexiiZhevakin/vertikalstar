@@ -1,0 +1,30 @@
+@import '@/style/variables.module.scss';
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  background-color: $cement;
+  height: 100%;
+  div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+  }
+  h3{
+    font-size: 18px;
+    color: $title;
+    margin-bottom: 20px;
+    span{
+      text-transform: uppercase;
+    }
+  }
+  p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+}
+

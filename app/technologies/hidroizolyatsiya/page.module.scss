@@ -1,0 +1,40 @@
+@import '@/style/variables.module.scss';
+
+.head{
+  padding-top: 144px;
+  h1{
+    text-align: center;
+  }
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 60px 0;
+}
+
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  div{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    &:nth-child(5),
+    &:nth-child(6){
+      margin-bottom: 0;
+    }
+  }
+  i{
+    margin-right: 30px;
+    font-size: 30px;
+    color: $orange;
+  }
+  p{
+    font-size: 20px;
+  }
+}

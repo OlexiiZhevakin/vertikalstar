@@ -1,0 +1,63 @@
+@import '@/style/variables.module.scss';
+
+.aside{
+  max-width: 360px;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid $cement;
+  height: fit-content;
+  article{
+    text-align: center;
+    margin-bottom: 30px;
+    div{
+      padding: 10px;
+    }
+    h2{
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+  }
+  h2{
+    font-size: 20px;
+  }
+}
+
+.socialList{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border: 1px solid $cement;
+  a:hover i{
+    color: $orange;
+  }
+
+  i{
+    font-size: 30px;
+    color: $title;
+    transition: all .4s;
+  }
+}
+
+.shop{
+  margin-bottom: 30px;
+  div{
+    padding: 20px;
+    background-color: $orange;
+    text-align: center;
+  }
+  span{
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+.youtube{
+  div{
+    padding: 20px;
+    color: $title;
+    font-size: 20px;
+    border: 1px solid $cement;
+    text-align: center;
+  }
+}

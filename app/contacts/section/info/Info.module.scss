@@ -1,0 +1,43 @@
+@import '@/style/variables.module.scss';
+
+.info{
+  padding: 100px 0;
+}
+
+.wrapper{
+  display: flex;
+    justify-content: space-between;
+    
+    span{
+      display: block;
+      font-size: 24px;
+      font-weight: 700;
+      color: $orange;
+      margin-bottom: 20px;
+    }
+}
+
+.list{
+  li:not(:last-child){
+    margin-bottom: 8px;
+  }
+
+  a{
+    font-size: 20px;
+    color: $title;
+  }
+}
+
+.listSocial{
+  display: flex;
+  justify-content: space-between;
+
+  i{
+    font-size: 40px;
+    color: $cement;
+    transition: all .3s;
+    &:hover{
+      color: $orange;
+    }
+  }
+}

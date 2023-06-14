@@ -1,0 +1,14 @@
+@import '@/style/variables.module.scss';
+
+.list{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  li{
+    max-width: 400px;
+    border-bottom: 1px solid $cement;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,52 @@
+@import '@/style/variables.module.scss';
+
+.wrapper{
+  max-width: 400px;
+  background-color: $white;
+  border-radius: 8px;
+  padding: 33px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  div{
+    font-weight: 700;
+    font-size: 28px;
+    color: $orange;
+    margin-bottom: 14px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  label{
+    color: $cement;
+    margin-bottom: 4px;
+    margin-top: 20px;
+  }
+
+  input{
+    outline: transparent;
+    border: none;
+    border-bottom: 1px solid $cement;
+    padding: 0 4px;
+  }
+
+  button{
+    border: 1px solid $orange;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: $orange;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s;
+    :hover{
+      border: 1px solid $orange;
+      background-color: $white;
+      color: $orange;
+    }
+  }
+}

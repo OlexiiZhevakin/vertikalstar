@@ -1,0 +1,31 @@
+{
+  "name": "vertical",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.3.0",
+    "@types/react": "18.2.11",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "font-awesome": "^4.7.0",
+    "next": "13.4.5",
+    "next-compose-plugins": "^2.2.1",
+    "next-image-export-optimizer": "^1.7.0",
+    "next-images": "^1.8.5",
+    "next-navigation": "^1.0.6",
+    "node-sass": "^9.0.0",
+    "postcss": "^8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.63.3",
+    "styled-components": "^6.0.0-rc.3",
+    "typescript": "5.1.3"
+  }
+}
