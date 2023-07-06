@@ -10,6 +10,7 @@ import Way from "./section/way/Way";
 import Reviews from "./section/reviews/Reviews";
 import Form from "@/components/form/Form";
 import Blog from "./section/blog/Blog";
+import Youtube from "./section/youtube/Youtube";
 
 const HomePage = () => {
   return(
@@ -25,6 +26,7 @@ const HomePage = () => {
     <Reviews/>
     <Form/>
     <Blog/>
+    <Youtube/>
     </>
   )
 }

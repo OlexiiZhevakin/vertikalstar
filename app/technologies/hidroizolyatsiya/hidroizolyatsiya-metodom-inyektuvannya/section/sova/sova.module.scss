@@ -1,0 +1,28 @@
+@import "@/style/variables.module.scss";
+
+.sova{
+  background-color: #fff;
+  span{
+    text-transform: uppercase;
+  }
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  list-style: disc;
+  font-size: 20px;
+  padding-left: 40px;
+  margin-left: 40px;
+  border-left: 3px solid $orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

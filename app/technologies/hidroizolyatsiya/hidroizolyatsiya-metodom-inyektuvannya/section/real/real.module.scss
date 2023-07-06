@@ -1,0 +1,30 @@
+@import "@/style/variables.module.scss";
+
+.real {
+  background-image: url('/img/technologies/page/hidro/hssmi/advantage-bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h2 {
+    color: $white;
+  }
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  min-height: 700px;
+}
+
+.item:nth-child(2) {
+  grid-column: span 2;
+}
+
+.item {
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

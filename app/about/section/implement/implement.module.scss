@@ -1,0 +1,32 @@
+@import "@/style/variables.module.scss";
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+}
+
+.info {
+  width: 60%;
+
+  h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.list{
+  margin-bottom: 30px;
+  li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  a{
+    font-size: 20px;
+    color: $orange;
+  }
+}

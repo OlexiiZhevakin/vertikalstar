@@ -1,0 +1,43 @@
+@import "@/style/variables.module.scss";
+
+.item {
+  padding: 10px 0;
+  position: relative;
+
+  &:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+
+.item:hover > .subList{
+  display: block;
+}
+
+
+.subList {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 300px;
+  background-color: #181c25;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  li{
+    padding: 8px;
+    &:not(:last-child){
+      border-bottom: 1px solid #777;
+    }
+  }
+  a{
+    color: $white;
+    &:hover{
+      color: $orange;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .item:hover>.subList {
+    // display: none;
+  }
+}

@@ -32,12 +32,15 @@
   display: flex;
   justify-content: space-between;
 
-  i{
-    font-size: 40px;
-    color: $cement;
-    transition: all .3s;
-    &:hover{
-      color: $orange;
-    }
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    font-size: 30px;
+    color: $title;
   }
 }

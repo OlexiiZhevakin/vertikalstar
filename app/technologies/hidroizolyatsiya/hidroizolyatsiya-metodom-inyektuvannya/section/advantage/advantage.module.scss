@@ -1,0 +1,73 @@
+@import "@/style/variables.module.scss";
+
+.advantage {
+  padding: 60px 0;
+  background-image: url('/img/technologies/page/hidro/hssmi/advantage-bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: $white;
+  }
+}
+
+.items {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 60px;
+  column-gap: 90px;
+}
+
+.item {
+  padding-top: 50px;
+  position: relative;
+  color: $white;
+
+  &::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &:nth-child(1)::before {
+    background-image: url('/img/technologies/page/hidro/hssmi/advantage/1.svg');
+  }
+
+  &:nth-child(2)::before {
+    background-image: url('/img/technologies/page/hidro/hssmi/advantage/2.svg');
+  }
+
+  &:nth-child(3)::before {
+    background-image: url('/img/technologies/page/hidro/hssmi/advantage/3.svg');
+  }
+
+  &:nth-child(4)::before {
+    background-image: url('/img/technologies/page/hidro/hssmi/advantage/4.svg');
+  }
+
+  &:nth-child(5)::before {
+    background-image: url('/img/technologies/page/hidro/hssmi/advantage/5.svg');
+  }
+
+  &:nth-child(6)::before {
+    background-image: url('/img/technologies/page/hidro/hssmi/advantage/6.svg');
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: $white;
+    text-align: center;
+  }
+}
+

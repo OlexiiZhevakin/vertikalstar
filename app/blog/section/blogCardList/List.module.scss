@@ -1,5 +1,6 @@
 @import '@/style/variables.module.scss';
 
+
 .list{
   display: flex;
   justify-content: flex-start;
@@ -8,7 +9,8 @@
 
   li{
     max-width: 400px;
-    border-bottom: 1px solid $cement;
+    border-bottom: 3px solid $orange;
     margin-bottom: 30px;
+    height: 400px;
   }
 }

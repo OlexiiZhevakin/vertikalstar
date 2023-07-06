@@ -1,0 +1,17 @@
+@import "@/style/variables.module.scss";
+
+.grafic{
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h3 {
+    width: 70%;
+    font-size: 34px;
+  }
+}

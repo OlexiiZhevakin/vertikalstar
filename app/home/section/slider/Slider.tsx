@@ -1,49 +1,65 @@
+
 'use client'
+
+import { Navigation } from 'swiper/modules';
 import SliderCard from '@/card/SliderCard/SliderCard';
 import styles from './Slider.module.scss';
 import SliderData from '@/data/sliderData';
-import { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/scss';
+import 'swiper/scss/navigation';
 
 const Slider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const handlePrevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === 0 ? SliderData.length - 3 : prevSlide - 1));
-  };
-
-  const handleNextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === SliderData.length - 3 ? 0 : prevSlide + 1));
-  };
-
-  const visibleSlides = SliderData.slice(currentSlide, currentSlide + 3);
 
 
-  return(
+  return (
     <section>
       <div className="container">
-        <h2>Об'єкти де застосовані наші ТЕХНОЛОГІЇ</h2>
+        <h2 className={styles.title}>Об'єкти де застосовані наші ТЕХНОЛОГІЇ</h2>
         <div className={styles.wrapper}>
-          <button className={styles.btn} onClick={handlePrevSlide}>&lt;</button>
-          <ul className={styles.list}>
-            {visibleSlides.map((card, index) => {
-              return(
-                <li key={index}>
-                  <SliderCard
-                    image={card.image}
-                    imageWebp={card.imageWebp}
-                    title={card.title}
-                    link={card.link}
-                    description={card.description}
-                  />
-                </li>
-              )
-            })}
-          </ul>
-          <button className={styles.btn} onClick={handleNextSlide}>&gt;</button>
+          <div className={styles.btnPrev}>&lt;</div>
+          <Swiper
+            modules={[Navigation]}
+            navigation={{
+              prevEl: `.${styles.btnPrev}`,
+              nextEl: `.${styles.btnNext}`,
+            }}
+            slidesPerView={3}
+            spaceBetween={50}
+            loop={true}
+            // centeredSlides
+            breakpoints={{
+              991: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              0: {
+                slidesPerView: 1,
+              }
+            }}
+          >
+            
+            {SliderData.map((card, index) => (
+              <SwiperSlide className={styles.slide} key={index}>
+                <SliderCard
+                  image={card.image}
+                  imageWebp={card.imageWebp}
+                  title={card.title}
+                  link={card.link}
+                  description={card.description}
+                />
+              </SwiperSlide>
+            ))}
+            
+          </Swiper>
+          <div className={styles.btnNext}>&gt;</div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Slider;

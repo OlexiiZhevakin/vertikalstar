@@ -1,48 +1,66 @@
+
 'use client'
-import ReviewCard from '@/card/ReviewCard/ReviewCard';
+
+import { Navigation } from 'swiper/modules';
 import styles from './Reviews.module.scss';
 import ReviewData from '@/data/reviewdata';
-import { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/scss';
+import 'swiper/scss/navigation';
+import ReviewCard from '@/card/ReviewCard/ReviewCard';
+
 const Reviews = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
 
-  const handlePrevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === 0 ? ReviewData.length - 3 : prevSlide - 1));
-  };
 
-  const handleNextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === ReviewData.length - 3 ? 0 : prevSlide + 1));
-  };
-
-  const visibleSlides = ReviewData.slice(currentSlide, currentSlide + 3);
-
-  return(
+  return (
     <section>
       <div className="container">
-        <h2>Відгуки</h2>
+        <h2 className={styles.title}>Відгуки</h2>
         <div className={styles.wrapper}>
-          <button className={styles.sliderBtn} onClick={handlePrevSlide}>&lt;</button>
-          <ul className={styles.list}>
-            {visibleSlides.map((card, index) => {
-            return (
-              <li key={index}>
+          
+          <Swiper
+            modules={[Navigation]}
+            navigation={{
+              prevEl: `.${styles.btnPrev}`,
+              nextEl: `.${styles.btnNext}`,
+            }}
+            slidesPerView={3}
+            spaceBetween={50}
+            loop={true}
+            breakpoints={{
+              991: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              0: {
+                slidesPerView: 1,
+              }
+            }}
+          >
+
+            {ReviewData.map((card, index) => (
+              <SwiperSlide className={styles.slide} key={index}>
                 <ReviewCard
-                  description={card.description}
                   image={card.image}
                   imageWebp={card.imageWebp}
                   title={card.title}
-                  author={card.author}
                   link={card.link}
+                  author={card.author}
+                  description={card.description}
                 />
-              </li>
-            )
-          })}
-          </ul>
-          <button className={styles.sliderBtn} onClick={handleNextSlide}>&gt;</button>
+              </SwiperSlide>
+            ))}
+
+          </Swiper>
+          <div className={styles.btnPrev}>&lt;</div>
+          <div className={styles.btnNext}>&gt;</div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Reviews;

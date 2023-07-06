@@ -2,12 +2,12 @@ const hidroizolyatsiyaData = [{
   imageWebp: '/img/technologies/page/hidro/gidroizolyacziya-metodom-inekczij.webp',
   image: '/img/technologies/page/hidro/gidroizolyacziya-metodom-inekczij.jpg',
   title: "Гідроізоляція методом ін'єктування",
-  link: '',
+  link: '/technologies/hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya',
  },
  {
-  imageWebp: '/img/technologies/page/hidro/avariyna-zupynka-protikannya.webp',
-  image: '/img/technologies/page/hidro/avariyna-zupynka-protikannya.jpg',
-  title: 'Аварійна зупинка протікання',
+  imageWebp: '/img/technologies/page/hidro/gidroizolyacziya-ploskih-krovel.webp',
+  image: '/img/technologies/page/hidro/gidroizolyacziya-ploskih-krovel.jpg',
+  title: 'Гідроізоляція плоских покрівель',
   link: '',
  },
  {
@@ -47,9 +47,9 @@ const hidroizolyatsiyaData = [{
   link: '',
  },
  {
-  imageWebp: '/img/technologies/page/hidro/gidroizolyacziya-ploskih-krovel.webp',
-  image: '/img/technologies/page/hidro/gidroizolyacziya-ploskih-krovel.jpg',
-  title: 'Гідроізоляція плоских покрівель',
+  imageWebp: '/img/technologies/page/hidro/avariyna-zupynka-protikannya.webp',
+  image: '/img/technologies/page/hidro/avariyna-zupynka-protikannya.jpg',
+  title: 'Аварійна зупинка протікання',
   link: '',
  },
  {
@@ -61,7 +61,7 @@ const hidroizolyatsiyaData = [{
  {
   imageWebp: '/img/technologies/page/hidro/gidroizolyacziya-metodom-inekczij.webp',
   image: '/img/technologies/page/hidro/gidroizolyacziya-metodom-inekczij.jpg',
-  title: 'Усунення капілярного підсмоктування',
+  title: 'Фундамент та цоколі',
   link: '',
  },
  {

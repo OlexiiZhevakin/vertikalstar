@@ -1,0 +1,37 @@
+@import '@/style/variables.module.scss';
+
+.title{
+  font-size: 54px;
+  color: $title;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+
+.blog{
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  figure {
+    margin-bottom: 30px;
+  }
+
+  figcaption {
+    text-align: center;
+    color: $cement;
+  }
+
+  span {
+    text-transform: uppercase;
+    color: $orange;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+}

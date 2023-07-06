@@ -14,6 +14,7 @@ type Props = {
 const ReviewCard = ({description, image, imageWebp, title, author, link}: Props) => {
   return(
     <div className={styles.item}>
+      <div className={styles.inner}>
       <p>{description}</p>
       <picture>
         <source type="image/webp" srcSet={imageWebp} title={title}/>
@@ -21,6 +22,7 @@ const ReviewCard = ({description, image, imageWebp, title, author, link}: Props)
       </picture>
       <p className={styles.author}>{author}</p>
       <Link className="btn" href={link}>Детальніше</Link>
+      </div>
     </div>
   )
 }

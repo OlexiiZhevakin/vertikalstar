@@ -12,15 +12,16 @@
   h3{
     padding-bottom: 60px;
     position: relative;
-    color: $title;
+    color: $white;
     font-size: 22px;
+    z-index: 1;
     span{
       position: absolute;
       top: -35px;
       left: 0;
       font-size: 120px;
       line-height: 1;
-      color: #D3D3D3;
+      color: #333;
       z-index: -1;
     }
   }

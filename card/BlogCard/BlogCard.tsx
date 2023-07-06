@@ -1,16 +1,14 @@
-import Link from 'next/link';
 import styles from './BlogCard.module.scss';
 
 type Props = {
-  link: string,
   image: string,
   imageWebp: string,
   title: string
 }
 
-const BlogCard = ({link, image, imageWebp, title}: Props) => {
+const BlogCard = ({ image, imageWebp, title}: Props) => {
   return(
-    <Link href={link}>
+    
       <article className={styles.card}>
         <picture>
           <source type="image/webp" srcSet={imageWebp} title={title}/>
@@ -20,7 +18,7 @@ const BlogCard = ({link, image, imageWebp, title}: Props) => {
           <h2>{title}</h2>
         </div>
       </article>
-    </Link>
+    
   )
 }
 

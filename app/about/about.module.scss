@@ -1,0 +1,29 @@
+@import '@/style/variables.module.scss';
+
+.about{
+  h1{
+    font-size: 70px;
+    text-align: center;
+  }
+  img {
+    margin: 0 auto;
+  }
+  figcaption{
+    text-align: center;
+    color: #878787;
+  }
+}
+
+.text{
+  font-size: 20px;
+  color: $title;
+  p{
+    margin-bottom: 20px;
+  }
+}
+
+.list{
+  font-size: 40px;
+}
+
+

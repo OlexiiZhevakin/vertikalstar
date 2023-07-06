@@ -8,7 +8,7 @@ const Brands = () => {
   return(
     <section>
       <div className="container">
-        <h2>Бренди з якими ми працюємо</h2>
+        <h2 className={styles.title}>Бренди з якими ми працюємо</h2>
         <ul className={styles.list}>
           {BrandData.map((card, index) => {
             return(

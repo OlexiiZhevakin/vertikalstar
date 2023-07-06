@@ -1,0 +1,57 @@
+@import "@/style/variables.module.scss";
+
+.about {
+  background-color: #fff;
+}
+
+.inner {
+  padding-top: 30px;
+}
+
+.item {
+  min-height: 470px;
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 90px;
+  }
+}
+
+.img {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  position: relative;
+
+  &:nth-child(2) {
+    &::before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 280px;
+      height: 260px;
+      bottom: -10px;
+      left: -10px;
+      background-color: $orange;
+      z-index: -1;
+    }
+  }
+}
+
+.info {
+  width: 50%;
+  padding: 0 20px;
+
+  h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,30 @@
+@import '@/style/variables.module.scss';
+
+.head{
+  padding-top: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  background-color: #fff;
+
+}
+
+.history{
+  padding: 60px 0;
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+.description{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.subtitle{
+  font-size: 32px;
+  text-align: center;
+  color: $title;
+  margin-bottom: 30px;
+}

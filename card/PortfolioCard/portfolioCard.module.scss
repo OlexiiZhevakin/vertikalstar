@@ -1,0 +1,40 @@
+@import "@/style/variables.module.scss";
+
+.card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  max-width: 380px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  &:hover{
+   transform: translateY(-4px);
+  }
+}
+
+.img{
+  padding: 10px;
+  background-color: #fff;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: $orange;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  p{
+    margin-top: auto;
+    font-size: 18px;
+    color: $title;
+    text-align: center;
+  }
+}

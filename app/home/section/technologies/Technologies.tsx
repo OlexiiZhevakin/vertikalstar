@@ -15,7 +15,7 @@ const Technologies = () => {
   return (
     <section>
       <div className="container">
-        <h2>Технології</h2>
+        <h2 className={styles.title}>Технології</h2>
         <ul className={styles.list}>
           {TechnologiesData.slice(0, visibleCards).map((card, index) => (
             <li key={index}>
@@ -30,7 +30,7 @@ const Technologies = () => {
         </ul>
         {visibleCards < TechnologiesData.length && (
           <div className={styles.showMoreButton}>
-            <button className='btn' onClick={showMoreCards}>Показать еще</button>
+            <button className='btn' onClick={showMoreCards}>Показати ще</button>
           </div>
         )}
       </div>

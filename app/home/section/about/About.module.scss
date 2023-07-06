@@ -1,5 +1,9 @@
 @import '@/style/variables.module.scss';
 
+.about {
+  padding: 60px 0;
+}
+
 .inner {
   display: flex;
   justify-content: space-between;
@@ -30,7 +34,8 @@
   max-width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
 
   h3 {
     margin-bottom: 30px;
@@ -62,5 +67,149 @@
 
   div:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+
+.btn {
+  padding: 8px 20px;
+  color: $title;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: $orange;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all .4s;
+  border: 1px solid $orange;
+  margin: 0 auto;
+
+  &:hover {
+    background-color: #fff;
+    color: $default;
+  }
+}
+
+.signature {
+  text-align: left;
+  font-style: italic;
+  color: $title;
+  font-weight: 600;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .inner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .img{
+    margin-bottom: 30px;
+    &:before{
+      width: 360px;
+      left: 20px;
+    }
+  }
+  .content{
+    h3{
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+  }
+  .items{
+    margin-bottom: 20px;
+    div:not(:last-child){
+      margin-bottom: 10px;
+    }
+  }
+  .btn{
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {
+    margin-bottom: 30px;
+
+    &:before {
+      width: 360px;
+      left: 20px;
+    }
+  }
+
+  .content {
+    max-width: 100%;
+    h3 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .items {
+    div {
+      margin-bottom: 10px;
+      i{
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {
+    margin-bottom: 30px;
+
+    &:before {
+      width: 340px;
+      left: 20px;
+      bottom: -5px;
+    }
+  }
+
+  .content {
+    max-width: 100%;
+
+    h3 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .items {
+    margin-bottom: 20px;
+    div {
+      padding: 10px 10px;
+
+      i {
+        margin-right: 10px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+    div:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .btn {
+    margin-bottom: 20px;
   }
 }

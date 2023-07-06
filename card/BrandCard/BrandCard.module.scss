@@ -5,6 +5,7 @@
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0px 0px 10px $orange;
+  max-width: 268px;
   &::before{
     content: 'Детальніше';
     position: absolute;

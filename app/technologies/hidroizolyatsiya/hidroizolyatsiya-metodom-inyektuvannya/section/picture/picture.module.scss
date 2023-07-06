@@ -1,0 +1,11 @@
+@import "@/style/variables.module.scss";
+
+.picture{
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.inner{
+  display: flex;
+  justify-content: space-between;
+}

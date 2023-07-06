@@ -1,0 +1,21 @@
+@import '@/style/variables.module.scss';
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  &:not(:last-child){
+    margin-bottom: 30px;
+    border-bottom: 3px solid $orange;
+  }
+}
+
+.author{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.descr{
+  font-size: 20px;
+}

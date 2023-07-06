@@ -4,7 +4,8 @@ import styles from './Head.module.scss';
 
 const Head = () => {
   return(
-    <section className={styles.head}>
+    <>
+      <section className={styles.head}>
       <div className="container">
         <h1 className={styles.headTitle}>Ласкаво просимо до нашого блогу
         </h1>
@@ -14,6 +15,7 @@ const Head = () => {
         </div>
       </div>
     </section>
+    </>
   )
 }
 

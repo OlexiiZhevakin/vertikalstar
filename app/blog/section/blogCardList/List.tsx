@@ -1,24 +1,46 @@
-import BlogCard from "@/card/BlogCard/BlogCard";
-import blogData from "@/data/blogData";
-import styles from './List.module.scss';
 
-const List = () => {
-  return(
+'use client'
+
+import BlogCard from "@/card/BlogCard/BlogCard";
+import styles from './List.module.scss';
+import Link from "next/link";
+import { Metadata } from "next";
+
+
+async function getData() {
+  const response  = await fetch("https://www.vertikalstar.com/blogData.json",
+  {
+    next: {
+      revalidate: 60
+    }
+  })
+  
+  return response.json()
+}
+
+export const metadata: Metadata = {
+  title: 'Блог'
+}
+
+export default async function List() {
+
+  const posts = await getData()
+
+  return (
     <ul className={styles.list}>
-      {blogData.map((card, index) => {
-      return(
-        <li key={index}>
-        <BlogCard
-          link={card.link}
-          image={card.image}
-          imageWebp={card.imageWebp}
-          title={card.title}
-        />
-      </li>
-      )
-    })} 
+      {posts.map((post: any) => (
+        <li key={post.id}>
+          <Link href={`/blog/${post.id}`} as={`/blog/${post.id}`}>
+              <BlogCard
+                image={post.image}
+                imageWebp={post.imageWebp}
+                title={post.title}
+              />  
+          </Link>
+        </li>
+      ))}
     </ul>
   )
 }
 
-export default List;
+

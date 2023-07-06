@@ -1,0 +1,35 @@
+@import '@/style/variables.module.scss';
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.descr {
+  width: 60%;
+
+  p {
+    font-size: 20px;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.list{
+  padding-left: 30px;
+  margin-bottom: 30px;
+  li{
+    font-size: 18px;
+    &:not(:last-child){
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.img {
+  margin: 0 auto;
+}

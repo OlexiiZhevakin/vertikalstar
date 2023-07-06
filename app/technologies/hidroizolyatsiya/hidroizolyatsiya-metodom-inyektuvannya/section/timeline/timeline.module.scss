@@ -1,0 +1,93 @@
+@import "@/style/variables.module.scss";
+
+.timeline{
+  background-color: #fff;
+}
+
+.list {
+  padding: 50px 0 45px;
+
+  li {
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: $orange;
+
+    &::after {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+  }
+
+  li:nth-child(odd) div {
+    left: 45px;
+
+    &::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent $orange transparent transparent;
+    }
+  }
+
+  li:nth-child(even) div {
+    left: -439px;
+
+    &::before {
+      right: -15px;
+      border-width: 8px 0 8px 16px;
+      border-color: transparent transparent transparent $orange;
+    }
+  }
+
+  div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: $orange;
+    color: $white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 7px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+  }
+
+  h3 {
+    margin-bottom: 8px;
+    color: $white;
+  }
+
+  p {
+    color: $white;
+  }
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+  background-color: $orange;
+
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(243, 92, 39, 0.2);
+      border-radius: 0;
+    }
+
+    100% {
+      box-shadow: 0 0 0 15px rgba(243, 92, 39, 0.7);
+      border-radius: 5px;
+    }
+  }
+}

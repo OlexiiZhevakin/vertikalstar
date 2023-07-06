@@ -3,6 +3,7 @@
 .formBlock{
   background: url(/img/form-bg.webp) top/cover no-repeat;
   position: relative;
+  padding: 0;
   &::before{
     content: '';
     position: absolute;
@@ -56,6 +57,30 @@
     }
     span{
       text-transform: uppercase;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Добавьте свои стили для ноутбуков и настольных компьютеров */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+
+}
+
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .info{
+    div{
+      font-size: 30px;
     }
   }
 }

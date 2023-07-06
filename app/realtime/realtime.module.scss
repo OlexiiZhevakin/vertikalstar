@@ -1,0 +1,72 @@
+@import '@/style/variables.module.scss';
+
+.realtime{
+  padding: 30px 0;
+  p{
+    font-size: 30px;
+  }
+}
+
+.list{
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.work{
+  p{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  ol{
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  li:not(:last-child){
+    margin-bottom: 20px;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+
+}
+
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnPrev,
+.btnNext {
+  // position: absolute;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: $white;
+  border: 1px solid $orange;
+  color: $orange;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    background-color: $orange;
+    color: $title;
+  }
+}
+
+// .btnNext {
+//   top: -20%;
+//   right: 0;
+// }
+
+// .btnPrev {
+//   top: -20%;
+//   right: 4%;
+// }

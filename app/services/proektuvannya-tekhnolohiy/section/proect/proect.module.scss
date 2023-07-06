@@ -1,0 +1,15 @@
+@import '@/style/variables.module.scss';
+
+.title{
+  font-size: 32px;
+}
+
+.inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p{
+    width: 50%;
+    font-size: 20px;
+  }
+}

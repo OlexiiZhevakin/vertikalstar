@@ -1,12 +1,12 @@
 @import '@/style/variables.module.scss';
+@import '../navigation/navigation.module.scss';
 
 
 .header {
   background-color: $gray;
-  position: fixed;
-  padding: 10px 0;
+  position: sticky;
   top: 0;
-  left: 0;
+  padding: 10px 0;
   width: 100%;
   z-index: 10;
 }
@@ -18,34 +18,133 @@
   justify-content: space-between;
 }
 
-.list li a.active {
-  color: $orange;
-}
-
 .list {
   display: flex;
   align-items: center;
-
-  li {
-    padding: 10px 0;
-    position: relative;
-
-    &:not(:first-child) {
-      margin-left: 20px;
-    }
-
-    &:hover ul {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: all;
-    }
-  }
   
   a{
     font-size: 20px;
     transition: all .3s;
   }
 }
+
+.btn{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .list{
+    li:not(:first-child){
+      margin-left: 10px;
+    }
+    a{
+      font-size: 16px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .btn{
+    z-index: 5;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 18px;
+    span,
+    &::before,
+    &::after{
+      position: absolute;
+      left: 0;
+      height: 10%;
+      width: 30px;
+      transition: all 0.3s ease 0s;
+      background-color: #fff;
+    }
+    &::before,
+    &::after{
+      content: '';
+    }
+    &::before{
+      top: 0;
+    }
+    &::after{
+      bottom: 0;
+    }
+    span{
+      width: 30px;
+      top: 50%;
+      transform: scale(1) translate(0, -50%);
+    }
+  }
+
+  .btnActive span{
+    transform: scale(0) translate(0px, -50%);
+  }
+
+  .btnActive{
+    &::before{
+      top: 50%;
+      transform: rotate(-45deg) translate(0px, -50%);
+    }
+    &::after {
+      bottom: 50%;
+      transform: rotate(45deg) translate(0px, 50%);
+    }
+  }
+
+  .logo{
+    z-index: 1;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: $cement;
+    padding: 100px 30px 30px 30px;
+    transition: left 0.3s ease 0s;
+    overflow: auto;
+    &::before{
+      content: '';
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 84px;
+      background-color: $gray;
+      z-index: 2;
+    }
+  }
+
+  .menuActive {
+    left: 0;
+  }
+
+
+  .list{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    li:not(:first-child){
+      margin-left: 0;
+    }
+    li{
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
+
+
+
+
+
 
 
 

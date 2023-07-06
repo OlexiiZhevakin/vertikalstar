@@ -1,27 +1,57 @@
-@import "@/style/variables.module.scss";
+  @import "@/style/variables.module.scss";
 
-.wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.title {
+  text-align: left;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 24%;
+    height: 3px;
+    background-color: $orange;
+    right: 0;
+    bottom: 50%;
+  }
 }
 
-.btn{
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  font-size: 40px;
+.wrapper{
+  position: relative;
+}
+
+.btnPrev,
+.btnNext{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $orange;
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: $white;
   border: 1px solid $orange;
+  color: $orange;
   cursor: pointer;
   transition: all .3s;
   &:hover{
-    background-color: #fff;
-    color: $orange;
+    background-color:$orange;
+    color: $title;
   }
+}
+
+.slide{
+  margin: 0 auto;
+}
+
+.btnNext{
+  top: -20%;
+  right: 0;
+}
+
+.btnPrev{ 
+  top: -20%;
+  right: 4%;
 }
 
 .list{
@@ -29,4 +59,94 @@
   justify-content: space-between;
   gap: 20px;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Добавьте свои стили для ноутбуков и настольных компьютеров */
+  .title{
+    &:before{
+      display: none;
+    }
+  }
+  .btnNext,
+  .btnPrev{
+    top: -14%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .title {
+    text-align: center;
+    &:before {
+      display: none;
+    }
+  }
+  .btnPrev,
+  .btnNext {
+    top: 102%;
+  }
+
+  .btnPrev{
+    right: 55%;
+  }
+
+  .btnNext{
+    right: 40%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .title {
+    text-align: center;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .list{
+    justify-content: center;
+  }
+
+  .btnPrev,
+  .btnNext {
+    top: 102%;
+  }
+  .btnPrev {
+    right: 55%;
+  }
+
+  .btnNext {
+    right: 40%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .title {
+    text-align: center;
+    font-size: 30px;
+    &:before {
+      display: none;
+    }
+  }
+
+  .list {
+    justify-content: center;
+  }
+
+  .btnPrev,
+  .btnNext {
+    top: 102%;
+  }
+
+  .btnPrev {
+    right: 55%;
+  }
+
+  .btnNext {
+    right: 35%;
+  }
 }

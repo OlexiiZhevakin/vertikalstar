@@ -1,4 +1,6 @@
 import styles from './Info.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faPinterest, faTiktok, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Info = () => {
   return(
@@ -32,31 +34,31 @@ const Info = () => {
                 <a href="http://www.youtube.com/channel/UCnVtTKrimr-qNuSTvj_5w6Q"
                    target="_blank"
                    rel="noopener noreferrer" >
-                <i className="fa-brands fa-youtube"></i>
+                <FontAwesomeIcon icon={faYoutube} />
               </a>
               </li>
               <li><a href="https://www.facebook.com/vertikalstar"
                       target="_blank"
                       rel="noopener noreferrer" >
-                <i className="fa-brands fa-facebook"></i>
+                <FontAwesomeIcon icon={faFacebook} />
               </a>
               </li>
               <li><a href="https://www.instagram.com/vertikalstar/" 
                      target="_blank" 
                      rel="noopener noreferrer">
-                <i className="fa-brands fa-instagram"></i>
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
               </li>
               <li><a href="http://www.tiktok.com/@vertikal.ua"
                      target="_blank"
                      rel="noopener noreferrer" >
-                <i className="fa-brands fa-tiktok"></i>
+                <FontAwesomeIcon icon={faTiktok} />
               </a>
               </li>
               <li><a href="http://www.pinterest.com/vertikalstar/"
                      target="_blank"
                      rel="noopener noreferrer" >
-                <i className="fa-brands fa-pinterest"></i>
+                <FontAwesomeIcon icon={faPinterest} />
               </a>
               </li>
             </ul>

@@ -6,7 +6,7 @@ const Services = () => {
   return(
     <section>
       <div className="container">
-        <h2>Послуги</h2>
+        <h2 className={styles.title}>Наші послуги</h2>
         <ul className={styles.list}>
           {ServiceData.map((card, index) => {
             return(

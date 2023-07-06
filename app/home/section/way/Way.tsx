@@ -4,9 +4,9 @@ import wayData from "@/data/wayData";
 
 const Way = () => {
   return(
-    <section>
+    <section className={styles.way}>
       <div className="container">
-        <h2>Ваш шлях з нами</h2>
+        <h2 className={styles.title}>Ваш шлях з нами</h2>
         <ul className={styles.list}>
           {wayData.map((card, index) => {
             return(

@@ -1,0 +1,12 @@
+@import '@/style/variables.module.scss';
+
+.item{
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}

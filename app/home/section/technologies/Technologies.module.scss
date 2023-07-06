@@ -1,15 +1,93 @@
 @import '@/style/variables.module.scss';
 
+.title{
+  &::before,
+  &::after{
+    content: '';
+    position: absolute;
+    width: 38%;
+    height: 3px;
+    bottom: 50%;
+    background-color: $orange;
+  }
+  &::before{
+    right: 0;
+  }
+  &::after {
+    left: 0;
+  }
+}
+
 .list{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 60px;
   margin-bottom: 30px;
 }
 
 .showMoreButton{
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .list{
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Добавьте свои стили для ноутбуков и настольных компьютеров */
+  .list {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .title{
+    &:before,
+    &:after{
+      width: 30%;
+    }
+  }
+  .list {
+    justify-content: center;
+    gap: 10px;
+  }
+  
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .title {
+
+    &:before,
+    &:after {
+      width: 20%;
+    }
+  }
+  .list {
+    justify-content: center;
+    gap: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .title {
+
+    &:before,
+    &:after {
+      width: 14%;
+    }
+  }
+  .list {
+    justify-content: center;
+    gap: 10px;
+  }
 }
 

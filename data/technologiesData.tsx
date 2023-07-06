@@ -13,14 +13,14 @@ const TechnologiesData = [{
   {
     image: '/img/technologies/uteplennya-ta-modernizatsiya.jpg',
     imageWebp: '/img/technologies/uteplennya-ta-modernizatsiya.webp',
-    title: 'Утеплення та модернізація',
+    title: 'Утеплення та термомодернізація',
     link: '#',
   },
   {
     image: '/img/technologies/ochystka-restavratsiya-ta-zakhyst-fasadiv.jpg',
     imageWebp: '/img/technologies/ochystka-restavratsiya-ta-zakhyst-fasadiv.webp',
     title: 'Очистка, реставрація та захист фасадів',
-    link: '#',
+    link: '/tekhnolohiya/fasad',
   },
   {
     image: '/img/technologies/promyslovi-ta-dekoratyvni-pidlohy.jpg',
@@ -32,7 +32,7 @@ const TechnologiesData = [{
     image: '/img/technologies/rekonstruktsiya.jpg',
     imageWebp: '/img/technologies/rekonstruktsiya.webp',
     title: 'Реконструкція',
-    link: '#',
+    link: '/technologies/rekonstruktsiya',
   },
   {
     image: '/img/technologies/dobavky-v-betony-ta-rozchyny.jpg',

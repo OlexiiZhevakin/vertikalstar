@@ -6,13 +6,13 @@ const Head = () => {
     <section className={styles.head}>
       <div className="container">
         <div className={styles.inner}>
-          <p>
+          <p className={styles.subtitle}>
             Група компаній
           </p>
-          <h1>
+          <h1 className={styles.title}>
             Вертикаль будівельних технологій
           </h1>
-          <p>
+          <p className={styles.subtitle}>
             Впроваджуємо сучасні, ефективні технології для професійного будівництва
           </p>
         </div>

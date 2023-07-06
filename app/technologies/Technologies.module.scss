@@ -1,9 +1,21 @@
 @import '@/style/variables.module.scss';
 
+.technologies{
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  p{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
 .list{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   padding: 60px 0;
-}
+} 

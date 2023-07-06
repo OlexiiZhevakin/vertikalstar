@@ -16,7 +16,7 @@ const SliderCard = ({image, imageWebp, title, link, description}: Props) => {
       <Link href={link}>
         <picture>
           <source type="image/webp" srcSet={imageWebp} title={title}/>
-          <img src={image} width="338" height="400" loading="lazy" alt={title} title={title} />
+          <img src={image} width="380" height="450" loading="lazy" alt={title} title={title} />
         </picture>
       </Link>
       <div>
