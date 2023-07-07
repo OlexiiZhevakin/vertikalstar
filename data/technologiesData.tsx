@@ -38,7 +38,7 @@ const TechnologiesData = [{
     image: '/img/technologies/piskostrumynne-ochyshchennya.jpg',
     imageWebp: '/img/technologies/piskostrumynne-ochyshchennya.webp',
     title: 'Піскоструминне очищення',
-    link: '#',
+    link: '/technologies/piskostrumynne-ochyshchennya',
   },
   {
     image: '/img/technologies/dobavky-v-betony-ta-rozchyny.jpg',
@@ -50,7 +50,7 @@ const TechnologiesData = [{
     image: '/img/technologies/skleyuvannya-trishchyn.jpg',
     imageWebp: '/img/technologies/skleyuvannya-trishchyn.webp',
     title: 'Склеювання тріщин',
-    link: '#',
+    link: '/technologies/skleyuvannya-trishchyn',
   },
   {
     image: '/img/technologies/posylennya-vuhletsevymy-polotnamy.jpg',
