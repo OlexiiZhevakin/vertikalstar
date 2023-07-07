@@ -9,10 +9,11 @@ const About = () => {
       <div className="container">
         <div className={styles.inner}>
           <div className={styles.img}>
-            <picture>
+            {/* <picture>
               <source type="image/webp" srcSet="/img/about/my-photo.webp" title="На цій фотографії зображен диретор компанії Вертикаль будівельних технологій"/>
               <img src="/img/about/my-photo.jpg" width="360" height="460" loading="lazy" alt="На цій фотографії зображен диретор компанії Вертикаль будівельних технологій" title="На цій фотографії зображен диретор компанії Вертикаль будівельних технологій" />
-            </picture>
+            </picture> */}
+            <Image src='/img/about/my-photo.webp' width={360} height={460} alt='На цій фотографії зображен диретор компанії Вертикаль будівельних технологій' title='На цій фотографії зображен диретор компанії Вертикаль будівельних технологій'/>
           </div>
           <div className={styles.content}>
             <h3>

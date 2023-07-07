@@ -2,7 +2,7 @@
 
 const nextConfig = {
   // Другие настройки конфигурации...
-  output: 'export',
+  // output: 'export',
   sitemap: {
     // Конфигурация sitemap
     siteUrl: 'http://localhost:3000/', // Замените на URL вашего сайта
