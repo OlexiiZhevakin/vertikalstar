@@ -62,7 +62,7 @@ const TechnologiesData = [{
     image: '/img/technologies/torketuvannya.jpg',
     imageWebp: '/img/technologies/torketuvannya.webp',
     title: 'Торкретування',
-    link: '#',
+    link: '/technologies/torkretuvannya',
   },
   {
     image: '/img/technologies/remont-betonu-ta-zalizobetonu.jpg',
