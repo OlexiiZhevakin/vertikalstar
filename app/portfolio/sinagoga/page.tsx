@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './page.module.scss'
+import Form from '@/components/form/Form'
 
 const Sinagoga = () => {
   return (
@@ -455,6 +456,8 @@ const Sinagoga = () => {
           </div>
         </div>
       </section>
+
+      <Form/>
     </>
   )
 }

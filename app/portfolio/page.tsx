@@ -120,7 +120,7 @@ const Portfolio = () => {
           </select>
           {filteredYears.map((year: string) => (
             <div className={styles.item} key={year}>
-              <h2>{year}</h2>
+              <h2 className={styles.year}>{year}</h2>
               <ul className={styles.list}>
                 {portfolioData[year]
                   ?.filter((card) =>

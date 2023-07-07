@@ -6,14 +6,14 @@ const SliderData = [{
   description: 'Нацбанк України (Дніпро)',
 },
 {
-  link: "/portfolios/restavratsiya-budivli",
+  link: "/portfolio/restavratsiya-budivli",
   imageWebp: '/img/slider/restoration-of-the-building-on-the-street-darvina-25-kharkiv.webp',
   image: '/img/slider/restoration-of-the-building-on-the-street-darvina-25-kharkiv.jpg',
   title: 'Реставрація будівлі на вул. Дарвіна, 25 (Харків)',
   description: 'Реставрація будівлі на вул. Дарвіна, 25 (Харків)',
 },
 {
-  link: "/portfolios/restavratsiya-fasadu-budivli-z-chervonoyi-tsehlyny",
+  link: "/portfolio/restavratsiya-fasadu-budivli-z-chervonoyi-tsehlyny",
   imageWebp: '/img/slider/restoration-of-the-facade-of-a-red-brick-building-malinovsky-3-kharkiv.webp',
   image: '/img/slider/restoration-of-the-facade-of-a-red-brick-building-malinovsky-3-kharkiv.jpg',
   title: 'Реставрація фасаду будівлі з червоної цеглини вул. Малиновського, 3 (м. Харків)',
@@ -34,7 +34,7 @@ const SliderData = [{
   description: 'Харків, ХНУРЕ',
 },
 {
-  link: '/portfolios/sinagoga',
+  link: '/portfolio/sinagoga',
   imageWebp: '/img/slider/kharkiv-choral-synagogue-kharkiv.webp',
   image: '/img/slider/kharkiv-choral-synagogue-kharkiv.jpg',
   title: 'Харківська хоральна синагога (Харків)',

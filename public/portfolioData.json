@@ -35,7 +35,7 @@
       "image": "/img/portfolio/cards/harkivska-horalnaya-sinagoga.jpg",
       "imageWebp": "/img/portfolio/cards/harkivska-horalnaya-sinagoga.webp",
       "place": "м.Харків, Україна",
-      "link": "/portfolios/sinagoga",
+      "link": "/portfolio/sinagoga",
       "technologies": ["Торкетування", "Ремонт бетону та залізобетону", "Очистка, реставрація та захист фасадів", "Склеювання тріщин", "Гідроізоляція"]
     }
   ],
@@ -100,7 +100,7 @@
       "image": "/img/portfolio/cards/restavratsiya-budivli-kharkiv.jpg",
       "imageWebp": "/img/portfolio/cards/restavratsiya-budivli-kharkiv.webp",
       "place": "м.Харків, Україна",
-      "link": "/portfolios/restavratsiya-budivli",
+      "link": "/portfolio/restavratsiya-budivli",
       "technologies": ["Гідроізоляція", "Торкетування", "Очистка, реставрація та захист фасадів", "Піскоструминне очищення"]
     },
     {
@@ -276,7 +276,7 @@
       "image": "/img/portfolio/cards/restavracziya-fasada-budivli-z-chervonoiy-cegli-vul-malinovskogo.jpg",
       "imageWebp": "/img/portfolio/cards/restavracziya-fasada-budivli-z-chervonoiy-cegli-vul-malinovskogo.webp",
       "place": "м.Харків, Україна",
-      "link": "/portfolios/restavratsiya-fasadu-budivli-z-chervonoyi-tsehlyny",
+      "link": "/portfolio/restavratsiya-fasadu-budivli-z-chervonoyi-tsehlyny",
       "technologies": ["Гідроізоляція", "Склеювання тріщин", "Ремонт бетону та залізобетону", "Очистка, реставрація та захист фасадів"]
     },
     {
