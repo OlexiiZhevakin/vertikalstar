@@ -6,7 +6,7 @@ const Head = () => {
       <div className="container">
         <div className={styles.inner}>
           <h1>
-            Піскоструминне очищення
+            Склеювання тріщин
           </h1>
         </div>
       </div>
