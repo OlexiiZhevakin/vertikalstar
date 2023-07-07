@@ -79,7 +79,7 @@ const Portfolio = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/app/blogData.json");
+        const response = await fetch("/portfolioData.json");
         const data = await response.json();
         setPortfolioData(data);
       } catch (error) {

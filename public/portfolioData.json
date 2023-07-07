@@ -1,0 +1,433 @@
+{
+  "1999": [
+    {
+      "id": "1",
+      "title": "Котедж у стилі лофт",
+      "image": "/img/portfolio/cards/kottedzh-v-stile-loft.jpg",
+      "imageWebp": "/img/portfolio/cards/kottedzh-v-stile-loft.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Мікроцемент та декоративне оздоблення", "Ремонт бетону та залізобетону"]
+    },
+    {
+      "id": "2",
+      "title": "Ставок у приватному котеджі",
+      "image": "/img/portfolio/cards/stavok-u-pryvatnomu-kotedzhi.jpg",
+      "imageWebp": "/img/portfolio/cards/stavok-u-pryvatnomu-kotedzhi.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    },
+    {
+      "id": "3",
+      "title": "Ремонт руберойдної покрівлі",
+      "image": "/img/portfolio/cards/remont-ruberoydnoyi-pokrivli.jpg",
+      "imageWebp": "/img/portfolio/cards/remont-ruberoydnoyi-pokrivli.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Посилення вуглецевими полотнами"]
+    }
+  ],
+  "2003": [
+    {
+      "id": "4",
+      "title": "Харьківська хоральна сінагога",
+      "image": "/img/portfolio/cards/harkivska-horalnaya-sinagoga.jpg",
+      "imageWebp": "/img/portfolio/cards/harkivska-horalnaya-sinagoga.webp",
+      "place": "м.Харків, Україна",
+      "link": "/portfolios/sinagoga",
+      "technologies": ["Торкетування", "Ремонт бетону та залізобетону", "Очистка, реставрація та захист фасадів", "Склеювання тріщин", "Гідроізоляція"]
+    }
+  ],
+  "2010": [
+    {
+      "id": "5",
+      "title": "Гідроізоляція кулі",
+      "image": "/img/portfolio/cards/gidroizolyacziya-shara-hire-harkov.jpg",
+      "imageWebp": "/img/portfolio/cards/gidroizolyacziya-shara-hire-harkov.webp",
+      "place": "ХНУРЕ (м. Харків), Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    },
+    {
+      "id": "6",
+      "title": "Храм Свято-Борисо-Глібського жіночого монастиря",
+      "image": "/img/portfolio/cards/holovnyy-khram-svyato-boryso-hlibskoho-zhinochoho-monastyryakottedzh-v-stile-loft.jpg",
+      "imageWebp": "/img/portfolio/cards/holovnyy-khram-svyato-boryso-hlibskoho-zhinochoho-monastyrya.webp",
+      "place": "с. Водяне, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Утеплення та модернізація", "Ремонт бетону та залізобетону"]
+    },
+    {
+      "id": "7",
+      "title": "Куп'янський молочноконсервний комбінат",
+      "image": "/img/portfolio/cards/kupyanskyy-molochnokonservnyy-kombinat.jpg",
+      "imageWebp": "/img/portfolio/cards/kupyanskyy-molochnokonservnyy-kombinat.webp",
+      "place": "м. Куп'янськ, Україна",
+      "link": "#",
+      "technologies": ["Ремонт бетону та залізобетону", "Гідроізоляція"]
+    },
+    {
+      "id": "8",
+      "title": "Міст пр-т Героїв Харкова",
+      "image": "/img/portfolio/cards/mist-pr-t-heroyiv-kharkov.jpg",
+      "imageWebp": "/img/portfolio/cards/mist-pr-t-heroyiv-kharkov.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Ремонт бетону та залізобетону", "Склеювання тріщин", "Піскоструминне очищення"]
+    },
+    {
+      "id": "9",
+      "title": "Піскоструминна очистка підвалу ресторану",
+      "image": "/img/portfolio/cards/piskostrumynka-pidvalu-restoranu.jpg",
+      "imageWebp": "/img/portfolio/cards/piskostrumynka-pidvalu-restoranu.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Піскоструминне очищення"]
+    },
+    {
+      "id": "10",
+      "title": "Реставрація деревини вхідної групи",
+      "image": "/img/portfolio/cards/restavratsiya-derevyny-vkhidnoyi-hrupy.jpg",
+      "imageWebp": "/img/portfolio/cards/restavratsiya-derevyny-vkhidnoyi-hrupy.webp",
+      "place": "ХНУРЕ (м. Харків), Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "11",
+      "title": "Реставрація будівлі",
+      "image": "/img/portfolio/cards/restavratsiya-budivli-kharkiv.jpg",
+      "imageWebp": "/img/portfolio/cards/restavratsiya-budivli-kharkiv.webp",
+      "place": "м.Харків, Україна",
+      "link": "/portfolios/restavratsiya-budivli",
+      "technologies": ["Гідроізоляція", "Торкетування", "Очистка, реставрація та захист фасадів", "Піскоструминне очищення"]
+    },
+    {
+      "id": "12",
+      "title": "Реставрація цегли, бібліотека НТУ 'ХПІ'",
+      "image": "/img/portfolio/cards/restavratsiya-tsehly-biblioteka-ntu-khpi.jpg",
+      "imageWebp": "/img/portfolio/cards/restavratsiya-tsehly-biblioteka-ntu-khpi.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "13",
+      "title": "Реставрація старої цегли",
+      "image": "/img/portfolio/cards/restavratsiya-staroyi-tsehly-turahentstvo.jpg",
+      "imageWebp": "/img/portfolio/cards/restavratsiya-staroyi-tsehly-turahentstvo.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "14",
+      "title": "Реставрація фасаду",
+      "image": "/img/portfolio/cards/restavratsiya-fasadu-khire-kharkiv.jpg",
+      "imageWebp": "/img/portfolio/cards/restavratsiya-fasadu-khire-kharkiv.webp",
+      "place": "ХНУРЕ (м. Харків), Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "15",
+      "title": "Гідроізоляція старим-добрим Ізофлексом",
+      "image": "/img/portfolio/cards/hidroizolyatsiya-starym-dobrym-izofleksom.jpg",
+      "imageWebp": "/img/portfolio/cards/hidroizolyatsiya-starym-dobrym-izofleksom.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів", "Торкетування", "Гідроізоляція"]
+    }
+  ],
+  "2011": [
+    {
+      "id": "16",
+      "title": "Аеропорт",
+      "image": "/img/portfolio/cards/aeroport.jpg",
+      "imageWebp": "/img/portfolio/cards/aeroport.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Ремонт бетону та залізобетону", "Утеплення та модернізація"]
+    }
+  ],
+  "2012": [
+    {
+      "id": "17",
+      "title": "Харківський національний університет ім. В. Н. Каразіна",
+      "image": "/img/portfolio/cards/harkovskij-naczionalnyj-universitet-im.-v.-n.-karazina.jpg",
+      "imageWebp": "/img/portfolio/cards/harkovskij-naczionalnyj-universitet-im.-v.-n.-karazina.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів", "Гідроізоляція"]
+    }
+  ],
+  "2013": [
+    {
+      "id": "18",
+      "title": "Нацбанк України",
+      "image": "/img/portfolio/cards/natsbank-ukrayiny.jpg",
+      "imageWebp": "/img/portfolio/cards/natsbank-ukrayiny.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "19",
+      "title": "Реставрація фасаду Інститут імунології ім. І.І. Мечникова",
+      "image": "/img/portfolio/cards/restavracziya-fasada-institut-immunologii-im-mechnikova.jpg",
+      "imageWebp": "/img/portfolio/cards/restavracziya-fasada-institut-immunologii-im-mechnikova.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів", "Склеювання тріщин", "Ремонт бетону та залізобетону"]
+    }
+  ],
+  "2014": [
+    {
+      "id": "20",
+      "title": "Харківський державний академічний театр ляльок ім. В. А. Афанасьєва",
+      "image": "/img/portfolio/cards/gidroizolyacziya-krovli-harkovskij-gosudarstvennyj-akademicheskij-teatr-lyalok.jpg",
+      "imageWebp": "/img/portfolio/cards/gidroizolyacziya-krovli-harkovskij-gosudarstvennyj-akademicheskij-teatr-lyalok.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Ремонт бетону та залізобетону", "Гідроізоляція", "Склеювання тріщин"]
+    },
+    {
+      "id": "21",
+      "title": "Завод «Старпласт»",
+      "image": "/img/portfolio/cards/zavod-starplast.jpg",
+      "imageWebp": "/img/portfolio/cards/zavod-starplast.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Утеплення та модернізація", "Ремонт бетону та залізобетону", "Гідроізоляція", "Торкетування"]
+    },
+    {
+      "id": "22",
+      "title": "ХНУРЕ",
+      "image": "/img/portfolio/cards/khnure.jpg",
+      "imageWebp": "/img/portfolio/cards/khnure.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів"]
+    }
+  ],
+  "2015": [
+    {
+      "id": "23",
+      "title": "Ремонт сходин усередині приміщення ХНУРЕ",
+      "image": "/img/portfolio/cards/remont-lestnichnyh-marshej-vnutri-primischenya-khnure.jpg",
+      "imageWebp": "/img/portfolio/cards/remont-lestnichnyh-marshej-vnutri-primischenya-khnure.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів", "Склеювання тріщин", "Ремонт бетону та залізобетону", "Гідроізоляція"]
+    }
+  ],
+  "2016": [
+    {
+      "id": "24",
+      "title": "Гідроізоляція басейну",
+      "image": "/img/portfolio/cards/gidroizolyacziya-bassejna.jpg",
+      "imageWebp": "/img/portfolio/cards/gidroizolyacziya-bassejna.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    },
+    {
+      "id": "25",
+      "title": "Гідроізоляція деформаційних швів",
+      "image": "/img/portfolio/cards/gidroizolyacziya-deformaczionnyh-shviv.jpg",
+      "imageWebp": "/img/portfolio/cards/gidroizolyacziya-deformaczionnyh-shviv.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    },
+    {
+      "id": "26",
+      "title": "Гідроізоляція прохідних елементів",
+      "image": "/img/portfolio/cards/gidroizolyacziya-prohidnyh-elementiv.jpg",
+      "imageWebp": "/img/portfolio/cards/gidroizolyacziya-prohidnyh-elementiv.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    } 
+  ],
+  "2018": [
+    {
+      "id": "26",
+      "title": "Гідроізоляція сходів",
+      "image": "/img/portfolio/cards/gidroizolyacziya-stupenej-vul-gvardiyciv-shiroinciv-kharkov.jpg",
+      "imageWebp": "/img/portfolio/cards/gidroizolyacziya-stupenej-vul-gvardiyciv-shiroinciv-kharkov.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Склеювання тріщин", "Ремонт бетону та залізобетону"]
+    },
+    {
+      "id": "27",
+      "title": "Каскад басейнів у парку культури та відпочинку ім. Квітки-Основ'яненка",
+      "image": "/img/portfolio/cards/kaskad-baseyniv-u-parku-kultury-ta-vidpochynku-im-kvitky-osnov'yanenka.jpg",
+      "imageWebp": "/img/portfolio/cards/kaskad-baseyniv-u-parku-kultury-ta-vidpochynku-im-kvitky-osnov'yanenka.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Склеювання тріщин", "Ремонт бетону та залізобетону"]
+    },
+    {
+      "id": "28",
+      "title": "Реставрація фасаду будівлі з червоної цеглини",
+      "image": "/img/portfolio/cards/restavracziya-fasada-budivli-z-chervonoiy-cegli-vul-malinovskogo.jpg",
+      "imageWebp": "/img/portfolio/cards/restavracziya-fasada-budivli-z-chervonoiy-cegli-vul-malinovskogo.webp",
+      "place": "м.Харків, Україна",
+      "link": "/portfolios/restavratsiya-fasadu-budivli-z-chervonoyi-tsehlyny",
+      "technologies": ["Гідроізоляція", "Склеювання тріщин", "Ремонт бетону та залізобетону", "Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "29",
+      "title": "Пристрій гідроізоляції вимощення",
+      "image": "/img/portfolio/cards/prystriy-hidroizolyatsiyi-vymoshchennya-po-vul-chernyshevskoho.jpg",
+      "imageWebp": "/img/portfolio/cards/prystriy-hidroizolyatsiyi-vymoshchennya-po-vul-chernyshevskoho.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    },
+    {
+      "id": "30",
+      "title": "Шарівський замок (садиба)",
+      "image": "/img/portfolio/cards/sharivskyy-zamok.jpg",
+      "imageWebp": "/img/portfolio/cards/sharivskyy-zamok.webp",
+      "place": "СМТ Шарівка, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Очистка, реставрація та захист фасадів", "Торкетування"]
+    }
+  ],
+  "2019": [
+    {
+      "id": "31",
+      "title": "Армування та ін'єктування стін",
+      "image": "/img/portfolio/cards/armuvannya-ta-inyektuvannya-stin-na-vul-alchevskykh.jpg",
+      "imageWebp": "/img/portfolio/cards/armuvannya-ta-inyektuvannya-stin-na-vul-alchevskykh.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Склеювання тріщин", "Посилення вуглецевими полотнами", "Ремонт бетону та залізобетону"]
+    },
+    {
+      "id": "32",
+      "title": "Очищення колон з цегли",
+      "image": "/img/portfolio/cards/ochischennya-stin-z-cegli-po-vul-kaczarskaya.jpg",
+      "imageWebp": "/img/portfolio/cards/ochischennya-stin-z-cegli-po-vul-kaczarskaya.webp",
+      "place": "м.Харків, Україна",
+      "link": "/portfolios/ochishchennya-kolon-z-tsehly",
+      "technologies": ["Ремонт бетону та залізобетону", "Склеювання тріщин", "Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "33",
+      "title": "Піскоструйне очищення стін з червоної цегли",
+      "image": "/img/portfolio/cards/piskostruyne-ochischennya-stin-z-chervonoy-cegli.jpg",
+      "imageWebp": "/img/portfolio/cards/piskostruyne-ochischennya-stin-z-chervonoy-cegli.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів"]
+    },
+    {
+      "id": "34",
+      "title": "Ремонт плоскої покрівлі",
+      "image": "/img/portfolio/cards/remont-ploskoj-pokrivli-po-vul-gv-shironinczev-45.jpg",
+      "imageWebp": "/img/portfolio/cards/remont-ploskoj-pokrivli-po-vul-gv-shironinczev-45.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів", "Гідроізоляція"]
+    },
+    {
+      "id": "35",
+      "title": "Харківська Хоральна синагога",
+      "image": "/img/portfolio/cards/kharkivska-horalna-sinagoga-2019.jpg",
+      "imageWebp": "/img/portfolio/cards/kharkivska-horalna-sinagoga-2019.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    }
+  ],
+  "2020": [
+    {
+      "id": "36",
+      "title": "Мембранна покрівля",
+      "image": "/img/portfolio/cards/membranna-pokrivlya-vul-danylevskoho-42.jpg",
+      "imageWebp": "/img/portfolio/cards/membranna-pokrivlya-vul-danylevskoho-42.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    },
+    {
+      "id": "37",
+      "title": "ХНУРЕ",
+      "image": "/img/portfolio/cards/natsionalnyy-universytet-radioelektroniky.jpg",
+      "imageWebp": "/img/portfolio/cards/natsionalnyy-universytet-radioelektroniky.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Очистка, реставрація та захист фасадів", "Ремонт бетону та залізобетону", "Склеювання тріщин"]
+    },
+    {
+      "id": "38",
+      "title": "Торкретування підвального приміщення",
+      "image": "/img/portfolio/cards/torkretuvannya-pidvalnoho-prymishchennya.jpg",
+      "imageWebp": "/img/portfolio/cards/torkretuvannya-pidvalnoho-prymishchennya.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Посилення вуглецевими полотнами", "Торкетування"]
+    },
+    {
+      "id": "39",
+      "title": "Балашівський міст",
+      "image": "/img/portfolio/cards/balashivskyy-mist.jpg",
+      "imageWebp": "/img/portfolio/cards/balashivskyy-mist.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Торкетування", "Гідроізоляція", "Піскоструминне очищення"]
+    }
+  ],
+  "2021": [
+    {
+      "id": "40",
+      "title": "Гідроізоляція автомийки",
+      "image": "/img/portfolio/cards/hidroizolyatsiya-avtomyyky.jpg",
+      "imageWebp": "/img/portfolio/cards/hidroizolyatsiya-avtomyyky.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція"]
+    },
+    {
+      "id": "41",
+      "title": "Реконструкція та утеплення фасаду",
+      "image": "/img/portfolio/cards/rekonstruktsiya-ta-uteplennya-fasadu-a-takozh-vlashtuvannya-membrannoyi-pokrivli-kharkivskoho-natsionalnoho-universytetu-radioelektroniky.jpg",
+      "imageWebp": "/img/portfolio/cards/rekonstruktsiya-ta-uteplennya-fasadu-a-takozh-vlashtuvannya-membrannoyi-pokrivli-kharkivskoho-natsionalnoho-universytetu-radioelektroniky.webp",
+      "place": "ХНУРЕ (м.Харків), Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Очистка, реставрація та захист фасадів", "Ремонт бетону та залізобетону", "Склеювання тріщин"]
+    },
+    {
+      "id": "42",
+      "title": "Ремонт сходин до приміщень УІПА",
+      "image": "/img/portfolio/cards/remont-shchabliv-do-prymishchen-ukrayinskoyi-inzhenerno-pedahohichnoyi-akademiyi.jpg",
+      "imageWebp": "/img/portfolio/cards/remont-shchabliv-do-prymishchen-ukrayinskoyi-inzhenerno-pedahohichnoyi-akademiyi.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Ремонт бетону та залізобетону"]
+    },
+    {
+      "id": "43",
+      "title": "Склеювання тріщин цегляних стін",
+      "image": "/img/portfolio/cards/skleyuvannya-trishchyn-tsehlyanykh-stin–pr-t-heroyiv-kharkova-275.jpg",
+      "imageWebp": "/img/portfolio/cards/skleyuvannya-trishchyn-tsehlyanykh-stin–pr-t-heroyiv-kharkova-275.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Ремонт бетону та залізобетону", "Склеювання тріщин"]
+    },
+    {
+      "id": "44",
+      "title": "Влаштування паркану",
+      "image": "/img/portfolio/cards/vlashtuvannya-parkanu-po-vul-otakara-yarosha.jpg",
+      "imageWebp": "/img/portfolio/cards/vlashtuvannya-parkanu-po-vul-otakara-yarosha.webp",
+      "place": "м.Харків, Україна",
+      "link": "#",
+      "technologies": ["Гідроізоляція", "Ремонт бетону та залізобетону", "Склеювання тріщин"]
+    }
+  ]
+}

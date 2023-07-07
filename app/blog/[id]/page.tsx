@@ -121,7 +121,7 @@ type ContentItem = {
 // }
 
 async function getData(id: string) {
-  const response = await fetch(`/app/blogData.json?id=${id}`, {
+  const response = await fetch(`/blogData.json?id=${id}`, {
     next: {
       // revalidate: 60,
     },
