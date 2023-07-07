@@ -1,1 +1,22 @@
 @import '@/style/variables.module.scss';
+
+.inner{
+  p{
+    font-size: 20px;
+  }
+}
+
+.list{
+  list-style: disc;
+  margin-left: 20px;
+  li{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.img{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
