@@ -79,7 +79,7 @@ const navItems = [
       },
       {
         label: 'Очистка, реставрація та захист фасадів',
-        href: '/tekhnolohiya/fasad'
+        href: '/technologies/fasad'
       },
       {
         label: 'Промислові та декоративні підлоги',
