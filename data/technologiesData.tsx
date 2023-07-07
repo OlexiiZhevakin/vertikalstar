@@ -20,7 +20,7 @@ const TechnologiesData = [{
     image: '/img/technologies/ochystka-restavratsiya-ta-zakhyst-fasadiv.jpg',
     imageWebp: '/img/technologies/ochystka-restavratsiya-ta-zakhyst-fasadiv.webp',
     title: 'Очистка, реставрація та захист фасадів',
-    link: '/tekhnolohiya/fasad',
+    link: '/technologies/fasad',
   },
   {
     image: '/img/technologies/promyslovi-ta-dekoratyvni-pidlohy.jpg',
