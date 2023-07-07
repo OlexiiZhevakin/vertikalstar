@@ -79,7 +79,7 @@ const Portfolio = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://www.vertikalstar.com/portfolioData.json");
+        const response = await fetch("https://vertikalstar.vercel.app/blogData.json");
         const data = await response.json();
         setPortfolioData(data);
       } catch (error) {
