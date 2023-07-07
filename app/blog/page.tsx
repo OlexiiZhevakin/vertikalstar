@@ -5,7 +5,7 @@ import Head from './section/head/Head';
 
 
 
-const  Blog = () => {
+const Blog = () => {
   return(
     <>
       <Head/>

@@ -4,7 +4,7 @@ import TechnologiesCard from '@/card/TechnologiesCard/TechnologiesCard'
 import styles from './rekonstruktsiya.module.scss'
 
 const Rekonstruktsiya = () => {
-  const latestTechnologies = TechnologiesData.slice(-4);
+  const latestTechnologies = TechnologiesData.slice(-6);
   return(
     <>
       <section>

@@ -35,15 +35,15 @@ const TechnologiesData = [{
     link: '/technologies/rekonstruktsiya',
   },
   {
-    image: '/img/technologies/dobavky-v-betony-ta-rozchyny.jpg',
-    imageWebp: '/img/technologies/dobavky-v-betony-ta-rozchyny.webp',
-    title: 'Добавки в бетони та розчини',
-    link: '#',
-  },
-  {
     image: '/img/technologies/piskostrumynne-ochyshchennya.jpg',
     imageWebp: '/img/technologies/piskostrumynne-ochyshchennya.webp',
     title: 'Піскоструминне очищення',
+    link: '#',
+  },
+  {
+    image: '/img/technologies/dobavky-v-betony-ta-rozchyny.jpg',
+    imageWebp: '/img/technologies/dobavky-v-betony-ta-rozchyny.webp',
+    title: 'Добавки в бетони та розчини',
     link: '#',
   },
   {
@@ -61,7 +61,7 @@ const TechnologiesData = [{
   {
     image: '/img/technologies/torketuvannya.jpg',
     imageWebp: '/img/technologies/torketuvannya.webp',
-    title: 'Торкетування',
+    title: 'Торкретування',
     link: '#',
   },
   {
