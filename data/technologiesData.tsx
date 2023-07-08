@@ -56,7 +56,7 @@ const TechnologiesData = [{
     image: '/img/technologies/posylennya-vuhletsevymy-polotnamy.jpg',
     imageWebp: '/img/technologies/posylennya-vuhletsevymy-polotnamy.webp',
     title: 'Посилення вуглецевими полотнами',
-    link: '#',
+    link: '/technologies/posylennya-vuhletsevymy-polotnamy',
   },
   {
     image: '/img/technologies/torketuvannya.jpg',
@@ -68,7 +68,7 @@ const TechnologiesData = [{
     image: '/img/technologies/remont-betonu-ta-zalizobetonu.jpg',
     imageWebp: '/img/technologies/remont-betonu-ta-zalizobetonu.webp',
     title: 'Ремонт бетону та залізобетону',
-    link: '#',
+    link: '/technologies/remont-betonu-ta-zalizobetonu',
   },
 ];
 

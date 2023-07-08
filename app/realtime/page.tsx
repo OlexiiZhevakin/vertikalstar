@@ -292,9 +292,9 @@ const Real = () => {
 
       <div className={styles.realtime}>
         <div className="container">
-          <p>
+          <span> 
             Інші фасади виглядають так:
-          </p>
+          </span>
           <div className={styles.wrapper}>
             <button className={styles.btnPrev} onClick={handlePrevSlide2}>&lt;</button>
             <ul className={styles.list}>
@@ -317,7 +317,7 @@ const Real = () => {
       <div className={styles.work}>
         <div className="container">
           <p>
-            Мають бути роботи з: 
+            Мають бути виконані роботи: 
           </p>
           <ol>
             <li>
@@ -327,7 +327,7 @@ const Real = () => {
               ремонту 3-х фасадів зі склеюванням тріщин
             </li>
             <li>
-              пристрій вимощення та водовідведення
+              влаштування вимощення та водовідведення
             </li>
             <li>
               ремонт підвалу
@@ -339,9 +339,9 @@ const Real = () => {
         </div>
       </div>
 
-      <section>
+      <div className={styles.realtime}>
         <div className="container">
-          <h2 className={styles.title}>вимощення та водовідведення</h2>
+          <p>Вимощення та водовідведення</p>
           <div className={styles.wrapper}>
             <button className={styles.btnPrev} onClick={handlePrevSlide3}>&lt;</button>
             <ul className={styles.list}>
@@ -363,7 +363,7 @@ const Real = () => {
             <button className={styles.btnNext} onClick={handleNextSlide3}>&gt;</button>
           </div>
         </div>
-      </section>
+      </div>
 
       <div className={styles.realtime}>
         <div className="container">

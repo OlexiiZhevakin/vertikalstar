@@ -28,9 +28,10 @@
     height: 30px;
     background-color: transparent;
     border-radius: 50%;
+    color: $orange;
     transition: background-color 0.3s ease;
     &:hover {
-      color: $orange;
+      color: $white;
     }
   }
 }

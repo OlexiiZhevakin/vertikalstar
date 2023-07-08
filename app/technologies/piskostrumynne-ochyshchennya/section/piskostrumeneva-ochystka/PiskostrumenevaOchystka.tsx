@@ -7,6 +7,9 @@ const PiskostrumenevaOchystka = () => {
       <div className="container">
         <h2>Піскоструменева очистка</h2>
         <div className={styles.inner}>
+          <p>
+            Технологія піскоструменевого очищення є необхідною підготовкою перед нанесенням наступних ремонтних та захисних шарів.
+          </p>
           <ul className={styles.list}>
             <li>
               очищення металевих поверхонь від іржі,  
@@ -22,9 +25,6 @@ const PiskostrumenevaOchystka = () => {
             <Image src='/img/technologies/page/piskostrumeneva-ochystka/piskostrumeneva-ochystka-1.jpg' alt='Піскоструменева очистка' title='Піскоструменева очистка' width={580} height={400}/>
             <Image src='/img/technologies/page/piskostrumeneva-ochystka/piskostrumeneva-ochystka-2.jpg' alt='Піскоструменева очистка' title='Піскоструменева очистка' width={580} height={400}/>
           </div>
-          <p>
-            Технологія піскоструменевого очищення є необхідною підготовкою перед нанесенням наступних ремонтних та захисних шарів.
-          </p>
         </div>
       </div>
     </section>

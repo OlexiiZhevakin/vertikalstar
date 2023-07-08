@@ -2,6 +2,7 @@ import Form from '@/components/form/Form'
 import realTimeData from '@/data/realtimeData'
 import Link from 'next/link'
 import styles from './realrobota.module.scss'
+import Image from 'next/image'
 
 const RealTime = () => {
   return(
@@ -14,10 +15,7 @@ const RealTime = () => {
               <li key={index}>
                 <Link href={item.link}>
                 <div className={styles.card}>
-                  <picture>
-                    <source type="image/webp" srcSet="/img/real/card-1.webp" title='Реальний час'/>
-                    <img src="/img/real/card-1.jpg" width="533" height="400" loading="lazy" alt='Реальний час' title='Реальний час' />
-                  </picture>
+                    <Image src={item.image} alt='Реальний час' title='Реальний час' width={533} height={400}/>
                   <div>
                     <p>
                       {item.title}

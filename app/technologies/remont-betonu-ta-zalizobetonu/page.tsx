@@ -1,0 +1,15 @@
+import Form from "@/components/form/Form"
+import Head from "./section/head/Head"
+import Info from "./section/info/Info"
+
+const RemontBetonuTaZalizobetonu = () => {
+  return(
+    <>
+      <Head/>
+      <Info/>
+      <Form/>
+    </>
+  )
+}
+
+export default RemontBetonuTaZalizobetonu

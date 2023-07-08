@@ -3,21 +3,21 @@
 .inner{
   p{
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
 .list{
+  font-size: 18px;
   list-style: disc;
   margin-left: 20px;
+  margin-bottom: 30px;
   li{
-    font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
 .img{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
 }
