@@ -6,6 +6,24 @@
 
 .year{
   background-color: $orange;
+  position: relative;
+  &::after,
+  &::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 100px);
+    height: 3px;
+    background-color: $gray;
+  }
+  &::after{
+    right: 100px;
+    margin-right: -100px;
+  }
+  &::before{
+    left: 100px;
+    margin-left: -100px;
+  }
 }
 
 .list {

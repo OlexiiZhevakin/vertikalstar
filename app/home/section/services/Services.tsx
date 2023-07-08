@@ -13,10 +13,10 @@ const Services = () => {
               <li key={index}>
               <ServicesCard
                 image={card.image}
-                imageWebp={card.imageWebp}
                 title={card.title}
                 description={card.description}
                 link={card.link}
+                video={card.video}
               />
             </li>
             )
