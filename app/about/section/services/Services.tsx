@@ -16,7 +16,7 @@ const Services = () => {
                 title={card.title}
                 description={card.description}
                 link={card.link}
-                video={card.video}
+                video={card.video || ''}
               />
             </li>
             )

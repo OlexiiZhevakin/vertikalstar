@@ -1,26 +1,23 @@
 import styles from './what.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 
 const What = () => {
   return(
-    <section className={styles.what}>
+    <section className={styles.container}>
       <div className="container">
-        <h2>
+        <h2 className={styles.title}> 
           Що робити в такому випадку в існуючій будівлі?
         </h2>
         <div className={styles.inner}>
           <div className={styles.img}>
-            <picture>
-              <source type="image/webp" srcSet="/img/technologies/page/hidro/hssmi/block_about/metod-inyektsiy.webp" title="Метод ін'єкцій"/>
-              <img src="/img/technologies/page/hidro/hssmi/block_about/metod-inyektsiy.jpg" alt="Ця картинка показує метод ін'єкцій" width="600" height="500" loading="lazy"
-                title="Метод ін'єкцій"/>
-            </picture>
+              <Image src='/img/technologies/page/hidro/hssmi/block_about/metod-inyektsiy.jpg' alt="Ця картинка показує метод ін'єкцій" title="Ця картинка показує метод ін'єкцій" width={600} height={500}/>
           </div>
 
           <div className={styles.info}>
 
-            <h3>
+            <h3 className={styles.subtitle}>
               Тут на допомогу приходить технологія ін'єктування.
             </h3>
 

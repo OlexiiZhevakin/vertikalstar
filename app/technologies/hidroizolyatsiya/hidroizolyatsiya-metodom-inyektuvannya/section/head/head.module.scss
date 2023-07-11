@@ -7,7 +7,7 @@
   background-image: url('/img/technologies/page/hidro/hssmi/head-bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: calc(100vh - 84px);
   position: relative;
 
   &::before {
@@ -26,15 +26,51 @@
   position: relative;
   z-index: 2;
 
-  p {
-    position: relative;
-    margin-bottom: 30px;
-    color: $white;
-    font-size: 28px;
-    z-index: 2;
-  }
 
   a {
     z-index: 2;
+  }
+}
+
+.subtitle {
+  position: relative;
+  margin-bottom: 30px;
+  color: $white;
+  font-size: 28px;
+  z-index: 2;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 42px;
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .title{
+    font-size: 40px;
+  }
+  .subtitle{
+    font-size: 18px;
   }
 }

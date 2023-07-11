@@ -1,6 +1,6 @@
 @import "@/style/variables.module.scss";
 
-.problem {
+.container {
   background-color: #fff;
 }
 
@@ -44,14 +44,50 @@
 .info {
   width: 50%;
   padding: 0 20px;
+}
 
-  h3 {
-    font-size: 36px;
+.title{
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.text{
+  p:not(:last-child){
     margin-bottom: 30px;
   }
+}
 
-  p {
-    font-size: 16px;
-    margin-bottom: 30px;
+@media (max-width: 992px) {
+  .title{
+    margin-bottom: 8px;
+  }
+  .text {
+    p:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .item{
+    flex-direction: column;
+  }
+  .info,
+  .img{
+    width: 100%;
+  }
+  .img{
+    img{
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .container{
+    padding: 30px 0;
+  }
+  .title{
+    font-size: 32px;
   }
 }

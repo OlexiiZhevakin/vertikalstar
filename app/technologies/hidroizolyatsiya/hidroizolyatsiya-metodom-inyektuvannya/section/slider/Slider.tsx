@@ -18,7 +18,7 @@ const Slider = () => {
   const visibleSlides = hmiData.slice(currentSlide, currentSlide + 1);
 
   return(
-    <div className={styles.slider}>
+    <div className={styles.container}>
       <div className="container">
         <p>
           Неприємний запах, пліснява та грибок, відшарування штукатурки, шпалер чи фарбування, плями вологи всередині будівлі або на фасаді.

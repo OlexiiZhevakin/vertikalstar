@@ -11,8 +11,10 @@ const Head = () => {
     <section className={styles.head}>
       <div className="container">
         <div className={styles.inner}>
-            <h1>Гідроізоляція сирих стін методом ін'єктування</h1>
-            <p>Відсікання капілярного підйому вологи</p>
+            <h1 className={styles.title}>
+              Гідроізоляція сирих стін методом ін'єктування
+            </h1>
+            <p className={styles.subtitle}>Відсікання капілярного підйому вологи</p>
           <Link className="btn" href="#">
             Залишити заявку
           </Link>

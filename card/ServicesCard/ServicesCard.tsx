@@ -50,14 +50,14 @@ const ServicesCard = ({ title, image, description, link, video }: Props) => {
 
   return (
     <article className={styles.card} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-      {isHovered ? (
+      {isHovered && video ? (
         // Вместо изображения показывается видео
-        <video className={styles.video} src={video} width={290} height={296} autoPlay muted loop />
+        <video className={styles.video} src={video} width={290} height={296} autoPlay muted loop poster={image} />
       ) : (
         // Иначе показывается изображение
         <Image src={image} alt={title} title={title} width={290} height={296} />
       )}
-      <div>
+      <div className={styles.content}>
         <h3>{title}</h3>
         <p>{description}</p>
         <Link href={link} className='btn'>Детальніше</Link>

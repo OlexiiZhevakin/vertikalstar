@@ -1,18 +1,15 @@
+import Image from 'next/image';
 import styles from './sova.module.scss'
 
 const Sova = () => {
   return(
-    <section className={styles.sova}>
+    <section className={styles.container}>
       <div className="container">
-        <h2>
+        <h2 className={styles.title}>
           Компанія <span>Вертикаль будівельних технологій</span> має:
         </h2>
         <div className={styles.inner}>
-          <picture>
-            <source type="image/webp" srcSet="/img/technologies/page/hidro/hssmi/sova.webp" title="Зображення логотипу компанії"/>
-            <img src="/img/technologies/page/hidro/hssmi/sova.jpg" alt="Зображення логотипу компанії" width="150" height="190" loading="lazy" title="Зображення логотипу компанії"/>
-          </picture>
-
+          <Image src='/img/technologies/page/hidro/hssmi/sova.jpg' alt='Зображення логотипу компанії' title='Зображення логотипу компанії' width={150} height={190}/>
           <ul className={styles.list}>
             <li>
               20-річний досвід виконання таких робіт;

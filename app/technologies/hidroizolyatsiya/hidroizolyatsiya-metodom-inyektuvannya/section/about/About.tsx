@@ -1,27 +1,23 @@
+import Image from 'next/image'
 import styles from './about.module.scss'
 
 const About = () => {
   return(
-    <section className={styles.about}>
+    <section className={styles.container}>
       <div className="container">
-        <h2>
+        <h2 className={styles.title}>
           У більшості випадків ці проблеми є наслідком капілярного підйому вологи по стінах.
         </h2>
         <div className={styles.inner}>
           <div className={styles.item}>
             <div className={styles.img}>
-              <picture>
-                <source type="image/webp"
-                  srcSet="/img/technologies/page/hidro/hssmi/block_about/shlyakh-pidyomu-volohy.webp" title="Шлях підйому вологи"/>
-                <img src="/img/technologies/page/hidro/hssmi/block_about/shlyakh-pidyomu-volohy.jpg" alt="На цьому фото показано шлях підйому вологи"
-                  width="600" height="500" loading="lazy" title="Шлях підйому вологи"/>
-              </picture>
+              <Image src='/img/technologies/page/hidro/hssmi/block_about/shlyakh-pidyomu-volohy.jpg' alt='Шлях підйому вологи' title='Шлях підйому вологи' width={600} height={500}/>
             </div>
             <div className={styles.info}>
-              <h3>
+              <h3 className={styles.subtitle}>
                 Що таке капілярний підйом вологи?
               </h3>
-              <div>
+              <div className={styles.text}>
                 <p>
                   Капілярний підйом - це підйом вологи з грунту по капілярах стін (на фото цей шлях зображено стрілкою з
                   цифрою 1).
@@ -36,10 +32,10 @@ const About = () => {
 
           <div className={styles.item}>
             <div className={styles.info}>
-              <h3>
+              <h3 className={styles.subtitle}>
                 Чому це сталося?
               </h3>
-              <div>
+              <div className={styles.text}>
                 <p>
                   Захист від капілярного підйому вологи повинен вирішуватися ще на етапі будівництва виконанням
                   горизонтальної гідроізоляції, як показано на фото.

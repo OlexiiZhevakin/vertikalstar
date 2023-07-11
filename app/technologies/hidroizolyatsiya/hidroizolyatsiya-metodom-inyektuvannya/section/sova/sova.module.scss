@@ -1,6 +1,6 @@
 @import "@/style/variables.module.scss";
 
-.sova{
+.container{
   background-color: #fff;
   span{
     text-transform: uppercase;
@@ -24,5 +24,28 @@
 
   li:not(:last-child) {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .title{
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .container{
+    padding: 30px 0;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .list{
+    li{
+      font-size: 14px;
+    }
+    li:not(:last-child) {
+      margin-bottom: 10px;
+    }
   }
 }

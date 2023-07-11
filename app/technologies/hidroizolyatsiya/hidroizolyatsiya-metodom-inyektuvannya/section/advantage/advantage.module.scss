@@ -1,14 +1,14 @@
 @import "@/style/variables.module.scss";
 
-.advantage {
+.container {
   padding: 60px 0;
   background-image: url('/img/technologies/page/hidro/hssmi/advantage-bg.webp');
   background-size: cover;
   background-repeat: no-repeat;
+}
 
-  h2 {
-    color: $white;
-  }
+.title{
+  color: $white;
 }
 
 .items {
@@ -71,3 +71,47 @@
   }
 }
 
+@media (max-width: 768px) {
+  .items{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    row-gap: 30px;
+    grid-column-gap: 30px;
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 600px){
+  .items{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    row-gap: 30px;
+    grid-column-gap: 30px;
+    column-gap: 30px;
+  }
+  .item{
+    p{
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .container{
+    padding: 30px;
+  }
+  .title{
+    font-size: 32px;
+  }
+  .item{
+    h3{
+      font-size: 24px;
+    }
+  }
+}
