@@ -260,9 +260,9 @@ const Real = () => {
 
       <div className={styles.realtime}>
         <div className="container">
-          <span> 
+          <p> 
             Інші фасади виглядають так:
-          </span>
+          </p>
           <div className={styles.wrapper}>
             <button className={styles.btnPrev} onClick={handlePrevSlide2}>&lt;</button>
             <ul className={styles.list}>
@@ -285,7 +285,7 @@ const Real = () => {
       <div className={styles.work}>
         <div className="container">
           <p>
-            Мають бути виконані роботи: 
+            На цьому об'єкті мають буті виконані такі роботи:
           </p>
           <ol>
             <li>

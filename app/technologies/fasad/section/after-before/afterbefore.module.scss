@@ -1,0 +1,14 @@
+.inner{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.title{
+  text-align: left;
+}
+
+.img{
+  display: flex;
+  justify-content: space-between;
+}

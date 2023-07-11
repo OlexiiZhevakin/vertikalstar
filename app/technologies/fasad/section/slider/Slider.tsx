@@ -6,6 +6,7 @@ import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
+import fasadDataSlider from './data';
 
 const Slider = () => {
   return (
@@ -23,33 +24,16 @@ const Slider = () => {
             loop={true}
             className={styles.swiper}
           >
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-1.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-2.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-3.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-4.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-5.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-6.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-7.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-8.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/technologies/page/fasad/slider/slider-9.jpg' alt='' title='' width={570} height={420}/>
-            </SwiperSlide>
+            {fasadDataSlider.map((slide, index) => (
+              <SwiperSlide className={styles.slide} key={index}>
+                <Image 
+                  src={slide.img}
+                  alt='Фасад до'
+                  title='Фасад до'
+                  width={slide.width || 760}
+                  height={570}/>
+              </SwiperSlide>
+            ))}
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>
         </div>
