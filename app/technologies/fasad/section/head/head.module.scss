@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   background: url('/img/technologies/page/fasad/head-bg.webp') center/cover no-repeat;
-  min-height: 50vh;
+  min-height: calc(100vh - 84px);
   position: relative;
   &::before {
     content: '';
