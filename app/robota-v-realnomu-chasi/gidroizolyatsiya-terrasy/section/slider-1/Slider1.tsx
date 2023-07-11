@@ -7,10 +7,11 @@ import styles from './slider1.module.scss'
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import Image from 'next/image';
+import slider1Data from './data';
 
 const Slider1 = () => {
   return (
-    <div className={styles.head}>
+    <div className={styles.realtime}>
       <div className="container">
         <p>
           Розчинна стяжка з розухилкою вже залита, по ній належить нанести поліріутанове покриття з флоками та запечатування лаком.
@@ -27,17 +28,19 @@ const Slider1 = () => {
             loop={true}
             className={styles.swiper}
           >
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-1.jpg' alt='Гідроізоляція тераси' title='Гідроізоляція тераси' width={480} height={640}/>
-            </SwiperSlide>
+            {slider1Data.map((slide, index) => (
+              <SwiperSlide className={styles.slide} key={index}>
+                <Image
+                  src={slide.img}
+                  alt='Ремонт входів'
+                  title='Ремонт входів'
+                  width={slide.width || 800}
+                  height={600}
+                />
+              </SwiperSlide>
+            ))}
 
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-2.jpg' alt='Гідроізоляція тераси' title='Гідроізоляція тераси' width={480} height={640}/>
-            </SwiperSlide>
 
-            <SwiperSlide className={styles.slide}>
-              <Image src='/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-3.jpg' alt='Гідроізоляція тераси' title='Гідроізоляція тераси' width={480} height={640}/>
-            </SwiperSlide>
 
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>

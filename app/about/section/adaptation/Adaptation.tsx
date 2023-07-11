@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './adaptation.module.scss'
 
 const Adaptationt = () => {
@@ -5,10 +6,7 @@ const Adaptationt = () => {
     <section>
       <div className="container">
         <div className={styles.inner}>
-          <picture>
-              <source type="image/webp" srcSet="/img/about/my-photo.webp" />
-              <img className={styles.img} src="/img/about/my-photo.jpg" alt="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" title="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" />
-            </picture>
+          <Image src='/img/about/fasad-6.jpg' alt='' title='' width={540} height={420} />
           <div className={styles.info}>
             <h3>Адаптуємо</h3>
             <p>

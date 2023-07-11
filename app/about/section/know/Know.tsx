@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './know.module.scss'
+import Image from 'next/image'
 
 const Know = () => {
   return(
@@ -17,10 +18,7 @@ const Know = () => {
               Це дозволяє нам постійно тримати руку на пульсі та розуміти, які є недоліки в сучасному будівництві.
             </p>
           </div>
-          <picture>
-              <source type="image/webp" srcSet="/img/about/my-photo.webp" />
-              <img className={styles.img} src="/img/about/my-photo.jpg" alt="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" title="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" />
-            </picture>
+          <Image src='/img/about/fasad-2.jpg' alt='' title='' width={540} height={420}/>
         </div>
       </div>
     </section>

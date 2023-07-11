@@ -2,6 +2,9 @@
 import Form from "@/components/form/Form"
 import styles from './realtime.module.scss'
 import { useState } from 'react'
+import RemontVkhodiv from "./section/remont-vkhodiv/Slider3"
+import Hidroizolyatsiya from "./section/hidroizolyatsiya/Hidroizolyatsiya"
+import Vodovidvedennya from "./section/vymoshchennya-ta-vodovidvedennya/Vodovidvedennya"
 
 const Slider1 = [
   {
@@ -54,32 +57,6 @@ const Slider2 = [
   {
     image: "/img/real/12.jpg",
     imageWebp: "/img/real/12.webp"
-  }
-]
-
-const Slider3 = [
-  {
-    video: "/img/real/slider3/1.mp4",
-  },
-  {
-    video: "/img/real/slider3/2.mp4",
-  },
-  {
-    video: "/img/real/slider3/3.mp4",
-  },
-  {
-    image: "/img/real/slider3/4.jpg",
-    imageWebp: '/img/real/slider3/4.webp'
-  },
-  {
-    video: "/img/real/slider3/5.mp4",
-  },
-  {
-    video: "/img/real/slider3/6.mp4",
-  },
-  {
-    image: "/img/real/slider3/7.jpg",
-    imageWebp: '/img/real/slider3/7.webp'
   }
 ]
 
@@ -217,14 +194,6 @@ const Real = () => {
     setCurrentSlide2((prevSlide) => (prevSlide === Slider2.length - 1 ? 0 : prevSlide + 1));
   };
 
-  const handlePrevSlide3 = () => {
-    setCurrentSlide3((prevSlide) => (prevSlide === 0 ? Slider3.length - 1 : prevSlide - 1));
-  };
-
-  const handleNextSlide3 = () => {
-    setCurrentSlide3((prevSlide) => (prevSlide === Slider3.length - 1 ? 0 : prevSlide + 1));
-  };
-
   const handlePrevSlide4 = () => {
     setCurrentSlide4((prevSlide) => (prevSlide === 0 ? Slider4.length - 1 : prevSlide - 1));
   };
@@ -258,7 +227,6 @@ const Real = () => {
 
   const visibleSlides1 = Slider1.slice(currentSlide1, currentSlide1 + 1);
   const visibleSlides2 = Slider2.slice(currentSlide2, currentSlide2 + 1);
-  const visibleSlides3 = Slider3.slice(currentSlide3, currentSlide3 + 1);
   const visibleSlides4 = Slider4.slice(currentSlide4, currentSlide4 + 1);
   const visibleSlides5 = Slider5.slice(currentSlide5, currentSlide5 + 1);
   const visibleSlides6 = Slider6.slice(currentSlide6, currentSlide6 + 1);
@@ -338,32 +306,8 @@ const Real = () => {
           </ol>
         </div>
       </div>
-
-      <div className={styles.realtime}>
-        <div className="container">
-          <p>Вимощення та водовідведення</p>
-          <div className={styles.wrapper}>
-            <button className={styles.btnPrev} onClick={handlePrevSlide3}>&lt;</button>
-            <ul className={styles.list}>
-              {visibleSlides3.map((slide, index) => {
-                return(
-                  <li key={index}>
-                  {slide.video ? (
-                    <video src={slide.video} width={1000} height={520} autoPlay muted></video>
-                  ) : (
-                    <picture>
-                      <source type="image/webp" srcSet={slide.imageWebp} title='Реальний час'/>
-                      <img src={slide.image} loading="lazy" alt='Реальний час' title='Реальний час' width={701} height={526} />
-                    </picture>
-                  )}
-                </li>
-                )
-              })}
-            </ul>
-            <button className={styles.btnNext} onClick={handleNextSlide3}>&gt;</button>
-          </div>
-        </div>
-      </div>
+      <Hidroizolyatsiya />
+      
 
       <div className={styles.realtime}>
         <div className="container">
@@ -466,7 +410,8 @@ const Real = () => {
           </div>
         </div>
       </div>
-      
+      <Vodovidvedennya />
+      <RemontVkhodiv/>
       <Form/>
     </>
   )

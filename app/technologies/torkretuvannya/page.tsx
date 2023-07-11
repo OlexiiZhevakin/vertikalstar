@@ -1,13 +1,13 @@
 import Form from "@/components/form/Form"
 import Head from "./section/head/Head"
-import Picture from "./section/picture/Picture"
+import Info from "./section/info/Info"
 
 
 const Torkretuvannya = () => {
   return(
     <>
     <Head/>
-    <Picture/>
+    <Info/>
     <Form/>
     </>
   )

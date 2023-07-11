@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './teach.module.scss'
 
 const Teach = () => {
@@ -17,10 +18,7 @@ const Teach = () => {
               Також, у рамках нашого університету ми щедро ділимося знаннями з нашими Клієнтами та Партнерами, організовуючи презентації, семінари, навчання будівельних компаній та бригад чи шеф-монтаж на об’єктах. 
             </p>
           </div>
-          <picture>
-              <source type="image/webp" srcSet="/img/about/my-photo.webp" />
-              <img className={styles.img} src="/img/about/my-photo.jpg" alt="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" title="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" />
-            </picture>
+          <Image src='/img/about/fasad-12.jpg' alt='' title='' width={540} height={420} />
         </div>
       </div>
     </section>

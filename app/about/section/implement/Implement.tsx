@@ -1,15 +1,13 @@
 import Link from 'next/link'
 import styles from './implement.module.scss'
+import Image from 'next/image'
 
 const Implement = () => {
   return(
     <section>
       <div className="container">
         <div className={styles.inner}>
-            <picture>
-              <source type="image/webp" srcSet="/img/about/my-photo.webp" />
-              <img className={styles.img} src="/img/about/my-photo.jpg" alt="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" title="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" />
-            </picture>
+          <Image src='/img/about/slider-8.jpg' alt='' title='' width={540} height={420} />
           <div className={styles.info}>
             <h3>Впроваджуємо</h3>
             <p>

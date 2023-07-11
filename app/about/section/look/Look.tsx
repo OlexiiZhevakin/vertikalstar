@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './look.module.scss'
 
 const Look = () => {
@@ -5,10 +6,7 @@ const Look = () => {
     <section>
       <div className="container">
         <div className={styles.inner}>
-          <picture>
-            <source type="image/webp" srcSet="/img/about/my-photo.webp" />
-            <img className={styles.img} src="/img/about/my-photo.jpg" alt="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" title="Засновник та керівник компанії «ВЕРТИКАЛЬ БУДІВЕЛЬНІХ ТЕХНОЛОГІЙ»" />
-          </picture>
+          <Image src='/img/about/slider-5.jpg' alt='' title='' width={540} height={420} />
           <div className={styles.info}>
             <h3>Шукаємо</h3>
             <p>
