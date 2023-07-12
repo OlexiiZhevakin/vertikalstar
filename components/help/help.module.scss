@@ -1,8 +1,7 @@
 @import "@/style/variables.module.scss";
 
-.container{
+.container {
   padding: 60px 0;
-  background-color: #fff;
 }
 
 .inner {
@@ -16,11 +15,11 @@
   border-radius: 10px;
 }
 
-.title{
+.title {
   color: $white;
 }
 
-.text{
+.text {
   font-size: 22px;
 }
 
@@ -41,30 +40,34 @@
   }
 }
 
-@media (max-width: 992px){
-  .title{
+@media (max-width: 992px) {
+  .title {
     font-size: 36px;
   }
 }
+
 @media (max-width: 768px) {
   .title {
     font-size: 20px;
     margin-bottom: 10px;
   }
-  .text{
+
+  .text {
     font-size: 18px;
   }
 }
 
-@media (max-width: 420px){
-  .container{
+@media (max-width: 420px) {
+  .container {
     padding: 30px 0;
   }
-  .inner{
+
+  .inner {
     flex-direction: column;
     padding: 14px 0;
   }
-  .text{
+
+  .text {
     margin-bottom: 10px;
   }
 }

@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import styles from './join-top.module.scss'
+import Link from "next/link"
+import styles from './help.module.scss'
 
-const JoinTop = () => {
+const Help = () => {
   return (
     <div className={styles.container}>
       <div className="container">
@@ -23,4 +23,4 @@ const JoinTop = () => {
   )
 }
 
-export default JoinTop
+export default Help
