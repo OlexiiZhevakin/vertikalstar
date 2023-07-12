@@ -1,21 +1,19 @@
 'use client'
-import Image from 'next/image'
-import styles from './restavratsiya-tsehly.module.scss'
+import styles from './khimichna-ochystka.module.scss'
+import Image from 'next/image';
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
-import restavratsiyaTsehlyData from './data';
+import khimichnaOchystkaData from './data';
 
 
 
-const RestavratsiyaTsehly = () => {
+const KhimichnaOchystka = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>
-          Реставрація цегли
-        </h2>
+        <h2 className={styles.title}>Хімічна очистка</h2>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper
@@ -28,14 +26,14 @@ const RestavratsiyaTsehly = () => {
             loop={true}
             className={styles.swiper}
           >
-            {restavratsiyaTsehlyData.map((slide, index) => (
+            {khimichnaOchystkaData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 <Image
                   src={slide.img}
-                  alt='Реставрація цегли'
-                  title='Реставрація цегли'
+                  alt='Хімічна очистка'
+                  title='Хімічна очистка'
                   width={570}
-                  height={420} />
+                  height={560} />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -46,4 +44,4 @@ const RestavratsiyaTsehly = () => {
   )
 }
 
-export default RestavratsiyaTsehly
+export default KhimichnaOchystka

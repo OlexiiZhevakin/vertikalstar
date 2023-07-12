@@ -10,6 +10,12 @@ import Help from "@/components/help/Help"
 import Sova from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/sova/Sova"
 import Advantage from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/advantage/Advantage"
 import Timeline from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/timeline/Timeline"
+import KhimichnaOchystka from "./section/khimichna-ochystka/KhimichnaOchystka"
+import PiskostrumynneOchyshchennya from "./section/piskostrumynne-ochyshchennya/PiskostrumynneOchyshchennya"
+import SkleyuvannyaTrishchyn from "./section/skleyuvannya-trishchyn/SkleyuvannyaTrishchyn"
+import Descr from "./section/descr/Descr"
+import What from "./section/what/What"
+import Hidrofikatsiya from "./section/hidrofikatsiya/Hidrofikatsiya"
 
 
 const Fasad = () => {
@@ -19,9 +25,15 @@ const Fasad = () => {
     <Head/>
     <Picture/>
     <Slider/>
-    <OchyshchennyaPoverkhni/>
+    <What/>
+    {/* <OchyshchennyaPoverkhni/> */}
+    <KhimichnaOchystka/>
+    <PiskostrumynneOchyshchennya/>
     <RestavratsiyaTsehly/>
+    <SkleyuvannyaTrishchyn/>
     <GidroizolyatsiyaPremykaniy/>
+    <Hidrofikatsiya/>
+    <Descr/>
     <Help/>
     <Sova/>
     <Advantage/>
