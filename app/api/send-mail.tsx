@@ -8,7 +8,7 @@ export default async function handler(
 ) {
   if (req.method === 'POST') {
     const { name, tel } = req.body;
-    const to = 'your_email@example.com';
+    const to = 'loditka@gmail.com';
     const subject = 'Новая заявка с сайта';
     const message = `Имя: ${name}\nТелефон: ${tel}`;
 
