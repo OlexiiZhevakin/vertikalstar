@@ -7,7 +7,8 @@ const Modal = () => {
     <div className={styles.wrapper}>
       <div>Вкажіть ваші контакти</div>
         <span>і наш Технолог зв'яжеться з вами в найближчий час</span>
-      <form action="/api/send-mail">
+      <form action="vertikalstar.vercel.app
+/api/send-mail" method="POST">
 
               <label htmlFor="name">Ваше ім'я</label>
               <input type="text" name="name" id="name" required/>
