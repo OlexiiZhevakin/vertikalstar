@@ -12,3 +12,17 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 992px) {
+  .inner,
+  .img{
+    gap: 30px;
+  }
+}
+
+@media (max-width: 420px){
+  .inner,
+  .img{
+    flex-direction: column;
+  }
+}

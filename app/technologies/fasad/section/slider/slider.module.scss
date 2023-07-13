@@ -1,4 +1,22 @@
+
 @import '@/style/variables.module.scss';
+
+.title {
+  text-align: left;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    max-width: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: $orange;
+    right: 100px;
+    margin-right: -100px;
+  }
+}
 
 .wrapper {
   display: flex;
@@ -37,5 +55,21 @@
   &:hover {
     background-color: $orange;
     color: $title;
+  }
+}
+
+@media (max-width: 420px) {
+  .wrapper{
+    position: relative;
+  }
+  .btnPrev{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .btnNext{
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }

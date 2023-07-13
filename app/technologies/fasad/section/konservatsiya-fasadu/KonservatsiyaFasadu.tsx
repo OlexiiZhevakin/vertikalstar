@@ -38,6 +38,9 @@ const KonservatsiyaFasadu = () => {
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>
         </div>
+        <p className={styles.text}>
+          Коли всі роботи з реставрації фасаду закінчені, необхідно законсервувати фасад методом нанесення гідрофобного просочення.
+        </p>
       </div>
     </section>
   )
