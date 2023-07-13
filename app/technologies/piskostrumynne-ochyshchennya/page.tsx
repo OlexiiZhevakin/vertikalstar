@@ -1,13 +1,17 @@
 import Form from "@/components/form/Form"
 import Head from "./section/head/Head"
-import PiskostrumenevaOchystka from "./section/piskostrumeneva-ochystka/PiskostrumenevaOchystka"
+import Info from "./section/info/Info"
+import Pisok from "../fasad/section/piskostrumynne-ochyshchennya/Pisok"
+
+
 
 
 const PiskostrumynneOchyshchennya = () => {
   return(
     <>
       <Head/>
-      <PiskostrumenevaOchystka/>
+      <Info/>
+      <Pisok/>
       <Form/>
     </>
   )

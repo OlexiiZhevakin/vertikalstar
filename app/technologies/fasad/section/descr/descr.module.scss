@@ -1,4 +1,9 @@
 @import '@/style/variables.module.scss';
+.title{
+  text-align: left;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
 
 .wrapper {
   display: flex;

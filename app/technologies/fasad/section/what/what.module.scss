@@ -1,8 +1,12 @@
 @import "@/style/variables.module.scss";
 
+.title{
+  text-align: left;
+}
+
 .inner {
-  padding: 30px 0 90px;
   display: flex;
+  align-items: center;
 }
 
 .img {

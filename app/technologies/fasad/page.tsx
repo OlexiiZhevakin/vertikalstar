@@ -11,11 +11,11 @@ import Sova from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/sec
 import Advantage from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/advantage/Advantage"
 import Timeline from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/timeline/Timeline"
 import KhimichnaOchystka from "./section/khimichna-ochystka/KhimichnaOchystka"
-import PiskostrumynneOchyshchennya from "./section/piskostrumynne-ochyshchennya/PiskostrumynneOchyshchennya"
 import SkleyuvannyaTrishchyn from "./section/skleyuvannya-trishchyn/SkleyuvannyaTrishchyn"
 import Descr from "./section/descr/Descr"
 import What from "./section/what/What"
-import Hidrofikatsiya from "./section/hidrofikatsiya/Hidrofikatsiya"
+import Hidrofikatsiya from "./section/konservatsiya-fasadu/KonservatsiyaFasadu"
+import Pisok from "./section/piskostrumynne-ochyshchennya/Pisok"
 
 
 const Fasad = () => {
@@ -28,17 +28,17 @@ const Fasad = () => {
     <What/>
     {/* <OchyshchennyaPoverkhni/> */}
     <KhimichnaOchystka/>
-    <PiskostrumynneOchyshchennya/>
+    <Pisok/>
     <RestavratsiyaTsehly/>
     <SkleyuvannyaTrishchyn/>
     <GidroizolyatsiyaPremykaniy/>
     <Hidrofikatsiya/>
     <Descr/>
+    <AfterBefore />
     <Help/>
     <Sova/>
     <Advantage/>
     <Timeline/>
-    <AfterBefore/>
     <Form/>
     </>
   )

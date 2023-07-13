@@ -9,15 +9,15 @@ const What = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>
-          У більшості випадків такі фасади можна реставрувати, продовжити їх життя на найближче десятиліття та зберегти їх у належному стані для наших нащадків.
-        </h2>
         <p className={styles.subtitle}>
-          Технологія реставрації фасадів зазвичай включає такі етапи:
+          У більшості випадків такі фасади можна реставрувати, продовжити їх життя на найближчі десятиліття та зберегти їх у належному стані для наших нащадків.
         </p>
+        <h2 className={styles.title}>
+          Технологія реставрації фасадів зазвичай включає такі етапи:
+        </h2>
         <div className={styles.inner}>
           <div className={styles.img}>
-            <Image src='/img/technologies/page/hidro/hssmi/block_about/metod-inyektsiy.jpg' alt="Ця картинка показує метод ін'єкцій" title="Ця картинка показує метод ін'єкцій" width={600} height={500} />
+            <Image src='/img/technologies/page/fasad/after-before/fasad-4.jpg' alt="Технологія реставрації фасадів" title="Технологія реставрації фасадів" width={380} height={520} />
           </div>
 
           <div className={styles.info}>
@@ -55,14 +55,14 @@ const What = () => {
               <div className={styles.item}>
                 <FontAwesomeIcon className={styles.icon} icon={faCircleCheck} />
                 <p>
-                  Гідроізоляція перемикань, карнизів, поличок
+                  Гідроізоляція примикання
                 </p>
               </div>
 
               <div className={styles.item}>
                 <FontAwesomeIcon className={styles.icon} icon={faCircleCheck} />
                 <p>
-                  Консервація фасаду - обробка гідрофобним складом
+                  Консервація фасаду
                 </p>
               </div>
 

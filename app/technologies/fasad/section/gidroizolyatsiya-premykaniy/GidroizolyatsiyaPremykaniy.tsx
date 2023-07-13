@@ -12,7 +12,7 @@ const GidroizolyatsiyaPremykaniy = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Гідроізоляція перемикань</h2>
+        <h2 className={styles.title}>Гідроізоляція примикань</h2>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

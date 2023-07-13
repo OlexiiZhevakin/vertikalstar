@@ -1,0 +1,58 @@
+@import '@/style/variables.module.scss';
+
+.title {
+  text-align: left;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    max-width: 60%;
+    width: 100%;
+    height: 3px;
+    background-color: $orange;
+    right: 100px;
+    margin-right: -100px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+
+.swiper {
+  width: 90%;
+}
+
+.slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnPrev,
+.btnNext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: $white;
+  border: 1px solid $orange;
+  color: $orange;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    background-color: $orange;
+    color: $title;
+  }
+}

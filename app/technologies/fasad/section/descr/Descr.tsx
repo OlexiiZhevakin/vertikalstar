@@ -13,9 +13,9 @@ const Descr = () => {
   return (
     <div className={styles.container}>
       <div className="container">
-          <h2 className={styles.title}>
-            Коли всі роботи закінчені з реставрації фасаду, необхідно законсервувати фасад методом нанесення гідрофобного просочення.
-          </h2>
+          <p className={styles.title}>
+            Коли всі роботи з реставрації фасаду закінчені, необхідно законсервувати фасад методом нанесення гідрофобного просочення.
+          </p>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper
