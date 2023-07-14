@@ -15,6 +15,7 @@ import What from "./section/what/What"
 import Hidrofikatsiya from "./section/konservatsiya-fasadu/KonservatsiyaFasadu"
 import Pisok from "./section/piskostrumynne-ochyshchennya/Pisok"
 import Descr from "./section/descr/Descr"
+import ZapovnennyaShviv from "./section/zapovnennya-shviv/ZapovnennyaShviv"
 
 
 const Fasad = () => {
@@ -28,6 +29,7 @@ const Fasad = () => {
     <KhimichnaOchystka/>
     <Pisok/>
     <RestavratsiyaTsehly/>
+    <ZapovnennyaShviv/>
     <SkleyuvannyaTrishchyn/>
     <GidroizolyatsiyaPremykaniy/>
     <Hidrofikatsiya/>
