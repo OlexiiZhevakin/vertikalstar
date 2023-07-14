@@ -58,3 +58,9 @@
   width: 100%;
   text-align: center;
 }
+
+@media (max-width: 420px) {
+  .title{
+    font-size: 40px;
+  }
+}
