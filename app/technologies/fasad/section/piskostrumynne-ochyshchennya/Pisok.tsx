@@ -32,7 +32,7 @@ const Pisok = () => {
             {piskostrumynneOchyshchennyaData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 {slide.video ? (
-                  <video className={styles.video} src={slide.video} width={760} height={570} autoPlay muted playsInline ></video>
+                  <video className={styles.video} src={slide.video} autoPlay muted playsInline ></video>
                 ) : (
                   <Image
                     src={slide.img || ''}

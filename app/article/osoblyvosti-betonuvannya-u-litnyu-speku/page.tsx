@@ -1,6 +1,7 @@
 import Form from '@/components/form/Form'
 import styles from './page.module.scss'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Article = () => {
   return (
@@ -22,7 +23,8 @@ const Article = () => {
           <div className="container">
             <div className={styles.descr}>
               <p>
-                Про особливості зимнього бетонування розповідають достатньо часто. І ми також. #ссылка#
+                Про особливості зимнього бетонування розповідають достатньо часто. І ми також.
+                <Link className={styles.link} href='#'>Посилання на статью</Link>
               </p>
               <p>
                 А вот про особливості бетонування у літню спеку ,на наш погляд, говорять дуже мало.
@@ -70,7 +72,7 @@ const Article = () => {
                 Мешковини ми вже давно не бачили на будівництві. Зволожувати часто забувають.  Плівка задирається вітром чи ногами і на місце її вже ніхто не повертає.
               </p>
               <p>
-                І БЕТОН, той самий матеріал, до виробництва якого  треба ставитися поважно і ретельно, як до виховання людини ( про це ми казали у іншій статті #ссылка#)   залишається кинутим на призволяще.
+                І БЕТОН, той самий матеріал, до виробництва якого  треба ставитися поважно і ретельно, як до виховання людини ( про це ми казали у іншій статті <Link className={styles.link} href='#'>Посилання на статью</Link>)   залишається кинутим на призволяще.
               </p>
             </div>
             <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-2.jpg' alt='' title='' width={640} height={480} />
