@@ -14,7 +14,7 @@ const Help = () => {
               вирішити цю задачу.
             </p>
           </div>
-          <Link className={styles.btn} href="tel:+380635640003">
+          <Link className={styles.btn} href="tel:+380675713308">
             Зателефонуйте нам
           </Link>
         </div>
