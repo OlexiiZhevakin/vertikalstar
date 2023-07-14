@@ -43,7 +43,7 @@ const Article = () => {
                 Однак, це черговий будівельний міф. В реальності,  відбувається навпаки.
               </p>
             </div>
-            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-1.jpg' alt='' title='' width={1000} height={667}/>
+            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-1.jpg' alt='' title='' width={833} height={500}/>
             <div className={styles.descr}>
               <p>
                 Під час бетонування за спеки, вода з бетону швидко випаровується, не маючи можливості належним чином взаємодіяти з цементом. Як наслідок, співвідношення води до цементу (те саме В/Ц) змінюється .
@@ -76,12 +76,9 @@ const Article = () => {
                 І БЕТОН, той самий матеріал, до виробництва якого  треба ставитися поважно і ретельно.
               </p>
             </div>
-            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-2.jpg' alt='' title='' width={640} height={480} />
+            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-2.jpg' alt='' title='' width={833} height={500} />
             <div className={styles.block}>
-                <p>
-                  Що ми пропонуємо!
-                </p>
-                <p>
+                <p className={styles.promo}>
                   Секрет успіху полягає в застосуванні ТЕХНОЛОГІЇ КОНСЕРВАЦІЇ ВОЛОГИ В СВІЖОУКЛАДЕНОМУ БЕТОНІ нанесенням на поверхню  спеціальної рідини з полімерного латексу.
                 </p>
                 <p>
@@ -104,7 +101,7 @@ const Article = () => {
                 Запам'ятайте, що правильне застосування цієї ТЕХНОЛОГІЇ дозволить досягти оптимальних результатів при будівництві з використанням бетону, особливо в умовах літньої спеки.
               </p>
             </div>
-            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-3.jpg' alt='' title='' width={1200} height={600} />
+            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-3.jpg' alt='' title='' width={833} height={500} />
             <div className={styles.descr}>
               <p>
                 Довіртеся професіоналам та використовуйте науково підтверджені методи для досягнення максимальної якості ваших будівельних проектів.
@@ -116,7 +113,7 @@ const Article = () => {
                 Ми з радістю запропонуємо вам цей матеріал у нашому відділу продажів «БЮРО БУДІВЕЛЬНОЇ ХІМІЇ» та надамо вам додаткову консультацію.
               </p>  
             </div>
-            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-4.jpg' alt='' title='' width={1000} height={668} />
+            <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-4.jpg' alt='' title='' width={833} height={500} />
             <div className={styles.descr}>
               <p className={styles.promo}>
                 Ми хочемо вас заохотити на якісніше будівництво та увагу до деталей.
