@@ -1,0 +1,26 @@
+@import '@/style/variables.module.scss';
+
+.title {
+  font-size: 54px;
+  color: $title;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+
+.date,
+.author{
+  font-size: 20px;
+}
+
+.descr{
+  font-size: 20px;
+  margin-bottom: 30px;
+  p:not(:last-child){
+    margin-bottom: 10px;
+  }
+}
+
+.img{
+  padding-bottom: 30px;
+  margin: 0 auto;
+}

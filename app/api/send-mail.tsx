@@ -1,34 +1,31 @@
-// pages/api/send-mail.js
 import { NextApiRequest, NextApiResponse } from 'next';
 import nodemailer from 'nodemailer';
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
-  if (req.method === 'POST') {
-    const { name, tel } = req.body;
-    const to = 'loditka@gmail.com';
-    const subject = 'Новая заявка с сайта';
-    const message = `Имя: ${name}\nТелефон: ${tel}`;
+export default async (req: NextApiRequest, res: NextApiResponse) => {
+  const { name, tel } = req.body;
 
-    let transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: 'loditka@gmail.com',
-        pass: 'Bibiimorozhenko1988',
-      },
-    });
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD,
+    },
+  });
 
-    await transporter.sendMail({
-      from: '"Webmaster" <webmaster@example.com>',
-      to,
-      subject,
-      text: message,
-    });
+  const mailOption = {
+    from: `${process.env.EMAIL}`,
+    to: `${process.env.EMAIL}`,
+    subject: `New mail from ${name}`,
+    text: `${name} left their phone number: ${tel}`,
+  };
 
-    res.status(200).json({ status: 'success' });
-  } else {
-    res.status(405).json({ error: 'Method not allowed' });
-  }
-}
+  transporter.sendMail(mailOption, (err, data) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send('Error');
+    } else {
+      console.log('mail send');
+      res.status(200).send('Success');
+    }
+  });
+};
