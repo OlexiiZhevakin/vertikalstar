@@ -118,7 +118,7 @@ const Article = () => {
               <p className={styles.promo}>
                 Ми хочемо вас заохотити на якісніше будівництво та увагу до деталей.
               </p>
-              <p className={styles.promo}>
+              <p className={styles.discount}>
                 Тому отримайте 10% знижку, просто сказавши  промокод  нашому менеджеру.
               </p>
               <div className={styles.promocode}>
