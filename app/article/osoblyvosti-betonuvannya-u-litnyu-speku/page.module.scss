@@ -14,7 +14,6 @@
 
 .descr{
   font-size: 20px;
-  margin-bottom: 30px;
   p:not(:last-child){
     margin-bottom: 10px;
   }
@@ -27,4 +26,9 @@
 
 .link{
   color: $orange;
+}
+
+.promo{
+  font-weight: 700;
+  font-size: 26px;
 }

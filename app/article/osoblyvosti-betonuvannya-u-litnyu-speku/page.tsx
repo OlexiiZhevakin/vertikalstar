@@ -118,7 +118,10 @@ const Article = () => {
             <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-4.jpg' alt='' title='' width={1000} height={668} />
             <div className={styles.descr}>
               <p>
-                Ми хочемо вас заохотити на якісніше будівництво та увагу до деталей. Тому отримайте 10% знижку, просто сказавши  промокод "Я планую бетонувати у спеку" нашому менеджеру.
+                Ми хочемо вас заохотити на якісніше будівництво та увагу до деталей.
+              </p>
+              <p className={styles.promo}>
+                Тому отримайте 10% знижку, просто сказавши  промокод "Я планую бетонувати у спеку" нашому менеджеру.
               </p>
             </div>
           </div>

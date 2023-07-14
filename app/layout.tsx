@@ -1,9 +1,11 @@
+// 'use client'
 import Header from '@/components/header/Header'
 import './globals.scss'
 import { Inter, Roboto } from 'next/font/google'
 import Footer from '@/components/footer/Footer'
 import { Metadata } from 'next'
 import SocialMediaBlock from '@/components/social/SocialMediaBlock'
+// import { CookiesProvider } from 'react-cookie';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,15 +26,15 @@ export default function RootLayout({
   return (
     <html lang="uk-UA">
       <body className={inter.className}>
-        <Header/>
-          <SocialMediaBlock/>
-            <main>
-              {children}
-            </main>
 
-        <Footer/>
-        
-        </body>
+          <Header />
+          <SocialMediaBlock />
+          <main>
+            {children}
+          </main>
+          <Footer />
+
+      </body>
     </html>
   )
 }
