@@ -14,7 +14,7 @@ const Article = () => {
               Особливості бетонування у літню спеку
             </h1>
             <p className={styles.date}>Дата публікації: <time dateTime="2023-03-13">
-              13 березня 2023</time>
+              14 липня 2023</time>
             </p>
             <p className={styles.author}>Автор: Сергій Стародубов</p>
           </div>
