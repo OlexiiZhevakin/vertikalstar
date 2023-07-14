@@ -7,7 +7,6 @@ import RestavratsiyaTsehly from "./section/restavratsiya-tsehly/RestavratsiyaTse
 import GidroizolyatsiyaPremykaniy from "./section/gidroizolyatsiya-premykaniy/GidroizolyatsiyaPremykaniy"
 import Help from "@/components/help/Help"
 import Sova from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/sova/Sova"
-import Advantage from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/advantage/Advantage"
 import Timeline from "../hidroizolyatsiya/hidroizolyatsiya-metodom-inyektuvannya/section/timeline/Timeline"
 import KhimichnaOchystka from "./section/khimichna-ochystka/KhimichnaOchystka"
 import SkleyuvannyaTrishchyn from "./section/skleyuvannya-trishchyn/SkleyuvannyaTrishchyn"
@@ -16,6 +15,7 @@ import Hidrofikatsiya from "./section/konservatsiya-fasadu/KonservatsiyaFasadu"
 import Pisok from "./section/piskostrumynne-ochyshchennya/Pisok"
 import Descr from "./section/descr/Descr"
 import ZapovnennyaShviv from "./section/zapovnennya-shviv/ZapovnennyaShviv"
+import Advantage from "./section/advantage/Advantage"
 
 
 const Fasad = () => {
