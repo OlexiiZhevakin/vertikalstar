@@ -1,7 +1,7 @@
 "use client"
 import styles from './skleyuvannya-trishchyn.module.scss'
 import Image from 'next/image';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
@@ -17,10 +17,13 @@ const SkleyuvannyaTrishchyn = () => {
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper
-            modules={[Navigation]}
+            modules={[Navigation, Pagination]}
             navigation={{
               prevEl: `.${styles.btnPrev}`,
               nextEl: `.${styles.btnNext}`,
+            }}
+            pagination={{
+              clickable: true,
             }}
             slidesPerView={1}
             loop={true}

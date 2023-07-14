@@ -30,6 +30,10 @@
   width: 90%;
 }
 
+.text {
+  font-size: 20px;
+}
+
 .slide {
   display: flex !important;
   justify-content: center;
@@ -72,23 +76,18 @@
     padding: 30px 0;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
-  .btnPrev {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-
-  .btnNext {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
+.wrapper {
+  position: relative;
+  padding: 0;
 }
 
-.text{
-  font-size: 20px;
+.swiper {
+  width: 100%;
 }
+
+.btnPrev,
+.btnNext {
+  display: none;
+}
+}
+

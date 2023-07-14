@@ -71,17 +71,15 @@
   }
   .wrapper {
     position: relative;
+    padding: 0;
   }
 
-  .btnPrev {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  .swiper {
+    width: 100%;
   }
 
+  .btnPrev,
   .btnNext {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    display: none;
   }
 }

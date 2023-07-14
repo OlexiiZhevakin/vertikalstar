@@ -2,10 +2,11 @@
 
 import Image from 'next/image';
 import styles from './slider.module.scss'
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
+import 'swiper/scss/pagination';
 import fasadDataSlider from './data';
 
 const Slider = () => {
@@ -15,10 +16,13 @@ const Slider = () => {
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper
-            modules={[Navigation]}
+            modules={[Navigation, Pagination]}
             navigation={{
               prevEl: `.${styles.btnPrev}`,
               nextEl: `.${styles.btnNext}`,
+            }}
+            pagination={{
+              clickable: true,
             }}
             slidesPerView={1}
             loop={true}
@@ -30,7 +34,7 @@ const Slider = () => {
                   src={slide.img}
                   alt='Фасад до'
                   title='Фасад до'
-                  width={slide.width || 760}
+                  width={760}
                   height={570}/>
               </SwiperSlide>
             ))}

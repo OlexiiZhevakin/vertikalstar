@@ -17,10 +17,10 @@ const fasadDataSlider = [
   {
     img: "/img/technologies/page/fasad/slider/fasad-6.jpg",
   },
-  {
-    img: "/img/technologies/page/fasad/slider/fasad-7.jpg",
-    width: 428
-  },
+  // {
+  //   img: "/img/technologies/page/fasad/slider/fasad-7.jpg",
+  //   width: 428
+  // },
   {
     img: "/img/technologies/page/fasad/slider/fasad-8.jpg",
   },
