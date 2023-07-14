@@ -39,7 +39,7 @@ const Fasad = () => {
     <Sova/>
     <Advantage/>
     <Timeline/>
-    <Help/>
+    <Form/>
     </>
   )
 }

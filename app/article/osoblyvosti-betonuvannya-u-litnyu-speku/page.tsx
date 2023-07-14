@@ -2,6 +2,7 @@ import Form from '@/components/form/Form'
 import styles from './page.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
+import Help from '@/components/help/Help'
 
 const Article = () => {
   return (
@@ -123,7 +124,7 @@ const Article = () => {
           </div>
         </div>
       </article>
-      <Form/>
+      <Help/>
     </>
   )
 }
