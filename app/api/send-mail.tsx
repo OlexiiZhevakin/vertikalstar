@@ -5,16 +5,18 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   const { name, tel } = req.body;
 
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'mail.adm.tools',
+    port: 465,
+    secure: true,
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
+      user: 'test@vertikalstar.com',
+      pass: 'Qaztgb1488',
     },
   });
 
   const mailOption = {
-    from: `${process.env.EMAIL}`,
-    to: `${process.env.EMAIL}`,
+    from: `test@vertikalstar.com`,
+    to: `test@vertikalstar.com`,
     subject: `New mail from ${name}`,
     text: `${name} left their phone number: ${tel}`,
   };
