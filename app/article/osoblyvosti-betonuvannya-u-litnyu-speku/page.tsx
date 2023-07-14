@@ -79,7 +79,7 @@ const Article = () => {
             <Image className={styles.img} src='/img/blog/page/osoblyvosti-betonuvannya-u-litnyu-speku/osoblyvosti-betonuvannya-u-litnyu-speku-2.jpg' alt='' title='' width={640} height={480} />
             <div className={styles.block}>
                 <p>
-                  Що ми пропоноємо!
+                  Що ми пропонуємо!
                 </p>
                 <p>
                   Секрет успіху полягає в застосуванні ТЕХНОЛОГІЇ КОНСЕРВАЦІЇ ВОЛОГИ В СВІЖОУКЛАДЕНОМУ БЕТОНІ нанесенням на поверхню  спеціальної рідини з полімерного латексу.
