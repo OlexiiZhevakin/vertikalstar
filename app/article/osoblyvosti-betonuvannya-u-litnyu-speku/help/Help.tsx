@@ -5,6 +5,11 @@ const Help = () => {
   return (
     <div className={styles.container}>
       <div className="container">
+        <div className={styles.descr}>
+          <p>
+            Щоб замовити натискайте кнопку нижче ЗАТЕЛЕФОНУЙТЕ НАМ.
+          </p>
+        </div>
         <div className={styles.inner}>
           <div>
             <h2 className={styles.title}>
