@@ -32,14 +32,14 @@ const Pisok = () => {
             {piskostrumynneOchyshchennyaData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 {slide.video ? (
-                  <video src={slide.video} width={760} height={570} autoPlay muted></video>
+                  <video className={styles.video} src={slide.video} width={760} height={570} autoPlay muted playsInline ></video>
                 ) : (
-                    <Image
-                      src={slide.img || ''}
-                      alt='Піскоструминне очищення'
-                      title='Піскоструминне очищення'
-                      width={760}
-                      height={570} />
+                  <Image
+                    src={slide.img || ''}
+                    alt='Піскоструминне очищення'
+                    title='Піскоструминне очищення'
+                    width={760}
+                    height={570} />
                 )}
               </SwiperSlide>
             ))}
