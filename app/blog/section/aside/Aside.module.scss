@@ -140,3 +140,9 @@
   font-size: 20px;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  .aside{
+    display: none;
+  }
+}
