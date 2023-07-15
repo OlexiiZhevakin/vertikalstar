@@ -16,30 +16,32 @@ import Pisok from "./section/piskostrumynne-ochyshchennya/Pisok"
 import Descr from "./section/descr/Descr"
 import ZapovnennyaShviv from "./section/zapovnennya-shviv/ZapovnennyaShviv"
 import Advantage from "./section/advantage/Advantage"
+import Object from "./section/object/Object"
 
 
 const Fasad = () => {
-  
-  return(
+
+  return (
     <>
-    <Head/>
-    <Picture/>
-    <Slider/>
-    <What/>
-    <KhimichnaOchystka/>
-    <Pisok/>
-    <RestavratsiyaTsehly/>
-    <ZapovnennyaShviv/>
-    <SkleyuvannyaTrishchyn/>
-    <GidroizolyatsiyaPremykaniy/>
-    <Hidrofikatsiya/>
-    <Descr/>
-    <AfterBefore />
-    <Help/>
-    <Sova/>
-    <Advantage/>
-    <Timeline/>
-    <Form/>
+      <Head />
+      <Picture />
+      <Slider />
+      <What />
+      <Descr />
+      <AfterBefore />
+      <Help />
+      <Sova />
+      <Advantage />
+      <Object/>
+      <KhimichnaOchystka />
+      <Pisok />
+      <RestavratsiyaTsehly />
+      <ZapovnennyaShviv />
+      <SkleyuvannyaTrishchyn />
+      <GidroizolyatsiyaPremykaniy />
+      <Hidrofikatsiya />
+      <Timeline />
+      <Form />
     </>
   )
 }
