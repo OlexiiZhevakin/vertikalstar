@@ -6,13 +6,13 @@ const piskostrumynneOchyshchennyaData = [
     img: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-2.jpg"
   },
   {
-    video: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-3.mp4"
+    img: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-3.jpg"
   },
   {
-    video: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-4.mp4"
+    img: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-4.jpg"
   },
   {
-    img: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-5.jpg"
+    video: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-5.mp4"
   },
   {
     img: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-6.jpg"
@@ -21,7 +21,7 @@ const piskostrumynneOchyshchennyaData = [
     img: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-7.jpg"
   },
   {
-    img: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-8.jpg"
+    video: "/img/technologies/page/fasad/piskostrumynne-ochyshchennya/piskostrumynne-ochyshchennya-8.mp4"
   },
 ]
 
