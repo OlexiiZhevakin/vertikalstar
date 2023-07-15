@@ -11,10 +11,6 @@ const gidroizolyatsiyaPremykaniyData = [
   {
     img: "/img/technologies/page/fasad/gidroizolyatsiya-premykaniy/gidroizolyatsiya-premykaniy-4.jpg"
   },
-  {
-    img: "/img/technologies/page/fasad/gidroizolyatsiya-premykaniy/gidroizolyatsiya-premykaniy-5.jpg",
-    width: 450
-  },
 ]
 
 export default gidroizolyatsiyaPremykaniyData

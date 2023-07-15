@@ -1,10 +1,11 @@
 @import '@/style/variables.module.scss';
 
-.formBlock{
+.formBlock {
   background: url(/img/form-bg.webp) top/cover no-repeat;
   position: relative;
   padding: 0;
-  &::before{
+
+  &::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -15,32 +16,35 @@
   }
 }
 
-.inner{
+.inner {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 800px;
 }
 
-.info{
+.info {
   max-width: 850px;
   z-index: 2;
-  div{
+
+  div {
     font-size: 42px;
     color: $white;
-    span{
+
+    span {
       text-transform: uppercase;
     }
   }
 
-  ul{
+  ul {
     padding-left: 30px;
   }
 
-  li{
+  li {
     font-size: 20px;
     color: $white;
     position: relative;
+
     &::after {
       content: '';
       position: absolute;
@@ -52,10 +56,12 @@
       transform: translateY(-50%);
       background-color: $orange;
     }
+
     &:not(:last-child) {
       margin-bottom: 12px;
     }
-    span{
+
+    span {
       text-transform: uppercase;
     }
   }
@@ -77,9 +83,15 @@
 }
 
 @media only screen and (max-width: 480px) {
+
   /* Добавьте свои стили для мобильных устройств */
-  .info{
-    div{
+  .formBlock {
+    padding: 20px 0;
+  }
+
+  .info {
+    padding-bottom: 20px;
+    div {
       font-size: 30px;
     }
   }

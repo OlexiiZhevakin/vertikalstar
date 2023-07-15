@@ -1,3 +1,10 @@
 .container{
   padding-top: 30px;
 }
+
+@media (max-width: 420px) {
+  .title{
+    font-size: 26px;
+    margin-bottom: 0px;
+  }
+}

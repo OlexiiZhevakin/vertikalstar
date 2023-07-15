@@ -3,7 +3,7 @@ import styles from './afterbefore.module.scss'
 
 const AfterBefore = () => {
   return (
-    <section>
+    <section className={styles.container}>
       <div className="container">
         <h2 className={styles.title}>Було-стало</h2>
         <div className={styles.inner}>

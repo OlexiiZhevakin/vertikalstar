@@ -34,7 +34,7 @@ const GidroizolyatsiyaPremykaniy = () => {
                     src={slide.img}
                     alt='Ремонт входів'
                     title='Ремонт входів'
-                    width={slide.width || 820}
+                    width={820}
                     height={600}
                   />
               </SwiperSlide>

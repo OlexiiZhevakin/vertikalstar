@@ -12,7 +12,7 @@ import 'swiper/scss/pagination';
 
 const ZapovnennyaShviv = () => {
   return (
-    <section>
+    <section className={styles.container}>
       <div className="container">
         <h2 className={styles.title}>Заповнення швів</h2>
         <div className={styles.wrapper}>
