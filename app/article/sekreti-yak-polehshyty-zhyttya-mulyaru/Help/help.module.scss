@@ -1,0 +1,80 @@
+@import "@/style/variables.module.scss";
+
+.container {
+  // padding: 60px 0;
+  padding-bottom: 30px;
+}
+
+.inner {
+  background-color: $orange;
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+}
+
+.title {
+  color: $white;
+}
+
+.text {
+  font-size: 22px;
+}
+
+.btn {
+  padding: 16px 48px;
+  border-radius: 50px;
+  border: 1px solid $white;
+  transition: all .3s;
+  color: $white;
+  background-color: $orange;
+  white-space: nowrap !important;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $white;
+    color: $orange;
+  }
+}
+
+.descr{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    padding-bottom: 30px;
+  }
+
+  .inner {
+    flex-direction: column;
+    padding: 14px 0;
+  }
+
+  .text {
+    margin-bottom: 10px;
+  }
+}

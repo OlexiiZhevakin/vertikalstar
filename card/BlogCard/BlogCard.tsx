@@ -14,7 +14,7 @@ const BlogCard = ({ image, title}: Props) => {
           <source type="image/webp" srcSet={imageWebp} title={title}/>
           <img src={image} width="400" height="250" loading="lazy" alt={title} title={title} />
         </picture> */}
-        <Image src={image} title={title} alt={title} width={400} height={250}/>
+        <Image className={styles.img} src={image} title={title} alt={title} width={400} height={250}/>
         <div>
           <h2>{title}</h2>
         </div>

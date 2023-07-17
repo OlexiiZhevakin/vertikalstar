@@ -14,6 +14,11 @@ const blogData = [
     link: '/article/osoblyvosti-betonuvannya-u-litnyu-speku',
     title: 'Особливості бетонування у літню спеку'
   },
+  {
+    image: '/img/blog/hidroizolyatsiya-i-vydy-ozdoblennya-baseynu.jpg',
+    link: '/article/hidroizolyatsiya-i-vydy-ozdoblennya-baseynu',
+    title: 'Гідроізоляція та види оздоблення басейну'
+  },
 ]
 
 export default blogData

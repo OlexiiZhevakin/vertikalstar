@@ -1,4 +1,78 @@
-.img {
+@import '@/style/variables.module.scss';
+
+.img,
+.block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.title {
+  font-size: 54px;
+  color: $title;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+
+.date,
+.author {
+  font-size: 14px;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.blog{
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+.list{
+  margin-bottom: 30px;
+  margin-left: 30px;
+  list-style: disc;
+  li{
+    font-size: 20px;
+  }
+  li:not(:last-child){
+    padding-bottom: 20px;
+  }
+}
+
+.img{
+  padding-bottom: 30px;
+}
+
+.image{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.products{
+  li{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  p:first-child{
+    padding-top: 30px;
+  }
+}
+
+.block{
+  padding-bottom: 30px;
+  h2{
+    width: 50%;
+    text-align: left;
+  }
 }
