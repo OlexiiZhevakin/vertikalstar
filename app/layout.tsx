@@ -76,6 +76,15 @@ export default function RootLayout({
             gtag ('config', 'G-NSG4YJR32Z');
           `}
         </Script>
+        <Script>
+          {`
+            (function(d, w, s) {
+              var widgetHash = 'aqbyivrqrfdf16euu58a', ctw = d.createElement(s); ctw.type = 'text/javascript'; ctw.async = true;
+              ctw.src = '//widgets.binotel.com/calltracking/widgets/'+ widgetHash +'.js';
+              var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(ctw, sn);
+            })(document, window, 'script');
+          `}
+        </Script>
         <Header />
         <SocialMediaBlock />
         <main>

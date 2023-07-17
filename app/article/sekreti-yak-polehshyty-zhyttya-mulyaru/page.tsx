@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import Help from './Help/Help';
 import styles from './page.module.scss';
 
@@ -116,10 +117,10 @@ const Article = () => {
             </p>
 
             <p className={styles.text}>
-              Ми достатньо давно поставляємо цей матеріал та постійно його використовуємо, тому з повною відповідальністю хочемо заохотити вас до використання його у своїй роботі. Матеріал поставляється у фасовках:
+              Ми достатньо давно поставляємо цей матеріал та постійно його використовуємо, тому з повною відповідальністю хочемо заохотити вас до використання його у своїй роботі.
             </p>
-
-
+            <p className={styles.domolit}>Матеріал поставляється у таких фасовках: 5, 10, 20 кг</p>
+            <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/domolit.png' alt='Domolit' title='Domolit' width={300} height={300}/>
           </div>
         </section>
       </article>

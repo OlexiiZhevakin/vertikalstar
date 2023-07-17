@@ -144,8 +144,6 @@ const Info = () => {
             <span>Телефони:</span>
             <ul className={styles.list}>
               <li><a href="tel:+380675713308">067 571 33 08</a></li>
-              <li><a href="tel:+380937617980">093 761 79 80</a></li>
-              <li><a href="tel:+380673657048">067 365 70 48</a></li>
             </ul>
           </div>
 
