@@ -2,15 +2,18 @@
 
 .head{
   padding-top: 144px;
-  h1{
-    font-size: 54px;
-    color: $title;
-    margin-bottom: 30px;
-    text-transform: none;
-  }
-  p{
-    font-size: 20px;
-  }
+}
+
+.title{
+  font-size: 54px;
+  color: $title;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+
+.date,
+.author {
+  font-size: 14px;
 }
 
 .blog{
@@ -20,12 +23,6 @@
   p{
     font-size: 20px;
     margin-bottom: 30px;
-  }
-  ol{
-    margin-left: 30px;
-  }
-  li{
-      font-size: 22px;
   }
   figure{
     margin-bottom: 30px;
@@ -40,5 +37,15 @@
   }
   img{
     margin: 0 auto;
+  }
+}
+
+.list{
+  li{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  p{
+    font-weight: 300;
   }
 }
