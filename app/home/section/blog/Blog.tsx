@@ -15,7 +15,6 @@ const Blog = () => {
                 <BlogHomeCard
                   link={card.link}
                   image={card.image}
-                  imageWebp={card.imageWebp}
                   title={card.title}
                   date={card.date}
                 />
