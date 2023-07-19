@@ -88,7 +88,7 @@ export default function RootLayout({
         <Script>
           {`
             (function(d, w, s) {
-              var widgetHash = 'BH3A4rHyNlvH', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
+              var widgetHash = '4i91umjrde8gs703i7wh', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
               gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
               var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
             })(document, window, 'script');
