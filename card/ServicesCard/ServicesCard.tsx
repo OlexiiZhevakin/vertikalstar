@@ -59,7 +59,7 @@ const ServicesCard = ({ title, image, description, link, video }: Props) => {
       )}
       <div className={styles.content}>
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p className={styles.descr}>{description}</p>
         <Link href={link} className='btn'>Детальніше</Link>
       </div>
     </article>

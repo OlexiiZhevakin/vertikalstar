@@ -32,7 +32,6 @@
     font-size: 18px;
     color: #fff;
     margin-bottom: 30px;
-    // margin-top: 0;
     flex-grow: 1;
   }
 }
@@ -44,6 +43,10 @@
   height: 240px;
   padding: 20px;
   background-color: $gray;
+}
+
+.descr{
+  white-space: pre-line;
 }
 
 
