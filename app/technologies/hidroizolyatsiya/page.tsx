@@ -8,8 +8,8 @@ const Hidroizolyatsiya = () => {
     <>
       <section className={styles.head}>
       <div className="container">
-        <h1>Гідроізоляція</h1>
-        <h2>Гідроізоляція - важливий крок у будівництві чи ремонті</h2>
+        <h1 className={styles.title}>Гідроізоляція</h1>
+        <h2 className={styles.subtitle}>Гідроізоляція - важливий крок у будівництві чи ремонті</h2>
         <ul className={styles.list}>
           {hidroizolyatsiyaData.map((card, index) => {
             return(
@@ -27,21 +27,21 @@ const Hidroizolyatsiya = () => {
       </div>
     </section>
 
-    <section>
+    <section className={styles.container}>
       <div className="container">
-        <h2>Основні ідеї</h2>
+        <h2 className={styles.subtitle}>Основні ідеї</h2>
         <div className={styles.items}>
 
           <div>
             <i className="fa-regular fa-circle-check"></i>
-            <p>
+            <p className={styles.text}>
               Гідроізоляція це не зариті гроші, це відсутність неприємних проблем у майбутньому.
             </p>
           </div>
 
           <div>
             <i className="fa-regular fa-circle-check"></i>
-            <p>
+            <p className={styles.text}>
               50% успіху у виконання гідроізоляційних робіт полягає у якісній підготовці поверхні.
             </p>
           </div>

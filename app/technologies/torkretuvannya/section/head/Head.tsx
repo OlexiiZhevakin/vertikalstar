@@ -6,7 +6,7 @@ const Head = () => {
       <div className="container">
         <div className={styles.inner}>
           <h1 className={styles.title}>
-            Торкретування
+            Торкретування - нанесення під тиском бетонної суміші на поверхню
           </h1>
         </div>
       </div>
