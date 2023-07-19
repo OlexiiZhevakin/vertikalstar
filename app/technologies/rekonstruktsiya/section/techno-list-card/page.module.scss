@@ -6,3 +6,9 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+@media (max-width: 992px) {
+  .list{
+    justify-content: center;
+  }
+}

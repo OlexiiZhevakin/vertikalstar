@@ -3,9 +3,9 @@ import styles from './page.module.scss'
 
 const Info = () => {
   return(
-    <section>
+    <section className={styles.container}>
       <div className="container">
-        <h2>Піскоструменева очистка</h2>
+        <h2 className={styles.title}>Піскоструменева очистка</h2>
         <div className={styles.inner}>
           <p>
             Технологія піскоструменевого очищення є необхідною підготовкою перед нанесенням наступних ремонтних та захисних шарів.

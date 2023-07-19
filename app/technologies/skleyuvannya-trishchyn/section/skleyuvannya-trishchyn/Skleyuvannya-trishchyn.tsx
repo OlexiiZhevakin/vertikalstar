@@ -3,15 +3,15 @@ import styles from './page.module.scss'
 
 const SkleyuvannyTtrishchyn = () => {
   return(
-    <section>
+    <section className={styles.container}>
       <div className="container">
-        <h2>Склеювання тріщин</h2>
+        <h2 className={styles.title}>Склеювання тріщин</h2>
         <div className={styles.inner}>
           <div className={styles.img}>
             <Image src='/img/technologies/page/torkretuvannya/skleyuvannya-trishchyn-1.jpg' alt='Склеювання тріщин' title='Склеювання тріщин' width={580} height={400}/>
             <Image src='/img/technologies/page/torkretuvannya/skleyuvannya-trishchyn-2.jpg' alt='Склеювання тріщин' title='Склеювання тріщин' width={580} height={400}/>
           </div>
-          <p>
+          <p className={styles.descr}>
             За рахунок нагнітання в тріщину складів, що склеюють під тиском, матеріал проникає у всі дрібні тріщинки, пори і капіляри. Таким чином, ми склеюємо не тільки саму тріщину, а й ореол стіни навколо неї. Доповненням до цієї технології служить система вклеєних спіральних анкерів, які ніби "зшивають" стіну в її товщині.
           </p>
         </div>

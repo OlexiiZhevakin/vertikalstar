@@ -21,3 +21,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 992px) {
+  .img {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

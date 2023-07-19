@@ -1,7 +1,7 @@
 @import '@/style/variables.module.scss';
 
 .head{
-   min-height: 600px;
+  min-height: 600px;
   background: url(/img/contacts/contacts-bg.webp) center/cover no-repeat;
   display: flex;
   justify-content: flex-end;
@@ -22,15 +22,32 @@
     z-index: 2;
   }
 
-  h1{
-    text-align: center;
-    z-index: 2;
-  }
+}
 
-  p{
-    font-size: 26px;
-    color: $white;
-    text-align: center;
-    padding-bottom: 30px;
+.title{
+  text-align: center;
+  z-index: 2;
+}
+
+.descr{
+  font-size: 26px;
+  color: $white;
+  text-align: center;
+}
+
+@media (max-width: 768px){
+  .title{
+    font-size: 42px;
+  }
+  .descr{
+    font-size: 16px;
+  }
+}
+@media (max-width: 420px){
+  .head{
+    min-height: 0;
+  }
+  .title{
+    font-size: 32px;
   }
 }

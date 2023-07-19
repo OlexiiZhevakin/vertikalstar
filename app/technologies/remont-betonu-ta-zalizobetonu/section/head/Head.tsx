@@ -5,7 +5,7 @@ const Head = () => {
     <section className={styles.head}>
       <div className="container">
         <div className={styles.inner}>
-          <h1>
+          <h1 className={styles.title}>
             Ремонт бетону та залізобетону
           </h1>
         </div>

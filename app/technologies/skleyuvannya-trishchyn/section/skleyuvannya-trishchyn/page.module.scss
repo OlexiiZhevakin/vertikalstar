@@ -6,3 +6,29 @@
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
+
+.descr{
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  .img {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 420px){
+  .container{
+    padding: 30px 0;
+  }
+  .title{
+    font-size: 32px;
+  }
+}
