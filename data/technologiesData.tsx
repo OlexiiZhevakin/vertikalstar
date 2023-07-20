@@ -8,7 +8,7 @@ const TechnologiesData = [{
     image: '/img/technologies/mikrotsement-ta-dekoratyvne-ozdoblennya.jpg',
     imageWebp: '/img/technologies/mikrotsement-ta-dekoratyvne-ozdoblennya.webp',
     title: 'Мікроцемент та декоративне оздоблення',
-    link: '#',
+    link: '/technologies/mikrotsement-ta-dekoratyvne-ozdoblennya',
   },
   {
     image: '/img/technologies/uteplennya-ta-modernizatsiya.jpg',
