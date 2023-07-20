@@ -1,21 +1,23 @@
 'use client'
 
+import styles from './inshi.module.scss'
+
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import styles from './slider1.module.scss'
 
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import Image from 'next/image';
-import slider1Data from './data';
+import inshiData from './data';
 
-const Slider1 = () => {
+
+const Inshi = () => {
   return (
-    <div className={styles.realtime}>
+    <div className={styles.container}>
       <div className="container">
-        <p>
-          Розчинна стяжка з розухилкою вже залита, по ній належить нанести поліріутанове покриття з флоками та запечатування лаком.
+        <p className={styles.descr}>
+          Інші фасади виглядають так:
         </p>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
@@ -32,7 +34,7 @@ const Slider1 = () => {
             loop={true}
             className={styles.swiper}
           >
-            {slider1Data.map((slide, index) => (
+            {inshiData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 <Image
                   src={slide.img}
@@ -51,4 +53,4 @@ const Slider1 = () => {
   )
 }
 
-export default Slider1
+export default Inshi

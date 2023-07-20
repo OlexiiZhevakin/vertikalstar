@@ -20,7 +20,7 @@ const Article = () => {
         <section className={styles.blog}>
           <div className="container">
             <h2 className={styles.title}>
-              Як муляру - професіоналу працювати краще і заробляти більше ?
+              Як покращити розчин для цегляної кладки ?
             </h2>
             <p className={styles.text}>
               Свій шлях у будівництві я почав ще хлопчиськом з позиції "підсобник муляра".  Тому чудово знаю всі радощі та труднощі цього чудового процесу народження нових цегляних стін.
@@ -103,10 +103,7 @@ const Article = () => {
               </li>
             </ul>
             <figure>
-              <picture>
-                <source type="image/webp" srcSet="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/dobavka-domolit.webp" title="Домоліт" />
-                <img src="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/dobavka-domolit.jpg" width="496" height="620" loading="lazy" alt="Домоліт" title="Домоліт" />
-              </picture>
+              <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/dobavka-domolit.jpg' alt='Домоліт' title='Домоліт' width={496} height={620}/>
               <figcaption>
                 Одним з таких рішень є використання добавки - пластифікатора під назвою <span>"Домоліт"</span>
               </figcaption>

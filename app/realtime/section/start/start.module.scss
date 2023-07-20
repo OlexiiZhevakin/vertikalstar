@@ -1,12 +1,12 @@
 @import '@/style/variables.module.scss';
 
-.realtime {
+.container{
+  padding: 30px 0;
+}
 
-  p {
-    font-size: 30px;
-    font-weight: 700;
-  }
-
+.descr{
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .wrapper {
@@ -46,29 +46,5 @@
   &:hover {
     background-color: $orange;
     color: $title;
-  }
-}
-
-@media (max-width: 768px) {
-  .wrapper {
-    position: relative;
-    padding: 30px 0;
-  }
-
-  .swiper {
-    width: 100%;
-  }
-
-  .btnPrev,
-  .btnNext {
-    display: none;
-  }
-}
-
-@media (max-width: 420px) {
-  .realtime{
-    p{
-      font-size: 20px;
-    }
   }
 }
