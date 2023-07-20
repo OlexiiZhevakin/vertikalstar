@@ -2,7 +2,7 @@ const blogData = [
   {
     image: '/img/blog/5-sekretiv-yak-polehshyty-zhyttya-mulyaru.jpg',
     link: '/article/sekreti-yak-polehshyty-zhyttya-mulyaru',
-    title: 'Як покращити розчин для цегляної кладки ?'
+    title: 'Як покращити розчин для цегляної кладки?'
   },
   {
     image: '/img/blog/remmers-tsikavi-fakty-o-kompaniyi.jpg',

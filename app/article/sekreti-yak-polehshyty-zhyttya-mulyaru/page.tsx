@@ -9,7 +9,7 @@ const Article = () => {
       <article>
         <section className={styles.head}>
           <div className="container">
-            <h1 className={styles.title}>5 секретів, як полегшити життя муляру</h1>
+            <h1 className={styles.title}>Як покращити розчин для цегляної кладки?</h1>
             <p className={styles.date}>Дата публікації: <time dateTime="2023-03-13">
               13 березня 2023</time>
             </p>
@@ -20,7 +20,7 @@ const Article = () => {
         <section className={styles.blog}>
           <div className="container">
             <h2 className={styles.title}>
-              Як покращити розчин для цегляної кладки ?
+              Як муляру - професіоналу працювати краще і заробляти більше ?
             </h2>
             <p className={styles.text}>
               Свій шлях у будівництві я почав ще хлопчиськом з позиції "підсобник муляра".  Тому чудово знаю всі радощі та труднощі цього чудового процесу народження нових цегляних стін.
@@ -103,7 +103,10 @@ const Article = () => {
               </li>
             </ul>
             <figure>
-              <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/dobavka-domolit.jpg' alt='Домоліт' title='Домоліт' width={496} height={620}/>
+              <picture>
+                <source type="image/webp" srcSet="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/dobavka-domolit.webp" title="Домоліт" />
+                <img src="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/dobavka-domolit.jpg" width="496" height="620" loading="lazy" alt="Домоліт" title="Домоліт" />
+              </picture>
               <figcaption>
                 Одним з таких рішень є використання добавки - пластифікатора під назвою <span>"Домоліт"</span>
               </figcaption>
