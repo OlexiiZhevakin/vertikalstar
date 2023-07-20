@@ -12,6 +12,16 @@
   font-size: 14px;
 }
 
+.articleinfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.articleimg {
+  border-radius: 50%;
+}
+
 .descr{
   font-size: 20px;
   margin-bottom: 30px;

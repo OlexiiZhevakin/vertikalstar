@@ -1,1 +1,11 @@
 @import '@/style/variables.module.scss';
+
+.articleinfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.articleimg {
+  border-radius: 50%;
+}

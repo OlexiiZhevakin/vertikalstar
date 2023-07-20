@@ -1,18 +1,21 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
 
-import React from 'react'
-
 const Article = () => {
   return (
     <article>
       <section className={styles.head}>
         <div className="container">
           <h1 className={styles.title}>Гідроізоляція та види оздоблення басейну</h1>
-          <p className={styles.date}>Дата публікації: <time dateTime="2023-07-17">
-            17 липня 2023</time>
-          </p>
-          <p className={styles.author}>Автор: Сергій Стародубов</p>
+          <div className={styles.articleinfo}>
+            <div>
+              <p className={styles.date}>Дата публікації: <time dateTime="2023-07-17">
+                17 липня 2023</time>
+              </p>
+              <p className={styles.author}>Автор: Сергій Стародубов</p>
+            </div>
+            <Image className={styles.articleimg} src='/img/blog/author.jpg' alt='' title='' width={100} height={100} />
+          </div>
         </div>
       </section>
 

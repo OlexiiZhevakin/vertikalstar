@@ -13,10 +13,15 @@ const Article = () => {
             <h1 className={styles.title}>
               Особливості бетонування у літню спеку
             </h1>
-            <p className={styles.date}>Дата публікації: <time dateTime="2023-03-13">
-              14 липня 2023</time>
-            </p>
-            <p className={styles.author}>Автор: Сергій Стародубов</p>
+            <div className={styles.articleinfo}>
+              <div>
+                <p className={styles.date}>Дата публікації: <time dateTime="2023-03-13">
+                  14 липня 2023</time>
+                </p>
+                <p className={styles.author}>Автор: Сергій Стародубов</p>
+              </div>
+              <Image className={styles.articleimg} src='/img/blog/author.jpg' alt='' title='' width={100} height={100} />
+            </div>
           </div>
         </section>
 

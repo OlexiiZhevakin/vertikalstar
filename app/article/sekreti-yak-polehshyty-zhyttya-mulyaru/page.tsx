@@ -10,16 +10,21 @@ const Article = () => {
         <section className={styles.head}>
           <div className="container">
             <h1 className={styles.title}>Як покращити розчин для цегляної кладки?</h1>
-            <p className={styles.date}>Дата публікації: <time dateTime="2023-07-20">
-              20 липня 2023</time>
-            </p>
-            <p className={styles.author}>Автор: Сергій Стародубов</p>
+            <div className={styles.articleinfo}>
+              <div>
+                <p className={styles.date}>Дата публікації: <time dateTime="2023-07-20">
+                  20 липня 2023</time>
+                </p>
+                <p className={styles.author}>Автор: Сергій Стародубов</p>
+              </div>
+              <Image className={styles.articleimg} src='/img/blog/author.jpg' alt='' title='' width={100} height={100}/>
+            </div>
           </div>
         </section>
 
         <section className={styles.blog}>
           <div className="container">
-            <h2 className={styles.title}>
+            <h2 className={styles.subtitle}>
               Як муляру - професіоналу працювати краще і заробляти більше ?
             </h2>
             <p className={styles.text}>
@@ -119,8 +124,36 @@ const Article = () => {
             <p className={styles.text}>
               Ми достатньо давно поставляємо цей матеріал та постійно його використовуємо, тому з повною відповідальністю хочемо заохотити вас до використання його у своїй роботі.
             </p>
-            <p className={styles.domolit}>Матеріал поставляється у таких фасовках: 5, 10, 20 кг</p>
-            <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/domolit.png' alt='Domolit' title='Domolit' width={300} height={300}/>
+            
+            <div className={styles.domolit}>
+              <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/domolit.png' alt='Domolit' title='Domolit' width={300} height={300} />
+              <div className={styles.content}>
+                <ul>
+                  <li>
+                    50 г DOMOLIT на 25 кг цементу.
+                  </li>
+                  <li>
+                    Не містить хлоридів та інших
+                    корозійних речовин.
+                  </li>
+                  <li>
+                    Сертифікований з наявністю маркування CE
+                    як повітрозалучальна добавка –
+                    пластифікатор для розчинів кладок
+                    відповідно до вимог стандарту EN 934-3:T2,
+                    Сертифікат No.: 0906-CPR-02412007/02.
+                  </li>
+                  <li>
+                    DOMOLIT поставляється у пластикових
+                    контейнерах по 1 кг, 5 кг та 20 кг, а також у
+                    бочках по 220 кг.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={styles.download}>
+              <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати технічну карту</a>
+            </div>
           </div>
         </section>
       </article>

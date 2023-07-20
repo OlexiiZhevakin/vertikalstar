@@ -20,6 +20,16 @@
   font-size: 14px;
 }
 
+.articleinfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.articleimg {
+  border-radius: 50%;
+}
+
 .subtitle {
   font-size: 28px;
   font-weight: 700;
