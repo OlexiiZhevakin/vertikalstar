@@ -1,27 +1,27 @@
 const inshiData = [
   {
-    img: "/img/real/5.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-1.jpg",
   },
   {
-    img: "/img/real/6.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-2.jpg",
   },
   {
-    img: "/img/real/7.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-3.jpg",
   },
   {
-    img: "/img/real/8.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-4.jpg",
   },
   {
-    img: "/img/real/9.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-5.jpg",
   },
   {
-    img: "/img/real/10.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-6.jpg",
   },
   {
-    img: "/img/real/11.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-7.jpg",
   },
   {
-    img: "/img/real/12.jpg",
+    img: "/img/real/rekonstruktsiya-dvokhpoverkhovoho-budynku/inshi/rekonstruktsiya-dvokhpoverkhovoho-budynku-8.jpg",
   }
 ]
 
