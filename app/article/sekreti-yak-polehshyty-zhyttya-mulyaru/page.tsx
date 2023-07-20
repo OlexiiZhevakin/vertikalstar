@@ -10,8 +10,8 @@ const Article = () => {
         <section className={styles.head}>
           <div className="container">
             <h1 className={styles.title}>Як покращити розчин для цегляної кладки?</h1>
-            <p className={styles.date}>Дата публікації: <time dateTime="2023-03-13">
-              13 березня 2023</time>
+            <p className={styles.date}>Дата публікації: <time dateTime="2023-07-20">
+              20 липня 2023</time>
             </p>
             <p className={styles.author}>Автор: Сергій Стародубов</p>
           </div>
