@@ -85,6 +85,11 @@
   margin: 0 auto;
   li{
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    span{
+      font-weight: 700;
+    }
   }
   li:not(:last-child){
     padding-bottom: 10px;
