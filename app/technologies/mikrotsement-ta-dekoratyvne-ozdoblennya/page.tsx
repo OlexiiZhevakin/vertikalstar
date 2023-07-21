@@ -5,7 +5,7 @@ import Materialy from './section/materialy/Materialy'
 import Pryklady from './section/pryklady/Pryklady'
 import Technologiya from './section/technologiya/Technologiya'
 
-const Page = () => {
+const Microcement = () => {
   return (
     <>
       <Head/>
@@ -17,4 +17,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Microcement
