@@ -1,1 +1,11 @@
 @import '@/style/variables.module.scss';
+
+
+@media (max-width: 420px) {
+  .container{
+    padding: 30px 0;
+  }
+  .title{
+    font-size: 26px;
+  }
+}

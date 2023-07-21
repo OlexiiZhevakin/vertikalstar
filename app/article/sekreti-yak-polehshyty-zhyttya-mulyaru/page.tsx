@@ -96,7 +96,10 @@ const Article = () => {
               Будівельна наука вигадала вже спеціальні добавки саме для будівельних розчинів, які виключають усі побічні дії та значно покращують якість будівельних розчинів.
             </p>
             <p className={styles.text}>
-              З однієї із таких добавок хочу познайомити Вас у цій статті.  Це "Домоліт", виробництва заводу ISOMAT(Греція).
+              З однієї із таких добавок хочу познайомити Вас у цій статті.
+            </p>
+            <p className={styles.text}>
+              <strong>Це <span>"Домоліт"</span>, виробництва заводу ISOMAT(Греція).</strong>
             </p>
             <p className={styles.text}>
               Ця рідка мікроповітряна добавка, яка залучає повітря до розчину і значно покращує його властивості.
@@ -138,13 +141,13 @@ const Article = () => {
                 </p>
               </li>
               <li>
-                Мiцнiсть
+                Мiцнiсть:
                 <p>
                   Підвищує міцність цегляний кладки.
                 </p>
               </li>
               <li>
-                Безпека
+                Безпека:
                 <p>
                   Не містить хлоридів та інших
                   корозійних речовин.
@@ -169,7 +172,7 @@ const Article = () => {
             <div className={styles.domolit}>
               <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/domolit.png' alt='Domolit' title='Domolit' width={300} height={300} />
               <div className={styles.content}>
-                <ul>
+                <ul className={styles.domolitlist}>
                   <li>
                     <span>Витрати:</span>
                     50 г DOMOLIT на 25 кг цементу.

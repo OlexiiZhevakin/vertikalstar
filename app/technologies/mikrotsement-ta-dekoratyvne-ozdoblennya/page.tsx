@@ -1,7 +1,9 @@
 
-import Head from './section/Head/Head'
+import Head from './section/head/Head'
+import Help from './section/help/Help'
 import Materialy from './section/materialy/Materialy'
 import Pryklady from './section/pryklady/Pryklady'
+import Technologiya from './section/technologiya/Technologiya'
 
 const Page = () => {
   return (
@@ -9,6 +11,8 @@ const Page = () => {
       <Head/>
       <Pryklady/>
       <Materialy/>
+      <Technologiya/>
+      <Help/>
     </>
   )
 }

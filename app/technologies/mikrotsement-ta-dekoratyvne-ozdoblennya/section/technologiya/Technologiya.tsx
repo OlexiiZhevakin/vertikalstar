@@ -1,22 +1,18 @@
 'use client'
-
+import styles from './technologiya.module.scss'
+import Image from 'next/image';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import styles from './slider1.module.scss'
-
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
-import Image from 'next/image';
-import slider1Data from './data';
+import technologiyaData from './data';
 
-const Slider1 = () => {
+const Technologiya = () => {
   return (
-    <div className={styles.realtime}>
+    <section className={styles.container}>
       <div className="container">
-        <p>
-          Розчинна стяжка з розухилкою вже залита, по ній належить нанести поліріутанове покриття з флоками та запечатування лаком.
-        </p>
+        <h2 className={styles.title}>Технологія нанесення</h2>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper
@@ -25,30 +21,30 @@ const Slider1 = () => {
               prevEl: `.${styles.btnPrev}`,
               nextEl: `.${styles.btnNext}`,
             }}
-            // pagination={{
-            //   clickable: true,
-            // }}
+            pagination={{
+              clickable: true,
+            }}
             slidesPerView={1}
             loop={true}
             className={styles.swiper}
           >
-            {slider1Data.map((slide, index) => (
+            {technologiyaData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 <Image
                   src={slide.img}
-                  alt='Ремонт входів'
-                  title='Ремонт входів'
-                  width={800}
-                  height={600}
-                />
+                  alt='Технологія нанесення'
+                  title='Технологія нанесення'
+                  width={550}
+                  height={530} />
               </SwiperSlide>
             ))}
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>
         </div>
+        <video className={styles.video} src="/img/technologies/page/microcement/microcement.mp4" autoPlay muted></video>
       </div>
-    </div>
+    </section>
   )
 }
 
-export default Slider1
+export default Technologiya

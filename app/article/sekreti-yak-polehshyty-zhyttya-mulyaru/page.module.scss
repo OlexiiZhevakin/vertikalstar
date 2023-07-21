@@ -1,10 +1,10 @@
 @import '@/style/variables.module.scss';
 
-.head{
+.head {
   padding-top: 144px;
 }
 
-.title{
+.title {
   font-size: 54px;
   color: $title;
   margin-bottom: 30px;
@@ -17,130 +17,148 @@
   font-size: 14px;
 }
 
-.blog{
-  h2{
+.blog {
+  h2 {
     font-size: 30px;
   }
-  p{
+
+  p {
     font-size: 20px;
     margin-bottom: 10px;
   }
-  figure{
+
+  figure {
     margin-bottom: 30px;
   }
-  figcaption{
+
+  figcaption {
     text-align: center;
     color: $cement;
   }
-  span{
+
+  span {
     text-transform: uppercase;
     color: $orange;
   }
 }
 
-.img{
+.img {
   margin: 0 auto;
 }
 
-.list{
-  li{
+.list {
+  li {
     font-size: 19px;
     font-weight: 700;
   }
-  p{
+
+  p {
     font-weight: 300;
   }
 }
 
-.fixed{
+.fixed {
   margin-left: 20px;
   list-style: disc;
-  li{
+
+  li {
     font-size: 18px;
     padding-bottom: 10px;
   }
 }
 
-.articleinfo{
+.articleinfo {
   display: flex;
   gap: 20px;
   align-items: center;
 }
 
-.articleimg{
+.articleimg {
   border-radius: 50%;
 }
 
 
-.download{
+.download {
   padding-top: 30px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.icon{
+.icon {
   display: block;
 }
 
-.btn{
+.btn {
   padding: 10px;
   border: 1px solid $orange;
   color: $title;
   background-color: #fff;
   transition: all .4s;
-  &:hover{
+
+  &:hover {
     background-color: $gray;
     color: #fff;
   }
 }
 
-.domolit{
+.domolit {
   display: flex;
   align-items: center;
   justify-content: center;
-  // max-width: 300px;
   margin: 0 auto;
-  li{
-    font-size: 16px;
+
+}
+
+.domolitlist {
+  li {
+    font-size: 20px;
     display: flex;
     flex-direction: column;
-    span{
+
+    span {
       font-weight: 700;
     }
   }
-  li:not(:last-child){
+
+  li:not(:last-child) {
     padding-bottom: 10px;
   }
-  li:last-child{
+
+  li:last-child {
+    font-size: 14px;
     font-weight: 300;
   }
 }
 
-.content{
+.content {
   width: 60%;
 }
 
 @media (max-width: 768px) {
-  .head{
+  .head {
     padding-top: 0;
   }
-  .domolit{
+
+  .domolit {
     flex-wrap: wrap;
   }
 }
 
 @media (max-width: 420px) {
-  .title{
+  .title {
     font-size: 38px;
   }
-  .blog{
+
+  .blog {
     padding: 30px 0;
-    h2{
+
+    h2 {
       font-size: 26px;
     }
   }
-  .content{
+
+  .content {
     width: 100%;
   }
 }

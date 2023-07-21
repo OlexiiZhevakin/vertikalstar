@@ -40,13 +40,22 @@
   }
 }
 
+.video{
+  padding-top: 30px;
+  height: 530px;
+  margin: 0 auto;
+  display: block;
+}
+
 @media (max-width: 420px) {
-  .container{
+  .container {
     padding: 30px 0;
   }
-  .title{
+
+  .title {
     font-size: 26px;
   }
+
   .wrapper {
     position: relative;
     padding: 0;
