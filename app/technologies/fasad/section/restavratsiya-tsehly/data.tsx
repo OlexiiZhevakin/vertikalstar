@@ -8,9 +8,6 @@ const restavratsiyaTsehlyData = [
   {
     img: "/img/technologies/page/fasad/restavratsiya-tsehly/restavratsiya-tsehly-3.jpg"
   },
-  {
-    video: "/img/technologies/page/fasad/restavratsiya-tsehly/restavratsiya-tsehly-4.mp4"
-  },
 ]
 
 export default restavratsiyaTsehlyData

@@ -33,16 +33,12 @@ const RestavratsiyaTsehly = () => {
           >
             {restavratsiyaTsehlyData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
-                {slide.video ? (
-                  <video className={styles.video} src={slide.video} autoPlay muted playsInline></video>
-                ) : (
                   <Image
                     src={slide.img || ''}
                     alt='Реставрація цегли'
                     title='Реставрація цегли'
                     width={570}
                     height={420} />
-                )}
               </SwiperSlide>
             ))}
           </Swiper>

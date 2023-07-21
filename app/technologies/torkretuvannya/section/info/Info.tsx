@@ -23,7 +23,7 @@ const Info = () => {
         </div>
 
         <div className={styles.inner}>
-          <video src="/img/technologies/page/torkretuvannya/torkretuvannya.mp4" muted autoPlay width={1200}></video>
+          <video src="/img/technologies/page/torkretuvannya/torkretuvannya.mp4" muted autoPlay playsInline loop></video>
         </div>
       </div>
     </section>

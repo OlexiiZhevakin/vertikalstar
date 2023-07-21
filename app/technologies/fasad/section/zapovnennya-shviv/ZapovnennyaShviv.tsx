@@ -32,7 +32,7 @@ const ZapovnennyaShviv = () => {
           >
             {zapovnennyaShvivData.map((slide, index) => (
               <SwiperSlide key={index}>
-                <video className={styles.video} src={slide.video} autoPlay muted playsInline></video>
+                <video className={styles.video} src={slide.video} autoPlay muted playsInline loop></video>
               </SwiperSlide>
             ))}
 

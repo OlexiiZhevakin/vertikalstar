@@ -41,7 +41,7 @@ const Technologiya = () => {
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>
         </div>
-        <video className={styles.video} src="/img/technologies/page/microcement/microcement.mp4" autoPlay muted></video>
+        <video className={styles.video} src="/img/technologies/page/microcement/microcement.mp4" autoPlay muted playsInline loop></video>
       </div>
     </section>
   )
