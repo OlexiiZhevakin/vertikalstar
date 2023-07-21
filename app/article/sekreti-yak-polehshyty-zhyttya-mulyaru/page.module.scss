@@ -36,14 +36,15 @@
     text-transform: uppercase;
     color: $orange;
   }
-  img{
-    margin: 0 auto;
-  }
+}
+
+.img{
+  margin: 0 auto;
 }
 
 .list{
   li{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
   }
   p{
@@ -66,6 +67,11 @@
   padding-top: 30px;
   display: flex;
   justify-content: center;
+  gap: 10px;
+}
+
+.icon{
+  display: block;
 }
 
 .btn{
@@ -81,10 +87,13 @@
 }
 
 .domolit{
-  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // max-width: 300px;
   margin: 0 auto;
   li{
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     span{
@@ -94,6 +103,13 @@
   li:not(:last-child){
     padding-bottom: 10px;
   }
+  li:last-child{
+    font-weight: 300;
+  }
+}
+
+.content{
+  width: 60%;
 }
 
 @media (max-width: 768px) {
