@@ -53,7 +53,9 @@ const Article = () => {
             <p className={styles.text}>
               У таких умовах коли робота налагоджена, можна досягти високої швидкості.  "Гнати та гнати куби".
             </p>
-            А т.к.  муляру платять за кількість покладеної цегли,це  значить заробляти більше.
+            <p className={styles.text}>
+              А т.к.  муляру платять за кількість покладеної цегли,це  значить заробляти більше.
+            </p>
             <figure>
               <picture>
                 <source type="image/webp" srcSet="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/mulyar.webp" title="Як муляру - професіоналу працювати краще і заробляти" />

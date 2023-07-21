@@ -52,6 +52,15 @@
   }
 }
 
+.fixed{
+  margin-left: 20px;
+  list-style: disc;
+  li{
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+}
+
 .articleinfo{
   display: flex;
   gap: 20px;
