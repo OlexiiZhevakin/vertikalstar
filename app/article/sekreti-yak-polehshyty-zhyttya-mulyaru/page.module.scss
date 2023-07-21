@@ -125,6 +125,9 @@
   .head{
     padding-top: 0;
   }
+  .domolit{
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 420px) {
@@ -135,7 +138,9 @@
     padding: 30px 0;
     h2{
       font-size: 26px;
-
     }
+  }
+  .content{
+    width: 100%;
   }
 }
