@@ -1,12 +1,13 @@
 @import '@/style/variables.module.scss';
 
-.container{
+.container {
   min-height: calc(100vh - 84px);
   background: url('/img/technologies/page/microcement/head-bg.webp') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+
   &::before {
     content: "";
     position: absolute;
@@ -20,12 +21,12 @@
 }
 
 .title,
-.descr{
+.descr {
   position: relative;
   z-index: 2;
 }
 
-.descr{
+.descr {
   font-size: 32px;
   color: #fff;
 }
@@ -35,8 +36,8 @@
     margin-bottom: 10px;
     font-size: 40px;
   }
-  .descr{
+
+  .descr {
     font-size: 20px;
   }
 }
-

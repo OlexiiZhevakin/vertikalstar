@@ -1,5 +1,7 @@
 import styles from './head.module.scss'
 
+
+
 const Head = () => {
   return (
     <section className={styles.container}>
