@@ -2,7 +2,7 @@ import styles from './head.module.scss'
 
 
 
-const Head = () => {
+const HeaderPage = () => {
   return (
     <section className={styles.container}>
       <div className="container">
@@ -15,4 +15,4 @@ const Head = () => {
   )
 }
 
-export default Head
+export default HeaderPage

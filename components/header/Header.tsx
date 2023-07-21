@@ -92,7 +92,7 @@ const navItems = [
       {
         label: 'Мікроцемент та декоративне оздоблення',
         href: '/technologies/mikrotsement-ta-dekoratyvne-ozdoblennya'
-      }
+      },
     ]
   },
   {
