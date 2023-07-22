@@ -1,0 +1,22 @@
+@import '@/style/variables.module.scss';
+
+.container{
+  background-color: $gray;
+}
+
+.title{
+  color: $orange;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: #fff;
+  li{
+    max-width: 300px;
+    width: 100%;
+    font-size: 20px;
+  }
+}

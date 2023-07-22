@@ -7,6 +7,7 @@ import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import technologiyaData from './data';
+import MicrocementCard from '@/card/MicrocementCard/MicrocementCard';
 
 const Technologiya = () => {
   return (
@@ -30,18 +31,15 @@ const Technologiya = () => {
           >
             {technologiyaData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
-                <Image
-                  src={slide.img}
-                  alt='Технологія нанесення'
-                  title='Технологія нанесення'
-                  width={550}
-                  height={530} />
+                <MicrocementCard
+                  img={slide.img}
+                  body={slide.body}
+                />
               </SwiperSlide>
             ))}
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>
         </div>
-        <video className={styles.video} src="/img/technologies/page/microcement/microcement.mp4" autoPlay muted playsInline loop></video>
       </div>
     </section>
   )

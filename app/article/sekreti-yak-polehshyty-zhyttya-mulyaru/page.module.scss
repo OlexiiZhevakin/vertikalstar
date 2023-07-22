@@ -124,15 +124,18 @@
   li:not(:last-child) {
     padding-bottom: 10px;
   }
-
-  li:last-child {
-    font-size: 14px;
-    font-weight: 300;
-  }
 }
 
 .content {
-  width: 60%;
+  width: 50%;
+}
+
+.line{
+  margin: 10px 0;
+  height: 3px;
+  width: 100%;
+  background-color: $orange;
+  display: block;
 }
 
 @media (max-width: 768px) {

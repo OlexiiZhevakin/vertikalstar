@@ -1,5 +1,74 @@
 @import '@/style/variables.module.scss';
 
+.title{
+  text-align: left;
+}
+
+.block{
+  margin-bottom: 30px;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+
+.subtitle{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.item{
+  width: 350px;
+  background-color: #fff;
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  display: flex;  
+  flex-direction: column;
+  padding: 10px;
+  flex: 1;
+}
+
+.itemtitle{
+  min-height: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: $orange;
+}
+
+.descr{
+  margin-bottom: 15px;
+  min-height: 70px;
+}
+
+.info{
+  margin-bottom: 15px;
+  min-height: 30px;
+  p:not(:last-child){
+    padding-bottom: 10px;
+  }
+}
+
+.download{
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.subtext{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
 
 @media (max-width: 420px) {
   .container{
