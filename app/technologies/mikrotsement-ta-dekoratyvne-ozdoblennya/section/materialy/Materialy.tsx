@@ -211,7 +211,7 @@ const Materialy = () => {
 
         <div className={styles.block}>
           <h3 className={styles.subtitle}>
-            Камерування
+            Колорування
           </h3>
           <p className={styles.subtext}>
             Порошкові пігменти Пігменти ISOMAT DECO COLOR - це високоякісні неорганічні барвники для фарбування цементних розчинів та бетону. Вони дозволяють отримати безліч відтінків кольорів.
@@ -219,9 +219,9 @@ const Materialy = () => {
 
           <div className={styles.items}>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/vs-w.jpg' alt='uni-primer' title='uni-primer' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/isomat-deco-color.jpg' alt='isomat deco color' title='isomat deco color' height={350} width={350} />
               <div className={styles.content}>
-                <h3 className={styles.itemtitle}>vs-w</h3>
+                <h3 className={styles.itemtitle}>isomat deco color</h3>
                 <div className={styles.info}>
                   <p>Витрати: залежить від кольору.</p>
                   <p>Упаковка: пластикові контейнери 250 г.

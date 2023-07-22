@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './microcement.module.scss'
+import styles from './microcementCard.module.scss'
 
 type Props = {
   img: string

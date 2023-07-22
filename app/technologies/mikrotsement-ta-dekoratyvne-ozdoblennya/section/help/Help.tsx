@@ -1,4 +1,4 @@
-import Link from "next/link"
+
 import styles from './help.module.scss'
 
 const Help = () => {
@@ -11,9 +11,9 @@ const Help = () => {
               Задати питання та купити матеріали ви можете зв'язавшись із нашим менеджером
             </p>
           </div>
-          <Link className={styles.btn} href="tel:+380675713308">
+          <a className={styles.btn} href="tel:+380675713308">
             Зателефонуйте нам
-          </Link>
+          </a>
         </div>
       </div>
     </div>
