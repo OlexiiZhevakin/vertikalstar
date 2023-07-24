@@ -67,6 +67,21 @@ export default function RootLayout({
   return (
     <html lang="uk-UA">
       <body className={inter.className}>
+        <Script>
+          {`
+            window.LEELOO = function(){
+              window.LEELOO_INIT = { id: '641c65871a6a5aa739dbce48' };
+              var js = document.createElement('script');
+              js.src = 'https://app.leeloo.ai/init.js';
+              js.async = true;
+              document.getElementsByTagName('head')[0].appendChild(js);
+            }; 
+            LEELOO();
+          `}
+        </Script>
+        <Script strategy="afterInteractive">
+          {`window.LEELOO_LEADGENTOOLS = (window.LEELOO_LEADGENTOOLS || []).concat('mu0um2');`}
+        </Script>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-NSG4YJR32Z" />
         <Script id="google-analytics">
           {`
@@ -97,6 +112,7 @@ export default function RootLayout({
         <Header />
         <SocialMediaBlock />
         <main>
+          
           {children}
         </main>
         <Footer />

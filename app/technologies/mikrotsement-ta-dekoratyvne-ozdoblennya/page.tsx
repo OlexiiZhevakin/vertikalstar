@@ -1,5 +1,4 @@
 
-
 import Advantage from './section/advantage/Advantage'
 import Color from './section/color/Color'
 import HeaderPage from './section/header/Head'
@@ -9,7 +8,9 @@ import Pryklady from './section/pryklady/Pryklady'
 import Technologiya from './section/technologiya/Technologiya'
 import Video from './section/video/Video'
 
+
 const Microcement = () => {
+  
   return (
     <>
       <HeaderPage/>

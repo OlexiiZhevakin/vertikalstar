@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import styles from './video.module.scss'
 
 

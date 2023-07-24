@@ -137,7 +137,7 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/durocret-deco-finish.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
@@ -234,6 +234,8 @@ const Materialy = () => {
             </div>
           </div>
         </div>
+
+        <script>window.LEELOO_LEADGENTOOLS = (window.LEELOO_LEADGENTOOLS || []).concat('mu0um2');</script>
       </div>
     </section>
   )
