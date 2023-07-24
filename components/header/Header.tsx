@@ -27,7 +27,6 @@ const navItems = [
       {
         label: 'Робота в реальному часі',
         href: '/robota-v-realnomu-chasi',
-        // className: 'real'
       },
       {
         label: 'Портфоліо',
