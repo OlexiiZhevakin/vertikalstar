@@ -2,7 +2,18 @@
 
 .title{
   text-align: left;
-  background-color: var(--orange);
+  position: relative;
+  padding: 30px 0;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    right: -100%;
+    bottom: 0;
+    z-index: -1;
+    background-color: var(--orange);
+  }
 }
 
 .block{
@@ -14,11 +25,11 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-
 }
 
 
 .subtitle{
+  padding: 30px 0;
   text-align: left;
   font-size: 32px;
   margin-bottom: 30px;
@@ -40,6 +51,9 @@
   min-height: 440px;
   display: flex;
   flex-direction: column;
+  img{
+    margin: 0 auto;
+  }
 }
 
 .content{

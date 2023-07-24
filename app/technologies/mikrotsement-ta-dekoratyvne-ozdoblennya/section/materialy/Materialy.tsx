@@ -14,7 +14,7 @@ const Materialy = () => {
 
           <div className={styles.items}>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/uni-primer.jpg' alt='uni-primer' title='uni-primer' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/uni-primer.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>uni-primer</h3>
                 <div className={styles.descr}>
@@ -33,7 +33,7 @@ const Materialy = () => {
               </div>
             </div>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/isomat-supergrund.jpg' alt='isomat-supergrund' title='isomat-supergrund' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/isomat-supergrund.jpg' alt='isomat-supergrund' title='isomat-supergrund' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>isomat-supergrund</h3>
                 <div className={styles.descr}>
@@ -52,7 +52,7 @@ const Materialy = () => {
               </div>
             </div>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/epoxyprimer-w.jpg' alt='epoxyprimer-w' title='epoxyprimer-w' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/epoxyprimer-w.jpg' alt='epoxyprimer-w' title='epoxyprimer-w' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>epoxyprimer-w</h3>
                 <div className={styles.descr}>
@@ -147,7 +147,7 @@ const Materialy = () => {
           <h3 className={styles.subtitle}>Гідроізоляція та захист</h3>
           <div className={styles.items}>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/varnish-pu-2k.jpg' alt='uni-primer' title='uni-primer' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/varnish-pu-2k.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>varnish-pu 2k</h3>
                 <div className={styles.descr}>
@@ -169,7 +169,7 @@ const Materialy = () => {
               </div>
             </div>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/varnish-pu-2kw.jpg' alt='uni-primer' title='uni-primer' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/varnish-pu-2kw.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>varnish-pu 2kw</h3>
                 <div className={styles.descr}>
@@ -188,7 +188,7 @@ const Materialy = () => {
               </div>
             </div>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/vs-w.jpg' alt='uni-primer' title='uni-primer' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/vs-w.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>vs-w</h3>
                 <div className={styles.descr}>
@@ -219,7 +219,7 @@ const Materialy = () => {
 
           <div className={styles.items}>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/isomat-deco-color.jpg' alt='isomat deco color' title='isomat deco color' height={350} width={350} />
+              <Image src='/img/technologies/page/microcement/materialy/isomat-deco-color.jpg' alt='isomat deco color' title='isomat deco color' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>isomat deco color</h3>
                 <div className={styles.info}>
