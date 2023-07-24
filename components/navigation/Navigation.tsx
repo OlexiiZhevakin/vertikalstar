@@ -19,28 +19,29 @@ type Props = {
 const Navigation = ({ navlinks, closeMenu }: Props) => {
   const pathname = usePathname();
   
+  const handleSubMenuClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    event.stopPropagation();
+    if (closeMenu) {
+      closeMenu();
+    }
+  };
+  
   return(
     <>
     {navlinks.map(link => {
       const isActive = pathname === link.href;
       const linkProps = link.label === 'Магазин' ? { target: '_blank' } : {};
 
-      const handleClick = () => {
-        if (closeMenu) {
-          closeMenu(); // Вызываем closeMenu при клике на ссылку
-        }
-      };
-      
       return(
           <li className={styles.item} key={link.label}>
-          <Link href={link.href} className={isActive ? 'active' : ''} onClick={handleClick} {...linkProps}>
+          <Link href={link.href} className={isActive ? 'active' : ''} onClick={handleSubMenuClick} {...linkProps}>
             {link.label}
           </Link>
         {link.subMenu && (
           <ul className={styles.subList}>
             {link.subMenu.map(sublink => (
               <li key={sublink.label}>
-                <Link href={sublink.href} onClick={handleClick}>
+                <Link href={sublink.href} onClick={handleSubMenuClick}>
                   {sublink.label}
                 </Link>
           </li>

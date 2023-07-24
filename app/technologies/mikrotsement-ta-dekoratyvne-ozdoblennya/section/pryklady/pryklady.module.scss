@@ -1,5 +1,18 @@
 @import '@/style/variables.module.scss';
 
+.title{
+  text-align: left;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 54%;
+    height: 3px;
+    background-color: $orange;
+    right: 0;
+    bottom: 50%;
+  }
+}
+
 .wrapper {
   display: flex;
   justify-content: center;

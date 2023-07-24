@@ -1,7 +1,8 @@
-@import '@/style/variables.module.scss';
+
 
 .title{
   text-align: left;
+  background-color: var(--orange);
 }
 
 .block{
@@ -18,14 +19,24 @@
 
 
 .subtitle{
-  text-align: center;
+  text-align: left;
   font-size: 32px;
   margin-bottom: 30px;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 56%;
+    height: 3px;
+    background-color: var(--orange);
+    right: 0;
+    bottom: 50%;
+  }
 }
 
 .item{
   width: 350px;
-  background-color: #fff;
+  background-color: var(--white);
   min-height: 440px;
   display: flex;
   flex-direction: column;
@@ -42,7 +53,7 @@
   min-height: 20px;
   margin-bottom: 15px;
   text-transform: uppercase;
-  color: $orange;
+  color: var(--orange);
 }
 
 .descr{

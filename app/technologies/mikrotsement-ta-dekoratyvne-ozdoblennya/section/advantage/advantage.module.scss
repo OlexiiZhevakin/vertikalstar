@@ -1,11 +1,11 @@
-@import '@/style/variables.module.scss';
+
 
 .container{
-  background-color: $gray;
+  background-color: var(--gray);
 }
 
 .title{
-  color: $orange;
+  color: var(--white);
 }
 
 .list{
@@ -13,7 +13,8 @@
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
-  color: #fff;
+  color: var(--white);
+  list-style: disc;
   li{
     max-width: 300px;
     width: 100%;

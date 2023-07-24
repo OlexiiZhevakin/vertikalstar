@@ -1,3 +1,17 @@
+.title {
+  text-align: left;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    background-color: var(--orange);
+    right: 0;
+    bottom: 50%;
+  }
+}
+
 .img{
   margin: 0 auto;
 }
