@@ -1,4 +1,5 @@
 
+import Script from 'next/script'
 import Advantage from './section/advantage/Advantage'
 import Color from './section/color/Color'
 import HeaderPage from './section/header/Head'
@@ -7,9 +8,10 @@ import Materialy from './section/materialy/Materialy'
 import Pryklady from './section/pryklady/Pryklady'
 import Technologiya from './section/technologiya/Technologiya'
 import Video from './section/video/Video'
+import { FC } from 'react'
 
 
-const Microcement = () => {
+const Microcement: FC = () => {
   
   return (
     <>
@@ -21,6 +23,9 @@ const Microcement = () => {
       <Color/>
       <Materialy/>
       <Help/>
+      <Script strategy="afterInteractive">
+        {`window.LEELOO_LEADGENTOOLS = (window.LEELOO_LEADGENTOOLS || []).concat('mu0um2');`}
+      </Script>
     </>
   )
 }

@@ -79,9 +79,7 @@ export default function RootLayout({
             LEELOO();
           `}
         </Script>
-        <Script strategy="afterInteractive">
-          {`window.LEELOO_LEADGENTOOLS = (window.LEELOO_LEADGENTOOLS || []).concat('mu0um2');`}
-        </Script>
+        
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-NSG4YJR32Z" />
         <Script id="google-analytics">
           {`
