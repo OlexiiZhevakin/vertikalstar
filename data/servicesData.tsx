@@ -15,14 +15,12 @@ const ServiceData = [{
     title: "Бюро Реконструкції та Реставрації",
     description: "Організація виконання робіт",
     link: '/services/byuro-rekonstruktsiyi',
-    video: '/img/services/video-3.mp4',
   },
   {
     image: "/img/services/byuro-budivelnoyi-khimiyi.jpg",
     title: "Бюро Будівельної Хімії",
     description: "Продаж перевірених матеріалів",
     link: '/services/byuro-budivelnoyi-khimiyi',
-    video: '/img/services/video-4.mp4',
   }
 ];
 

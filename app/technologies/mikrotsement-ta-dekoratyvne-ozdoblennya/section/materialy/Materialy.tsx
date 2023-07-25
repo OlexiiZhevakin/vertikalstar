@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './materialy.module.scss'
+import World from '../world/World'
 
 
 const Materialy = () => {
@@ -76,7 +77,7 @@ const Materialy = () => {
         </div>
 
         <div className={styles.block}>
-          <h3 className={styles.subtitle}>Стартовій слой мікроцементу</h3>
+          <h3 className={styles.subtitle}>Стартовий слой мікроцементу</h3>
           <div className={styles.items}>
             <div className={styles.item}>
               <Image src='/img/technologies/page/microcement/materialy/durocret-deco-flex.jpg' alt='DUROCRET DECO FLEX' title='DUROCRET DECO FLEX' height={350} width={350} />
@@ -143,6 +144,7 @@ const Materialy = () => {
             </div>
           </div>
         </div>
+        <World/>
         <div className={styles.block}>
           <h3 className={styles.subtitle}>Гідроізоляція та захист</h3>
           <div className={styles.items}>
