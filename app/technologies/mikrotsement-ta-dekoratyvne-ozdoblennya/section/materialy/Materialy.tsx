@@ -28,7 +28,7 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/uni-primer.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/isomat-supergrund.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/durocret-deco-flex.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/durocret-deco.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/varnish-pu-2k.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
@@ -183,12 +183,12 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/varnish-pu-2kw.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
             <div className={styles.item}>
-              <Image src='/img/technologies/page/microcement/materialy/vs-w.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
+              <Image src='/img/technologies/page/microcement/materialy/vs-w.jpg' alt='vs-w' title='vs-w' height={250} width={250} />
               <div className={styles.content}>
                 <h3 className={styles.itemtitle}>vs-w</h3>
                 <div className={styles.descr}>
@@ -202,7 +202,7 @@ const Materialy = () => {
                 </div>
                 <div className={styles.download}>
                   <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30} />
-                  <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+                  <a className='btn' href="/vs-w.pdf" download>Скачати тех карту</a>
                 </div>
               </div>
             </div>
@@ -234,8 +234,6 @@ const Materialy = () => {
             </div>
           </div>
         </div>
-
-        <script>window.LEELOO_LEADGENTOOLS = (window.LEELOO_LEADGENTOOLS || []).concat('mu0um2');</script>
       </div>
     </section>
   )
