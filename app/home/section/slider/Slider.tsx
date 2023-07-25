@@ -41,7 +41,7 @@ const Slider = () => {
               }
             }}
           >
-            
+
             {SliderData.map((card, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 <SliderCard
@@ -53,7 +53,7 @@ const Slider = () => {
                 />
               </SwiperSlide>
             ))}
-            
+
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>
         </div>
@@ -63,3 +63,4 @@ const Slider = () => {
 };
 
 export default Slider;
+

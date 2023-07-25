@@ -33,7 +33,6 @@
 //           <Link href={`/blog/${post.id}`} as={`/blog/${post.id}`}>
 //               <BlogCard
 //                 image={post.image}
-//                 imageWebp={post.imageWebp}
 //                 title={post.title}
 //               />  
 //           </Link>

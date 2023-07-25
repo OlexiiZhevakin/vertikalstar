@@ -144,7 +144,7 @@ const Materialy = () => {
             </div>
           </div>
         </div>
-        <World/>
+        <World />
         <div className={styles.block}>
           <h3 className={styles.subtitle}>Гідроізоляція та захист</h3>
           <div className={styles.items}>
@@ -170,6 +170,7 @@ const Materialy = () => {
                 </div>
               </div>
             </div>
+            
             <div className={styles.item}>
               <Image src='/img/technologies/page/microcement/materialy/varnish-pu-2kw.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
               <div className={styles.content}>
