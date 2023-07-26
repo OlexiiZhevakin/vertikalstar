@@ -161,8 +161,11 @@ video {
 
 @media (max-width: 420px){
   .swiper-pagination-bullet{
-    width: 10px !important;
-    height: 10px !important;
+    width: 8px !important;
+    height: 8px !important;
+  }
+  .swiper-pagination{
+    bottom: -2px !important;
   }
 }
 

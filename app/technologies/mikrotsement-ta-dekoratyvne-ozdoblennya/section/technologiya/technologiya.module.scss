@@ -18,11 +18,12 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0 10px;
+  // padding: 0 10px;
+  position: relative;
 }
 
 .swiper {
-  width: 90%;
+  width: 100%;
 }
 
 .slide {
@@ -33,22 +34,42 @@
 
 .btnPrev,
 .btnNext {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  font-size: 30px;
-  background-color: var(--white);
-  border: 1px solid var(--orange);
-  color: var(--orange);
+  // border-radius: 50%;
+  // width: 60px;
+  // height: 60px;
+  font-size: 60px;
+  // background-color: var(--white);
+  // border: 1px solid var(--orange);
+  color: var(--white);
   cursor: pointer;
   transition: all .3s;
 
   &:hover {
-    background-color: var(--orange);
-    color: var(--title);
+    // background-color: var(--orange);
+    color: var(--orange);
+  }
+}
+.btnPrev{
+  z-index: 2;
+  left: 0;
+}
+
+.btnNext{
+  z-index: 2;
+  right: 0;
+}
+
+@media (max-width: 992px) {
+  .title {
+    text-align: center;
+
+    &::before {
+      display: none;
+    }
   }
 }
 
@@ -75,3 +96,4 @@
     display: none;
   }
 }
+

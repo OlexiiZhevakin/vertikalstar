@@ -92,7 +92,7 @@ const Objects: FC = () => {
                   <SliderCard
                     image={obj.src}
                     title={obj.title}
-                    description={obj.description}
+                    description={obj.title}
                   />
                 </Link>
               </SwiperSlide>

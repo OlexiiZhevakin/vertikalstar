@@ -51,7 +51,7 @@
 
 
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* Добавьте свои стили для ноутбуков и настольных компьютеров */
   .card{
     width: 230px;
@@ -62,9 +62,6 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* Добавьте свои стили для планшетов и небольших ноутбуков */
-  // .card{
-  //   flex-basis: 100%;
-  // }
+
 }
 

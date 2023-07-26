@@ -87,7 +87,7 @@
   display: flex;
   gap: 10px;
   margin-top: auto;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .subtext{
@@ -95,11 +95,43 @@
   margin-bottom: 30px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 992px) {
+  .subtitle{
+    text-align: center;
+    &::before{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
   .container{
     padding: 30px 0;
   }
   .title{
+    text-align: center;
+    &::before{
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .subtitle{
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .container{
+    padding: 0;
+    padding-top: 30px;
+  }
+  .title{
     font-size: 26px;
+    margin-bottom: 0;
+  }
+  .subtitle{
+    padding: 0;
+    margin-bottom: 30px;
   }
 }

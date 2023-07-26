@@ -67,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="uk-UA">
       <body className={inter.className}>
-        <Script>
+        {/* <Script>
           {`
             window.LEELOO = function(){
               window.LEELOO_INIT = { id: '641c65871a6a5aa739dbce48' };
@@ -78,7 +78,7 @@ export default function RootLayout({
             }; 
             LEELOO();
           `}
-        </Script>
+        </Script> */}
         
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-NSG4YJR32Z" />
         <Script id="google-analytics">

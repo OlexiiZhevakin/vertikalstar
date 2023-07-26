@@ -4,32 +4,42 @@
   display: flex;
   align-items: center;
   background-color: $gray;
+  width: 100%;
 }
 
 .descr{
-  width: 100%;
+  width: 50%;
   color: #fff;
   font-size: 20px;
-  padding: 0 20px;
+  padding: 0 60px;
   
 }
 
 
 .img{
-  width: 550px;
+  // width: 550px;
+  width: 50%; 
   height: 530px;
   object-fit: cover;
 }
 
 @media (max-width: 768px) {
-  .card{
-    flex-direction: column;
-  }
+  // .card{
+  //   flex-direction: column;
+  // }
   .descr{
     text-align: center;
     width: 100%;
   }
   .img{
     height: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  
+  .descr{
+    padding: 0 10px;
+    font-size: 12px;
   }
 }

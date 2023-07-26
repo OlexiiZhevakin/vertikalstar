@@ -6,9 +6,9 @@ import Form from '@/components/form/Form';
 const Services = () => {
   return(
     <>
-      <section className={styles.services}>
+      <section className={styles.container}>
       <div className="container">
-        <h1 className='headTitle'>Наші послуги</h1>
+        <h1 className={styles.title}>Наші послуги</h1>
         <p className='subtitle'></p>
         <ul className={styles.list}>
           {ServiceData.map((card, index) => {
