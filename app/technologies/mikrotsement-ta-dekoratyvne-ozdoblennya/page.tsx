@@ -42,6 +42,7 @@ import Materialy from './section/materialy/Materialy'
 import Pryklady from './section/pryklady/Pryklady'
 import Technologiya from './section/technologiya/Technologiya'
 import Video from './section/video/Video'
+import World from './section/world/World'
 
 const Microcement: React.FC = () => {
   useEffect(() => {
@@ -65,6 +66,7 @@ const Microcement: React.FC = () => {
       <Advantage />
       <Color />
       <Materialy />
+      <World />
       <Help />
     </>
   )

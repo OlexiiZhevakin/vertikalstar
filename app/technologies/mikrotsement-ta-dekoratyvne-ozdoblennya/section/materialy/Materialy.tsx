@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './materialy.module.scss'
-import World from '../world/World'
+
 
 
 const Materialy = () => {
@@ -144,7 +144,7 @@ const Materialy = () => {
             </div>
           </div>
         </div>
-        <World />
+
         <div className={styles.block}>
           <h3 className={styles.subtitle}>Гідроізоляція та захист</h3>
           <div className={styles.items}>
