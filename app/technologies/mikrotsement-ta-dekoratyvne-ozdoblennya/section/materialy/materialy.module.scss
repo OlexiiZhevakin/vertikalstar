@@ -1,19 +1,9 @@
 
 
 .title{
-  text-align: left;
-  position: relative;
-  padding: 30px 0;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    right: -100%;
-    bottom: 0;
-    z-index: -1;
-    background-color: var(--orange);
-  }
+  text-align: center;
+  padding: 30px;
+  background-color: var(--orange);
 }
 
 .block{

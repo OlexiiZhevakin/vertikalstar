@@ -6,10 +6,10 @@ import styles from './materialy.module.scss'
 const Materialy = () => {
   return (
     <section className={styles.container}>
+      <h2 className={styles.title}>
+        При технології мікроцементу застосовуються наступні матеріали:
+      </h2>
       <div className="container">
-        <h2 className={styles.title}>
-          При технології мікроцементу застосовуються наступні матеріали:
-        </h2>
         <div className={styles.block}>
           <h3 className={styles.subtitle}>Ґрунтовки</h3>
 
