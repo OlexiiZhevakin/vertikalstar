@@ -11,6 +11,7 @@ import Reviews from "./section/reviews/Reviews";
 import Form from "@/components/form/Form";
 import Blog from "./section/blog/Blog";
 import Youtube from "./section/youtube/Youtube";
+import Objects from "./section/objects/Objects";
 
 const HomePage = () => {
   return(
@@ -20,7 +21,8 @@ const HomePage = () => {
     <About/>
     <AboutUs/>
     <Technologies/>
-    <Slider/>
+    {/* <Slider/> */}
+    <Objects />
     <Brands/>
     <Way/>
     <Reviews/>

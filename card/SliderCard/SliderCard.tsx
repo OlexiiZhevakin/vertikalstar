@@ -1,24 +1,19 @@
 
+import Image from 'next/image';
 import styles from './SliderCard.module.scss';
-import Link from 'next/link';
 
 type Props = {
   image: string,
-  imageWebp: string,
   title: string,
-  link: string,
   description: string
 }
 
-const SliderCard = ({image, imageWebp, title, link, description}: Props) => {
+const SliderCard = ({image, title, description}: Props) => {
   return(
     <div className={styles.slide}>
-      <Link href={link}>
-        <picture>
-          <source type="image/webp" srcSet={imageWebp} title={title}/>
-          <img src={image} width="380" height="450" loading="lazy" alt={title} title={title} />
-        </picture>
-      </Link>
+      {/* <Link href={link}> */}
+      <Image src={image} alt={title} title={title} width={340} height={340}/>
+      {/* </Link> */}
       <div>
         <p>{description}</p>
       </div>

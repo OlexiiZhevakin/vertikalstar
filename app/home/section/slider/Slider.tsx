@@ -46,9 +46,7 @@ const Slider = () => {
               <SwiperSlide className={styles.slide} key={index}>
                 <SliderCard
                   image={card.image}
-                  imageWebp={card.imageWebp}
                   title={card.title}
-                  link={card.link}
                   description={card.description}
                 />
               </SwiperSlide>
