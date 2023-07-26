@@ -24,9 +24,13 @@
 
 @media (max-width: 420px) {
   .title{
-    font-size: 36px;
+    font-size: 26px;
   }
   .list{
     margin-left: 30px;
+    gap: 10px;
+    li{
+      font-size: 16px;
+    }
   }
 }
