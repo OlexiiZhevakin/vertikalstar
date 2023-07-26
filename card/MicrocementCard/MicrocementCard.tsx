@@ -17,7 +17,8 @@ const MicrocementCard = ({img, body}: Props) => {
         alt='Технологія нанесення'
         title='Технологія нанесення'
         width={550}
-        height={530} />
+        height={530}
+        priority />
     </div>
   )
 }
