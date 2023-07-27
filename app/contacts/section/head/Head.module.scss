@@ -1,8 +1,8 @@
-@import '@/style/variables.module.scss';
+
 
 .head{
   min-height: 600px;
-  background: url(/img/contacts/contacts-bg.webp) center/cover no-repeat;
+  background: url('/img/contacts/contact-bg.webp') center/cover no-repeat;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -14,7 +14,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
   }
 
@@ -31,7 +31,7 @@
 
 .descr{
   font-size: 26px;
-  color: $white;
+  color: var(--white);
   text-align: center;
 }
 

@@ -40,6 +40,7 @@ const Slider1 = () => {
                   title='Ремонт входів'
                   width={800}
                   height={600}
+                  priority
                 />
               </SwiperSlide>
             ))}

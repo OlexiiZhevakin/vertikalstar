@@ -113,6 +113,18 @@ const slider1Data = [
   {
     img: "/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-35.jpg",
   },
+  {
+    img: "/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-36.jpg",
+  },
+  {
+    img: "/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-37.jpg",
+  },
+  {
+    img: "/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-38.jpg",
+  },
+  {
+    img: "/img/real/gidroizolyatsiya-terrasy/slider1/gidroizolyatsiya-terrasy-39.jpg",
+  },
 ]
 
 export default slider1Data
