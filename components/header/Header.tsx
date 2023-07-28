@@ -138,7 +138,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className="container">
         <div className={styles.inner}>
-          <Link className={styles.logo} href="#">
+          <Link className={styles.logo} href="/">
             <Image src="/img/logo-ua.svg" alt="Логотип сайту" width={187} height={64} priority={true} />
           </Link>
           <div className={`${styles.btn} ${isBtnActive ? styles.btnActive : ''}`}

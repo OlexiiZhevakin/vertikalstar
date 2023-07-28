@@ -26,9 +26,23 @@ const PortfolioPage = ({ params: { id } }: Props) => {
             <h2 className={styles.subtitle}>
               {page.body}
             </h2>
-            <p className={styles.description}>
-              {page.descr}
-            </p>
+            {page.descr && page.descr.map((p, index) => (
+              <p className={styles.description} key={index}>
+                {p}
+              </p>
+            ))}
+            <div className={styles.img}>
+              {page.images && page.images.map((img, index) => (
+                <Image
+                  src={img} 
+                  alt={page.title} 
+                  title={page.title} 
+                  width={500}
+                  height={400}
+                  style={{ objectFit: "contain" }}
+                  key={index}/>
+              ))}
+            </div>
           </div>
         </section>
       ): (
