@@ -17,50 +17,6 @@ const Objects: FC = () => {
     <section className={styles.container}>
       <div className="container">
         <h2 className={styles.title}>Об'єкти де застосовані наші ТЕХНОЛОГІЇ</h2>
-        {/* <div className={styles.wrapper}>
-          <div className={styles.btnPrev}>&lt;</div>
-          <Swiper
-            modules={[Navigation]}
-            navigation={{
-              prevEl: `.${styles.btnPrev}`,
-              nextEl: `.${styles.btnNext}`,
-            }}
-            slidesPerView={3}
-            spaceBetween={50}
-            loop={true}
-            // centeredSlides
-            breakpoints={{
-              991: {
-                slidesPerView: 3,
-              },
-              768: {
-                slidesPerView: 2,
-              },
-              0: {
-                slidesPerView: 1,
-              }
-            }}
-          >
-            {data.map((obj: any) => (
-              <Link href={`/object/${obj.id}`}>
-                {SliderData.map((card, index) => (
-                  <SwiperSlide key={index}>
-                    <a>
-                      <SliderCard
-                        image={card.image}
-                        title={card.title}
-                        description={card.description}
-                      />
-                    </a>
-                  </SwiperSlide>
-                ))}
-              </Link>
-            ))}
-
-
-          </Swiper>
-          <div className={styles.btnNext}>&gt;</div>
-        </div> */}
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

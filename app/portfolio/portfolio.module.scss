@@ -1,11 +1,10 @@
-@import '@/style/variables.module.scss';
 
 .item{
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .year{
-  background-color: $orange;
+  background-color: var(--orange);
   position: relative;
   &::after,
   &::before{
@@ -14,7 +13,7 @@
     top: 50%;
     width: calc(50% - 100px);
     height: 3px;
-    background-color: $gray;
+    background-color: var(--gray);
   }
   &::after{
     right: 100px;
