@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .title {
   text-align: left;
@@ -8,7 +8,7 @@
     position: absolute;
     width: 84%;
     height: 3px;
-    background-color: $orange;
+    background-color: var(--orange);
     right: 0;
     bottom: 50%;
   }
@@ -36,15 +36,15 @@
   width: 40px;
   height: 40px;
   font-size: 20px;
-  background-color: $white;
-  border: 1px solid $orange;
-  color: $orange;
+  background-color: var(--white);
+  border: 1px solid var(--orange);
+  color: var(--orange);
   cursor: pointer;
   transition: all .3s;
 
   &:hover {
-    background-color: $orange;
-    color: $title;
+    background-color: var(--orange);
+    color: var(--title);
   }
 }
 

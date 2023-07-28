@@ -1,8 +1,8 @@
-@import '@/style/variables.module.scss';
+
 
 .about{
   padding: 60px 0;
-  background: url(/img/about/about-us-bg.webp) center/cover no-repeat;
+  background: url('/img/about/about-us-bg.webp') center/cover no-repeat;
 }
 
 .inner{
@@ -15,7 +15,7 @@
 
   span{
     font-size: 40px;
-    color: $white;
+    color: var(--white);
   }
 
   div{
@@ -28,16 +28,16 @@
       width: 20px;
       height: 20px;
       left: 0;
-      background-color: $orange;
+      background-color: var(--orange);
     }
     P{
-      color: $white;
+      color: var(--white);
     }
   }
 }
 
 .title{
-  color: $orange;
+  color: var(--orange);
   font-size: 26px;
   margin-bottom: 16px;
   text-transform: uppercase;

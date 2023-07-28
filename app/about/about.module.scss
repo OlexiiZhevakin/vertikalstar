@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .about{
   h1{
@@ -16,7 +16,7 @@
 
 .text{
   font-size: 20px;
-  color: $title;
+  color: var(--title);
   p{
     margin-bottom: 20px;
   }

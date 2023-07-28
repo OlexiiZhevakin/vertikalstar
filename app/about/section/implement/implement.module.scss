@@ -1,4 +1,4 @@
-@import "@/style/variables.module.scss";
+
 
 .inner {
   display: flex;
@@ -27,6 +27,6 @@
   }
   a{
     font-size: 20px;
-    color: $orange;
+    color: var(--orange);
   }
 }

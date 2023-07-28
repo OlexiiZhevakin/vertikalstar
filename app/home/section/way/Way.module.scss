@@ -1,7 +1,7 @@
-@import '@/style/variables.module.scss';
+
 
 .way{
-  background-color: $orange;
+  background-color: var(--orange);
 }
 
 .title {

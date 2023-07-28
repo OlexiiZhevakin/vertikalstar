@@ -1,4 +1,3 @@
-@import '@/style/variables.module.scss';
 
 .about {
   padding: 60px 0;
@@ -10,7 +9,7 @@
 
   h3 {
     font-size: 36px;
-    color: $title;
+    color: var(--title);
   }
 }
 
@@ -25,7 +24,7 @@
     right: -20px;
     width: 100%;
     height: 100%;
-    background-color: $orange;
+    background-color: var(--orange);
     z-index: -1;
   }
 }
@@ -46,7 +45,7 @@
   div {
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--white);
     padding: 10px 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
@@ -58,8 +57,8 @@
       align-items: center;
       justify-content: center;
       border: 1px solid transparent;
-      color: #fff;
-      background-color: $orange;
+      color: var(--white);
+      background-color: var(--orange);
       padding: 10px;
       border-radius: 50px;
     }
@@ -72,27 +71,27 @@
 
 .btn {
   padding: 8px 20px;
-  color: $title;
+  color: var(--title);
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
-  background-color: $orange;
+  background-color: var(--orange);
   cursor: pointer;
   border-radius: 8px;
   transition: all .4s;
-  border: 1px solid $orange;
+  border: 1px solid var(--orange);
   margin: 0 auto;
 
   &:hover {
-    background-color: #fff;
-    color: $default;
+    background-color: var(--white);
+    color: var(--default);
   }
 }
 
 .signature {
   text-align: left;
   font-style: italic;
-  color: $title;
+  color: var(--title);
   font-weight: 600;
 }
 

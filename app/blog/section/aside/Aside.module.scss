@@ -1,12 +1,12 @@
-@import '@/style/variables.module.scss';
+
 
 .aside {
   max-width: 360px;
   width: 100%;
   padding: 14px;
-  border: 1px solid $cement;
+  border: 1px solid var(--cement);
   height: fit-content;
-  background-color: $gray;
+  background-color: var(--gray);
 
   article {
     // text-align: center;
@@ -30,7 +30,7 @@
 .title,
 .text {
   text-align: left;
-  color: #fff;
+  color: var(--white);
 }
 
 .text {
@@ -52,7 +52,7 @@
     height: 200px;
     right: 0;
     bottom: 0;
-    background-color: $orange;
+    background-color: var(--orange);
   }
 }
 
@@ -62,10 +62,10 @@
   justify-content: space-evenly;
   margin-bottom: 30px;
   padding: 20px 0;
-  border: 3px solid $orange;
+  border: 3px solid var(--orange);
 
   a:hover i {
-    color: $orange;
+    color: var(--orange);
   }
 
   a {
@@ -76,32 +76,32 @@
     height: 50px;
     border-radius: 50%;
     font-size: 30px;
-    color: $white;
+    color: var(--white);
     &:hover{
-      border: 3px solid $orange;
+      border: 3px solid var(--orange);
     }
   }
 }
 
 .shop {
   margin-bottom: 30px;
-  border: 3px solid $orange;
+  border: 3px solid var(--orange);
   padding: 10px;
   div {
     padding: 20px;
-    background-color: $orange;
+    background-color: var(--orange);
     text-align: center;
   }
 
   span {
-    color: #fff;
+    color: var(--white);
     font-size: 20px;
   }
 }
 
 .imgYoutube {
   position: relative;
-  border: 3px solid $orange;
+  border: 3px solid var(--orange);
   padding: 10px;
   &::before {
     content: "";
@@ -117,7 +117,7 @@
 
   &:hover:before,
   &:hover svg {
-    color: #fff;
+    color: var(--white);
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
   }
@@ -128,15 +128,15 @@
     position: absolute;
     transform: translate(-50%, -50%);
     font-size: 80px;
-    color: $orange;
+    color: var(--orange);
     transition: color 0.3s ease-in-out;
   }
 }
 
 .descr{
   padding: 20px;
-  color: $white;
-  background-color: $orange;
+  color: var(--white);
+  background-color: var(--orange);
   font-size: 20px;
   text-align: center;
 }

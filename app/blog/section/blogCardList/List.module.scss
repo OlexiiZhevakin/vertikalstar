@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 
 .list{
@@ -9,7 +9,7 @@
   height: fit-content;
   li{
     max-width: 400px;
-    border-bottom: 3px solid $orange;
+    border-bottom: 3px solid var(--orange);
     margin-bottom: 30px;
     height: 400px;
   }

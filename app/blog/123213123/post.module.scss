@@ -1,8 +1,8 @@
-@import '@/style/variables.module.scss';
+
 
 .title{
   font-size: 54px;
-  color: $title;
+  color: var(--title);
   margin-bottom: 30px;
   text-transform: none;
 }
@@ -23,12 +23,12 @@
 
   figcaption {
     text-align: center;
-    color: $cement;
+    color: var(--cement);
   }
 
   span {
     text-transform: uppercase;
-    color: $orange;
+    color: var(--orange);
   }
 
   img {

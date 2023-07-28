@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .head{
   padding-top: 144px;
@@ -25,7 +25,7 @@
 .description{
   p{
     font-size: 20px;
-    color: $title;
+    color: var(--title);
     margin-bottom: 30px;
   }
 }
@@ -38,11 +38,11 @@
   }
   a{
     font-size: 20px;
-    color: $title;
+    color: var(--title);
     transition: all .3s;
 
     &:hover {
-      color: $orange;
+      color: var(--orange);
     }
   }
 }

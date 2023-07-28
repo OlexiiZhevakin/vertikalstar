@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .title{
   &::before,
@@ -8,7 +8,7 @@
     width: 38%;
     height: 3px;
     bottom: 50%;
-    background-color: $orange;
+    background-color: var(--orange);
   }
   &::before{
     right: 0;

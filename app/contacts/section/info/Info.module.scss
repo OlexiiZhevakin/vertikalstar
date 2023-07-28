@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .info{
   padding: 100px 0;
@@ -12,7 +12,7 @@
       display: block;
       font-size: 24px;
       font-weight: 700;
-      color: $orange;
+      color: var(--orange);
       margin-bottom: 20px;
     }
 }
@@ -24,7 +24,7 @@
 
   a{
     font-size: 20px;
-    color: $title;
+    color: var(--title);
   }
 }
 
@@ -41,7 +41,7 @@
     border-radius: 50%;
     border: 5px solid transparent;
     font-size: 30px;
-    color: $title;
+    color: var(--title);
   }
 }
 

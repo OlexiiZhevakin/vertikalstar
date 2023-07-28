@@ -9,10 +9,6 @@ const About = () => {
       <div className="container">
         <div className={styles.inner}>
           <div className={styles.img}>
-            {/* <picture>
-              <source type="image/webp" srcSet="/img/about/my-photo.webp" title="На цій фотографії зображен диретор компанії Вертикаль будівельних технологій"/>
-              <img src="/img/about/my-photo.jpg" width="360" height="460" loading="lazy" alt="На цій фотографії зображен диретор компанії Вертикаль будівельних технологій" title="На цій фотографії зображен диретор компанії Вертикаль будівельних технологій" />
-            </picture> */}
             <Image src='/img/about/my-photo.webp' width={360} height={460} alt='На цій фотографії зображен диретор компанії Вертикаль будівельних технологій' title='На цій фотографії зображен диретор компанії Вертикаль будівельних технологій'/>
           </div>
           <div className={styles.content}>
@@ -41,7 +37,7 @@ const About = () => {
               </div>
               
           </div>
-          <Link href="/" className={styles.btn}>Про нас</Link>
+          <Link href="/about" className={styles.btn}>Про нас</Link>
           <p className={styles.signature}>
             з повагою, засновник компанії Сергій Стародубов
           </p>

@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .head{
   position: relative;
@@ -17,7 +17,7 @@
   p{
     font-size: 40px;
     line-height: 1.6;
-    color: #fff;
+    color: var(--white);
     font-weight: 600;
   }
 }
@@ -28,13 +28,10 @@
   justify-content: center;
   position: relative;
   min-height: calc(100vh - 84px);
-  color: #fff;
+  color: var(--white);
   z-index: 2;
 }
 
-@media only screen and (min-width: 1200px) {
-  
-}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* Добавьте свои стили для ноутбуков и настольных компьютеров */
