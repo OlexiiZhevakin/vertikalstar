@@ -1,7 +1,9 @@
-'use client'
+
 import styles from './page.module.scss'
 import Image from 'next/image';
 import { PortfolioPages } from '../data';
+import Sinagoga from '../sinagoga/page';
+
 
 type Props = {
   params: {
@@ -14,6 +16,9 @@ type Props = {
 const PortfolioPage = ({ params: { id } }: Props) => {
   const portfolioPages = PortfolioPages
   const page = portfolioPages.find(obj => obj.id === id)
+  if (id === "kharkivska-khoralna-synahoha-2003"){
+    return <Sinagoga/>
+  }
   return (
     <>
       {page ? (
