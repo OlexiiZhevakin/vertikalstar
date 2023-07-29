@@ -11,7 +11,12 @@ const PortfolioCard = ({image, title, place}: Props) => {
   return(
     <article className={styles.card}>
       <div className={styles.img}>
-        <Image src={image} alt={title} title={title} width={360} height={480}/>
+        <Image 
+          src={image} 
+          alt={title} 
+          title={title}
+          width={360} 
+          height={480}/>
       </div>
       <div className={styles.content}>
         <h3>{title}</h3>

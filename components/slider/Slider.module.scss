@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnPrev,
+.btnNext {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: var(--white);
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    color: var(--orange);
+  }
+}
+
+.btnPrev {
+  z-index: 2;
+  left: 0;
+}
+
+.btnNext {
+  z-index: 2;
+  right: 0;
+}
+
+
+@media (max-width: 768px) {
+
+  .wrapper {
+    position: relative;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  .btnPrev,
+  .btnNext {
+    display: none;
+  }
+}
