@@ -23,6 +23,12 @@ const worldData = [
   {
     img: '/img/technologies/page/microcement/world/svitovi-obyekti-8.jpg'
   },
+  {
+    img: '/img/technologies/page/microcement/world/svitovi-obyekti-9.jpg'
+  },
+  {
+    img: '/img/technologies/page/microcement/world/svitovi-obyekti-10.jpg'
+  },
 ]
 
 export default worldData
