@@ -45,7 +45,6 @@ const Reviews = () => {
               <SwiperSlide className={styles.slide} key={index}>
                 <ReviewCard
                   image={card.image}
-                  imageWebp={card.imageWebp}
                   title={card.title}
                   link={card.link}
                   author={card.author}

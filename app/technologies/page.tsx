@@ -18,7 +18,6 @@ const Technologies = () => {
                 <li key={index}>
                   <TechnologiesCard
                     image={card.image}
-                    imageWebp={card.imageWebp}
                     title={card.title}
                     link={card.link}
                   />

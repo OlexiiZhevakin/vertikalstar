@@ -1,8 +1,8 @@
-@import '@/style/variables.module.scss';
+
 
 .wrapper{
   max-width: 400px;
-  background-color: $white;
+  background-color: var(--white);
   border-radius: 8px;
   padding: 33px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -10,7 +10,7 @@
   div{
     font-weight: 700;
     font-size: 28px;
-    color: $orange;
+    color: var(--orange);
     margin-bottom: 14px;
   }
 
@@ -20,7 +20,7 @@
   }
 
   label{
-    color: $cement;
+    color: var(--cement);
     margin-bottom: 4px;
     margin-top: 20px;
   }
@@ -28,16 +28,16 @@
   input{
     outline: transparent;
     border: none;
-    border-bottom: 1px solid $cement;
+    border-bottom: 1px solid var(--cement);
     padding: 0 4px;
   }
 
   button{
-    border: 1px solid $orange;
+    border: 1px solid var(--orange);
     margin-top: 20px;
     padding: 10px 0;
-    background-color: $orange;
-    color: $title;
+    background-color: var(--orange);
+    color: var(--title);
     font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
@@ -45,9 +45,9 @@
     cursor: pointer;
     transition: all .3s;
     :hover{
-      border: 1px solid $orange;
-      background-color: $white;
-      color: $orange;
+      border: 1px solid var(--orange);
+      background-color: var(--white);
+      color: var(--orange);
     }
   }
 }

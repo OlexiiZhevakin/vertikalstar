@@ -1,7 +1,7 @@
-@import '@/style/variables.module.scss';
+
 
 .formBlock {
-  background: url(/img/form-bg.webp) top/cover no-repeat;
+  background: url('/img/form-bg.webp') top/cover no-repeat;
   position: relative;
   padding: 0;
 
@@ -29,7 +29,7 @@
 
   div {
     font-size: 42px;
-    color: $white;
+    color: var(--white);
 
     span {
       text-transform: uppercase;
@@ -42,7 +42,7 @@
 
   li {
     font-size: 20px;
-    color: $white;
+    color: var(--white);
     position: relative;
 
     &::after {
@@ -54,7 +54,7 @@
       top: 50%;
       border-radius: 50px;
       transform: translateY(-50%);
-      background-color: $orange;
+      background-color: var(--orange);
     }
 
     &:not(:last-child) {

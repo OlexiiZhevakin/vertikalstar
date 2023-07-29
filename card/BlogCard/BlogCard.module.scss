@@ -1,20 +1,19 @@
-@import '@/style/variables.module.scss';
+
 
 .card{
   display: flex;
   flex-direction: column;
-  // height: 100%;
   div{
     padding: 20px 20px 40px;
     flex-grow: 1;
   }
   h2{
     font-size: 20px;
-    color: $title;
+    color: var(--title);
   }
   &:hover div{
     transition: all .3s;
-    background-color: $orange;
+    background-color: var(--orange);
   }
 }
 

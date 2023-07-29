@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .card {
   display: flex;
@@ -7,20 +7,16 @@
   background-color: transparent;
   height: 100%;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px $orange;
+  box-shadow: 0px 0px 10px var(--orange);
 
   img {
     border-radius: 10px 10px 0px 0px;
   }
 
-  // video{
-  //   border-radius: 10px 10px 0px 0px;
-  // }
-
 
   h3 {
     font-size: 18px;
-    color: #fff;
+    color: var(--white);
     margin-bottom: 10px;
     margin-top: 0;
     min-height: 48px;
@@ -30,7 +26,7 @@
 
   p {
     font-size: 18px;
-    color: #fff;
+    color: var(--white);
     margin-bottom: 30px;
     flex-grow: 1;
   }
@@ -42,7 +38,7 @@
   align-items: flex-start;
   height: 240px;
   padding: 20px;
-  background-color: $gray;
+  background-color: var(--gray);
 }
 
 .descr{

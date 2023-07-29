@@ -13,7 +13,6 @@ const TechnoListCard = () => {
               <li key={index}>
                 <TechnologiesCard
                   image={item.image}
-                  imageWebp={item.image}
                   title={item.title}
                   link={item.link}
                 />

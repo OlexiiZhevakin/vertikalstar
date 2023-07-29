@@ -13,7 +13,6 @@ const Way = () => {
               <li key={index}>
                 <WayCard
                   image={card.image}
-                  imageWebp={card.imageWebp}
                   title={card.title}
                   description={card.description}
                   num={card.num}

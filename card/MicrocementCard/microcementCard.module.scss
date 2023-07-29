@@ -1,15 +1,14 @@
-@import '@/style/variables.module.scss';
 
 .card{
   display: flex;
   align-items: center;
-  background-color: $gray;
+  background-color: var(--gray);
   width: 100%;
 }
 
 .descr{
   width: 50%;
-  color: #fff;
+  color: var(--white);
   font-size: 20px;
   padding: 0 60px;
   
@@ -17,16 +16,12 @@
 
 
 .img{
-  // width: 550px;
   width: 50%; 
   height: 530px;
   object-fit: cover;
 }
 
 @media (max-width: 768px) {
-  // .card{
-  //   flex-direction: column;
-  // }
   .descr{
     text-align: center;
     width: 100%;

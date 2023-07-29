@@ -17,7 +17,6 @@ const Hidroizolyatsiya = () => {
                 <HdrCard
                   title={card.title}
                   image={card.image}
-                  imageWebp={card.imageWebp}
                   link={card.link}
                 />
               </li>

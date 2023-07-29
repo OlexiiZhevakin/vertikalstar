@@ -1,23 +1,20 @@
 
 import Link from 'next/link';
 import styles from './BrandCard.module.scss';
+import Image from 'next/image';
 
 type Props = {
   link: string,
   image: string,
-  imageWebp: string,
   title: string,
   country: string
 }
 
-const BrandCard = ({link, image, imageWebp, title, country}: Props) => {
+const BrandCard = ({link, image, title, country}: Props) => {
   return(
     <Link href={link}>
       <article className={styles.card}>
-        <picture>
-          <source type="image/webp" srcSet={imageWebp} title={title}/>
-          <img src={image} width="268" height="168" loading="lazy" alt={title} title={title} />
-        </picture>
+        <Image src={image} alt={title} title={title} width={268} height={168}/>
         <div>
           <h3>{title}</h3>
           <p>{country}</p>

@@ -1,21 +1,18 @@
 import Link from 'next/link';
 import styles from './TechnologiesCard.module.scss';
+import Image from 'next/image';
 
 
 type Props = {
   image: string,
-  imageWebp: string,
   title: string,
   link: string,
 }
 
-const TechnologiesCard = ({image, imageWebp, title, link}: Props) => {
+const TechnologiesCard = ({image, title, link}: Props) => {
   return(
     <article className={styles.card}>
-      <picture>
-        <source type="image/webp" srcSet={imageWebp} title={title}/>
-        <img src={image} width="360" height="270" loading="lazy" alt={title} title={title} />
-      </picture>
+      <Image src={image} alt={title} title={title} width={360} height={270} />
       <div>
         <h3>{title}</h3>
         <Link className='btn' href={link}>Докладніше</Link>

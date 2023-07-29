@@ -1,4 +1,4 @@
-@import "@/style/variables.module.scss";
+
 
 .card{
   display: flex;
@@ -17,14 +17,14 @@
     align-items: center;
     flex-grow: 1;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--white);
     padding: 10px;
     border-radius: 0 0 8px 8px;
     border: 1px solid #D3D3D3;
   }
 
   h3{
-    color: $title;
+    color: var(--title);
     margin-bottom: 10px;
   }
 }

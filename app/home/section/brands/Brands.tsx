@@ -16,7 +16,6 @@ const Brands = () => {
                 <BrandCard
                 link={card.link}
                 image={card.image}
-                imageWebp={card.imageWebp}
                 title={card.title}
                 country={card.country}
                 />

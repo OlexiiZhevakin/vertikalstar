@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .card{
   height: 100%;
@@ -23,7 +23,7 @@
 
   h3{
     font-size: 20px;
-    color: $title;
+    color: var(--title);
     margin-bottom: 30px;
   }
 }

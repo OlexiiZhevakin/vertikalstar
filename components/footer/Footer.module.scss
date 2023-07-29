@@ -1,11 +1,11 @@
-@import '@/style/variables.module.scss';
+
 
 
 .footer{
-  background-color: $gray;
+  background-color: var(--gray);
   h3{
     font-size: 20px;
-    color: $white;
+    color: var(--white);
     margin-bottom: 30px;
   }
 }
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
-  border-bottom: 3px solid $orange;
+  border-bottom: 3px solid var(--orange);
 }
 
 .list{
@@ -35,7 +35,7 @@
   }
 
   a{
-    color: $white;
+    color: var(--white);
     font-size: 18px;
     transition: all .3s;
   }
@@ -64,7 +64,7 @@
     }
   }
   a{
-    color: #fff;
+    color: var(--white);
   }
 }
 
@@ -82,10 +82,9 @@
     height: 40px;
     border-radius: 50%;
     border: 5px solid transparent;
-    // font-size: 30px;
-    color: #fff;
+    color: var(--white);
     &:hover{
-      color: $orange;
+      color: var(--orange);
     }
   }
 }
@@ -104,7 +103,7 @@
   p,
   a{
     font-size: 14px;
-    color: #fff;
+    color: var(--white);
   }
 
   ul{
