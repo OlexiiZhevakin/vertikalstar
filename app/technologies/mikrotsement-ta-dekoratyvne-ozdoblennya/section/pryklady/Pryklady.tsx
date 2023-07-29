@@ -73,6 +73,7 @@ const Pryklady = () => {
                 title='Приклади застосування'
                 width={1200}
                 height={600}
+                priority
               />
             </SwiperSlide>
           ))}

@@ -23,6 +23,9 @@ const prykladyData = [
   {
     img: '/img/technologies/page/microcement/priklad/mikrotsement-ta-dekoratyvne-ozdoblennya-8.jpg'
   },
+  {
+    img: '/img/technologies/page/microcement/priklad/mikrotsement-ta-dekoratyvne-ozdoblennya-9.jpg'
+  },
 ]
 
 export default prykladyData
