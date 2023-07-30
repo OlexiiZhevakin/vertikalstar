@@ -1,14 +1,13 @@
-import Script from 'next/script'
+
 import styles from './video.module.scss'
+import Title from '@/components/title/Title'
 
 
 const Video = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>
-          Приклад нанесення
-        </h2>
+        <Title title={"line"}>Приклад нанесення</Title>
         <video className={styles.video} src="/img/technologies/page/microcement/microcement.mp4" autoPlay muted playsInline loop></video>
       </div>
     </section>

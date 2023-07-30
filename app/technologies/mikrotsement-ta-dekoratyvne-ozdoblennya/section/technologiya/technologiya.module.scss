@@ -1,26 +1,7 @@
 
-.title {
-  text-align: left;
-
-  &::before {
-    content: '';
-    position: absolute;
-    width: 58%;
-    height: 3px;
-    background-color: var(--orange);
-    right: 0;
-    bottom: 50%;
-  }
-}
 
 @media (max-width: 992px) {
-  .title {
-    text-align: center;
 
-    &::before {
-      display: none;
-    }
-  }
 }
 
 @media (max-width: 768px) {
@@ -28,8 +9,5 @@
     padding: 30px 0;
   }
 
-  .title {
-    font-size: 26px;
-  }
 }
 

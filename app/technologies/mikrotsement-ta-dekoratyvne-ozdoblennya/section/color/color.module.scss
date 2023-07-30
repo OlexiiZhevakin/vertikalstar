@@ -1,16 +1,4 @@
-.title {
-  text-align: left;
 
-  &::before {
-    content: '';
-    position: absolute;
-    width: 60%;
-    height: 3px;
-    background-color: var(--orange);
-    right: 0;
-    bottom: 50%;
-  }
-}
 
 .img{
   margin: 0 auto;
@@ -20,23 +8,13 @@
 }
 
 @media (max-width: 992px) {
-  .title {
-    text-align: center;
 
-    &::before {
-      display: none;
-    }
-  }
 }
 
 @media (max-width: 420px) {
   .container{
     padding: 30px 0;
   }
-  .title{
-    font-size: 36px;
-  }
-
   .text{
     font-size: 20px;
   }

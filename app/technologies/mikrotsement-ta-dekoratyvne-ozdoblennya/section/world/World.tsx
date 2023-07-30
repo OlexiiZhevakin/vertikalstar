@@ -1,16 +1,17 @@
-
+'use client'
 import styles from './world.module.scss'
 import Image from 'next/image';
 import worldData from './data';
 import Slider from '@/components/slider/Slider';
 import { SwiperSlide } from 'swiper/react';
+import Title from '@/components/title/Title';
 
 
 const World = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Світові об'єкти</h2>
+        <Title title={"line"}>Світові об'єкти</Title>
         <Slider>
           {worldData.map((slide, index) => (
             <SwiperSlide key={index}>

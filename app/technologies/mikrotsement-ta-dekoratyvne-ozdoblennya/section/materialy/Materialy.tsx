@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import styles from './materialy.module.scss'
+import Title from '@/components/title/Title'
 
 
 
 const Materialy = () => {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>
+      <p className={styles.title}>
         При технології мікроцементу застосовуються наступні матеріали:
-      </h2>
+      </p>
       <div className="container">
         <div className={styles.block}>
-          <h3 className={styles.subtitle}>Ґрунтовки</h3>
-
+          <Title title={"line"}>Грунтовки</Title>
           <div className={styles.items}>
             <div className={styles.item}>
               <Image src='/img/technologies/page/microcement/materialy/uni-primer.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
@@ -77,7 +77,7 @@ const Materialy = () => {
         </div>
 
         <div className={styles.block}>
-          <h3 className={styles.subtitle}>Стартовий слой мікроцементу</h3>
+          <Title title={"line"}>Стартовий слой мікроцементу</Title>
           <div className={styles.items}>
             <div className={styles.item}>
               <Image src='/img/technologies/page/microcement/materialy/durocret-deco-flex.jpg' alt='DUROCRET DECO FLEX' title='DUROCRET DECO FLEX' height={350} width={350} />
@@ -121,7 +121,7 @@ const Materialy = () => {
           </div>
         </div>
         <div className={styles.block}>
-          <h3 className={styles.subtitle}>Фінішний слой мікроцементу</h3>
+          <Title title={"line"}>Фінішний слой мікроцементу</Title>
           <div className={styles.items}>
             <div className={styles.item}>
               <Image src='/img/technologies/page/microcement/materialy/durocret-deco-finish.jpg' alt='DUROCRET DECO FINISH' title='DUROCRET DECO FINISH' height={350} width={350} />
@@ -146,7 +146,7 @@ const Materialy = () => {
         </div>
 
         <div className={styles.block}>
-          <h3 className={styles.subtitle}>Гідроізоляція та захист</h3>
+          <Title title={"line"}>Гідроізоляція та захист</Title>
           <div className={styles.items}>
             <div className={styles.item}>
               <Image src='/img/technologies/page/microcement/materialy/varnish-pu-2k.jpg' alt='uni-primer' title='uni-primer' height={250} width={250} />
@@ -213,9 +213,7 @@ const Materialy = () => {
         </div>
 
         <div className={styles.block}>
-          <h3 className={styles.subtitle}>
-            Колорування
-          </h3>
+          <Title title={"line"}>Колорування</Title>
           <p className={styles.subtext}>
             Порошкові пігменти ISOMAT DECO COLOR - це високоякісні неорганічні барвники для фарбування цементних розчинів та бетону. Вони дозволяють отримати безліч відтінків кольорів.
           </p>

@@ -20,24 +20,16 @@
   }
 }
 
-.title,
 .descr {
+  font-size: 32px;
+  color: #fff;
   position: relative;
   z-index: 2;
 }
 
-.descr {
-  font-size: 32px;
-  color: #fff;
-}
-
-@media (max-width: 767px) {
-  .title {
-    margin-bottom: 10px;
-    font-size: 40px;
-  }
+@media (max-width: 768px) {
 
   .descr {
-    font-size: 20px;
+    font-size: 26px;
   }
 }

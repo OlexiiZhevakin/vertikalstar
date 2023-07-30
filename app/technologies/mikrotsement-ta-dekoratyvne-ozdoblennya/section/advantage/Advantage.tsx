@@ -1,3 +1,4 @@
+import Title from '@/components/title/Title'
 import styles from './advantage.module.scss'
 
 
@@ -5,7 +6,8 @@ const Advantage = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Переваги мікроцементу</h2>
+        <Title className={styles.title} title={'h2'}>Переваги мікроцементу</Title>
+        <h2 className={styles.title}></h2>
         <ul className={styles.list}>
           <li>
             Поверхню легко мити

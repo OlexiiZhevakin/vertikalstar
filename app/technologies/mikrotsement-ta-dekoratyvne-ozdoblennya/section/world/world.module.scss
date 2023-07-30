@@ -1,16 +1,16 @@
 
-.title{
-  text-align: left;
-  &::before {
-    content: '';
-    position: absolute;
-    width: 54%;
-    height: 3px;
-    background-color: var(--orange);
-    right: 0;
-    bottom: 50%;
-  }
-}
+// .title{
+//   text-align: left;
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     width: 54%;
+//     height: 3px;
+//     background-color: var(--orange);
+//     right: 0;
+//     bottom: 50%;
+//   }
+// }
 
 
 @media (max-width: 992px) {
@@ -25,7 +25,8 @@
 
 @media (max-width: 420px) {
   .container{
-    padding: 30px 0;
+    padding: 0;
+    padding-bottom: 30px;
   }
   .title{
     font-size: 26px;

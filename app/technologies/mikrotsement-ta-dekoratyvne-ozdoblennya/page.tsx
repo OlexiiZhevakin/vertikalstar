@@ -1,7 +1,6 @@
 
 
-'use client'
-import { useEffect } from 'react'
+// 'use client'
 import Advantage from './section/advantage/Advantage'
 import Color from './section/color/Color'
 import HeaderPage from './section/header/Head'
@@ -13,18 +12,7 @@ import Video from './section/video/Video'
 import World from './section/world/World'
 import Leeloo from './section/leeloo/Leeloo'
 
-const Microcement: React.FC = () => {
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.innerHTML = `
-      window.LEELOO_LEADGENTOOLS = (window.LEELOO_LEADGENTOOLS || []).concat('mu0um2');
-    `
-    document.body.appendChild(script)
-
-    return () => {
-      document.body.removeChild(script)
-    }
-  }, [])
+const Microcement = () => {
 
   return (
     <>
