@@ -1,5 +1,6 @@
 import styles from './Blog.module.scss';
 import BlogHomeCard from '@/card/BlogHomeCard/BlogHomeCard';
+import Title from '@/components/title/Title';
 import blogHomedData from '@/data/blogHome';
 import Link from 'next/link';
 
@@ -7,7 +8,7 @@ const Blog = () => {
   return(
     <section>
       <div className="container">
-        <h2 className={styles.title}>Блог та новини</h2>
+        <Title title={'line'}>Блог та новини</Title>
         <ul className={styles.list}>
           {blogHomedData.map((card, index) => {
             return(

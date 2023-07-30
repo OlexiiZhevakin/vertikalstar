@@ -3,6 +3,7 @@ import styles from './page.module.scss'
 import Image from 'next/image';
 import { PortfolioPages } from '../data';
 import Sinagoga from '../sinagoga/page';
+import Title from '@/components/title/Title';
 
 
 type Props = {
@@ -24,13 +25,11 @@ const PortfolioPage = ({ params: { id } }: Props) => {
       {page ? (
         <section className={styles.container}>
           <div className="container">
-            <h1 className={styles.title}>{page.title}</h1>
+            <Title title={'h1'}>{page.title}</Title>
             <p className={styles.subtext}>
               Історія проекту
             </p>
-            <h2 className={styles.subtitle}>
-              {page.body}
-            </h2>
+            <Title title={'h2'}>{page.body}</Title>
             {page.descr && page.descr.map((p, index) => (
               <p className={styles.description} key={index}>
                 {p}

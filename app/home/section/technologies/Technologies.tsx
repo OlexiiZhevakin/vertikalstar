@@ -4,6 +4,7 @@ import { useState } from 'react';
 import styles from './Technologies.module.scss';
 import TechnologiesData from '@/data/technologiesData';
 import TechnologiesCard from '@/card/TechnologiesCard/TechnologiesCard';
+import Title from '@/components/title/Title';
 
 const Technologies = () => {
   const [visibleCards, setVisibleCards] = useState(6);
@@ -15,7 +16,7 @@ const Technologies = () => {
   return (
     <section>
       <div className="container">
-        <h2 className={styles.title}>Технології</h2>
+        <Title title={'line'}>Технології</Title>
         <ul className={styles.list}>
           {TechnologiesData.slice(0, visibleCards).map((card, index) => (
             <li key={index}>

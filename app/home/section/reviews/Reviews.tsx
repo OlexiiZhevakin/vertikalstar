@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import ReviewCard from '@/card/ReviewCard/ReviewCard';
+import Title from '@/components/title/Title';
 
 const Reviews = () => {
 
@@ -16,7 +17,7 @@ const Reviews = () => {
   return (
     <section>
       <div className="container">
-        <h2 className={styles.title}>Відгуки</h2>
+        <Title title={'line'}>Відгуки</Title>
         <div className={styles.wrapper}>
           
           <Swiper

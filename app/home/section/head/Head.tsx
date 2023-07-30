@@ -1,4 +1,5 @@
 
+import Title from '@/components/title/Title';
 import styles from './Head.module.scss';
 
 const Head = () => {
@@ -9,9 +10,7 @@ const Head = () => {
           <p className={styles.subtitle}>
             Група компаній
           </p>
-          <h1 className={styles.title}>
-            Вертикаль будівельних технологій
-          </h1>
+          <Title title={'title'}>Вертикаль будівельних технологій</Title>
           <p className={styles.subtitle}>
             Впроваджуємо сучасні, ефективні технології для професійного будівництва
           </p>

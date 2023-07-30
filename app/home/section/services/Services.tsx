@@ -1,12 +1,13 @@
 import ServicesCard from "@/card/ServicesCard/ServicesCard";
 import ServiceData from "@/data/servicesData";
 import styles from './Services.module.scss';
+import Title from "@/components/title/Title";
 
 const Services = () => {
   return(
     <section>
       <div className="container">
-        <h2 className={styles.title}>Наші послуги</h2>
+        <Title title={'line'}>Наші послуги</Title>
         <ul className={styles.list}>
           {ServiceData.map((card, index) => {
             return(

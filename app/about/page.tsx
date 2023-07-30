@@ -1,4 +1,3 @@
-// 'use client'
 
 import Services from './section/services/Services';
 import Adaptationt from './section/adaptation/Adaptation';

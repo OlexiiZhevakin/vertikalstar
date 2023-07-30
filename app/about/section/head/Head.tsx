@@ -1,10 +1,12 @@
+import Title from '@/components/title/Title'
 import styles from './head.module.scss'
+import Image from 'next/image'
 
 const Head = () => {
   return(
     <section className={styles.head}>
         <div className="container">
-          <h1>Вітаємо Вас на нашому сайті!</h1>
+        <Title title={'h1'}>Вітаємо Вас на нашому сайті!</Title>
           <p>
             Дякую, що зацікавились нашими технологіями.
           </p>

@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import styles from './know.module.scss'
 import Image from 'next/image'
+import Title from '@/components/title/Title'
 
 const Know = () => {
   return(
     <section className={styles.know}>
       <div className="container">
-        <h2>Як ми це робимо?</h2>
+        <Title title={'h2'}>Як ми це робимо?</Title>
         <div className={styles.inner}>
           <div className={styles.info}>
             <h3>Знаємо</h3>

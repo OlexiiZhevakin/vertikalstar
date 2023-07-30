@@ -3,6 +3,7 @@ import styles from './Aside.module.scss';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faPinterest, faTiktok, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import Image from 'next/image';
 
 const Aside = () => {
   return (
@@ -10,10 +11,7 @@ const Aside = () => {
       <h2 className={styles.title}>Про компанію</h2>
       <article className={styles.about}>
         <div className={styles.img}>
-          <picture>
-            <source type="image/webp" srcSet="/img/blog/page/pro-kompaniyu.webp" title="Вертикаль будівельних технологій" />
-            <img className={styles.img} src="/img/blog/page/pro-kompaniyu.jpg" width="330" height="250" loading="lazy" alt="Вертикаль будівельних технологій" title="Вертикаль будівельних технологій" />
-          </picture>
+          <Image className={styles.img} src="/img/blog/page/pro-kompaniyu.jpg" width={330} height={250} alt="Вертикаль будівельних технологій" title="Вертикаль будівельних технологій" />
         </div>
         <p className={styles.text}>
           <span><strong>Вертикаль будівельних технологій</strong></span> - це проект, в якому ми допомагаємо людям будувати якісно та ефективно із застосуванням нових будівельних технологій.
@@ -57,10 +55,7 @@ const Aside = () => {
 
       <div className={styles.shop}>
         <Link href='https://vertikalstar.in.ua/ua/' target="_blank" rel="noopener noreferrer">
-          <picture>
-            <source type="image/webp" srcSet="/img/blog/page/byuro-budivelnoyi-khimiyi.webp" title="Бюро Будівельної Хімії" />
-            <img src="/img/blog/page/byuro-budivelnoyi-khimiyi.jpg" width="330" height="390" loading="lazy" alt="Бюро Будівельної Хімії" title="Бюро Будівельної Хімії" />
-          </picture>
+          <Image src="/img/blog/page/byuro-budivelnoyi-khimiyi.jpg" width={330} height={390} alt="Бюро Будівельної Хімії" title="Бюро Будівельної Хімії" />
           <div>
             <span>Наш інтернет-магазин</span>
           </div>

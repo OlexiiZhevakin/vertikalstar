@@ -1,12 +1,13 @@
 import WayCard from "@/card/WayCard/WayCard";
 import styles from "./Way.module.scss";
 import wayData from "@/data/wayData";
+import Title from "@/components/title/Title";
 
 const Way = () => {
   return(
     <section className={styles.way}>
       <div className="container">
-        <h2 className={styles.title}>Ваш шлях з нами</h2>
+        <Title title={'h2'}>Ваш шлях з нами</Title>
         <ul className={styles.list}>
           {wayData.map((card, index) => {
             return(

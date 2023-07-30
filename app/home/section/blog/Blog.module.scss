@@ -1,24 +1,4 @@
 
-.title {
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    width: 34%;
-    height: 3px;
-    bottom: 50%;
-    background-color: var(--orange);
-  }
-
-  &::before {
-    right: 0;
-  }
-
-  &::after {
-    left: 0;
-  }
-}
 
 .list{
   display: flex;
@@ -50,26 +30,13 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* Добавьте свои стили для ноутбуков и настольных компьютеров */
-  .title {
-    &:before,
-    &:after {
-      display: none;
-    }
-  }
   .list{
     gap: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* Добавьте свои стили для планшетов и небольших ноутбуков */
-  .title {
-    &:before,
-    &:after {
-      display: none;
-    }
-  }
+
   .list{
     flex-wrap: wrap;
     justify-content: center;
@@ -79,12 +46,7 @@
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   /* Добавьте свои стили для мобильных устройств и планшетов */
-  .title {
-    &:before,
-    &:after {
-      display: none;
-    }
-  }
+
   .list {
     flex-wrap: wrap;
     justify-content: center;
@@ -93,13 +55,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-  /* Добавьте свои стили для мобильных устройств */
-  .title {
-    &:before,
-    &:after {
-      display: none;
-    }
-  }
+
   .list {
     flex-wrap: wrap;
     justify-content: center;

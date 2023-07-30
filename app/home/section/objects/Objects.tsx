@@ -10,13 +10,14 @@ import { Navigation } from 'swiper/modules'
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import { ObjectPage } from "@/app/object/data";
+import Title from "@/components/title/Title";
 
 const Objects: FC = () => {
   const data = ObjectPage
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Об'єкти де застосовані наші ТЕХНОЛОГІЇ</h2>
+        <Title title={'line'}>Об'єкти де застосовані наші ТЕХНОЛОГІЇ</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

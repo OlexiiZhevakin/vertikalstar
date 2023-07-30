@@ -3,12 +3,13 @@
 import styles from './Brand.module.scss'
 
 import BrandCard from '@/card/BrandCard/BrandCard';
+import Title from '@/components/title/Title';
 import BrandData from '@/data/brandData';
 const Brands = () => {
   return(
     <section>
       <div className="container">
-        <h2 className={styles.title}>Бренди з якими ми працюємо</h2>
+        <Title title={'line'}>Бренди з якими ми працюємо</Title>
         <ul className={styles.list}>
           {BrandData.map((card, index) => {
             return(

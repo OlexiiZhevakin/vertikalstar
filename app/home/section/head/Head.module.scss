@@ -36,9 +36,6 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* Добавьте свои стили для ноутбуков и настольных компьютеров */
   .inner{
-    h1{
-      font-size: 64px;
-    }
     p{
       font-size: 32px;
     }
@@ -48,9 +45,6 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* Добавьте свои стили для планшетов и небольших ноутбуков */
   .inner{
-    h1{
-      font-size: 50px;
-    }
     p{
       font-size: 26px;
     }
@@ -60,10 +54,6 @@
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   /* Добавьте свои стили для мобильных устройств и планшетов */
   .inner{
-    h1{
-      font-size: 38px;
-      margin-bottom: 0;
-    }
     p{
       font-size: 20px;
     }
@@ -73,10 +63,6 @@
 @media only screen and (max-width: 480px) {
   /* Добавьте свои стили для мобильных устройств */
   .inner{
-    h1{
-      font-size: 40px;
-      margin-bottom: 0;
-    }
     p{
       font-size: 20px;
     }

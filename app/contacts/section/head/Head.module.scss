@@ -26,7 +26,6 @@
 
 .title{
   text-align: center;
-  z-index: 2;
 }
 
 .descr{
@@ -36,9 +35,6 @@
 }
 
 @media (max-width: 768px){
-  .title{
-    font-size: 42px;
-  }
   .descr{
     font-size: 16px;
   }
@@ -46,8 +42,5 @@
 @media (max-width: 420px){
   .head{
     min-height: 0;
-  }
-  .title{
-    font-size: 32px;
   }
 }

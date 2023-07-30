@@ -6,6 +6,7 @@ import { PortfolioPages } from './data'
 import Link from 'next/link'
 import PortfolioCard from '@/card/PortfolioCard/PortfolioCard'
 import Select from '@/components/select/Select'
+import Title from '@/components/title/Title'
 
 type Data = {
   [year: number]: typeof PortfolioPages;
@@ -27,7 +28,7 @@ const Portfolio = () => {
           if (filteredCards.length === 0) return null;
           return (
             <div className={styles.item} key={year}>
-              <h2 className={styles.year}>{year}</h2>
+              <Title className={styles.year} title={'h2'}>{year}</Title>
               <ul className={styles.list}>
                 {filteredCards.map((card, index) => (
                   <li key={index}>

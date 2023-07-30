@@ -43,9 +43,6 @@
 // }
 
 
-
-'use client'
-
 import BlogCard from "@/card/BlogCard/BlogCard";
 import styles from './List.module.scss';
 import Link from "next/link";
