@@ -40,7 +40,7 @@
 @media (max-width: 768px) {
   .h2{
     text-align: center;
-    white-space: wrap;
+    white-space: wrap !important;
   }
   .wrapper{
     justify-content: center;
