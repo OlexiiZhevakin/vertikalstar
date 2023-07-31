@@ -6,13 +6,14 @@ import 'swiper/scss';
 import 'swiper/scss/navigation';
 import gidroizolyatsiyaPremykaniyData from './data';
 import Image from 'next/image';
+import Title from '@/components/title/Title';
 
 
 const GidroizolyatsiyaPremykaniy = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Гідроізоляція примикань</h2>
+        <Title title={'line'}>Гідроізоляція примикань</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper
@@ -30,13 +31,13 @@ const GidroizolyatsiyaPremykaniy = () => {
           >
             {gidroizolyatsiyaPremykaniyData.map((slide, index) => (
               <SwiperSlide className={styles.slide} key={index}>
-                  <Image
-                    src={slide.img}
-                    alt='Ремонт входів'
-                    title='Ремонт входів'
-                    width={820}
-                    height={600}
-                  />
+                <Image
+                  src={slide.img}
+                  alt='Гідроізоляція примикань'
+                  title='Гідроізоляція примикань'
+                  width={820}
+                  height={600}
+                />
               </SwiperSlide>
             ))}
           </Swiper>

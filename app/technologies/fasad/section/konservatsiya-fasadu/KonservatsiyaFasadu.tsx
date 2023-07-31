@@ -6,13 +6,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import konservatsiyaFasaduData from './data';
+import Title from '@/components/title/Title';
 
 
 const KonservatsiyaFasadu = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Консервація фасаду</h2>
+        <Title title={'line'}>Консервація фасаду</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

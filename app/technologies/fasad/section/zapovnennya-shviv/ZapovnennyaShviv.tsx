@@ -1,5 +1,6 @@
 'use client'
 
+import Title from '@/components/title/Title';
 import zapovnennyaShvivData from './data'
 import styles from './zapovnennya-shviv.module.scss'
 
@@ -14,7 +15,7 @@ const ZapovnennyaShviv = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Заповнення швів</h2>
+        <Title title={'line'}>Заповнення швів</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

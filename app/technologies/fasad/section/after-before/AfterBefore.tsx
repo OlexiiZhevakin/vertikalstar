@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import styles from './afterbefore.module.scss'
+import Title from '@/components/title/Title'
 
 const AfterBefore = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Було-стало</h2>
+        <Title title={'line'}>Було-стало</Title>
         <div className={styles.inner}>
           <div className={styles.img}>
             <Image src='/img/technologies/page/fasad/after-before/fasad-5.jpg' alt='Технологія очищеня, реставрації та консервації цегляних фасадів' title='ехнологія очищеня, реставрації та консервації цегляних фасадів' width={570} height={420} />

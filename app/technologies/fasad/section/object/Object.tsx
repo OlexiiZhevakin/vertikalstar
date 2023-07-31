@@ -1,10 +1,11 @@
+import Title from '@/components/title/Title'
 import styles from './object.module.scss'
 
 const Object = () => {
   return (
     <div className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Як це виглядає на реальних об'єктах</h2>
+        <Title title={'h2'}>Як це виглядає на реальних об'єктах</Title>
       </div>
     </div>
   )

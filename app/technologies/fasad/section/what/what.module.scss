@@ -1,8 +1,5 @@
 @import "@/style/variables.module.scss";
 
-.title{
-  text-align: left;
-}
 
 .inner {
   display: flex;
@@ -68,9 +65,6 @@
 }
 
 @media (max-width: 992px) {
-  .title {
-    text-align: left;
-  }
 
   .inner {
     padding: 0;
@@ -98,11 +92,6 @@
 
   .inner {
     padding: 0;
-  }
-
-  .title {
-    font-size: 26px;
-    margin-bottom: 10px;
   }
 
   .img {

@@ -1,3 +1,4 @@
+import Title from '@/components/title/Title'
 import styles from './head.module.scss'
 
 const Head = () => {
@@ -5,9 +6,7 @@ const Head = () => {
     <section className={styles.head}>
       <div className="container">
         <div className={styles.inner}>
-          <h1 className={styles.title}>
-            Технологія очищення, реставрації та консервації цегляних фасадів
-          </h1>
+          <Title title={'title'}>Реставрація цегляних фасадів</Title>
         </div>
       </div>
     </section>

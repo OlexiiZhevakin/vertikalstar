@@ -7,6 +7,7 @@ import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import khimichnaOchystkaData from './data';
+import Title from '@/components/title/Title';
 
 
 
@@ -14,7 +15,7 @@ const KhimichnaOchystka = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Хімічна очистка</h2>
+        <Title title={'line'}>Хімічна очистка</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

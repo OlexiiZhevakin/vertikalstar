@@ -7,13 +7,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import piskostrumynneOchyshchennyaData from './data';
+import Title from '@/components/title/Title';
 
 
 const Pisok = () => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Піскоструминне очищення</h2>
+        <Title title={'line'}>Піскоструминне очищення</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

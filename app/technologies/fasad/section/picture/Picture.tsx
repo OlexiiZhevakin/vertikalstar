@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import styles from './picture.module.scss'
+import Title from '@/components/title/Title'
 
 const Picture = () => {
   return (
     <section>
       <div className="container">
-        <h2 className={styles.title}>Знайома картина?</h2>
+        <Title title={'h2'}>Знайома картина?</Title>
         <p className={styles.descr}> 
           Старовинна будівля виконана з цегли з дуже гарним цегляним орнаментом, але протягом десятиліть фасад цієї будівлі став брудним, частково руйнується та втрачає свою первинну красу.
         </p>
