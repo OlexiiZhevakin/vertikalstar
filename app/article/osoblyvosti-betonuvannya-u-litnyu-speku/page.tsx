@@ -1,4 +1,5 @@
 
+import Title from '@/components/title/Title'
 import Help from './help/Help'
 import styles from './page.module.scss'
 import Image from 'next/image'
@@ -10,9 +11,7 @@ const Article = () => {
       <article>
         <section className={styles.head}>
           <div className="container">
-            <h1 className={styles.title}>
-              Особливості бетонування у літню спеку
-            </h1>
+            <Title title={'h1'}>Особливості бетонування у літню спеку</Title>
             <div className={styles.articleinfo}>
               <div>
                 <p className={styles.date}>Дата публікації: <time dateTime="2023-03-13">
@@ -30,7 +29,6 @@ const Article = () => {
             <div className={styles.descr}>
               <p>
                 Про особливості зимового бетонування розповідають достатньо часто. І ми також.
-                {/* <Link className={styles.link} href='#'>Посилання на статью</Link> */}
               </p>
               <p>
                 А от про особливості бетонування у літню спеку, на наш погляд, говорять дуже мало.

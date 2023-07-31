@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
+import Title from '@/components/title/Title'
 
 const Article = () => {
   return (
     <article>
       <section className={styles.head}>
         <div className="container">
-          <h1 className={styles.title}>Гідроізоляція та види оздоблення басейну</h1>
+          <Title title={"h1"}>Гідроізоляція та види оздоблення басейну</Title>
           <div className={styles.articleinfo}>
             <div>
               <p className={styles.date}>Дата публікації: <time dateTime="2023-07-17">
@@ -107,10 +108,7 @@ const Article = () => {
               </p>
             </li>
           </ul>
-
-          <h2 className={styles.subtitle}>
-            Важливо
-          </h2>
+          <Title title={"h2"}>Важливо</Title>
           <p>
             Наступний момент на який слід звернути увагу – якщо басейн знаходиться в ґрунті, його зовнішню частину обов'язково необхідно захистити від ґрунтових вод. Для цих цілей найкраще підійде бітумно-поліуретанова гідроізоляція.
           </p>

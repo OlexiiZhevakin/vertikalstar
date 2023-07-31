@@ -17,14 +17,14 @@ const BrandData = [{
   imageWebp: '/img/brands/remmers.webp',
   title: 'Remmers',
   country: 'Німеччина',
-  link: '#',
+  link: '/brands/remmers',
 },
 {
   image: '/img/brands/celver-polymers.jpg',
   imageWebp: '/img/brands/celver-polymers.webp',
   title: 'Clever-Polymers',
   country: 'Туреччина',
-  link: '#',
+  link: '/brands/clever-polymers',
 },
 ];
 

@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Help from './Help/Help';
 import styles from './page.module.scss';
+import Title from '@/components/title/Title';
 
 const Article = () => {
   return (
@@ -9,7 +10,7 @@ const Article = () => {
       <article>
         <section className={styles.head}>
           <div className="container">
-            <h1 className={styles.title}>Як покращити розчин для цегляної кладки?</h1>
+            <Title title={'h1'}>Як покращити розчин для цегляної кладки?</Title>
             <div className={styles.articleinfo}>
               <div>
                 <p className={styles.date}>Дата публікації: <time dateTime="2023-07-20">
@@ -24,9 +25,7 @@ const Article = () => {
 
         <section className={styles.blog}>
           <div className="container">
-            <h2 className={styles.subtitle}>
-              Як муляру - професіоналу працювати краще і заробляти більше ?
-            </h2>
+            <Title title={'left'}>Як муляру - професіоналу працювати краще і заробляти більше ?</Title>
             <p className={styles.text}>
               Свій шлях у будівництві я почав ще хлопчиськом з позиції "підсобник муляра".  Тому чудово знаю всі радощі та труднощі цього захоплюючого процесу народження нових цегляних стін.
             </p>
@@ -54,10 +53,7 @@ const Article = () => {
               А т.к.  муляру платять за кількість покладеної цегли,це  значить заробляти більше.
             </p>
             <figure>
-              <picture>
-                <source type="image/webp" srcSet="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/mulyar.webp" title="Як муляру - професіоналу працювати краще і заробляти" />
-                <img src="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/mulyar.jpg" width="1200" height="620" loading="lazy" alt="Як муляру - професіоналу працювати краще і заробляти" title="Як муляру - професіоналу працювати краще і заробляти" />
-              </picture>
+              <Image src="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/mulyar.jpg" width={1200} height={620} loading="lazy" alt="Як муляру - професіоналу працювати краще і заробляти" title="Як муляру - професіоналу працювати краще і заробляти" />
               <figcaption>
                 Як муляру - професіоналу працювати краще і заробляти більше ?
               </figcaption>
