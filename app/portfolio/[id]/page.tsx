@@ -13,7 +13,6 @@ type Props = {
   };
 };
 
-
 const PortfolioPage = ({ params: { id } }: Props) => {
   const portfolioPages = PortfolioPages
   const page = portfolioPages.find(obj => obj.id === id)
@@ -29,7 +28,7 @@ const PortfolioPage = ({ params: { id } }: Props) => {
             <p className={styles.subtext}>
               Історія проекту
             </p>
-            <Title title={'h2'}>{page.body}</Title>
+            <Title title={'left'}>{page.body}</Title>
             {page.descr && page.descr.map((p, index) => (
               <p className={styles.description} key={index}>
                 {p}

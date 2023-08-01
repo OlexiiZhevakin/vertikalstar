@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import styles from './page.module.scss'
 import Form from '@/components/form/Form'
+import Title from '@/components/title/Title'
 
 const Sinagoga = () => {
   return (
     <>
       <section className={styles.head}>
         <div className="container">
-          <h1>Харківська хоральна синагога</h1>
+          <Title title={"title"}>Харківська хоральна синагога</Title>
           <p>центральна синагога й архітектурна пам'ятка в Харкові</p>
         </div>
       </section>
