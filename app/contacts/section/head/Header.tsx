@@ -5,8 +5,6 @@ import Image from 'next/image';
 
 
 const Header = () => {
-
-  
   return(
     <section className={styles.head}>
       <div className={styles.background}>
@@ -18,6 +16,7 @@ const Header = () => {
           }}
           quality={75}
           alt='Фонова картинка'
+          priority
         />
       </div>
       <div className="container">
