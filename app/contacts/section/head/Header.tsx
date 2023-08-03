@@ -1,7 +1,9 @@
 import Title from '@/components/title/Title';
 import styles from './Head.module.scss';
 
-const Head = () => {
+const Header = () => {
+
+  
   return(
     <section className={styles.head}>
       <div className="container">
@@ -14,7 +16,7 @@ const Head = () => {
   )
 }
 
-export default Head;
+export default Header;
 
 // 'use client'
 
