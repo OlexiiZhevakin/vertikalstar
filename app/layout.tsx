@@ -33,7 +33,11 @@ export default function RootLayout({
         <Script 
           id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="eb4a56fa-dcf5-4ac0-bf2b-22e8c0bb2b37" data-blockingmode="auto" type="text/javascript">
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-NSG4YJR32Z" />
+        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=G-NSG4YJR32Z" /> */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-NSG4YJR32Z"
+          data-cookieconsent="statistics"
+        />
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -42,7 +46,7 @@ export default function RootLayout({
             gtag ('config', 'G-NSG4YJR32Z');
           `}
         </Script>
-        <Script>
+        <Script data-cookieconsent="marketing">
           {`
             (function(d, w, s) {
               var widgetHash = 'aqbyivrqrfdf16euu58a', ctw = d.createElement(s); ctw.type = 'text/javascript'; ctw.async = true;
@@ -51,7 +55,7 @@ export default function RootLayout({
             })(document, window, 'script');
           `}
         </Script>
-        <Script>
+        <Script data-cookieconsent="marketing">
           {`
             (function(d, w, s) {
               var widgetHash = '4i91umjrde8gs703i7wh', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
