@@ -1,70 +1,52 @@
 
 
-.head{
+.head {
   position: relative;
-  background: url('/img/head-bg.webp') center/cover no-repeat;
-  padding: 0;
-  &::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-  }
-  p{
-    font-size: 40px;
-    line-height: 1.6;
-    color: var(--white);
-    font-weight: 600;
-  }
-}
-
-.inner{
+  min-height: calc(100vh - 84px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  min-height: calc(100vh - 84px);
-  color: var(--white);
-  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.subtitle{
+  color: var(--white);
+  font-size: 42px;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* Добавьте свои стили для ноутбуков и настольных компьютеров */
-  .inner{
-    p{
-      font-size: 32px;
-    }
+  .subtitle{
+    font-size: 32px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* Добавьте свои стили для планшетов и небольших ноутбуков */
-  .inner{
-    p{
-      font-size: 26px;
-    }
+  .subtitle {
+    font-size: 26px;
   }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   /* Добавьте свои стили для мобильных устройств и планшетов */
-  .inner{
-    p{
-      font-size: 20px;
-    }
+  .subtitle {
+    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   /* Добавьте свои стили для мобильных устройств */
-  .inner{
-    p{
-      font-size: 20px;
-    }
+  .subtitle {
+    font-size: 20px;
   }
 }
