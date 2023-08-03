@@ -1,60 +1,72 @@
-// import Title from '@/components/title/Title';
-// import styles from './Head.module.scss';
-
-
-
-// const Header = () => {
-
-  
-//   return(
-//     <section className={styles.head}>
-//       <div className="container">
-//         <Title className={styles.title} title={'title'}>Контакти</Title>
-//         <p className={styles.descr}>
-//           Зв'яжіться з нами, щоб отримати більш детальну інформацію про наші послуги та проекти
-//         </p>
-//       </div>
-//     </section>
-//   )
-// }
-
-// export default Header;
-'use client'
-import { useState, useEffect } from 'react';
 import Title from '@/components/title/Title';
 import styles from './Head.module.scss';
+import Image from 'next/image';
+
+
 
 const Header = () => {
-  const [imageLoaded, setImageLoaded] = useState(false);
 
-  useEffect(() => {
-    const image = new Image();
-    image.src = '/img/contacts/contact-bg.webp';
-    image.onload = () => {
-      setImageLoaded(true);
-    };
-  }, []);
-
-  return (
+  
+  return(
     <section className={styles.head}>
-      <img
-        src="/img/contacts/contact-bg.webp"
-        alt="Background"
-        className={`${styles.backgroundImage} ${imageLoaded ? styles.imageLoaded : ''}`}
-      />
-      <div className={`${styles.container} container`}>
-        <Title className={styles.title} title={'title'}>
-          Контакти
-        </Title>
+      <div className={styles.background}>
+        <Image
+          src="/img/contacts/contact-bg.webp"
+          fill
+          style={{
+            objectFit: 'cover',
+          }}
+          quality={75}
+          alt='Фонова картинка'
+        />
+      </div>
+      <div className="container">
+        <Title className={styles.title} title={'title'}>Контакти</Title>
         <p className={styles.descr}>
           Зв'яжіться з нами, щоб отримати більш детальну інформацію про наші послуги та проекти
         </p>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default Header;
+// 'use client'
+// import { useState, useEffect } from 'react';
+// import Title from '@/components/title/Title';
+// import styles from './Head.module.scss';
+
+// const Header = () => {
+//   const [imageLoaded, setImageLoaded] = useState(false);
+
+//   useEffect(() => {
+//     const image = new Image();
+//     image.src = '/img/contacts/contact-bg.webp';
+//     image.onload = () => {
+//       setImageLoaded(true);
+//     };
+//   }, []);
+
+//   return (
+//     <section className={styles.head}>
+//       <img
+//         src="/img/contacts/contact-bg.webp"
+//         alt="Background"
+//         className={`${styles.backgroundImage} ${imageLoaded ? styles.imageLoaded : ''}`}
+//       />
+//       <div className={`${styles.container} container`}>
+//         <Title className={styles.title} title={'title'}>
+//           Контакти
+//         </Title>
+//         <p className={styles.descr}>
+//           Зв'яжіться з нами, щоб отримати більш детальну інформацію про наші послуги та проекти
+//         </p>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Header;
 
 
 // 'use client'
