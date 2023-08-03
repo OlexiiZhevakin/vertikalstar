@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .head {
   padding-top: 144px;
@@ -22,12 +22,12 @@
 
   figcaption {
     text-align: center;
-    color: $cement;
+    color: var(--cement);
   }
 
   span {
     text-transform: uppercase;
-    color: $orange;
+    color: var(--orange);
   }
 }
 
@@ -80,14 +80,14 @@
 
 .btn {
   padding: 10px;
-  border: 1px solid $orange;
-  color: $title;
-  background-color: #fff;
+  border: 1px solid var(--orange);
+  color: var(--title);
+  background-color: var(--white);
   transition: all .4s;
 
   &:hover {
-    background-color: $gray;
-    color: #fff;
+    background-color: var(--gray);
+    color: var(--white);
   }
 }
 
@@ -123,7 +123,7 @@
   margin: 10px 0;
   height: 3px;
   width: 100%;
-  background-color: $orange;
+  background-color: var(--orange);
   display: block;
 }
 

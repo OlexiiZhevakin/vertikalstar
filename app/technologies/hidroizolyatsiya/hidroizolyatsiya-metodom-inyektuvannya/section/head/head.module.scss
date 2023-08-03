@@ -1,4 +1,4 @@
-@import "@/style/variables.module.scss";
+
 
 .head {
   display: flex;
@@ -35,7 +35,7 @@
 .subtitle {
   position: relative;
   margin-bottom: 30px;
-  color: $white;
+  color: var(--white);
   font-size: 28px;
   z-index: 2;
 }

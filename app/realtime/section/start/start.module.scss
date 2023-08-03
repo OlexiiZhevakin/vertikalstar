@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .container{
   padding: 30px 0;
@@ -37,14 +37,14 @@
   width: 60px;
   height: 60px;
   font-size: 30px;
-  background-color: $white;
-  border: 1px solid $orange;
-  color: $orange;
+  background-color: var(--white);
+  border: 1px solid var(--orange);
+  color: var(--orange);
   cursor: pointer;
   transition: all .3s;
 
   &:hover {
-    background-color: $orange;
-    color: $title;
+    background-color: var(--orange);
+    color: var(--title);
   }
 }

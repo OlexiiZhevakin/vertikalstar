@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 
 .date,
@@ -30,7 +30,7 @@
 }
 
 .link{
-  color: $orange;
+  color: var(--orange);
 }
 
 .promo{
@@ -40,7 +40,7 @@
 
 .block{
   padding: 10px;
-  background-color: $orange-bg;
+  background-color: var(--orange-bg);
   margin-bottom: 30px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
   border-radius: 10px;
@@ -62,8 +62,8 @@
 
 .promocode{
   padding: 30px 10px;
-  background-color: #fff;
-  border: 1px dashed $orange;
+  background-color: var(--white);
+  border: 1px dashed var(--orange);
   border-radius: 8px;
   margin: 0 auto;
   max-width: 370px;

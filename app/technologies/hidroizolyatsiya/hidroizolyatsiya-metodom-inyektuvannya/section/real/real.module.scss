@@ -1,4 +1,4 @@
-@import "@/style/variables.module.scss";
+
 
 .container {
   background-image: url('/img/technologies/page/hidro/hssmi/advantage-bg.webp');
@@ -7,7 +7,7 @@
 
 }
 .title{
-  color: $white;
+  color: var(--white);
 }
 .items {
   display: grid;

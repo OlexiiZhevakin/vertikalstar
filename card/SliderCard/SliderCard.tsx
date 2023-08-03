@@ -11,9 +11,9 @@ type Props = {
 const SliderCard = ({image, title, description}: Props) => {
   return(
     <div className={styles.slide}>
-      {/* <Link href={link}> */}
+
       <Image src={image} alt={title} title={title} width={340} height={340}/>
-      {/* </Link> */}
+
       <div>
         <p>{description}</p>
       </div>

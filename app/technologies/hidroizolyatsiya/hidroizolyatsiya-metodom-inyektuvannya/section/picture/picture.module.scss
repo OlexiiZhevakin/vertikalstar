@@ -1,7 +1,7 @@
-@import "@/style/variables.module.scss";
+
 
 .container{
-  background-color: #fff;
+  background-color: var(--white);
   padding: 60px 0;
 }
 

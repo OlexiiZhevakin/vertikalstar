@@ -1,4 +1,4 @@
-@import '@/style/variables.module.scss';
+
 
 .head{
 
@@ -41,7 +41,7 @@
   i{
     margin-right: 30px;
     font-size: 30px;
-    color: $orange;
+    color: var(--orange);
   }
 }
 

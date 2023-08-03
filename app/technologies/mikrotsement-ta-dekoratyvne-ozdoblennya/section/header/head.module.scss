@@ -1,4 +1,3 @@
-@import '@/style/variables.module.scss';
 
 .container {
   min-height: calc(100vh - 84px);
@@ -22,7 +21,7 @@
 
 .descr {
   font-size: 32px;
-  color: #fff;
+  color: var(--white);
   position: relative;
   z-index: 2;
 }

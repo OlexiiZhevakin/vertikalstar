@@ -3,19 +3,19 @@
 
 import { Navigation } from 'swiper/modules';
 import styles from './Reviews.module.scss';
-import ReviewData from '@/data/reviewdata';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import ReviewCard from '@/card/ReviewCard/ReviewCard';
 import Title from '@/components/title/Title';
+import { reviewdata } from '@/app/reviews/data';
 
 const Reviews = () => {
 
 
   return (
-    <section>
+    <section className={styles.container}>
       <div className="container">
         <Title title={'line'}>Відгуки</Title>
         <div className={styles.wrapper}>
@@ -42,14 +42,13 @@ const Reviews = () => {
             }}
           >
 
-            {ReviewData.map((card, index) => (
+            {reviewdata.map((card, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 <ReviewCard
-                  image={card.image}
+                  image={card.mini}
                   title={card.title}
-                  link={card.link}
-                  author={card.author}
-                  description={card.description}
+                  author={card.title}
+                  link={`/reviews/${card.id}`}
                 />
               </SwiperSlide>
             ))}

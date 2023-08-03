@@ -1,12 +1,12 @@
-@import "@/style/variables.module.scss";
+
 
 .join {
   padding: 60px 0;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .inner {
-  background-color: $orange;
+  background-color: var(--orange);
   padding: 45px 0;
   display: flex;
   justify-content: space-around;
@@ -16,7 +16,7 @@
   border-radius: 10px;
 
   h2 {
-    color: $white;
+    color: var(--white);
   }
 
   p {
@@ -27,16 +27,16 @@
 .btn {
   padding: 16px 48px;
   border-radius: 50px;
-  border: 1px solid $white;
+  border: 1px solid var(--white);
   transition: all .3s;
-  color: $white;
-  background-color: $orange;
+  color: var(--white);
+  background-color: var(--orange);
   white-space: nowrap !important;
   text-align: center;
   cursor: pointer;
 
   &:hover {
-    background-color: $white;
-    color: $orange;
+    background-color: var(--white);
+    color: var(--orange);
   }
 }

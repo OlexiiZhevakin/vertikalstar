@@ -1,7 +1,7 @@
-@import "@/style/variables.module.scss";
+
 
 .container {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .inner {
@@ -33,7 +33,7 @@
       height: 260px;
       bottom: -10px;
       left: -10px;
-      background-color: $orange;
+      background-color: var(--orange);
       z-index: -1;
     }
   }
