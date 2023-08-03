@@ -30,12 +30,11 @@ export default function RootLayout({
 
     <html lang="uk-UA">
       <body className={inter.className}>
-        {/* <CookieConsentPopup/> */}
         <Script 
           id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="eb4a56fa-dcf5-4ac0-bf2b-22e8c0bb2b37" data-blockingmode="auto" type="text/javascript">
         </Script>
-        <Script id="CookieDeclaration" src="https://consent.cookiebot.com/eb4a56fa-dcf5-4ac0-bf2b-22e8c0bb2b37/cd.js" type="text/javascript" async>
-        </Script>
+        {/* <Script id="CookieDeclaration" src="https://consent.cookiebot.com/eb4a56fa-dcf5-4ac0-bf2b-22e8c0bb2b37/cd.js" type="text/javascript" async>
+        </Script> */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-NSG4YJR32Z" />
         <Script id="google-analytics">
           {`
