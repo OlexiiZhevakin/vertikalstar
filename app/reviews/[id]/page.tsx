@@ -3,16 +3,25 @@ import styles from './page.module.scss'
 import { reviewdata } from '../data'
 import Image from 'next/image'
 import Form from '@/components/form/Form'
+import { Metadata } from "next";
 
 type Props = {
     params: {
       id: string
+      title: string
     }
+}
+
+export async function generateMetadata({ params: { title } }: Props): Promise<Metadata> {
+  return {
+    title: title
+  }
 }
 
 const ReviewId = ({params: {id}}: Props) => {
 
   const page = reviewdata.find(page => page.id === id)
+
   return (
     <>
       {page ? (
