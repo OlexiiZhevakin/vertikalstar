@@ -1,11 +1,17 @@
 import Title from '@/components/title/Title';
 import styles from './Head.module.scss';
+import Image from 'next/image';
+import bg from '@/public/img/contacts/contact-bg.webp'
+
 
 const Header = () => {
 
   
   return(
     <section className={styles.head}>
+      <Image src={bg} alt='Фонова картинка' title='Фонова картинка' fill sizes="100vw" placeholder="blur" quality={100} style={{
+        objectFit: 'cover',
+      }} priority />
       <div className="container">
         <Title className={styles.title} title={'title'}>Контакти</Title>
         <p className={styles.descr}>
