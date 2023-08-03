@@ -90,6 +90,7 @@ const Footer = () => {
           <p>Вертикаль будівельних технологій © 1999 - 2023</p>
           <ul>
             <li><a href="/">Політика конфіденційності</a></li>
+            <li><Link href='/cookie'>Cookie Policy</Link></li>
           </ul>
         </div>
       </div>
