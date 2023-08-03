@@ -12,11 +12,22 @@ type Props = {
     }
 }
 
-export async function generateMetadata({ params: { title } }: Props): Promise<Metadata> {
+export async function generateMetadata(
+  { params }: Props
+): Promise<Metadata> {
+  const page = reviewdata.find(page => page.id === params.id)
+
+  if (!page) {
+    return {
+      title: 'Объект не найден'
+    }
+  }
+
   return {
-    title: title
+    title: page.title
   }
 }
+
 
 const ReviewId = ({params: {id}}: Props) => {
 
