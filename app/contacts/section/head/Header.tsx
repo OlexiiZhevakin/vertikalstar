@@ -1,28 +1,61 @@
-import Title from '@/components/title/Title';
-import styles from './Head.module.scss';
-import Image from 'next/image';
-import bg from '@/public/img/contacts/contact-bg.webp'
+// import Title from '@/components/title/Title';
+// import styles from './Head.module.scss';
 
 
-const Header = () => {
+
+// const Header = () => {
 
   
-  return(
+//   return(
+//     <section className={styles.head}>
+//       <div className="container">
+//         <Title className={styles.title} title={'title'}>Контакти</Title>
+//         <p className={styles.descr}>
+//           Зв'яжіться з нами, щоб отримати більш детальну інформацію про наші послуги та проекти
+//         </p>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Header;
+'use client'
+import { useState, useEffect } from 'react';
+import Title from '@/components/title/Title';
+import styles from './Head.module.scss';
+
+const Header = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const image = new Image();
+    image.src = '/img/contacts/contact-bg.webp';
+    image.onload = () => {
+      setImageLoaded(true);
+    };
+  }, []);
+
+  return (
     <section className={styles.head}>
-      <Image src={bg} alt='Фонова картинка' title='Фонова картинка' fill sizes="100vw" placeholder="blur" quality={100} style={{
-        objectFit: 'cover',
-      }} priority />
-      <div className="container">
-        <Title className={styles.title} title={'title'}>Контакти</Title>
+      <img
+        src="/img/contacts/contact-bg.webp"
+        alt="Background"
+        className={`${styles.backgroundImage} ${imageLoaded ? styles.imageLoaded : ''}`}
+      />
+      <div className={`${styles.container} container`}>
+        <Title className={styles.title} title={'title'}>
+          Контакти
+        </Title>
         <p className={styles.descr}>
           Зв'яжіться з нами, щоб отримати більш детальну інформацію про наші послуги та проекти
         </p>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Header;
+
 
 // 'use client'
 
