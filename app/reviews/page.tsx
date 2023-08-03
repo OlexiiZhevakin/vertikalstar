@@ -3,6 +3,16 @@ import Link from "next/link"
 import styles from './page.module.scss'
 import { reviewdata } from "./data"
 import Title from "@/components/title/Title"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.vertikalstar.com/reviews'),
+  title: 'Відгуки',
+  description: 'Відгуки про роботу компанії Вертикаль Будівельних Технологій. Відкрийте для себе різноманітність методів, що використовуються нашою компанією',
+  openGraph: {
+    images: ['/img/head-bg.webp']
+  }
+}
 
 const Reviews = () => {
   return (

@@ -2,6 +2,16 @@ import TechnologiesCard from '@/card/TechnologiesCard/TechnologiesCard';
 import styles from './Technologies.module.scss';
 import TechnologiesData from '@/data/technologiesData';
 import Form from '@/components/form/Form';
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.vertikalstar.com/technologies/'),
+  title: 'Технології',
+  description: 'Технології компанії Вертикаль Будівельних Технологій. Відкрийте для себе різноманітність методів, що використовуються нашою компанією',
+  openGraph: {
+    images: ['/img/head-bg.webp']
+  }
+}
 
 const Technologies = () => {
   return (

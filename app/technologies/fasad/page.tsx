@@ -17,6 +17,16 @@ import ZapovnennyaShviv from "./section/zapovnennya-shviv/ZapovnennyaShviv"
 import Advantage from "./section/advantage/Advantage"
 import Object from "./section/object/Object"
 import Way from "@/app/home/section/way/Way"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.vertikalstar.com/technologies/fasad'),
+  title: 'Реставрація цегляних фасадів',
+  description: 'Послуга Реставрація цегляних фасадів від компанії Вертикаль Будівельних Технологій. Відкрийте для себе різноманітність методів, що використовуються нашою компанією',
+  openGraph: {
+    images: ['/img/technologies/page/fasad/head-bg.webp']
+  }
+}
 
 
 const Fasad = () => {
