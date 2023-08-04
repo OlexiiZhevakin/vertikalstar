@@ -13,7 +13,7 @@ const Header = () => {
           fill
           quality={75}
           alt='Фонова картинка'
-          priority
+          priority={true}
         />
       </div>
       <div className="container">
@@ -27,6 +27,8 @@ const Header = () => {
 }
 
 export default Header;
+
+
 // 'use client'
 // import { useState, useEffect } from 'react';
 // import Title from '@/components/title/Title';
