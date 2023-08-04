@@ -11,12 +11,12 @@ const Header = () => {
         <Image
           src="/img/contacts/contact-bg.jpg"
           fill
-          style={{
-            objectFit: 'cover',
-          }}
+          // style={{
+          //   objectFit: 'cover',
+          // }}
           quality={75}
           alt='Фонова картинка'
-          priority={true}
+          priority
         />
       </div>
       <div className="container">
