@@ -9,7 +9,7 @@ const Header = () => {
     <section className={styles.head}>
       <div className={styles.background}>
         <Image
-          src="/img/contacts/contact-bg.webp"
+          src="/img/contacts/contact-bg.jpg"
           fill
           style={{
             objectFit: 'cover',
