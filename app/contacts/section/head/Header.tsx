@@ -11,7 +11,7 @@ const Header = () => {
         <Image
           src="/img/contacts/contact-bg.jpg"
           fill
-          quality={100}
+          quality={75}
           alt='Фонова картинка'
           priority={true}
         />
