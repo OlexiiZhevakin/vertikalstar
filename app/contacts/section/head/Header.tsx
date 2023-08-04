@@ -14,7 +14,9 @@ const Header = () => {
           style={{
             objectFit: 'cover',
           }}
-          quality={75}
+          placeholder="blur"
+          quality={100}
+          sizes="100vw"
           alt='Фонова картинка'
           priority
         />
