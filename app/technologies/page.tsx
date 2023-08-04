@@ -3,6 +3,7 @@ import styles from './Technologies.module.scss';
 import TechnologiesData from '@/data/technologiesData';
 import Form from '@/components/form/Form';
 import { Metadata } from "next";
+import Title from '@/components/title/Title';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.vertikalstar.com/technologies/'),
@@ -18,7 +19,7 @@ const Technologies = () => {
     <>
       <section className={styles.technologies}>
         <div className="container">
-          <h1>Технології</h1>
+          <Title title={'h1'}>Технології</Title>
           <p>
             Відкрийте для себе різноманітність методів, що використовуються нашою компанією
           </p>

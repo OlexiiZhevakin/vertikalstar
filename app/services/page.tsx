@@ -20,7 +20,6 @@ const Services = () => {
       <section className={styles.container}>
         <div className="container">
           <Title title={'h1'}>Наші послуги</Title>
-          <p className='subtitle'></p>
           <ul className={styles.list}>
             {ServiceData.map((card, index) => {
               return (

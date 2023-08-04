@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
+import Title from '@/components/title/Title'
 
 const Info = () => {
   return(
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Піскоструменева очистка</h2>
+        <Title title={'line'}>Піскоструменева очистка</Title>
+        <h2 className={styles.title}></h2>
         <div className={styles.inner}>
           <p>
             Технологія піскоструменевого очищення є необхідною підготовкою перед нанесенням наступних ремонтних та захисних шарів.

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './implement.module.scss'
 import Image from 'next/image'
+import Btn from '@/components/Btn/Btn'
 
 const Implement = () => {
   return(
@@ -36,8 +37,7 @@ const Implement = () => {
                 <Link href="#">Декоративне оздоблення</Link>
               </li>
             </ul>
-
-            <Link className='btn' href="/technologies">Всі технології</Link>
+            <Btn href='/technologies'>Всі технології</Btn>
           </div>
         </div>
       </div>

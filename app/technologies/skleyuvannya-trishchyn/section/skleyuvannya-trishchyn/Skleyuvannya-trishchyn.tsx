@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
+import Title from '@/components/title/Title'
 
 const SkleyuvannyTtrishchyn = () => {
   return(
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>Склеювання тріщин</h2>
+        <Title title={'line'}>Склеювання тріщин</Title>
         <div className={styles.inner}>
           <div className={styles.img}>
             <Image src='/img/technologies/page/torkretuvannya/skleyuvannya-trishchyn-1.jpg' alt='Склеювання тріщин' title='Склеювання тріщин' width={580} height={400}/>

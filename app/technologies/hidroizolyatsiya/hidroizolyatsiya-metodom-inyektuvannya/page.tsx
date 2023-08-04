@@ -7,10 +7,10 @@ import Grafic from "./section/grafic/Grafic";
 import Sova from "./section/sova/Sova";
 import Real from "./section/real/Real";
 import Advantage from "./section/advantage/Advantage";
-import Timeline from "./section/timeline/Timeline";
 import Problem from "./section/problem/Problem";
-import Slider from "./section/slider/Slider";
+import Slider from "./section/slider/Sliders";
 import Help from "@/components/help/Help";
+import Way from "@/app/home/section/way/Way";
 
 
 const HsSmI = () => {
@@ -26,7 +26,7 @@ const HsSmI = () => {
     <Sova/>
     <Real/>
     <Advantage/>
-    <Timeline/>
+    <Way/>
     <Problem/>
     <Form/>
     </>

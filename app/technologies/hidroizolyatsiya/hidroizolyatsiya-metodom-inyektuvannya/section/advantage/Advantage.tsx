@@ -1,3 +1,4 @@
+import Title from '@/components/title/Title'
 import styles from './advantage.module.scss'
 
 const Advantage = () => {
@@ -5,10 +6,7 @@ const Advantage = () => {
     <section className={styles.container}>
 
       <div className="container">
-
-        <h2 className={styles.title}>
-          Переваги даної технології
-        </h2>
+        <Title className={styles.title} title={'h2'}>Переваги даної технології</Title>
 
         <div className={styles.items}>
 

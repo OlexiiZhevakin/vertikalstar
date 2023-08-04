@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './proect.module.scss'
+import Title from '@/components/title/Title'
 
 const Proect = () => {
   return(
@@ -7,7 +8,7 @@ const Proect = () => {
       <div className="container">
         <div className={styles.inner}>
           <div className={styles.content}>
-            <h2 className={styles.title}>Для проектувальників</h2>
+            <Title title={'left'}>Для проектувальників</Title>
             <p>
               Якщо проект готовий, ми можемо допомогти доопрацювати розділ, пов'язаний з нашими Технологіями. Надаємо всю необхідну документацію, креслення вузлів, сертифікати.
             </p>

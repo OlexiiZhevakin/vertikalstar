@@ -1,10 +1,11 @@
+import Title from '@/components/title/Title'
 import styles from './head.module.scss'
 
 const Head = () => {
   return(
     <section className={styles.head}>
       <div className="container">
-        <h1>Обстеження, проектування, розробка Технології</h1>
+        <Title title={'h1'}>Обстеження, проектування, розробка Технології</Title>
           <p>
             Завдяки нашому досвіду та експертизі ми забезпечуємо високу якість робіт і надійні рішення для будівельних проектів будь-якої складності.
           </p>

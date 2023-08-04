@@ -1,3 +1,4 @@
+import Btn from '@/components/Btn/Btn';
 import styles from './Blog.module.scss';
 import BlogHomeCard from '@/card/BlogHomeCard/BlogHomeCard';
 import Title from '@/components/title/Title';
@@ -23,8 +24,8 @@ const Blog = () => {
             )
           })}
         </ul>
-        <div>
-          <Link className={styles.btn} href="/blog">Читати більше</Link>
+        <div className={styles.btn}>
+          <Btn href='/blog'>Читати більше</Btn>
         </div>
       </div>
     </section>

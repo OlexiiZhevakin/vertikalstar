@@ -1,13 +1,25 @@
+import Title from '@/components/title/Title'
 import styles from './head.module.scss'
+import Image from 'next/image'
 
 const Head = () => {
   return (
-    <section className={styles.head}>
+    <section className={styles.container}>
+      <div className={styles.background}>
+        <Image
+          src="/img/technologies/page/torkretuvannya/head-bg.webp"
+          fill
+          style={{
+            objectFit: 'cover',
+          }}
+          quality={75}
+          alt='Фонова картинка'
+          priority
+        />
+      </div>
       <div className="container">
         <div className={styles.inner}>
-          <h1 className={styles.title}>
-            Піскоструминне очищення
-          </h1>
+          <Title title={'title'}>Піскоструминне очищення</Title>
         </div>
       </div>
     </section>

@@ -1,17 +1,18 @@
 import Image from 'next/image'
 import styles from './about.module.scss'
+import Title from '@/components/title/Title'
 
 const About = () => {
-  return(
+  return (
     <section className={styles.container}>
       <div className="container">
-        <h2 className={styles.title}>
+        <Title title={'left'}>
           У більшості випадків ці проблеми є наслідком капілярного підйому вологи по стінах.
-        </h2>
+        </Title>
         <div className={styles.inner}>
           <div className={styles.item}>
             <div className={styles.img}>
-              <Image src='/img/technologies/page/hidro/hssmi/block_about/shlyakh-pidyomu-volohy.jpg' alt='Шлях підйому вологи' title='Шлях підйому вологи' width={600} height={500}/>
+              <Image src='/img/technologies/page/hidro/hssmi/block_about/shlyakh-pidyomu-volohy.jpg' alt='Шлях підйому вологи' title='Шлях підйому вологи' width={600} height={500} />
             </div>
             <div className={styles.info}>
               <h3 className={styles.subtitle}>
@@ -54,16 +55,13 @@ const About = () => {
               </div>
             </div>
             <div className={styles.img}>
-              <picture>
-                <source media="(min-width: 768px)" type="image/webp"
-                  srcSet="/img/technologies/page/hidro/hssmi/block_about/shlyakh-zakhystu-vid-pidyomu-volohy.webp" title="Шлях підйому вологи"/>
-                <img src="/img/technologies/page/hidro/hssmi/block_about/shlyakh-zakhystu-vid-pidyomu-volohy.jpg"
-                  alt="На цьому фото показано шлях захисту від підйому вологи" width="600" height="500" loading="lazy"
-                  title="Шлях захисту від підйому вологи"/>
-              </picture>
+              <Image src="/img/technologies/page/hidro/hssmi/block_about/shlyakh-zakhystu-vid-pidyomu-volohy.jpg"
+                alt="На цьому фото показано шлях захисту від підйому вологи" 
+                width="600" 
+                height="500"
+                title="Шлях захисту від підйому вологи" />
             </div>
           </div>
-
         </div>
       </div>
     </section>

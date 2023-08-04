@@ -37,15 +37,8 @@
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media(max-width: 767px) {
   /* Добавьте свои стили для мобильных устройств и планшетов */
-  .subtitle {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  /* Добавьте свои стили для мобильных устройств */
   .subtitle {
     font-size: 20px;
   }

@@ -20,7 +20,7 @@ const Title = ({ title, children, className }: Props) => {
     case "line":
       return (
         <div className={styles.wrapper}>
-          <h2 className={`${styles.h2} ${className}`}>{children}</h2>
+          <h2 className={`${styles.left} ${className || ''}`}>{children}</h2>
           <span className={styles.line}></span>
         </div>
       );

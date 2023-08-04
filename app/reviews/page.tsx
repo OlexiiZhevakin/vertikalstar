@@ -1,9 +1,9 @@
 
-import Link from "next/link"
 import styles from './page.module.scss'
 import { reviewdata } from "./data"
 import Title from "@/components/title/Title"
 import { Metadata } from "next";
+import Btn from "@/components/Btn/Btn";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.vertikalstar.com/reviews'),
@@ -28,7 +28,7 @@ const Reviews = () => {
                     <p className={styles.author}>{item.title}</p>
                     <p className={styles.descr}>{item.description}</p>
                   </div>
-                  <Link className="btn" href={`/reviews/${item.id}`}>Докладніше</Link>
+                  <Btn href={`/reviews/${item.id}`}>Докладніше</Btn>
                 </li>
               )
             })}

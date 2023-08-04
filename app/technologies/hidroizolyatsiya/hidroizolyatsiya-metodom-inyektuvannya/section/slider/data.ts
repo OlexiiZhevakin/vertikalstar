@@ -1,0 +1,22 @@
+export const sliderdata = [
+  "/img/technologies/page/hidro/hssmi/slider/1.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/2.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/3.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/4.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/5.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/6.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/7.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/8.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/9.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/10.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/11.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/12.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/13.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/14.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/15.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/16.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/17.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/18.jpg",
+  "/img/technologies/page/hidro/hssmi/slider/19.jpg",
+]
+

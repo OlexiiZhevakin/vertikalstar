@@ -4,11 +4,11 @@
   background-image: url('/img/technologies/page/hidro/hssmi/advantage-bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .title{
-  color: var(--white);
+  color: var(--white) !important;
 }
+
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -40,8 +40,5 @@
 @media (max-width: 420px) {
   .container{
     padding: 30px 0;
-  }
-  .title{
-    font-size: 32px;
   }
 }

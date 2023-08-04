@@ -2,7 +2,7 @@ import styles from './About-us.module.scss';
 
 const AboutUs = () => {
   return(
-    <div className={styles.about}>
+    <div className={styles.container}>
       <div className="container">
         <div className={styles.inner}>
           <div className={styles.item}>
