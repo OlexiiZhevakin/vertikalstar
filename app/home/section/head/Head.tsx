@@ -10,9 +10,6 @@ const Head = () => {
         <Image
           src="/img/head-bg.webp"
           fill
-          style={{
-            objectFit: 'cover',
-          }}
           quality={75}
           alt='Фонова картинка'
           priority
