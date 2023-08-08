@@ -71,15 +71,15 @@
   a {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
+    // align-items: center;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     font-size: 30px;
     color: var(--white);
-    &:hover{
-      border: 3px solid var(--orange);
-    }
+    // &:hover{
+    //   border: 3px solid var(--orange);
+    // }
   }
 }
 

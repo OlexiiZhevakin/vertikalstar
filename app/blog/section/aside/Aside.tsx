@@ -65,11 +65,8 @@ const Aside = () => {
       <div className={styles.youtube}>
         <Link href='https://www.youtube.com/channel/UCnVtTKrimr-qNuSTvj_5w6Q' target="_blank" rel="noopener noreferrer">
           <div className={styles.imgYoutube}>
-            <picture>
-              <source type="image/webp" srcSet="/img/blog/page/youtube.webp" title="Канал на YouTube компанії ВЕРТИКАЛЬ БУДІВЕЛЬНИХ ТЕХНОЛОГІЙ" />
-              <img src="/img/blog/page/youtube.jpg" width="330" height="342" loading="lazy" alt="Канал на YouTube компанії ВЕРТИКАЛЬ БУДІВЕЛЬНИХ ТЕХНОЛОГІЙ" title="Канал на YouTube компанії ВЕРТИКАЛЬ БУДІВЕЛЬНИХ ТЕХНОЛОГІЙ" />
+              <Image src='/img/blog/page/youtube.jpg' alt='Канал на YouTube компанії ВЕРТИКАЛЬ БУДІВЕЛЬНИХ ТЕХНОЛОГІЙ' title='Канал на YouTube компанії ВЕРТИКАЛЬ БУДІВЕЛЬНИХ ТЕХНОЛОГІЙ' width={330} height={342}/>
               <FontAwesomeIcon icon={faYoutube} />
-            </picture>
           </div>
           <div className={styles.descr}>
             <span>Наш канал на YouTube</span>
