@@ -11,4 +11,7 @@ export const slidertransparent = [
   '/img/technologies/page/promyslovi-ta-dekoratyvni-pidlohy/slider-transparent/prozori-propytky-dlya-betonnykh-pidloh-10.jpg',
   '/img/technologies/page/promyslovi-ta-dekoratyvni-pidlohy/slider-transparent/prozori-propytky-dlya-betonnykh-pidloh-11.jpg',
   '/img/technologies/page/promyslovi-ta-dekoratyvni-pidlohy/slider-transparent/prozori-propytky-dlya-betonnykh-pidloh-12.jpg',
+  '/img/technologies/page/promyslovi-ta-dekoratyvni-pidlohy/slider-transparent/prozori-propytky-dlya-betonnykh-pidloh-13.jpg',
+  '/img/technologies/page/promyslovi-ta-dekoratyvni-pidlohy/slider-transparent/prozori-propytky-dlya-betonnykh-pidloh-14.jpg',
+  '/img/technologies/page/promyslovi-ta-dekoratyvni-pidlohy/slider-transparent/prozori-propytky-dlya-betonnykh-pidloh-15.jpg',
 ]
