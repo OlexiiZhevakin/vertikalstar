@@ -65,6 +65,26 @@ export const PortfolioPages = [
       "/img/portfolio/1999/remont-ruberoydnoyi-pokrivli-17.jpg",
     ]
   },
+  {
+    "id": "remont-betonnoyi-pidlohy-v-nashomu-ofisi-na-kovalskiy-25",
+    "year": "1999-2009",
+    "title": "Наш офіс на Ковальській, 25",
+    "image": "/img/portfolio/cards/1999/nash-ofis-na-kovalskiy/nash-ofis-na-kovalskiy.jpg",
+    "place": "м.Харків, Україна",
+    "technologies": ["Промислові та декоративні підлоги"],
+    "body": "Ремонт бетонної підлоги в нашому офісі на Ковальській, 25",
+    "descr": [
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/img/portfolio/1999/nash-ofis-na-kovalskiy-25/nash-ofis-na-kovalskiy-25-1.jpg",
+      "/img/portfolio/1999/nash-ofis-na-kovalskiy-25/nash-ofis-na-kovalskiy-25-2.jpg",
+      "/img/portfolio/1999/nash-ofis-na-kovalskiy-25/nash-ofis-na-kovalskiy-25-3.jpg",
+      "/img/portfolio/1999/nash-ofis-na-kovalskiy-25/nash-ofis-na-kovalskiy-25-4.jpg",
+    ]
+  },
   // {
   //   "id": "",
   //   "year": "1999-2009",
@@ -82,23 +102,101 @@ export const PortfolioPages = [
   //     "/img/portfolio/1999/jpg",
   //   ]
   // },
-  // {
-  //   "id": "zavod-blyk-rekonstruktsiya",
-  //   "year": "1999-2009",
-  //   "title": "Завод Блік-реконструкція",
-  //   "image": "/img/portfolio/cards/",
-  //   "place": "м.Харків, Україна",
-  //   "technologies": ["Гідроізоляція"],
-  //   "body": "",
-  //   "descr": [
-  //     "",
-  //     "",
-  //     ""
-  //   ],
-  //   "images": [
-  //     "/img/portfolio/1999/zavod-blyk-rekonstruktsiya/zavod-blyk-rekonstruktsiya-.jpg",
-  //   ]
-  // },
+  {
+    "id": "viddilennya-banku",
+    "year": "1999-2009",
+    "title": "Відділення банку",
+    "image": "/img/portfolio/cards/1999/viddilennya-banku/viddilennya-banku.jpg",
+    "place": "м.Харків, Україна",
+    "technologies": ["Торкетування"],
+    "body": "Реконструкція приміщення відділення банку металом торкретування на вул. Полтавський шлях",
+    "descr": [
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-8.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-9.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-10.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-11.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-12.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-13.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-14.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-15.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-16.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-17.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-18.jpg",
+      "/img/portfolio/1999/viddilennya-banku/viddilennya-banku-19.jpg",
+    ]
+  },
+  {
+    "id": "vyrobnytstvo-na-vul-chaykovskoho-pokryttya-betonnoyi-pidlohy-epoksydnym-prosochennyam",
+    "year": "1999-2009",
+    "title": "Виробництво на вул.Чайковського",
+    "image": "/img/portfolio/cards/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho.jpg",
+    "place": "м.Харків, Україна",
+    "technologies": ["Промислові та декоративні підлоги"],
+    "body": "Покриття бетонної підлоги епоксидною пропиткою",
+    "descr": [
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-1.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-2.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-3.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-4.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-5.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-6.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-7.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-8.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-9.jpg",
+      "/img/portfolio/1999/vyrobnytstvo-na-vul-chaykovskoho/vyrobnytstvo-na-vul-chaykovskoho-10.jpg",
+    ]
+  },
+  {
+    "id": "ochyshchennya-derevyanoho-suba-peskostruykoyu",
+    "year": "1999-2009",
+    "title": "сел. Тимченки",
+    "image": "/img/portfolio/cards/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu.jpg",
+    "place": "м.Харків, Україна",
+    "technologies": ["Піскоструминне очищенняція"],
+    "body": "Очищение деревянного суба пескоструйкой, щадящей",
+    "descr": [
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-1.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-2.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-3.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-4.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-5.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-6.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-7.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-8.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-9.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-10.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-11.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-12.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-13.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-14.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-15.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-16.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-17.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-18.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-19.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-20.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-21.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-22.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-23.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-24.jpg",
+      "/img/portfolio/1999/ochyshchennya-derevyanoho-suba-peskostruykoyu/ochyshchennya-derevyanoho-suba-peskostruykoyu-25.jpg",
+    ]
+  },
   {
     "id": "hidroizolyatsiya-pidval-zavod-rohan",
     "year": "1999-2009",
@@ -256,21 +354,15 @@ export const PortfolioPages = [
     ],
     "images": [
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-1.jpg",
-      "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-2.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-3.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-4.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-5.jpg",
-      "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-6.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-7.jpg",
-      "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-8.jpg",
-      "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-9.jpg",
-      "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-10.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-11.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-12.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-13.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-14.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-15.jpg",
-      "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-16.jpg",
       "/img/portfolio/1999/natsionalna-akademiya-pravovykh-nauk/natsionalna-akademiya-pravovykh-nauk-17.jpg",
     ]
   },
@@ -310,7 +402,7 @@ export const PortfolioPages = [
   },
   {
     "id": "kharkivska-khoralna-synahoha-2003",
-    "year": 2003,
+    "year": "1999-2009",
     "title": "Харьківська хоральна сінагога",
     "image": "/img/portfolio/cards/harkivska-horalnaya-sinagoga.jpg",
     "place": "м.Харків, Україна",

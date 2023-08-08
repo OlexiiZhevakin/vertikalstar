@@ -26,7 +26,7 @@ const TechnologiesData = [{
     image: '/img/technologies/promyslovi-ta-dekoratyvni-pidlohy.jpg',
     imageWebp: '/img/technologies/promyslovi-ta-dekoratyvni-pidlohy.webp',
     title: 'Промислові та декоративні підлоги',
-    link: '#',
+    link: '/technologies/promyslovi-ta-dekoratyvni-pidlohy',
   },
   {
     image: '/img/technologies/rekonstruktsiya.jpg',
