@@ -82,7 +82,7 @@ const navItems = [
       },
       {
         label: 'Промислові та декоративні підлоги',
-        href: '#'
+        href: '/technologies/promyslovi-ta-dekoratyvni-pidlohy'
       },
       {
         label: 'Реконструкція',

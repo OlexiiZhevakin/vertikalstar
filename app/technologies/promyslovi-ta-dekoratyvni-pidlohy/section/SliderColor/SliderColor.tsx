@@ -14,7 +14,7 @@ const SliderColor = () => {
     <section className={styles.container}>
       <div className="container">
         <Title title={'h2'}>Кольорові покриття для бетонних підлог</Title>
-        <Slider id='slider2'>
+        <Slider>
           {slidercolor.map((slide, index) => (
             <SwiperSlide key={index}>
               <Image

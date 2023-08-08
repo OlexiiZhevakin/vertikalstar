@@ -12,7 +12,7 @@ const SliderTransparent = () => {
     <section className={styles.container}>
       <div className="container">
         <Title title={'h2'}>Прозорі пропитки для бетонних підлог</Title>
-        <Slider id='slider1'>
+        <Slider>
           {slidertransparent.map((slide, index) => (
             <SwiperSlide key={index}>
               <Image
