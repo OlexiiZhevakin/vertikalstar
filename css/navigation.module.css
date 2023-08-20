@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.item {
+  padding: 10px 0;
+  position: relative;
+}
+.item:not(:first-child) {
+  margin-left: 20px;
+}
+.item a:hover {
+  color: var(--orange);
+}
+
+.subList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 300px;
+  background-color: #181c25;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.subList li {
+  padding: 8px;
+}
+.subList li:not(:last-child) {
+  border-bottom: 1px solid #777;
+}
+.subList a {
+  color: var(--white);
+}
+.subList a:hover {
+  color: var(--orange);
+}
+
+@media only screen and (max-width: 767px) {
+  .subList {
+    /* Ваши стили для сабменю */
+    position: static;
+    width: 100%;
+    background-color: #181c25;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+  }
+  .subList li {
+    padding: 8px;
+  }
+  .subList li:not(:last-child) {
+    border-bottom: 1px solid #777;
+  }
+  .subList a {
+    color: var(--white);
+  }
+  .subList a:hover {
+    color: var(--orange);
+  }
+}/*# sourceMappingURL=navigation.module.css.map */

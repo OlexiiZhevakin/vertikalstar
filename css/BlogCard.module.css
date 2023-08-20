@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card div {
+  padding: 20px 20px 40px;
+  flex-grow: 1;
+}
+.card h2 {
+  font-size: 20px;
+  color: var(--title);
+}
+.card:hover div {
+  transition: all 0.3s;
+  background-color: var(--orange);
+}
+
+.img {
+  width: 400px;
+  height: 250px;
+}/*# sourceMappingURL=BlogCard.module.css.map */

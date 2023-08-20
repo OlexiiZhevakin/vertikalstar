@@ -1,0 +1,91 @@
+.title {
+  text-align: center;
+  padding: 30px;
+  background-color: var(--gray);
+  color: var(--white);
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.block {
+  margin-bottom: 30px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  width: 350px;
+  background-color: var(--white);
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+}
+.item img {
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  flex: 1;
+}
+
+.itemtitle {
+  min-height: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.descr {
+  margin-bottom: 15px;
+  min-height: 70px;
+}
+
+.info {
+  margin-bottom: 15px;
+  min-height: 30px;
+}
+.info p:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.download {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  align-self: center;
+}
+
+.subtext {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 30px 0;
+  }
+  .title {
+    text-align: center;
+  }
+  .title::before {
+    left: 0;
+    right: 0;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    padding: 0;
+    padding-top: 30px;
+  }
+  .title {
+    font-size: 26px;
+  }
+}/*# sourceMappingURL=materialy.module.css.map */

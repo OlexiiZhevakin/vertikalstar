@@ -1,0 +1,16 @@
+.links{
+  display: flex;
+  gap: 10px;
+}
+
+.link{
+  padding: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid var(--white);
+  transition: all .4s;
+  &:hover{
+    background-color: var(--orange);
+    color: var(--gray);
+  }
+}

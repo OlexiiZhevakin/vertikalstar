@@ -1,0 +1,15 @@
+.img {
+  margin: 0 auto;
+}
+.img:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 420px) {
+  .container {
+    padding: 30px 0;
+  }
+  .text {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=color.module.css.map */

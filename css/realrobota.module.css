@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card div {
+  padding: 20px;
+  color: var(--title);
+  font-size: 20px;
+  border: 1px solid var(--cement);
+  transition: all 0.3s;
+}
+.card div p:not(:last-child) {
+  margin-bottom: 30px;
+}
+.card:hover div {
+  background-color: var(--orange);
+  color: var(--white);
+}/*# sourceMappingURL=realrobota.module.css.map */

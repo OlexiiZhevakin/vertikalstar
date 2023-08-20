@@ -1,0 +1,48 @@
+.head {
+  position: relative;
+  min-height: calc(100vh - 84px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.subtitle {
+  position: relative;
+  margin-bottom: 30px;
+  color: var(--white);
+  font-size: 28px;
+  z-index: 2;
+}
+
+@media (max-width: 576px) {
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .subtitle {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=head.module.css.map */and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .subtitle {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .subtitle {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=Head.module.css.map */

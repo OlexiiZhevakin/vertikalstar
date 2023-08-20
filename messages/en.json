@@ -1,0 +1,115 @@
+{
+  "components": {
+    "help": {
+      "title": "We will help you professionally",
+      "content": "solve this problem.",
+      "link": "Contact us"
+    },
+    "way": {
+      "title": "Your way with us",
+      "subtitle1": "Contact with the Technologist",
+      "description1": "You leave an application, our Technologist will contact you. We receive a technical task from you.",
+      "subtitle2": "Development of TECHNOLOGY",
+      "description2": "We develop the TECHNOLOGY for solving your task, select materials, and prepare an estimate.",
+      "subtitle3": "Supply of materials",
+      "description3": "We will organize prompt delivery of necessary materials to your facility, if necessary, provide training or chief installation.",
+      "subtitle4": "Execution of works",
+      "description4": "If you order this turnkey service, we will organize the work in accordance with the developed TECHNOLOGY and all applicable regulations."
+    },
+    "form": {
+      "title": "Our TECHNOLOGIES for your projects",
+      "content1": "We will conduct an inspection of your object",
+      "content2": "We will develop the TECHNOLOGY for solving your problem",
+      "content3": "We will select and deliver the necessary materials",
+      "content4": "We organize training or chief installation at the facility",
+      "content5": "We organize the execution of works",
+      "modal": {
+        "content1": "Enter your contacts",
+        "content2": "and our Technologist will contact you shortly",
+        "tel": "Your name",
+        "name": "Phone",
+        "btn": "Leave a request"
+      }
+    }
+  },
+  "home": {
+
+  },
+  "contacts": {
+    "title": "Сontacts",
+    "description": "Contact us to receive more detailed information about our services and projects"
+  },
+  "hidroizolyatsiya": {
+    "head": {
+      "title": "Waterproofing by injection",
+      "description": "Cutting off the capillary rise of moisture"
+    },
+    "picture": {
+      "title": "Familiar picture?",
+      "alt": "Photo of mold on the wall"
+    },
+    "slider": {
+      "content": "Unpleasant odor, mold and mildew, peeling plaster, wallpaper, or paint, moisture stains inside the building or on the facade.",
+      "alt": "Photo of the problematic building"
+    },
+    "about": {
+      "title": "In most cases, these problems are a result of capillary rise of moisture through walls.",
+      "alt": "Way of rising moisture",
+      "subtitle1": "What is capillary rise of moisture?",
+      "content1": "Capillary rise is the rise of moisture from the ground through the capillaries of walls (on the photo, this path is depicted by an arrow with the number 1).",
+      "content2": "Moisture, rising from the ground, reaches the level of the first floor and brings with it the discomfort described above.",
+      "subtitle2": "Why did this happen?",
+      "content3": "Protection against capillary rise of moisture should be addressed during the construction stage by performing horizontal waterproofing, as shown in the photo.",
+      "content4": "According to all existing norms, the performance of horizontal waterproofing is mandatory.",
+      "content5": "However, unfortunately, very often during new construction, it is not done or is done insufficiently professionally.",
+      "content6": "Or, if we are talking about an old building, such waterproofing may have been performed, but it has been destroyed over time."
+    },
+    "what": {
+      "title": "What to do in such a case in an existing building?",
+      "alt": "This picture shows the injection method",
+      "subtitle": "Here comes the technology of injection to help.",
+      "content1": "Drilling holes in the brickwork, blowing compressed air.",
+      "content2": "Injection of a special waterproofing composition into the holes.",
+      "content3": "Waiting for the holes to dry with a repair solution.",
+      "content4": "Application of waterproofing over a series of injection holes."
+    },
+    "grafic": {
+      "title": "This will allow you to establish a reliable barrier in the path of rising moisture and get rid of the problems it brings with it.",
+      "alt": "How technology works"
+    },
+    "sova": {
+      "title": "Our company VERTICAL CONSTRUCTION TECHNOLOGIES has:",
+      "alt": "Company logo image",
+      "content1": "20-years of experience in performing such works;",
+      "content2": "certified materials;",
+      "content3": "necessary equipment;",
+      "content4": "a team of specialists;"
+    },
+    "real": {
+      "title": "What does it look like on real objects?",
+      "alt": "Real object"
+    },
+    "advantage": {
+      "title": "Advantages of this technology",
+      "subtitle1": "Efficiency",
+      "content1": "Effectively solves the problem of damp walls",
+      "subtitle2": "Speed",
+      "content2": "Can be done quickly without extensive repair work",
+      "subtitle3": "Effectiveness",
+      "content3": "The results will be noticeable in the near future",
+      "subtitle4": "Reliability",
+      "content4": "Capillary moisture isolation is maintained for decades",
+      "subtitle5": "Time",
+      "content5": "The work can be carried out at any time of the year regardless of the ambient temperature",
+      "subtitle6": "Cost-effectiveness",
+      "content6": "Significant savings in material and labor costs as this method does not require excavation work"
+    },
+    "problem": {
+      "title": "And this will deinitely solve the problem ?",
+      "alt": "Ways of rising moisture",
+      "content1": "No, not exactly. Because the moisture can enter the room through at least four different paths (mapping by arrows on the drawing).",
+      "content2": "Therefore, in order to avoid mistakes and unnecessary costs, it is necessary to conduct a survey and accurately determine which of the paths we are dealing with at a particur facility.",
+      "content3": "You can contact our specialists, send photos/videos of your situation. We will professionally determine the heart of the problem and propose a technology for its solution."
+    }
+  }
+}

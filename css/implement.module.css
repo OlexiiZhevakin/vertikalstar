@@ -1,0 +1,27 @@
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 5cap;
+}
+.info h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.info p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.list {
+  margin-bottom: 30px;
+}
+.list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.list a {
+  font-size: 20px;
+  color: var(--orange);
+}/*# sourceMappingURL=implement.module.css.map */

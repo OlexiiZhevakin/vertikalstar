@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.list li {
+  max-width: 400px;
+  border-bottom: 3px solid var(--orange);
+  margin-bottom: 30px;
+  height: 400px;
+}
+
+@media (max-width: 1200px) {
+  .list {
+    gap: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .list {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=List.module.css.map */

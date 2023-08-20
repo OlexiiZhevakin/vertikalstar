@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}/*# sourceMappingURL=Services.module.css.map */пьютеров */
+  .card {
+    width: 230px;
+  }
+  .card p {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=Services.module.css.map */

@@ -1,0 +1,26 @@
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .inner,
+  .img {
+    gap: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    padding: 30px 0;
+  }
+  .inner,
+  .img {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=afterbefore.module.css.map */

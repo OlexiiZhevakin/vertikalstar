@@ -1,0 +1,24 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+}
+.card div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex-grow: 1;
+}
+.card h3 {
+  font-size: 20px;
+  color: var(--title);
+  margin-bottom: 30px;
+}/*# sourceMappingURL=hrdCard.module.css.map */

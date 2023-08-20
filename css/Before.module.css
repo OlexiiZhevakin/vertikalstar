@@ -1,0 +1,14 @@
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.video {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  display: block;
+}/*# sourceMappingURL=Before.module.css.map */

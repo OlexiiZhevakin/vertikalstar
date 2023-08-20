@@ -1,0 +1,100 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .list {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=page.module.css.map */: 768px) {
+  .img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    padding: 30px 0;
+  }
+  .title {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=page.module.css.map */e {
+    font-size: 32px;
+  }
+  .img {
+    margin-bottom: 0;
+  }
+  .container {
+    padding: 30px 0;
+  }
+}/*# sourceMappingURL=page.module.css.map */image {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.products li {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+.products p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+}
+.products p:first-child {
+  padding-top: 30px;
+}
+
+.block {
+  padding-bottom: 30px;
+}/*# sourceMappingURL=page.module.css.map */argin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.attention {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.info {
+  width: 50%;
+}
+
+.link {
+  color: var(--orange);
+}
+
+.brand {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/img/portfolio/sinagoga/remmers_logo.svg");
+  max-width: 160px;
+  width: 100%;
+  height: 50px;
+}/*# sourceMappingURL=page.module.css.map */it {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 420px) {
+  .blog {
+    padding: 30px 0;
+  }
+  .content {
+    width: 100%;
+  }
+}/*# sourceMappingURL=page.module.css.map */

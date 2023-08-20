@@ -1,18 +1,15 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  // Другие настройки конфигурации...
-  // output: 'export',
   sitemap: {
     // Конфигурация sitemap
-    siteUrl: 'http://localhost:3000/', // Замените на URL вашего сайта
-    generateRobotsTxt: true, // Генерировать файл robots.txt (необязательно)
-    // exclude: ['/secret-page'], // Список путей, которые нужно исключить из sitemap (необязательно)
-    // Дополнительные настройки, см. документацию next-sitemap
+    siteUrl: 'https://www.vertikalstar.com', // Замените на URL вашего сайта
+    generateRobotsTxt: true,
   },
 };
+const withNextIntl = require('next-intl/plugin')(
+  // This is the default (also the `src` folder is supported out of the box)
+  './i18n.ts'
+)
 
-module.exports = nextConfig;
-
-
-
+module.exports = withNextIntl(nextConfig);

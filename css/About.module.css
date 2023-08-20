@@ -1,0 +1,182 @@
+.container {
+  background-color: var(--white);
+}
+
+.inner {
+  padding-top: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+.item:not(:last-child) {
+  margin-bottom: 90px;
+}
+
+.img {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+.img:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 280px;
+  height: 260px;
+  bottom: -10px;
+  left: -10px;
+  background-color: var(--orange);
+  z-index: -1;
+}
+
+.info {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.text {
+  font-size: 16px;
+}
+.text p {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .inner {
+    padding-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .item {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .text {
+    margin-bottom: 8px;
+  }
+  .img,
+  .info {
+    width: 100%;
+  }
+  .img img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    padding: 30px 0;
+  }
+}/*# sourceMappingURL=about.module.css.map */768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    margin-bottom: 30px;
+  }
+  .img:before {
+    width: 360px;
+    left: 20px;
+  }
+  .content h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  .items {
+    margin-bottom: 20px;
+  }
+  .items div:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    margin-bottom: 30px;
+  }
+  .img:before {
+    width: 360px;
+    left: 20px;
+  }
+  .content {
+    max-width: 100%;
+  }
+  .content h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  .items div {
+    margin-bottom: 10px;
+  }
+  .items div i {
+    margin-right: 10px;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    margin-bottom: 30px;
+  }
+  .img:before {
+    width: 340px;
+    left: 20px;
+    bottom: -5px;
+  }
+  .content {
+    max-width: 100%;
+  }
+  .content h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .items {
+    margin-bottom: 20px;
+  }
+  .items div {
+    padding: 10px 10px;
+  }
+  .items div i {
+    margin-right: 10px;
+  }
+  .items div p {
+    font-size: 14px;
+  }
+  .items div:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=About.module.css.map */

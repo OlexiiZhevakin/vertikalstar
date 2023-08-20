@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.formBlock {
+  background: url("/img/form-bg.webp") top/cover no-repeat;
+  position: relative;
+  padding: 0;
+}
+.formBlock::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 800px;
+}
+
+.info {
+  max-width: 850px;
+  z-index: 2;
+}
+.info div {
+  font-size: 42px;
+  color: var(--white);
+}
+.info div span {
+  text-transform: uppercase;
+}
+.info ul {
+  padding-left: 30px;
+}
+.info li {
+  font-size: 20px;
+  color: var(--white);
+  position: relative;
+}
+.info li::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: -24px;
+  top: 50%;
+  border-radius: 50px;
+  transform: translateY(-50%);
+  background-color: var(--orange);
+}
+.info li:not(:last-child) {
+  margin-bottom: 12px;
+}
+.info li span {
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Добавьте свои стили для ноутбуков и настольных компьютеров */
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+}
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .formBlock {
+    padding: 20px 0;
+  }
+  .info {
+    padding-bottom: 20px;
+  }
+  .info div {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=Form.module.css.map */

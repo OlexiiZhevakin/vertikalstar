@@ -19,6 +19,11 @@ const blogData = [
     link: '/article/hidroizolyatsiya-i-vydy-ozdoblennya-baseynu',
     title: 'Гідроізоляція та види оздоблення басейну'
   },
+  {
+    image: '/img/blog/mramor.jpg',
+    link: '/article/yak-zakhystyty-pidlohy-z-marmurovoyi-krykhty',
+    title: 'Як захистити підлогу з мармурової крихти'
+  },
 ]
 
 export default blogData

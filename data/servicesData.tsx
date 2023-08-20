@@ -5,7 +5,7 @@ const ServiceData = [{
     link: '/services/proektuvannya-tekhnolohiy',
   },
   {
-    image: "/img/services/akademiya-vertykal.jpg",
+    image: "/img/services/vertikal.jpg",
     title: "Академія 'Вертикаль'",
     description: "Організація навчання, шеф-монтаж на об'єктах",
     link: '/services/akademiya-vertykal',

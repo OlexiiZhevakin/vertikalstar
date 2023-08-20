@@ -1,0 +1,130 @@
+.aside {
+  max-width: 360px;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid var(--cement);
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--gray);
+}
+.aside article {
+  margin-bottom: 30px;
+}
+.aside article div {
+  padding: 10px;
+}
+.aside article h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.aside h2 {
+  font-size: 20px;
+}
+
+.title,
+.text {
+  text-align: left;
+  color: var(--white);
+}
+
+.text {
+  padding: 0 10px;
+  margin: 30px 0;
+}
+.text span {
+  text-transform: uppercase;
+}
+
+.img {
+  position: relative;
+  padding: 0;
+}
+.img::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+  background-color: var(--orange);
+}
+
+.socialList {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border: 3px solid var(--orange);
+}
+.socialList a:hover i {
+  color: var(--orange);
+}
+.socialList a {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: var(--white);
+}
+
+.shop {
+  margin-bottom: 30px;
+  border: 3px solid var(--orange);
+  padding: 10px;
+}
+.shop div {
+  padding: 20px;
+  background-color: var(--orange);
+  text-align: center;
+}
+.shop span {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.imgYoutube {
+  position: relative;
+  border: 3px solid var(--orange);
+  padding: 10px;
+}
+.imgYoutube::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.imgYoutube:hover:before, .imgYoutube:hover svg {
+  color: var(--white);
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.imgYoutube svg {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: var(--orange);
+  transition: color 0.3s ease-in-out;
+}
+
+.descr {
+  padding: 20px;
+  color: var(--white);
+  background-color: var(--orange);
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .aside {
+    display: none;
+  }
+}/*# sourceMappingURL=Aside.module.css.map */

@@ -1,0 +1,64 @@
+.realtime {
+  padding: 30px 0;
+}
+.realtime p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.realtime span {
+  font-size: 30px;
+}
+
+.list {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.work {
+  padding: 60px 0;
+  background-color: var(--orange);
+}
+.work p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.work ol {
+  padding-left: 30px;
+  font-size: 20px;
+}
+.work li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnPrev,
+.btnNext {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: var(--white);
+  border: 1px solid var(--orange);
+  color: var(--orange);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btnPrev:hover,
+.btnNext:hover {
+  background-color: var(--orange);
+  color: var(--title);
+}/*# sourceMappingURL=realtime.module.css.map */

@@ -11,6 +11,7 @@
     "generate:sitemap": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
@@ -20,29 +21,35 @@
     "@types/react-dom": "18.2.4",
     "autoprefixer": "^10.4.14",
     "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "font-awesome": "^4.7.0",
-    "http-proxy-middleware": "^2.0.6",
     "i18next": "^23.2.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0",
+    "negotiator": "^0.6.3",
     "next": "13.4.5",
-    "next-compose-plugins": "^2.2.1",
-    "next-i18next": "^14.0.0",
-    "next-image-export-optimizer": "^1.7.0",
     "next-images": "^1.8.5",
+    "next-intl": "^3.0.0-beta.10",
     "next-navigation": "^1.0.6",
     "next-sitemap": "^4.1.3",
+    "node-fetch": "^3.3.2",
     "node-sass": "^9.0.0",
     "nodemailer": "^6.9.3",
     "postcss": "^8.4.24",
+    "ra-data-json-server": "^4.13.0",
+    "ra-data-simple-rest": "^4.12.4",
     "react": "18.2.0",
-    "react-cookie": "^4.1.1",
-    "react-cookie-consent": "^8.0.1",
+    "react-admin": "^4.12.4",
     "react-dom": "18.2.0",
     "react-fontawesome": "^1.7.1",
     "react-i18next": "^13.0.1",
     "sass": "^1.63.3",
+    "server-only": "^0.0.1",
+    "sharp": "^0.32.5",
     "strapi-sdk-javascript": "^0.3.3",
-    "styled-components": "^6.0.0-rc.3",
     "swiper": "^10.0.3",
+    "swr": "^2.2.0",
     "typescript": "5.1.3"
   },
   "browserslist": [
@@ -51,6 +58,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/negotiator": "^0.6.1",
     "@types/nodemailer": "^6.4.8"
   }
 }

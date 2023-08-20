@@ -1,0 +1,28 @@
+.title {
+  font-size: 54px;
+  color: var(--title);
+  margin-bottom: 30px;
+  text-transform: none;
+}
+
+.blog h2 {
+  font-size: 36px;
+}
+.blog p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.blog figure {
+  margin-bottom: 30px;
+}
+.blog figcaption {
+  text-align: center;
+  color: var(--cement);
+}
+.blog span {
+  text-transform: uppercase;
+  color: var(--orange);
+}
+.blog img {
+  margin: 0 auto;
+}/*# sourceMappingURL=post.module.css.map */

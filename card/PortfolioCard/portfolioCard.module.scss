@@ -4,7 +4,7 @@
   flex-direction: column;
   position: relative;
   height: 100%;
-  max-width: 380px;
+  max-width: 360px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
   &:hover {
@@ -15,6 +15,13 @@
 .img {
   padding: 10px;
   background-color: var(--white);
+  width: 360px;
+  height: 400px;
+}
+
+.image{
+  height: 100%;
+  width: 360px;
 }
 
 .content {

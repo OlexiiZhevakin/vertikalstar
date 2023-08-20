@@ -1,0 +1,47 @@
+.wrapper {
+  max-width: 400px;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 33px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.wrapper div {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--orange);
+  margin-bottom: 14px;
+}
+.wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper label {
+  color: var(--cement);
+  margin-bottom: 4px;
+  margin-top: 20px;
+}
+.wrapper input {
+  outline: transparent;
+  border: none;
+  border-bottom: 1px solid var(--cement);
+  padding: 0 4px;
+}
+.wrapper button {
+  border: 1px solid var(--orange);
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: var(--orange);
+  color: var(--title);
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.wrapper button :hover {
+  border: 1px solid var(--orange);
+  background-color: var(--white);
+  color: var(--orange);
+}/*# sourceMappingURL=Modal.module.css.map */

@@ -1,0 +1,10 @@
+.descr {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+@media (max-width: 420px) {
+  .descr {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=descr.module.css.map */

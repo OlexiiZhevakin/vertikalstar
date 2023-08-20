@@ -1,0 +1,38 @@
+
+.subtext {
+  text-align: center;
+  color: var(--orange);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 30px;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.myVideo{
+  width: 360px;
+  max-height: 100%;
+}

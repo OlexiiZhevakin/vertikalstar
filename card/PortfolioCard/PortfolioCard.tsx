@@ -7,16 +7,17 @@ type Props = {
   place: string
 }
 
-const PortfolioCard = ({image, title, place}: Props) => {
-  return(
+const PortfolioCard = ({ image, title, place }: Props) => {
+  return (
     <article className={styles.card}>
       <div className={styles.img}>
-        <Image 
-          src={image} 
-          alt={title} 
+        <Image
+          className={styles.image}
+          src={image}
+          alt={title}
           title={title}
-          width={360} 
-          height={480}/>
+          width={360}
+          height={400} />
       </div>
       <div className={styles.content}>
         <h3>{title}</h3>

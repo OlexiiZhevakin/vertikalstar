@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  max-width: 360px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.img {
+  padding: 10px;
+  background-color: var(--white);
+  width: 360px;
+  height: 400px;
+}
+
+.image {
+  height: 100%;
+  width: 360px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  padding: 20px;
+  background-color: var(--white);
+}
+.content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--orange);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.content p {
+  margin-top: auto;
+  font-size: 18px;
+  color: var(--title);
+  text-align: center;
+}/*# sourceMappingURL=portfolioCard.module.css.map */

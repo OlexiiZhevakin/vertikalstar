@@ -1,0 +1,8 @@
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner p {
+  font-size: 20px;
+}/*# sourceMappingURL=proect.module.css.map */

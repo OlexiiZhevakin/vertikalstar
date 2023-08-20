@@ -1,0 +1,16 @@
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  width: 50%;
+}
+.info h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.info p {
+  font-size: 20px;
+}/*# sourceMappingURL=look.module.css.map */

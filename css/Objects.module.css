@@ -1,0 +1,113 @@
+@charset "UTF-8";
+.title {
+  text-align: left;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  width: 24%;
+  height: 3px;
+  background-color: var(--orange);
+  right: 0;
+  bottom: 50%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.btnPrev,
+.btnNext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: var(--white);
+  border: 1px solid var(--orange);
+  color: var(--orange);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btnPrev:hover,
+.btnNext:hover {
+  background-color: var(--orange);
+  color: var(--title);
+}
+
+.slide {
+  margin: 0 auto;
+}
+
+.btnNext {
+  top: -16%;
+  right: 0;
+}
+
+.btnPrev {
+  top: -16%;
+  right: 4%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Добавьте свои стили для ноутбуков и настольных компьютеров */
+  .btnNext,
+  .btnPrev {
+    top: -14%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .btnPrev,
+  .btnNext {
+    top: 102%;
+  }
+  .btnPrev {
+    right: 55%;
+  }
+  .btnNext {
+    right: 40%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Добавьте свои стили для мобильных устройств и планшетов */
+  .list {
+    justify-content: center;
+  }
+  .btnPrev,
+  .btnNext {
+    top: 102%;
+  }
+  .btnPrev {
+    right: 55%;
+  }
+  .btnNext {
+    right: 40%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* Добавьте свои стили для мобильных устройств */
+  .list {
+    justify-content: center;
+  }
+  .btnPrev,
+  .btnNext {
+    top: 102%;
+  }
+  .btnPrev {
+    right: 55%;
+  }
+  .btnNext {
+    right: 35%;
+  }
+}/*# sourceMappingURL=Objects.module.css.map */
