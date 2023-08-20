@@ -24,18 +24,20 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children
+  children,
+  params
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  params: any
 }) {
 
-  // const locale = useLocale();
+  const locale = useLocale();
 
   // Show a 404 error if the user requests an unknown locale
 
   return (
 
-    <html lang='uk'>
+    <html lang={locale}>
       <body className={inter.className}>
         <Script
           id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="eb4a56fa-dcf5-4ac0-bf2b-22e8c0bb2b37" data-blockingmode="auto" type="text/javascript">
