@@ -1,28 +1,26 @@
-// const express = require('express');
-// const mysql = require('mysql2');
+const express = require('express');
+const next = require('next');
 
-// const app = express();
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({
+  dev
+});
+const handle = app.getRequestHandler();
 
-// const connection = mysql.createConnection({
-//   host: 'vertik03.mysql.tools',
-//   user: 'vertik03_default',
-//   password: '26T3+#buuZ',
-//   database: 'vertik03_default'
-// });
+const port = 3000; // Ваш бажаний порт
+const hostname = '127.1.0.222'; // Ваш бажаний хост
 
-// connection.connect((err) => {
-//   if (err) throw err;
-//   console.log('Connected to MySQL database!');
-// });
+app.prepare().then(() => {
+  const server = express();
 
-// app.use('/', (req, res) => {
-//   res.setHeader('Access-Control-Allow-Origin', '*');
-//   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-//   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  // Додайте обробник для всіх запитів
+  server.all('*', (req, res) => {
+    return handle(req, res);
+  });
 
-//   // Your route handling code here
-// });
-
-// app.listen(4000, () => {
-//   console.log('Server listening on port 4000');
-// });
+  // Слухайте на зазначеному хості та порту
+  server.listen(port, hostname, (err) => {
+    if (err) throw err;
+    console.log(`> Ready on http://${hostname}:${port}`);
+  });
+});

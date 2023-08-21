@@ -41,7 +41,7 @@ export default function RootLayout({
 
   return (
 
-    <html lang={locale}>
+    <html lang='uk'>
       <body className={inter.className}>
         <Script
           id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="eb4a56fa-dcf5-4ac0-bf2b-22e8c0bb2b37" data-blockingmode="auto" type="text/javascript">
