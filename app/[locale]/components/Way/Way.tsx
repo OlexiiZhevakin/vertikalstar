@@ -1,5 +1,5 @@
 
-import styles from "./Way.module.scss";
+import styles from './way.module.scss'
 import Title from "@/app/[locale]/components/title/Title";
 import Image from "next/image";
 import { useTranslations } from 'next-intl';
