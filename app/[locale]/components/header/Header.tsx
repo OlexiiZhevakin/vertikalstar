@@ -8,13 +8,11 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation'
 import SwichLang from '../swich-lang/SwichLang';
 
-
-
 const navItems = [
   {
     label: 'Головна',
     href: '/'
-  },  
+  },
   {
     label: 'Про нас',
     href: '/about',
@@ -111,7 +109,6 @@ const navItems = [
   },
 ]
 
-
 const Header = () => {
   const pathname = usePathname()
   const isAdminPage = pathname.startsWith('/admin');
@@ -159,8 +156,9 @@ const Header = () => {
             <ul className={styles.list}>
               <Navigation navlinks={navItems} closeMenu={closeMenu} />
             </ul>
+            <SwichLang />
           </nav>
-          <SwichLang/>
+          
         </div>
       </div>
     </header>

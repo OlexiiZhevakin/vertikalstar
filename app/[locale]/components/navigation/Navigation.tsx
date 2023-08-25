@@ -1,8 +1,9 @@
 import styles from "./navigation.module.scss";
-// import Link from "next-intl/link";
 import Link from 'next-intl/link';
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+
+
 
 type Navlink = {
   label: string;

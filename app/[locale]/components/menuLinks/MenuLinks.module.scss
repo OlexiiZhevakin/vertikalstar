@@ -1,8 +1,4 @@
-
-@import '../navigation/navigation.module.scss';
-
-
-.header {
+.container {
   background-color: var(--gray);
   position: sticky;
   top: 0;
@@ -11,14 +7,14 @@
   z-index: 10;
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
 
-.inner {
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,29 +23,58 @@
 .list {
   display: flex;
   align-items: center;
-  
-  a{
+  gap: 20px;
+
+  a {
     font-size: 20px;
     transition: all .3s;
   }
 }
 
-.btn{
+.item {
+  position: relative;
+}
+
+.item:hover .sublist {
+  max-height: 500px;
+  /* настройте это значение в зависимости от высоты вашего подменю */
+}
+
+.sublist {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #181c25;
+  width: 300px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out;
+}
+
+
+.subitem {
+  padding: 8px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #777;
+  }
+}
+
+.btn {
   display: none;
 }
 
-.lang{
-  display: flex;
-  gap: 20px;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* Добавьте свои стили для планшетов и небольших ноутбуков */
-  .list{
-    li:not(:first-child){
+  .list {
+    li:not(:first-child) {
       margin-left: 10px;
     }
-    a{
+
+    a {
       font-size: 16px;
     }
   }
@@ -57,19 +82,22 @@
 
 
 @media only screen and (max-width: 767px) {
+
   /* Добавьте свои стили для мобильных устройств и планшетов */
-  .menu{
+  .menu {
     display: block;
   }
-  .btn{
+
+  .btn {
     z-index: 5;
     display: block;
     position: relative;
     width: 30px;
     height: 18px;
+
     span,
     &::before,
-    &::after{
+    &::after {
       position: absolute;
       left: 0;
       height: 10%;
@@ -77,39 +105,44 @@
       transition: all 0.3s ease 0s;
       background-color: var(--white);
     }
+
     &::before,
-    &::after{
+    &::after {
       content: '';
     }
-    &::before{
+
+    &::before {
       top: 0;
     }
-    &::after{
+
+    &::after {
       bottom: 0;
     }
-    span{
+
+    span {
       width: 30px;
       top: 50%;
       transform: scale(1) translate(0, -50%);
     }
   }
 
-  .btnActive span{
+  .btnActive span {
     transform: scale(0) translate(0px, -50%);
   }
 
-  .btnActive{
-    &::before{
+  .btnActive {
+    &::before {
       top: 50%;
       transform: rotate(-45deg) translate(0px, -50%);
     }
+
     &::after {
       bottom: 50%;
       transform: rotate(45deg) translate(0px, 50%);
     }
   }
 
-  .logo{
+  .logo {
     z-index: 1;
   }
 
@@ -123,7 +156,8 @@
     padding: 100px 30px 30px 30px;
     transition: left 0.3s ease 0s;
     overflow: auto;
-    &::before{
+
+    &::before {
       content: '';
       position: fixed;
       width: 100%;
@@ -140,25 +174,33 @@
   }
 
 
-  .list{
+  .list {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    li:not(:first-child){
+
+    li:not(:first-child) {
       margin-left: 0;
     }
-    li{
+
+    li {
       flex-wrap: wrap;
     }
   }
+
+  .sublist {
+    display: block;
+    position: static;
+    top: 100%;
+    left: 0;
+    background-color: #181c25;
+    width: 300px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-in-out;
+  }
+
+  .item:hover .sublist {
+    max-height: 500px;
+  }
 }
-
-
-
-
-
-
-
-
-
-

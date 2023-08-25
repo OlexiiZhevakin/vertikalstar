@@ -1,5 +1,14 @@
 {
   "components": {
+    "header": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "technologies": "Technologies",
+      "shop": "Shop",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
     "help": {
       "title": "We will help you professionally",
       "content": "solve this problem.",

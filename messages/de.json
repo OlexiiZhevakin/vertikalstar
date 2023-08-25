@@ -1,0 +1,124 @@
+{
+  "components": {
+    "help": {
+      "title": "Wir helfen Ihnen professionell",
+      "content": "dieses Problem zu lösen.",
+      "link": "Rufen Sie uns an"
+    },
+    "header": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "services": "Dienstleistungen",
+      "technologies": "Technologien",
+      "shop": "Laden",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    },
+    "way": {
+      "title": "Ihr Weg mit uns",
+      "subtitle1": "Kontakt mit dem Technologen",
+      "description1": "Sie hinterlassen eine Bewerbung, unser Technologe wird sich mit Ihnen in Verbindung setzen. Wir erhalten von Ihnen eine technische Aufgabe.",
+      "subtitle2": "Entwicklung der TECHNOLOGIE",
+      "description2": "Wir entwickeln die TECHNOLOGIE zur Lösung Ihrer Aufgabenstellung, wählen Materialien aus und erstellen einen Kostenvoranschlag.",
+      "subtitle3": "Bereitstellung von Materialien",
+      "description3": "Wir organisieren die zeitnahe Lieferung der erforderlichen Materialien an Ihre Einrichtung und bieten bei Bedarf Schulungen oder eine Hauptinstallation an.",
+      "subtitle4": "Ausführung von Arbeiten",
+      "description4": "Wenn Sie diesen schlüsselfertigen Service bestellen, organisieren wir die Arbeiten gemäß der entwickelten TECHNOLOGIE und allen geltenden Vorschriften."
+    },
+    "form": {
+      "title": "Unsere TECHNOLOGIEN für Ihre Projekte",
+      "content1": "Wir führen eine Besichtigung Ihres Objektes durch",
+      "content2": "Wir entwickeln die TECHNOLOGIE zur Lösung Ihres Problems",
+      "content3": "Wir wählen die benötigten Materialien aus und liefern sie",
+      "content4": "Wir organisieren Schulungen oder Chefinstallationen vor Ort",
+      "content5": "Wir organisieren die Ausführung von Arbeiten",
+      "modal": {
+        "content1": "Geben Sie Ihre Kontakte ein",
+        "content2": "und unser Technologe wird sich in Kürze mit Ihnen in Verbindung setzen",
+        "tel": "Ihr Name",
+        "name": "Telefon",
+        "btn": "Schicken"
+      }
+    }
+  },
+  "home": {
+
+  },
+  "contacts": {
+    "title": "Сontacts",
+    "description": "Contact us to receive more detailed information about our services and projects"
+  },
+  "hidroizolyatsiya": {
+    "head": {
+      "title": "Abdichtung durch Injektion",
+      "description": "Unterbindung des kapillaren Aufstiegs von Feuchtigkeit"
+    },
+    "picture": {
+      "title": "Kommt Ihnen das Bild bekannt vor?",
+      "alt": "Foto von Schimmel an der Wand"
+    },
+    "slider": {
+      "content": "Unangenehmer Geruch, Schimmel und Mehltau, abblätternder Putz, Tapeten oder Farbe, Feuchtigkeitsflecken im Gebäude oder an der Fassade.",
+      "alt": "Foto des problematischen Gebäudes"
+    },
+    "about": {
+      "title": "In den meisten Fällen sind diese Probleme auf den kapillaren Aufstieg von Feuchtigkeit durch die Wände zurückzuführen.",
+      "alt": "Weg der aufsteigenden Feuchtigkeit",
+      "subtitle1": "Was ist der kapillare Aufstieg von Feuchtigkeit?",
+      "content1": "Der kapillare Aufstieg ist der Aufstieg von Feuchtigkeit aus dem Boden durch die Kapillaren der Wände (auf dem Foto wird dieser Weg durch einen Pfeil mit der Nummer 1 dargestellt).",
+      "content2": "Feuchtigkeit, die aus dem Boden aufsteigt, erreicht das Niveau des ersten Stocks und bringt die oben beschriebenen Unannehmlichkeiten mit sich.",
+      "subtitle2": "Warum ist das passiert?",
+      "content3": "Der Schutz vor kapillarem Anstieg von Feuchtigkeit sollte bereits während der Bauphase durch die Ausführung von horizontaler Abdichtung (wie auf den Fotos dargestellt).",
+      "content4": "Nach allen bestehenden Normen ist die Ausführung von horizontaler Abdichtung vorgeschrieben.",
+      "content5": "Doch leider wird sie bei Neubauten sehr oft nicht oder nur unzureichend fachgerecht ausgeführt.",
+      "content6": "Oder, wenn es sich um einen Altbau handelt, wurde eine solche Abdichtung zwar ausgeführt, aber im Laufe der Zeit zerstört."
+    },
+    "what": {
+      "title": "Was in einem solchen Fall in einem bestehenden Gebäude zu tun ist?",
+      "alt": "Dieses Bild zeigt die Injektionsmethode",
+      "subtitle": "Hier kommt die Technologie der Injektion zu Hilfe.",
+      "content1": "Bohren von Löchern in das Mauerwerk, Ausblasen von Druckluft.",
+      "content2": "Injektion einer speziellen wasserundurchlässigen Abdichtungsmasse in die Löcher.",
+      "content3": "Abwarten, bis die Löcher mit einer Reparaturlösung getrocknet sind.",
+      "content4": "Auftragen von wasserundurchlässigem Abdichtungsmasse über einer Reihe von Injektionslöchern."
+    },
+    "grafic": {
+      "title": "So können Sie eine zuverlässige Barriere gegen aufsteigende Feuchtigkeit errichten und die damit verbundenen Probleme beseitigen.",
+      "alt": "Wie Technologie funktioniert"
+    },
+    "sova": {
+      "title": "Unser Unternehmen VERTICAL BAU TECHNOLOGIEN hat:",
+      "alt": "Bild des Firmenlogos",
+      "content1": "20-Jahre Erfahrung in der Durchführung solcher Arbeiten;",
+      "content2": "zertifizierte Materialien;",
+      "content3": "die erforderliche Ausrüstung;",
+      "content4": "ein Team von Spezialisten;"
+    },
+    "real": {
+      "title": "Wie sieht es bei realen Objekten aus?",
+      "alt": "Echtes Objekt"
+    },
+    "advantage": {
+      "title": "Vorteile dieser Technologie",
+      "subtitle1": "Effektivität",
+      "content1": "Effektive Lösung für feuchte Wände",
+      "subtitle2": "Schnelligkeit",
+      "content2": "Kann schnell und ohne umfangreiche Reparaturarbeiten durchgeführt werden",
+      "subtitle3": "Ergebnisorientierung",
+      "content3": "Die Ergebnisse werden in naher Zukunft spürbar sein",
+      "subtitle4": "Zuverlässigkeit",
+      "content4": "Die Kapillare Feuchtigkeitsisolierung bleibt über Jahrzehnte erhalten",
+      "subtitle5": "Zeit",
+      "content5": "Die Arbeiten können unabhängig von der Umgebungstemperatur zu jeder Jahreszeit durchgeführt werden",
+      "subtitle6": "Wirtschaftlichkeit",
+      "content6": "Erhebliche Einsparungen bei den Material- und Arbeitskosten, da bei dieser Methode keine Aushubarbeiten erforderlich sind"
+    },
+    "problem": {
+      "title": "Was sollte man noch wissen?",
+      "alt": "Möglichkeiten der aufsteigenden Feuchtigkeit",
+      "content1": "Feuchtigkeit kann auf mindestens vier verschiedene Arten in den Raum eindringen (auf der Zeichnung mit Pfeilen markiert).",
+      "content2": "Es ist sehr wichtig, den richtigen Weg auf einem bestimmten Objekt zu bestimmen, um unnötige Kosten zu vermeiden.",
+      "content3": "Sie können sich an uns wenden und Fotos / Videos Ihrer Situation senden. Wir werden professionell die Ursache des Problems ermitteln und eine Technologie zur Lösung vorschlagen."
+    }
+  }
+}

@@ -4,7 +4,7 @@ import '../globals.scss'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
 import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
+import Header2 from './components/header2/Header2'
 import SocialMediaBlock from './components/social/SocialMediaBlock'
 import { useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
@@ -77,7 +77,7 @@ export default function RootLayout({
             })(document, window, 'script');
           `}
         </Script>
-        <Header />
+        <Header2 />
         <SocialMediaBlock />
         <main>
           {children}
