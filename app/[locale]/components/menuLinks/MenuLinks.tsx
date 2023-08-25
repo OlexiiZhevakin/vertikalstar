@@ -21,7 +21,6 @@ type Props = {
 const MenuLinks = ({home, about, services, technologies, shop, blog, contact}: Props) => {
 
   const pathname = usePathname();
-  const isActive = pathname
 
   const [isMenuActive, setIsMenuActive] = useState(false);
   const [isBtnActive, setIsBtnActive] = useState(false);
