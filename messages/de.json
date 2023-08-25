@@ -14,6 +14,20 @@
       "blog": "Blog",
       "contact": "Kontakt"
     },
+    "footer": {
+      "subtitle1": "Kunden",
+      "content1": "Bewertungen",
+      "content2": "TechnologienMarken",
+      "content3": "Marken",
+      "subtitle2": "Über uns",
+      "content4": "Über das Unternehmen",
+      "content5": "Portfolio",
+      "content6": "Stellenangebote",
+      "subtitle3": "Dienstleistungen",
+      "content7": "Materialverkauf",
+      "content8": "Schulung an der Akademie",
+      "subtitle4": "Kontakte"
+    },
     "way": {
       "title": "Ihr Weg mit uns",
       "subtitle1": "Kontakt mit dem Technologen",

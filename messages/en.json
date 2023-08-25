@@ -9,6 +9,20 @@
       "blog": "Blog",
       "contact": "Contact"
     },
+    "footer": {
+      "subtitle1": "Customers",
+      "content1": "Reviews",
+      "content2": "Technologies",
+      "content3": "Brands",
+      "subtitle2": "About Us",
+      "content4": "About the Company",
+      "content5": "Portfolio",
+      "content6": "Vacancies/Jobs",
+      "subtitle3": "Services",
+      "content7": "Materials Sales",
+      "content8": "Training at the Academy",
+      "subtitle4": "Contacts"
+    },
     "help": {
       "title": "We will help you professionally",
       "content": "solve this problem.",

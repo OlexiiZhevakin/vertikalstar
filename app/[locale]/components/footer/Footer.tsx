@@ -3,9 +3,12 @@ import styles from './Footer.module.scss'
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faPinterest, faTiktok, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import {  useTranslations } from 'next-intl';
+
 
 
 const Footer = () => {
+  const t = useTranslations('components');
   return (
     <footer className={styles.footer}>
       <div className="container">
@@ -13,40 +16,39 @@ const Footer = () => {
 
           <div>
             <Link href='/'>
-              <Image src="/img/logo-ua.svg" alt="Логотип сайту" width={187} height={64} loading="lazy" />
+              <Image src="/img/logo-ua.svg" alt="Логотип сайту" width={187} height={64} />
             </Link>
           </div>
 
           <div className={styles.item}>
-            <h3>Клієнтам</h3>
+            <h3>{t('footer.subtitle1')}</h3>
             <ul className={styles.list}>
-              <li><a href="#">Відгуки</a></li>
-              <li><a href="#">Технології</a></li>
-              <li><a href="#">Бренди</a></li>
+              <Link href="#">{t('footer.content1')}</Link>
+              <li><a href="#">{t('footer.content1')}</a></li>
+              <li><a href="#">{t('footer.content2')}</a></li>
+              <li><a href="#">{t('footer.content3')}</a></li>
             </ul>
           </div>
 
           <div className={styles.item}>
-            <h3>Про нас</h3>
+            <h3>{t('footer.subtitle2')}</h3>
             <ul className={styles.list}>
-              <li><a href="#">Про компанію</a></li>
-              <li><a href="#">Портфоліо</a></li>
-              <li><a href="#">Вакансії</a></li>
+              <li><a href="#">{t('footer.content4')}</a></li>
+              <li><a href="#">{t('footer.content5')}</a></li>
+              <li><a href="#">{t('footer.content6')}</a></li>
             </ul>
           </div>
 
           <div className={styles.item}>
-            <h3>Послуги</h3>
+            <h3>{t('footer.subtitle3')}</h3>
             <ul className={styles.list}>
-              <li><a href="#">Обстеження об'єкту</a></li>
-              <li><a href="#">Організація робіт</a></li>
-              <li><a href="#">Продаж матеріалів</a></li>
-              <li><a href="#">Навчання в Академії</a></li>
+              <li><a href="#">{t('footer.content7')}</a></li>
+              <li><a href="#">{t('footer.content8')}</a></li>
             </ul>
           </div>
 
           <div className={styles.item}>
-            <h3>Контакти</h3>
+            <h3>{t('footer.subtitle4')}</h3>
             <ul className={styles.connectList}>
               <li><a href="tel:+380675713308">+380675713308</a></li>
               <li><a href="mailto:manager@vertikal.kharkov.ua">manager@vertikal.kharkov.ua</a></li>

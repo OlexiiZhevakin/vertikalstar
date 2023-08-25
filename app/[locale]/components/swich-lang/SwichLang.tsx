@@ -16,6 +16,9 @@ const SwichLang = () => {
       <Link className={styles.link} href='/' locale='de'>
         de
       </Link>
+      <Link className={styles.link} href='/' locale='ru'>
+        ru
+      </Link>
     </div>
   )
 }
