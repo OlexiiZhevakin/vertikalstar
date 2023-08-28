@@ -1,8 +1,7 @@
 'use client'
 
-import { FC } from "react"
-import Link from "next-intl/link"
 
+import Link from "next-intl/link"
 import styles from './Objects.module.scss'
 import SliderCard from '@/card/SliderCard/SliderCard';
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -13,12 +12,16 @@ import 'swiper/scss/navigation';
 import Title from "@/app/[locale]/components/title/Title";
 import { ObjectPage } from "@/app/[locale]/object/data";
 
-const Objects: FC = () => {
+interface ObjectsProps {
+  title: string
+}
+
+const Objects = ({title}: ObjectsProps) => {
   const data = ObjectPage
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Об'єкти де застосовані наші ТЕХНОЛОГІЇ</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

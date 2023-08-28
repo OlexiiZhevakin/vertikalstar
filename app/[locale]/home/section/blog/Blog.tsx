@@ -3,13 +3,14 @@ import styles from './Blog.module.scss';
 import BlogHomeCard from '@/card/BlogHomeCard/BlogHomeCard';
 import Title from '@/app/[locale]/components/title/Title';
 import blogHomedData from '@/data/blogHome';
-import Link from 'next-intl/link';
+import { useTranslations } from 'next-intl';
 
 const Blog = () => {
+  const t = useTranslations('home');
   return(
     <section>
       <div className="container">
-        <Title title={'line'}>Блог та новини</Title>
+        <Title title={'line'}>{t('blog.title')}</Title>
         <ul className={styles.list}>
           {blogHomedData.map((card, index) => {
             return(
@@ -25,7 +26,7 @@ const Blog = () => {
           })}
         </ul>
         <div className={styles.btn}>
-          <Btn href='/blog'>Читати більше</Btn>
+          <Btn href='/blog'>{t('blog.btn')}</Btn>
         </div>
       </div>
     </section>

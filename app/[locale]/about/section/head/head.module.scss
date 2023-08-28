@@ -25,3 +25,14 @@
     }
   }
 }
+
+@media (max-width: 992px){
+  .inner{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .info{
+    width: 100%;
+  }
+}
+

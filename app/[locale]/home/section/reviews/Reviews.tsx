@@ -4,20 +4,23 @@
 import { Navigation } from 'swiper/modules';
 import styles from './Reviews.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import ReviewCard from '@/card/ReviewCard/ReviewCard';
 import Title from '@/app/[locale]/components/title/Title';
 import { reviewdata } from '@/app/[locale]/reviews/data';
 
-const Reviews = () => {
+interface ReviewProps {
+  title: string
+}
+
+const Reviews = ({title}: ReviewProps) => {
 
 
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Відгуки</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           
           <Swiper

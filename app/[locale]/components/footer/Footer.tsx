@@ -23,7 +23,6 @@ const Footer = () => {
           <div className={styles.item}>
             <h3>{t('footer.subtitle1')}</h3>
             <ul className={styles.list}>
-              <Link href="#">{t('footer.content1')}</Link>
               <li><a href="#">{t('footer.content1')}</a></li>
               <li><a href="#">{t('footer.content2')}</a></li>
               <li><a href="#">{t('footer.content3')}</a></li>

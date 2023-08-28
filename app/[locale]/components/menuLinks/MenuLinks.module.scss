@@ -66,10 +66,14 @@
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 992px) {
 
   /* Добавьте свои стили для планшетов и небольших ноутбуков */
+  .menu{
+    gap: 10px;
+  }
   .list {
+    gap: 10px;
     li:not(:first-child) {
       margin-left: 10px;
     }

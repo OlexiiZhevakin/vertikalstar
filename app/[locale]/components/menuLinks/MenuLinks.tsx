@@ -16,9 +16,10 @@ type Props = {
   shop: string,
   blog: string,
   contact: string
+  logo: string
 }
 
-const MenuLinks = ({home, about, services, technologies, shop, blog, contact}: Props) => {
+const MenuLinks = ({home, about, services, technologies, shop, blog, contact, logo}: Props) => {
 
   const pathname = usePathname();
 
@@ -52,7 +53,7 @@ const MenuLinks = ({home, about, services, technologies, shop, blog, contact}: P
       <div className="container">
         <div className={styles.wrapper}>
           <Link className={styles.logo} href="/">
-            <Image src="/img/logo-ua.svg" alt="Логотип сайту" width={187} height={64} priority={true} />
+            <Image src={`/img/${logo}`} alt="Логотип сайту" width={187} height={64} priority={true} />
           </Link>
           <div className={`${styles.btn} ${isBtnActive ? styles.btnActive : ''}`}
             onClick={toggleMenu}>

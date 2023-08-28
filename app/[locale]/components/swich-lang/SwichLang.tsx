@@ -1,12 +1,10 @@
-
+'use client'
 import Link from 'next-intl/link';
 import styles from './swich.module.scss'
 
 
-
-
 const SwichLang = () => {
-
+  
   return (
     <div className={styles.links}>
       <Link className={styles.link} href='/' locale='uk'>

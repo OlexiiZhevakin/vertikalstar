@@ -1,10 +1,5 @@
 
-import Image from 'next/image';
-import styles from './Header2.module.scss'
-import Link from 'next-intl/link';
 import { useTranslations } from 'next-intl';
-import SwichLang from '../swich-lang/SwichLang';
-import MenuBtn from '../MenuBtn/MenuBtn';
 import MenuLinks from '../menuLinks/MenuLinks';
 
 const Header2 = () => {
@@ -18,6 +13,7 @@ const Header2 = () => {
       shop={t('header.shop')}
       blog={t('header.blog')}
       contact={t('header.contact')}
+      logo={t('header.logo')}
     />
   )
 }

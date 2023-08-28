@@ -1,40 +1,42 @@
 import styles from './About-us.module.scss';
+import { useTranslations } from 'next-intl';
 
 const AboutUs = () => {
+  const t = useTranslations('home');
   return(
     <div className={styles.container}>
       <div className="container">
         <div className={styles.inner}>
           <div className={styles.item}>
-            <span>24 роки</span>
+            <span>{t('about-us.span1')}</span>
             <div>
               <h3 className={styles.title}>
-                Професійного будівництва
+                {t('about-us.subtitle1')}
               </h3>
               <p>
-                1999 рік заснування компанії
+                {t('about-us.content1')}
               </p>
             </div>
           </div>
           <div className={styles.item}>
-            <span>500+</span>
+            <span>{t('about-us.span2')}</span>
             <div>
               <h3 className={styles.title}>
-                Реалізовані проекти
+                {t('about-us.subtitle2')}
               </h3>
               <p>
-                з них 46 пам'яток архітектури
+                {t('about-us.content2')}
               </p>
             </div>
           </div>
           <div className={styles.item}>
-            <span>35+</span>
+            <span>{t('about-us.span3')}</span>
             <div>
               <h3 className={styles.title}>
-                технології
+                {t('about-us.subtitle3')}
               </h3>
               <p>
-                в активі нашої компанії
+                {t('about-us.content3')}
               </p>
             </div>
           </div>

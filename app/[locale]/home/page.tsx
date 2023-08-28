@@ -12,23 +12,29 @@ import Youtube from "./section/youtube/Youtube";
 import Objects from "./section/objects/Objects";
 import Technologies from "./section/technologies/Technologies";
 import Way from "../components/Way/Way";
+import { useTranslations } from 'next-intl';
 
 
 const HomePage = () => {
-  return(
+  const t = useTranslations('home');
+  return (
     <>
-    <Head/>
-    <Services/>
-    <About/>
-    <AboutUs/>
-    <Technologies/>
-    <Objects />
-    <Brands/>
-    <Way/>
-    <Reviews/>
-    <Form/>
-    <Blog/>
-    <Youtube/>
+      <Head />
+      <Services />
+      <About />
+      <AboutUs />
+      <Technologies
+        title={t('technologies.title')}
+        btn={t('technologies.btn')} />
+      <Objects
+        title={t('objects.title')} />
+      <Brands />
+      <Way />
+      <Reviews
+        title={t('reviews.title')} />
+      <Form />
+      <Blog />
+      <Youtube />
     </>
   )
 }

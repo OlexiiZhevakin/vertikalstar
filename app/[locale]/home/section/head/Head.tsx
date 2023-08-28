@@ -2,8 +2,10 @@
 import Title from '@/app/[locale]/components/title/Title';
 import styles from './Head.module.scss';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const Head = () => {
+  const t = useTranslations('home');
   return(
     <section className={styles.head}>
       <div className={styles.background}>
@@ -11,18 +13,18 @@ const Head = () => {
           src="/img/head-bg.webp"
           fill
           quality={75}
-          alt='Фонова картинка'
+          alt={t('head.alt')}
           priority
         />
       </div>
       <div className="container">
         <div className={styles.inner}>
           <p className={styles.subtitle}>
-            Група компаній
+            {t('head.subtitle1')}
           </p>
-          <Title title={'title'}>Вертикаль будівельних технологій</Title>
+          <Title title={'title'}>{t('head.title')}</Title>
           <p className={styles.subtitle}>
-            Впроваджуємо сучасні, ефективні технології для професійного будівництва
+            {t('head.subtitle2')}
           </p>
         </div>
       </div>
