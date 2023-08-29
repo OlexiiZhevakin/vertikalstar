@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import styles from './Services.module.scss';
-import Link from 'next/link';
+import Link from 'next-intl/link';
 
 
 
@@ -13,6 +13,7 @@ type Props = {
 }
 
 const ServicesCard = ({ title, image, description, link }: Props) => {
+
 
   return (
     <article className={styles.card}>
@@ -28,3 +29,5 @@ const ServicesCard = ({ title, image, description, link }: Props) => {
 }
 
 export default ServicesCard;
+
+

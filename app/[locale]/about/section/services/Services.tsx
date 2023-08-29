@@ -2,12 +2,14 @@ import ServicesCard from "@/card/ServicesCard/ServicesCard";
 import ServiceData from "@/data/servicesData";
 import styles from './services.module.scss'
 import Title from "@/app/[locale]/components/title/Title";
+import { useTranslations } from 'next-intl';
 
 const Services = () => {
+  const t = useTranslations('about');
   return(
     <section>
       <div className="container">
-        <Title title={'h2'}>Ми пропонуємо такі послуги:</Title>
+        <Title title={'h2'}>{t('services.title')}</Title>
         <ul className={styles.list}>
           {ServiceData.map((card, index) => {
             return(
@@ -23,9 +25,7 @@ const Services = () => {
           })}
         </ul>
 
-        <p className={styles.text}>
-          Якщо ви професійно пов’язані з будівництвом чи будуєте/ремонтуєте своє житло, ви обов’язково знайдете у нас багато корисного для себе. А ми готові вам в цьому допомогти.
-        </p>
+        <p className={styles.text}>{t('services.content')}</p>
 
       </div>
     </section>
