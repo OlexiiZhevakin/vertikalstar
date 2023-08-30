@@ -1,0 +1,10 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  position: fixed;
+  right: 40px;
+  bottom: 50%;
+  z-index: 11;
+}

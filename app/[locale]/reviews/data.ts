@@ -25,7 +25,7 @@ export const reviewdata = [
   },
   {
     "id": "imiamn",
-    "title": "Інститут мікробіології та імунології ім. І. І, Мечникова НАМН України, ГУ",
+    "title": "IMIAMН",
     "mini": "/img/review/mini/imiamn.jpg",
     "author": "/img/review/page/imiamn.jpg",
     "podyaka": "/img/review/page/podyaka-imiamn.jpg",

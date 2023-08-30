@@ -1,22 +1,22 @@
 import Image from 'next/image'
 import styles from './proect.module.scss'
 import Title from '@/app/[locale]/components/title/Title'
+import { useTranslations } from 'next-intl';
 
 const Proect = () => {
+  const t = useTranslations('proektuvannya-tekhnolohiy');
   return(
     <section>
       <div className="container">
         <div className={styles.inner}>
           <div className={styles.content}>
-            <Title title={'left'}>Для проектувальників</Title>
-            <p>
-              Якщо проект готовий, ми можемо допомогти доопрацювати розділ, пов'язаний з нашими Технологіями. Надаємо всю необхідну документацію, креслення вузлів, сертифікати.
-            </p>
+            <Title title={'left'}>{t('project.title')}</Title>
+            <p>{t('project.content')}</p>
           </div>
-          <Image src='/img/services/page/info.jpg' alt="Ми можемо взятися за обстеження Вашого об'єкту та розробку проекту" title="Ми можемо взятися за обстеження Вашого об'єкту та розробку проекту" width={470} height={430}/>
+          <Image src='/img/services/page/info.jpg' alt={t('project.alt')} width={470} height={430}/>
         </div>
       </div>
-    </section>
+    </section>  
   )
 }
 

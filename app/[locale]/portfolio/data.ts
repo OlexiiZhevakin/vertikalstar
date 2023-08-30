@@ -655,9 +655,9 @@ export const PortfolioPages = [
   {
     "id": "posylennya-stin-pryvatnoho-budynku-vuhletsevymy-polotnamy,",
     "year": "1999-2009",
-    "title": "село Покотилівка",
+    "title": "Приватний будинок",
     "image": "/img/portfolio/cards/1999/pokotylivka/pokotylivka.jpg",
-    "place": "м.Харків, Україна",
+    "place": "село Покотилівка, Україна",
     "technologies": ["Посилення вуглецевими полотнами"],
     "body": "Посилення стін приватного будинку вуглецевими полотнами",
     "descr": [
@@ -1213,7 +1213,7 @@ export const PortfolioPages = [
     "year": 2010,
     "title": "Гідроізоляція кулі",
     "image": "/img/portfolio/cards/gidroizolyacziya-shara-hire-harkov.jpg",
-    "place": "ХНУРЕ (м. Харків), Україна",
+    "place": "м. Харків, Україна",
     "technologies": ["Гідроізоляція"],
     "body": "Усі, хто проїжджає проспектом Науки в районі метро «Наукова», піднявши голову над вулицею Серпової, можуть побачити ось таку кулю.",
     "descr": [
@@ -1440,7 +1440,7 @@ export const PortfolioPages = [
     "title": "Гідроізоляція старим-добрим Ізофлексом",
     "image": "/img/portfolio/cards/hidroizolyatsiya-starym-dobrym-izofleksom.jpg",
     "place": "м.Харків, Україна",
-    "technologies": ["Очистка, реставрація та захист фасадів", "Торкетування", "Гідроізоляція"],
+    "technologies": ["Гідроізоляція"],
     "body": "Виконували гідроізоляцію 'старим - добрим' 'Ізофлекс'.",
     "descr": [
       "Багато наших Клієнтів знають і заслужено поважають цей матеріал за комбінацію простоти у нанесенні та надійності. Цей еластичний матеріал має відмінну адгезію практично до будь-яких будматеріалів (навіть до дерева). На фото видно, що матеріал довелося наносити на стяжку, яка тріснула у багатьох місцях. 'Ізофлекс' цього не боїться і з гідністю закриває всі тріщини."
@@ -1835,7 +1835,7 @@ export const PortfolioPages = [
     "title": "Шарівський замок (садиба)",
     "image": "/img/portfolio/cards/sharivskyy-zamok.jpg",
     "place": "СМТ Шарівка, Україна",
-    "technologies": ["Гідроізоляція", "Очистка, реставрація та захист фасадів", "Торкетування"],
+    "technologies": ["Гідроізоляція", "Очистка, реставрація та захист фасадів"],
     "body": "Шарівка - білокам'яна споруда кінця XIX століття неоготичного стилю, колишня поміщицька садиба.",
     "descr": [
       "Розташована у смт Шарівка Богодухівського району Харківської області на березі річки Мерчик.",
@@ -2425,11 +2425,11 @@ export const PortfolioPages = [
   {
     "id": "lozove-torkretuvannya-2021",
     "year": "2021",
-    "title": "Лозова",
+    "title": "Будинок Культури",
     "image": "/img/portfolio/cards/2021/lozove-torkretuvannya/lozove-torkretuvannya.jpg",
-    "place": "м.Харків, Україна",
+    "place": "м.Лозова, Україна",
     "technologies": ["Торкретування"],
-    "body": "",
+    "body": "Реконструкція пожежних сходів",
     "descr": [
       "",
       "",
@@ -2765,26 +2765,17 @@ export const PortfolioPages = [
     ]
   },
   {
-    "id": "rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021",
+    "id": "rekonstruktsiya-khnure-2021",
     "year": 2021,
-    "title": "Реконструкція та утеплення фасаду",
+    "title": "ХНУРЕ",
     "image": "/img/portfolio/cards/rekonstruktsiya-ta-uteplennya-fasadu-a-takozh-vlashtuvannya-membrannoyi-pokrivli-kharkivskoho-natsionalnoho-universytetu-radioelektroniky.jpg",
-    "place": "ХНУРЕ (м.Харків), Україна",
-    "technologies": ["Гідроізоляція", "Очистка, реставрація та захист фасадів", "Ремонт бетону та залізобетону", "Склеювання тріщин"],
-    "body": "Реконструкція та утеплення фасаду, а також влаштування мембранної покрівлі Харківського національного університету радіоелектроніки",
+    "place": "м.Харків, Україна",
+    "technologies": ["Гідроізоляція", "Ремонт бетону та залізобетону", "Склеювання тріщин"],
+    "body": "Реконструкція",
     "descr": [
       ""
     ],
     "images": [
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-1.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-2.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-3.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-4.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-5.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-6.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-7.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-8.jpg",
-      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-9.jpg",
       "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-10.jpg",
       "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-11.jpg",
       "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-12.jpg",
@@ -2800,6 +2791,29 @@ export const PortfolioPages = [
       "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-22.jpg",
       "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-23.jpg",
       "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-24.jpg",
+    ]
+  },
+  {
+    "id": "uteplennya-fasadu-khnure-2021",
+    "year": 2021,
+    "title": "ХНУРЕ",
+    "image": "/img/portfolio/cards/rekonstruktsiya-ta-uteplennya-fasadu-a-takozh-vlashtuvannya-membrannoyi-pokrivli-kharkivskoho-natsionalnoho-universytetu-radioelektroniky.jpg",
+    "place": "м.Харків, Україна",
+    "technologies": ["Гідроізоляція", "Очистка, реставрація та захист фасадів", "Ремонт бетону та залізобетону", "Склеювання тріщин"],
+    "body": "Влаштування мембранної покрівлі",
+    "descr": [
+      ""
+    ],
+    "images": [
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-1.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-2.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-3.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-4.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-5.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-6.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-7.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-8.jpg",
+      "/img/portfolio/2021/rekonstruktsiya-ta-uteplennya-fasadu-khnure-2021-9.jpg"
     ]
   },
   {
@@ -3144,6 +3158,31 @@ export const PortfolioPages = [
       "/img/portfolio/2023/gidroizolyatsiya-terrasy/gidroizolyatsiya-terrasy-37.jpg",
       "/img/portfolio/2023/gidroizolyatsiya-terrasy/gidroizolyatsiya-terrasy-38.jpg",
       "/img/portfolio/2023/gidroizolyatsiya-terrasy/gidroizolyatsiya-terrasy-39.jpg",
+    ]
+  },
+  {
+    "id": "khnure-2023",
+    "year": "2023",
+    "title": "ХНУРЕ",
+    "image": "/img/portfolio/cards/rekonstruktsiya-ta-uteplennya-fasadu-a-takozh-vlashtuvannya-membrannoyi-pokrivli-kharkivskoho-natsionalnoho-universytetu-radioelektroniky.jpg",
+    "place": "м.Харків, Україна",
+    "technologies": ["Гідроізоляція"],
+    "body": "",
+    "descr": [
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      
+    ],
+    "video": [
+      "/img/portfolio/2023/khnure-2023/khnure-2023-1.mp4",
+      "/img/portfolio/2023/khnure-2023/khnure-2023-2.mp4",
+      "/img/portfolio/2023/khnure-2023/khnure-2023-3.mp4",
+      "/img/portfolio/2023/khnure-2023/khnure-2023-4.mp4",
+      "/img/portfolio/2023/khnure-2023/khnure-2023-5.mp4",
+      "/img/portfolio/2023/khnure-2023/khnure-2023-6.mp4"
     ]
   },
 ]

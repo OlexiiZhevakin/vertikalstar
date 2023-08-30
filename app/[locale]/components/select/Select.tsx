@@ -1,10 +1,12 @@
+
 type Props = {
   onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
+  value: string;
 }
 
-const Select: React.FC<Props> = ({ onChange }) => {
+const Select: React.FC<Props> = ({ onChange, value }) => {
   return (
-    <select onChange={onChange}>
+    <select onChange={onChange} value={value}>
       <option value="">
         Всі технології
       </option>

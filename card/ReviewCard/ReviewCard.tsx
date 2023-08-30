@@ -14,7 +14,7 @@ const ReviewCard = ({ image, title, author, link }: Props) => {
   return (
     <div className={styles.item}>
       <div className={styles.inner}>
-        <Image src={image} alt={title} title={title} width={100} height={100} />
+        <Image src={image} alt={title} title={title} width={150} height={150} />
         <p className={styles.author}>{author}</p>
         <Link className="btn" href={link}>Детальніше</Link>
       </div>
