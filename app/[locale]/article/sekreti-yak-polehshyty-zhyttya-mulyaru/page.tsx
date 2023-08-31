@@ -3,198 +3,133 @@ import Image from 'next/image';
 import Help from './Help/Help';
 import styles from './page.module.scss';
 import Title from '@/app/[locale]/components/title/Title';
+import { useTranslations } from 'next-intl';
 
 const Article = () => {
+  const t = useTranslations('articles.yak-pokrashchyty-rozchyn-dlya-tsehlyanoyi-kladky');
   return (
     <>
       <article>
         <section className={styles.head}>
           <div className="container">
-            <Title title={'h1'}>Як покращити розчин для цегляної кладки?</Title>
+            <Title title={'h1'}>{t('title')}</Title>
             <div className={styles.articleinfo}>
               <div>
-                <p className={styles.date}>Дата публікації: <time dateTime="2023-07-20">
-                  20 липня 2023</time>
+                <p className={styles.date}>{t('publisher')} <time dateTime="2023-07-20">
+                  {t('date')}</time>
                 </p>
-                <p className={styles.author}>Автор: Сергій Стародубов</p>
+                <p className={styles.author}>{t('author')}</p>
               </div>
-              <Image className={styles.articleimg} src='/img/blog/author.jpg' alt='' title='' width={100} height={100}/>
+              <Image className={styles.articleimg} src='/img/blog/author.jpg' alt='' width={100} height={100}/>
             </div>
           </div>
         </section>
 
         <section className={styles.blog}>
           <div className="container">
-            <Title title={'left'}>Як муляру - професіоналу працювати краще і заробляти більше ?</Title>
-            <p className={styles.text}>
-              Свій шлях у будівництві я почав ще хлопчиськом з позиції "підсобник муляра".  Тому чудово знаю всі радощі та труднощі цього захоплюючого процесу народження нових цегляних стін.
-            </p>
-            <p className={styles.text}>
-              Від чого душа муляра співає? Коли все налагоджено:
-            </p>
+            <Title title={'left'}>{t('title2')}</Title>
+            <p className={styles.text}>{t('content1')}</p>
+            <p className={styles.text}>{t('content2')}</p>
             <ul className={styles.fixed}>
-              <li>
-                ріштування  виставлено;
-              </li>
-              <li>
-                матеріал заготовлений;
-              </li>
-              <li>
-                підсобники моторні;
-              </li>
-              <li>
-                розчин для кладки зручний та еластичний;
-              </li>
+              <li>{t('li1')}</li>
+              <li>{t('li2')}</li>
+              <li>{t('li3')}</li>
+              <li>{t('li4')}</li>
             </ul>
-            <p className={styles.text}>
-              У таких умовах можна досягти високої швидкості.  "Гнати та гнати куби".
-            </p>
-            <p className={styles.text}>
-              А т.к.  муляру платять за кількість покладеної цегли,це  значить заробляти більше.
-            </p>
+            <p className={styles.text}>{t('content3')}</p>
+            <p className={styles.text}>{t('content4')}</p>
             <figure>
-              <Image src="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/mulyar.jpg" width={1200} height={620} loading="lazy" alt="Як муляру - професіоналу працювати краще і заробляти" title="Як муляру - професіоналу працювати краще і заробляти" />
-              <figcaption>
-                Як муляру - професіоналу працювати краще і заробляти більше ?
-              </figcaption>
+              <Image src="/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/mulyar.jpg" width={1200} height={620} loading="lazy" alt={t('alt1')} />
+              <figcaption>{t('title2')}</figcaption>
             </figure>
+            <p className={styles.text}>{t('content5')}</p>
+            <p className={styles.text}>{t('content6')}</p>
+            <p className={styles.text}>{t('content7')}</p>
+            <p className={styles.text}>{t('content8')}</p>
+            <p className={styles.text}>{t('content9')}</p>
             <p className={styles.text}>
-
-            </p>
-            <p className={styles.text}>
-              А що стопорить роботу?  На мій погляд на першому місці стоїть млявий, неуважний підсобник.
-            </p>
-            <p className={styles.text}>
-              А на другому - поганий розчин для кладки.
-            </p>
-            <p className={styles.text}>
-              Що таке поганий розчин?
-            </p>
-            <p className={styles.text}>
-              Розчин, який "сідає" у відрі до того, як муляр встиг його використати.  Вода відокремлюється вгору, густа суміш осідає вниз і робота зупиняється.  Доводиться віддавати відро підсобнику, щоб.  перемішав і гаяти час.
-            </p>
-
-            <p className={styles.text}>
-              Або розмішувати самому, але мішати розчин кельмою у відрі ще те заняття.
-            </p>
-            <p className={styles.text}>
-              Хто мішав, той знає!
+              {t('content10')}
               <span className={styles.line}></span>
             </p>
+            <p className={styles.text}>{t('content11')}</p>
+            <p className={styles.text}>{t('content12')}</p>
+            <p className={styles.text}>{t('content13')}</p>
             <p className={styles.text}>
-              Здавна будівельники знайшли один секрет - додають рідке мило  чи пральний порошок.  Це надає еластичність розчинної суміші.
-            </p>
-            <p className={styles.text}>
-              Але, послухайте, це було раніше!  Миючі засоби придумані для підвищення ефективності у ванній кімнаті, та нехай вони там і використовуються.
-            </p>
-            <p className={styles.text}>
-              Будівельна наука вигадала вже спеціальні добавки саме для будівельних розчинів, які виключають усі побічні дії та значно покращують якість будівельних розчинів.
-            </p>
-            <p className={styles.text}>
-              
               <span className={styles.line}></span>
-              
-              <strong>З однієї із таких добавок хочу познайомити Вас у цій статті:</strong>
+              <strong>{t('content14')}</strong>
             </p>
             <p className={styles.text}>
-              <strong>це <span>"Домоліт"</span>, виробництва заводу ISOMAT(Греція)</strong>
+              <strong>{t('content15')}</strong>
             </p>
+            <p className={styles.text}>{t('content16')}</p>
             <p className={styles.text}>
-              Це рідка мікроповітряна добавка, яка залучає повітря до розчину і значно покращує його властивості.
-            </p>
-
-            <p className={styles.text}>
-              <strong>Розчин з добавкою <span>"ДОМОЛІТ"</span> має наступні переваги:</strong>
+              <strong>{t('content17')}</strong>
             </p>
 
             <ul className={styles.list}>
               <li>
-                Покращена адгезія:
-                <p>
-                  Розчин добре схоплюється з цеглою, що забезпечує високу міцність конструкції.
-                </p>
+                {t('li5')}
+                <p>{t('content18')}</p>
               </li>
               <li>
-                Покращена еластичність:
-                <p>
-                  Розчин стає дуже зручним у роботі, легко наноситься та розрівнюється.
-                </p>
+                {t('li6')}
+                <p>{t('content19')}</p>
               </li>
               <li>
-                Збереження стабільності розчину:
-                <p>
-                  Розчин не буде "сідати" і збереже свою консистенцію протягом тривалого часу, що дозволяє вам встигнути його використати.
-                </p>
+                {t('li7')}
+                <p>{t('content20')}</p>
               </li>
               <li>
-                Морозостійкість:
-                <p>
-                  Завдяки повітровтягненню розчин стає більш морозостійким, що є важливою характеристикою для будівельних робіт в холодній кліматичній зоні.
-                </p>
+                {t('li8')}
+                <p>{t('content21')}</p>
               </li>
               <li>
-                Відсутність висолів:
-                <p>
-                  Використання <span>"ДОМОЛІТ"</span> допомагає уникнути появи висолів на поверхні цегли, що є важливим для забезпечення естетичного вигляду будівельних конструкцій.
-                </p>
+                {t('li9')}
+                <p>{t('content22')}</p>
               </li>
               <li>
-                Мiцнiсть:
-                <p>
-                  Підвищує міцність цегляний кладки.
-                </p>
+                {t('li10')}
+                <p>{t('content23')}</p>
               </li>
               <li>
-                Безпека:
-                <p>
-                  Не містить хлоридів та інших
-                  корозійних речовин.
-                </p>
+                {t('li11')}
+                <p>{t('content24')}</p>
               </li>
             </ul>
             <figure>
               <Image className={styles.img} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/dobavka-domolit.jpg' alt='Домоліт' title='Домоліт' width={496} height={620}/>
               <figcaption>
-                Одним з таких рішень є використання добавки - пластифікатора під назвою <span>"Домоліт"</span>
+                {t('figcaption')}
+                <span>"DOMOLIT"</span>
               </figcaption>
             </figure>
 
-            <p className={styles.text}>
-              Отже, використання ефективних рішень, таких як "ДОМОЛІТ", може значно полегшити роботу муляра - професіонала.
-            </p>
+            <p className={styles.text}>{t('content25')}</p>
 
-            <p className={styles.text}>
-              Ми достатньо давно поставляємо цей матеріал та постійно його використовуємо, тому з повною відповідальністю хочемо заохотити вас до використання його у своїй роботі.
-            </p>
+            <p className={styles.text}>{t('content26')}</p>
             
             <div className={styles.domolit}>
-              <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/domolit.png' alt='Domolit' title='Domolit' width={300} height={300} />
+              <Image src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/domolit.png' alt='Domolit' width={300} height={300} />
               <div className={styles.content}>
                 <ul className={styles.domolitlist}>
                   <li>
-                    <span>Витрати:</span>
-                    50 г DOMOLIT на 25 кг цементу.
+                    <span>{t('li12')}</span>
+                    {t('content27')}
                   </li>
                   <li>
-                    <span>Фасування:</span>
-                    DOMOLIT поставляється у пластикових
-                    контейнерах по 1 кг, 5 кг та 20 кг, а також у
-                    бочках по 220 кг.
+                    <span>{t('li13')}</span>
+                    {t('content28')}
                   </li>
                   <li>
-                    <span>Сертифікати:</span>
-                    Сертифікований з наявністю маркування CE
-                    як повітрозалучальна добавка –
-                    пластифікатор для розчинів кладок
-                    відповідно до вимог стандарту EN 934-3:T2,
-                    Сертифікат No.: 0906-CPR-02412007/02.
+                    <span>{t('li14')}</span>
+                    {t('content29')}
                   </li>
                 </ul>
               </div>
             </div>
             <div className={styles.download}>
               <Image className={styles.icon} src='/img/blog/page/5-sekretiv-yak-polehshyty-zhyttya-mulyaru/file-pdf-solid.svg' alt='Скачати тех карту' title='Скачати тех карту' width={30} height={30}/>
-              <a className='btn' href="/tekhnichna-karta.pdf" download>Скачати тех карту</a>
+              <a className='btn' href="/tekhnichna-karta.pdf" download>{t('download')}</a>
             </div>
           </div>
         </section>
