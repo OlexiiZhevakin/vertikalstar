@@ -6,7 +6,7 @@ import Title from '@/app/[locale]/components/title/Title';
 import { useTranslations } from 'next-intl';
 
 const Article = () => {
-  const t = useTranslations('articles.yak-pokrashchyty-rozchyn-dlya-tsehlyanoyi-kladky');
+  const t = useTranslations('articles.article1');
   return (
     <>
       <article>
