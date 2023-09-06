@@ -8,12 +8,15 @@ import gidroizolyatsiyaPremykaniyData from './data';
 import Image from 'next/image';
 import Title from '@/app/[locale]/components/title/Title';
 
+type GidroizolyatsiyaPremykaniyProps = {
+  title: string
+}
 
-const GidroizolyatsiyaPremykaniy = () => {
+const GidroizolyatsiyaPremykaniy = ({title}: GidroizolyatsiyaPremykaniyProps) => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Гідроізоляція примикань</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

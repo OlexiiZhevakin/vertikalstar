@@ -10,12 +10,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
+import { ShowViewProps } from 'react-admin';
 
-const ZapovnennyaShviv = () => {
+type ShviProps = {
+  title: string
+}
+
+const ZapovnennyaShviv = ({title}: ShviProps) => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Заповнення швів</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

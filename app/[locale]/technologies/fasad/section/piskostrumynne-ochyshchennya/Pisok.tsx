@@ -9,12 +9,15 @@ import 'swiper/scss/navigation';
 import piskostrumynneOchyshchennyaData from './data';
 import Title from '@/app/[locale]/components/title/Title';
 
+type PisokProps = {
+  title: string
+}
 
-const Pisok = () => {
+const Pisok = ({title}: PisokProps) => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Піскоструминне очищення</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

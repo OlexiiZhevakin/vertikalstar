@@ -35,7 +35,8 @@ const Slider = () => {
                   alt='Фасад до'
                   title='Фасад до'
                   width={760}
-                  height={570}/>
+                  height={570}
+                  priority/>
               </SwiperSlide>
             ))}
           </Swiper>

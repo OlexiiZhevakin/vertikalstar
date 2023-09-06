@@ -8,13 +8,15 @@ import 'swiper/scss/navigation';
 import skleyuvannyaTrishchynData from './data';
 import Title from '@/app/[locale]/components/title/Title';
 
+type TrishchinaProps = {
+  title: string
+}
 
-
-const SkleyuvannyaTrishchyn = () => {
+const SkleyuvannyaTrishchyn = ({title}: TrishchinaProps) => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Склеювання тріщин</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

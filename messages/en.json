@@ -27,18 +27,18 @@
     "help": {
       "title": "We will help you professionally",
       "content": "solve this problem.",
-      "link": "Contact us"
+      "link": "Call us"
     },
     "way": {
-      "title": "Your way with us",
-      "subtitle1": "Contact with the Technologist",
-      "description1": "You leave an application, our Technologist will contact you. We receive a technical task from you.",
+      "title": "Your path with us",
+      "subtitle1": "Contact with Technologist",
+      "description1": "You leave a request, our Technologist will contact you. We receive a technical problem from you.",
       "subtitle2": "Development of TECHNOLOGY",
-      "description2": "We develop the TECHNOLOGY for solving your task, select materials, and prepare an estimate.",
+      "description2": "We develop a TECHNOLOGY to solve your problem, select materials, prepare estimate.",
       "subtitle3": "Supply of materials",
-      "description3": "We will organize prompt delivery of necessary materials to your facility, if necessary, provide training or chief installation.",
-      "subtitle4": "Execution of works",
-      "description4": "If you order this turnkey service, we will organize the work in accordance with the developed TECHNOLOGY and all applicable regulations."
+      "description3": "We organize the prompt delivery of the necessary materials on your object. If necessary, we provide training or installation supervision.",
+      "subtitle4": "Execution",
+      "description4": "If you order a 'TURNKEY' service, we will organize the execution of work according to the developed TECHNOLOGY and all applicable regulations."
     },
     "services": {
       "proektuvannya-tekhnolohiy": {
@@ -64,16 +64,16 @@
     },
     "form": {
       "title": "Our TECHNOLOGIES for your projects",
-      "content1": "We will conduct an inspection of your object",
-      "content2": "We will develop the TECHNOLOGY for solving your problem",
-      "content3": "We will select and deliver the necessary materials",
-      "content4": "We organize training or chief installation at the facility",
-      "content5": "We organize the execution of works",
+      "content1": "We will audit your property",
+      "content2": "We will develop a TECHNOLOGY to solve your problem",
+      "content3": "We select and supply the necessary materials",
+      "content4": "We organize training or installation supervision on your object",
+      "content5": "We organize the execution of work",
       "modal": {
-        "content1": "Enter your contacts",
+        "content1": "Specify your contacts",
         "content2": "and our Technologist will contact you shortly",
-        "tel": "Your name",
-        "name": "Phone",
+        "name": "Your name",
+        "tel": "Phone Number",
         "btn": "Leave a request"
       }
     }
@@ -399,6 +399,69 @@
       "content1": "No, not exactly. Because the moisture can enter the room through at least four different paths (mapping by arrows on the drawing).",
       "content2": "Therefore, in order to avoid mistakes and unnecessary costs, it is necessary to conduct a survey and accurately determine which of the paths we are dealing with at a particur facility.",
       "content3": "You can contact our specialists, send photos/videos of your situation. We will professionally determine the heart of the problem and propose a technology for its solution."
+    }
+  },
+  "fasad": {
+    "head": {
+      "title": "RESTORATION OF BRICK FACADES"
+    },
+    "picture": {
+      "title": "Is it a familiar picture?",
+      "content": "An ancient building is made of bricks and has fabulous brick decor, but over the decades the facade of this building became dirty, partially crumbls and loses its original beauty.",
+      "alt1": "Дарвіна",
+      "alt2": "Харьківська Хоральна сінагога"
+    },
+    "what": {
+      "subtitle": "In most cases such facades can be restored. It is possible to prolong their life for the coming decades and to preserve them in proper condition for our descendants.",
+      "title": "Facade restoration technology usually includes the following steps:",
+      "alt": "Facade restoration technology",
+      "content1": "Facade cleaning",
+      "content2": "Brick restoration",
+      "content3": "Seams filling",
+      "content4": "Cracks bonding",
+      "content5": "Adjoining waterproofing",
+      "content6": "Preservation of the facade"
+    },
+    "descr": {
+      "content": "Using this technology, our company has completed the following objects"
+    },
+    "after-before": {
+      "title": "Before - Now",
+      "alt": "Технологія очищеня, реставрації та консервації цегляних фасадів"
+    },
+    "advantage": {
+      "title": "Advantages of this technology",
+      "subtitle1": "Authenticity",
+      "content1": "The facade tend to stay the way the architect intended in the past for our descendants.",
+      "subtitle2": "Reliability",
+      "content2": "We do not apply any additional layers that may peel off over time.",
+      "subtitle3": "Time",
+      "content3": "We find and treat all the causes of facade 'diseases' that have accumulated during the operation so that they do not occur in the future."
+    },
+    "object": {
+      "title": "How it looks on real objects"
+    },
+    "khimichna-ochystka": {
+      "title": "Chemical cleaning"
+    },
+    "pisok": {
+      "title": "Sandblasting"
+    },
+    "cegla": {
+      "title": "Brick restoration"
+    },
+    "shvi": {
+      "title": "Seams filling"
+    },
+    "trishchina": {
+      "title": "Cracks bonding"
+    },
+    "gidroizolyatsiya": {
+      "title": "Adjacency waterproofing"
+    },
+    "konservatsiya": {
+      "title": "Preseravtion of the facade",
+      "content": "When all work on the restoration of the facade is completed, it is necessary to preserve the facade by applying hydrophobic impregnation."
     }
   }
 }

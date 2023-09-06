@@ -8,12 +8,16 @@ import 'swiper/scss/navigation';
 import konservatsiyaFasaduData from './data';
 import Title from '@/app/[locale]/components/title/Title';
 
+type KonservatsiyaProps = {
+  title: string
+  content: string
+}
 
-const KonservatsiyaFasadu = () => {
+const KonservatsiyaFasadu = ({title, content}: KonservatsiyaProps) => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Консервація фасаду</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper
@@ -42,9 +46,7 @@ const KonservatsiyaFasadu = () => {
           </Swiper>
           <div className={styles.btnNext}>&gt;</div>
         </div>
-        <p className={styles.text}>
-          Коли всі роботи з реставрації фасаду закінчені, необхідно законсервувати фасад методом нанесення гідрофобного просочення.
-        </p>
+        <p className={styles.text}>{content}</p>
       </div>
     </section>
   )

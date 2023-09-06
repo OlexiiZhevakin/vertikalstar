@@ -18,6 +18,7 @@ import Advantage from "./section/advantage/Advantage"
 import Object from "./section/object/Object"
 import { Metadata } from "next";
 import Way from "../../components/Way/Way"
+import { useTranslations } from 'next-intl';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.vertikalstar.com/technologies/fasad'),
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 
 
 const Fasad = () => {
-
+  const t = useTranslations('fasad');
   return (
     <>
       <Head />
@@ -43,13 +44,13 @@ const Fasad = () => {
       <Sova />
       <Advantage />
       <Object/>
-      <KhimichnaOchystka />
-      <Pisok />
-      <RestavratsiyaTsehly />
-      <ZapovnennyaShviv />
-      <SkleyuvannyaTrishchyn />
-      <GidroizolyatsiyaPremykaniy />
-      <Hidrofikatsiya />
+      <KhimichnaOchystka title={t('khimichna-ochystka.title')} />
+      <Pisok title={t('pisok.title')} />
+      <RestavratsiyaTsehly title={t('cegla.title')} />
+      <ZapovnennyaShviv title={t('shvi.title')} />
+      <SkleyuvannyaTrishchyn title={t('trishchina.title')} />
+      <GidroizolyatsiyaPremykaniy title={t('gidroizolyatsiya.title')} />
+      <Hidrofikatsiya title={t('konservatsiya.title')} content={t('konservatsiya.content')} />
       <Way/>
       <Form />
     </>

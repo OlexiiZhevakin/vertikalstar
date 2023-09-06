@@ -8,13 +8,16 @@ import 'swiper/scss/navigation';
 import restavratsiyaTsehlyData from './data';
 import Title from '@/app/[locale]/components/title/Title';
 
+type CeglaProps = {
+  title: string
+}
 
 
-const RestavratsiyaTsehly = () => {
+const RestavratsiyaTsehly = ({title}: CeglaProps) => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Реставрація цегли</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

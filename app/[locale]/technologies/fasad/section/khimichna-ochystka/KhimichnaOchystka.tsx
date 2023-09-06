@@ -9,13 +9,15 @@ import 'swiper/scss/pagination';
 import khimichnaOchystkaData from './data';
 import Title from '@/app/[locale]/components/title/Title';
 
+type KhimichnaOchystkaProps = {
+  title: string
+}
 
-
-const KhimichnaOchystka = () => {
+const KhimichnaOchystka = ({title}: KhimichnaOchystkaProps) => {
   return (
     <section className={styles.container}>
       <div className="container">
-        <Title title={'line'}>Хімічна очистка</Title>
+        <Title title={'line'}>{title}</Title>
         <div className={styles.wrapper}>
           <div className={styles.btnPrev}>&lt;</div>
           <Swiper

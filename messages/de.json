@@ -1,8 +1,8 @@
 {
   "components": {
     "help": {
-      "title": "Wir helfen Ihnen professionell",
-      "content": "dieses Problem zu lösen.",
+      "title": "Wir helfen Ihnen, dieses Problem",
+      "content": "professionell zu lösen",
       "link": "Rufen Sie uns an"
     },
     "header": {
@@ -32,13 +32,13 @@
     "way": {
       "title": "Ihr Weg mit uns",
       "subtitle1": "Kontakt mit dem Technologen",
-      "description1": "Sie hinterlassen eine Bewerbung, unser Technologe wird sich mit Ihnen in Verbindung setzen. Wir erhalten von Ihnen eine technische Aufgabe.",
+      "description1": "Sie hinterlassen eine Anfrage, unser Technologe wird sich mit Ihnen in Verbindung setzen. Wir erhalten von Ihnen eine technische Aufgabe.  ",
       "subtitle2": "Entwicklung der TECHNOLOGIE",
       "description2": "Wir entwickeln die TECHNOLOGIE zur Lösung Ihrer Aufgabenstellung, wählen Materialien aus und erstellen einen Kostenvoranschlag.",
-      "subtitle3": "Bereitstellung von Materialien",
-      "description3": "Wir organisieren die zeitnahe Lieferung der erforderlichen Materialien an Ihre Einrichtung und bieten bei Bedarf Schulungen oder eine Hauptinstallation an.",
+      "subtitle3": "Materiale Lieferung",
+      "description3": "Wir organisieren die schnelle Lieferung der erforderlichen Materialien an Ihre Einrichtung und bieten bei Bedarf Schulungen oder eine Hauptinstallation an.",
       "subtitle4": "Ausführung von Arbeiten",
-      "description4": "Wenn Sie diesen schlüsselfertigen Service bestellen, organisieren wir die Arbeiten gemäß der entwickelten TECHNOLOGIE und allen geltenden Vorschriften."
+      "description4": "Wenn Sie diesen “Schlüsselfertigen Service“ bestellen, organisieren wir die Ausführung der Arbeiten gemäß der vorbereiteten TECHNOLOGIE und allen aktuellen Vorschriften."
     },
     "services": {
       "proektuvannya-tekhnolohiy": {
@@ -64,62 +64,62 @@
     },
     "form": {
       "title": "Unsere TECHNOLOGIEN für Ihre Projekte",
-      "content1": "Wir führen eine Besichtigung Ihres Objektes durch",
-      "content2": "Wir entwickeln die TECHNOLOGIE zur Lösung Ihres Problems",
+      "content1": "Wir führen eine Besichtigung Ihres Gebäudes durch",
+      "content2": "Wir entwickeln die TECHNOLOGIE, um Ihre Aufgabe zu lösen",
       "content3": "Wir wählen die benötigten Materialien aus und liefern sie",
       "content4": "Wir organisieren Schulungen oder Chefinstallationen vor Ort",
       "content5": "Wir organisieren die Ausführung von Arbeiten",
       "modal": {
         "content1": "Geben Sie Ihre Kontakte ein",
         "content2": "und unser Technologe wird sich in Kürze mit Ihnen in Verbindung setzen",
-        "tel": "Ihr Name",
-        "name": "Telefon",
-        "btn": "Schicken"
+        "name": "Ihr Name",
+        "tel": "Telefonnummer",
+        "btn": "Anfrage Hinterlassen"
       }
     }
   },
   "home": {
     "head": {
       "alt": "Фонова картинка",
-      "subtitle1": "Група компаній",
-      "title": "Вертикаль будівельних технологій",
-      "subtitle2": "Впроваджуємо сучасні, ефективні технології для професійного будівництва"
+      "subtitle1": "Eine Unternehmensgruppe",
+      "title": "BAUTECHNIK VERTIKAL",
+      "subtitle2": "Wir führen moderne, effektive Technologien für professionelles Bauen ein"
     },
     "services": {
-      "title": "Наші послуги"
+      "title": "Unsere Dienstleistungen"
     },
     "about": {
       "alt": "На цій фотографії зображен диретор компанії Вертикаль будівельних технологій",
-      "title": "Ми працюємо з 1999 року",
-      "content1": "Вважаємо, що унікальні споруди мають бути збережені для нащадків. Прагнемо, щоб нові будинки служили століттями",
-      "content2": "Якщо Ви займаєтеся Професійним будівництвом, Ви обов 'язково знайдете у нас корисні технології для себе.",
-      "content3": "Якщо Ви звернулися до нас вперше – Ви залишитеся з нами надовго, у колі однодумців та професіоналів.",
-      "btn": "Про нас",
-      "content4": "з повагою, засновник компанії Сергій Стародубов"
+      "title": "Wir arbeiten seit 1999",
+      "content1": "Wir glauben, dass einzigartige Gebäude für die Nachwelt erhalten bleiben sollten. Wir streben danach, dass neue Häuser jahrhundertelang dienen",
+      "content2": "Wenn Sie im professionellen Baubereich tätig sind, finden Sie  bei uns auf jeden Fall nützliche Technologien für sich.",
+      "content3": "Wenn Sie uns zum ersten Mal kontaktieren haben, werden Sie mit uns lange bleiben, im Kreise von Gleichgesinnten und Profis.",
+      "btn": "Über uns",
+      "content4": "Mit freundlichen Grüßen Firmengründer Serhiy Starodubov"
     },
     "about-us": {
-      "span1": "24 роки",
-      "subtitle1": "Професійного будівництва",
-      "content1": "1999 рік заснування компанії",
+      "span1": "24 Jahre",
+      "subtitle1": "professionelle Bautätigkeit",
+      "content1": "Das Unternehmen wurde 1999 gegründet",
       "span2": "500+",
-      "subtitle2": "Реалізовані проекти",
-      "content2": "з них 46 пам'яток архітектури",
+      "subtitle2": "abgeschlossene Projekte",
+      "content2": "davon 46 Baudenkmäler",
       "span3": "35+",
-      "subtitle3": "технології",
-      "content3": "в активі нашої компанії"
+      "subtitle3": "TECHNOLOGIEN",
+      "content3": "im Vermögen unseres Unternehmens"
     },
     "technologies": {
-      "title": "Технології",
+      "title": "Technologien",
       "btn": "Показати ще"
     },
     "objects": {
-      "title": "Об'єкти де застосовані наші ТЕХНОЛОГІЇ"
+      "title": "Objekte, bei denen unsere TECHNOLOGIEN zum Einsatz kommen"
     },
     "brands": {
-      "title": "Бренди з якими ми працюємо"
+      "title": "Marken, mit denen wir zusammenarbeiten"
     },
     "reviews": {
-      "title": "Відгуки"
+      "title": "Rezensionen"
     },
     "blog": {
       "title": "Блог та новини",
@@ -399,6 +399,69 @@
       "content1": "Feuchtigkeit kann auf mindestens vier verschiedene Arten in den Raum eindringen (auf der Zeichnung mit Pfeilen markiert).",
       "content2": "Es ist sehr wichtig, den richtigen Weg auf einem bestimmten Objekt zu bestimmen, um unnötige Kosten zu vermeiden.",
       "content3": "Sie können sich an uns wenden und Fotos / Videos Ihrer Situation senden. Wir werden professionell die Ursache des Problems ermitteln und eine Technologie zur Lösung vorschlagen."
+    }
+  },
+  "fasad": {
+    "head": {
+      "title": "Restaurierung von Backsteinfassaden"
+    },
+    "picture": {
+      "title": "Kommt Ihnen das Bild bekannt vor?",
+      "content": "Das antike Gebäude besteht aus Ziegeln mit sehr schönen Ziegelverzierungen, aber im Laufe der Jahrzehnte ist die Fassade dieses Gebäudes schmutzig geworden, teilweise verfallen und hat ihre ursprüngliche Schönheit verloren.",
+      "alt1": "Дарвіна",
+      "alt2": "Харьківська Хоральна сінагога"
+    },
+    "what": {
+      "subtitle": "In den meisten Fällen lassen sich solche Fassaden restaurieren, ihre Lebensdauer über Jahrzehnte verlängern und sie für unsere Nachkommen in gutem Zustand halten.",
+      "title": "Die Fassadensanierungstechnik umfasst in der Regel folgende Phasen:",
+      "alt": "Die Fassadensanierungstechnik",
+      "content1": "Reinigung der Fassade",
+      "content2": "Ziegelrestaurierung",
+      "content3": "Füllnähte",
+      "content4": "Verklebung von Rissen",
+      "content5": "Angrenzende Abdichtung",
+      "content6": "Erhaltung der Fassade"
+    },
+    "descr": {
+      "content": "Mit dieser Technologie hat unser Unternehmen folgende Objekte fertiggestellt:"
+    },
+    "after-before": {
+      "title": "Früher – jetzt",
+      "alt": "Технологія очищеня, реставрації та консервації цегляних фасадів"
+    },
+    "advantage": {
+      "title": "Vorteile dieser Technologie",
+      "subtitle1": "Authentizität",
+      "content1": "Die Fassade bleibt so erhalten, wie sie der Architekt einst für unsere Nachkommen vorgesehen hatte.",
+      "subtitle2": "Zuverlässigkeit",
+      "content2": "Wir tragen keine zusätzlichen Schichten auf, die sich mit der Zeit ablösen könnten.",
+      "subtitle3": "Zeit",
+      "content3": "Wir finden und behandeln alle Ursachen für „Erkrankungen“ der Fassade, die sich während des Betriebs angesammelt haben, sodass diese in Zukunft nicht erneut auftreten"
+    },
+    "object": {
+      "title": "Wie es auf realen Objekten aussieht"
+    },
+    "khimichna-ochystka": {
+      "title": "Chemische Reinigung"
+    },
+    "pisok": {
+      "title": "Sandstrahlreinigung"
+    },
+    "cegla": {
+      "title": "Ziegelrestaurierung"
+    },
+    "shvi": {
+      "title": "Füllnähte"
+    },
+    "trishchina": {
+      "title": "Verklebung von Rissen"
+    },
+    "gidroizolyatsiya": {
+      "title": "Angrenzende Abdichtung"
+    },
+    "konservatsiya": {
+      "title": "Erhaltung der Fassade",
+      "content": "Wenn alle Arbeiten zur Fassadesanierung abgeschlossen sind, ist es notwendig, die Fassade durch Auftragen einer hydrophoben Imprägnierung zu konservieren."
     }
   }
 }
