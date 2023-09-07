@@ -5,22 +5,23 @@ import Title from "@/app/[locale]/components/title/Title";
 import { useTranslations } from 'next-intl';
 
 const Services = () => {
-  const t = useTranslations('home');
-  return(
+  const t = useTranslations('components.services');
+  return (
     <section>
       <div className="container">
-        <Title title={'line'}>{t('services.title')}</Title>
+        <Title title={'line'}>{t('title')}</Title>
         <ul className={styles.list}>
           {ServiceData.map((card, index) => {
-            return(
+            return (
               <li key={index}>
-              <ServicesCard
-                image={card.image}
-                title={card.title}
-                description={card.description}
-                link={card.link}
-              />
-            </li>
+                <ServicesCard
+                  image={card.image}
+                  title={t(`items.${index}.title`)}
+                  description={t(`items.${index}.description`)}
+                  link={card.link}
+                  btn={t('btn')}
+                />
+              </li>
             )
           })}
         </ul>

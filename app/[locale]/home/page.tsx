@@ -1,5 +1,3 @@
-
-
 import AboutUs from "./section/about-us/About-us";
 import About from "./section/about/About";
 import Head from "./section/head/Head";

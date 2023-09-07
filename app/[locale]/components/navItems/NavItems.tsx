@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import Header from "../header/Header";
 import Navigation from "../navigation/Navigation";
 
 
@@ -58,6 +57,10 @@ const NavItems = () => {
           label: 'Академія "Вертикаль"',
           href: '/services/akademiya-vertykal'
         },
+        {
+          label: "єВідновлення",
+          href: "/services/partner-derzhavnoyi-prohramy-yevidnovlennya"
+        }
       ]
     },
     {

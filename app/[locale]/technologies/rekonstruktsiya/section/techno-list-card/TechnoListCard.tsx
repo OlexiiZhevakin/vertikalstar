@@ -1,8 +1,10 @@
 import styles from './page.module.scss'
 import TechnologiesCard from "@/card/TechnologiesCard/TechnologiesCard"
 import TechnologiesData from "@/data/technologiesData";
+import { useTranslations } from 'next-intl';
 
 const TechnoListCard = () => {
+  const t = useTranslations('home.technologies');
   const latestTechnologies = TechnologiesData.slice(-6);
   return(
     <section>
@@ -13,8 +15,9 @@ const TechnoListCard = () => {
               <li key={index}>
                 <TechnologiesCard
                   image={item.image}
-                  title={item.title}
+                  title={t(`items.${index}.title`)}
                   link={item.link}
+                  btn={t('btn')}
                 />
               </li>
             )

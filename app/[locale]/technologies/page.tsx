@@ -4,6 +4,7 @@ import TechnologiesData from '@/data/technologiesData';
 import Form from '@/app/[locale]/components/form/Form';
 import { Metadata } from "next";
 import Title from '@/app/[locale]/components/title/Title';
+import { useTranslations } from 'next-intl';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.vertikalstar.com/technologies/'),
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 }
 
 const Technologies = () => {
+  const t = useTranslations('home.technologies');
   return (
     <>
       <section className={styles.technologies}>
@@ -29,8 +31,9 @@ const Technologies = () => {
                 <li key={index}>
                   <TechnologiesCard
                     image={card.image}
-                    title={card.title}
+                    title={t(`items.${index}.title`)}
                     link={card.link}
+                    btn={t('btn')}
                   />
                 </li>
               )

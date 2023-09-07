@@ -16,17 +16,17 @@
       "contact": "Kontakt"
     },
     "footer": {
-      "subtitle1": "Kunden",
+      "subtitle1": "Zu Kunden",
       "content1": "Bewertungen",
-      "content2": "TechnologienMarken",
+      "content2": "Technologien",
       "content3": "Marken",
       "subtitle2": "Über uns",
       "content4": "Über das Unternehmen",
       "content5": "Portfolio",
       "content6": "Stellenangebote",
       "subtitle3": "Dienstleistungen",
-      "content7": "Materialverkauf",
-      "content8": "Schulung an der Akademie",
+      "content7": "Verkauf von Materialien",
+      "content8": "Studium an der Akademie",
       "subtitle4": "Kontakte"
     },
     "way": {
@@ -41,26 +41,25 @@
       "description4": "Wenn Sie diesen “Schlüsselfertigen Service“ bestellen, organisieren wir die Ausführung der Arbeiten gemäß der vorbereiteten TECHNOLOGIE und allen aktuellen Vorschriften."
     },
     "services": {
-      "proektuvannya-tekhnolohiy": {
-        "title": "Проектування технологій",
-        "description": "Обстеження вашого об'єкта, розробка проекту",
-        "btn": "Детальніше"
-      },
-      "akademiya-vertykal": {
-        "title": "Академія 'Вертикаль'",
-        "description": "Організація навчання, шеф-монтаж на об'єктах",
-        "btn": "Детальніше"
-      },
-      "byuro-rekonstruktsiyi": {
-        "title": "Бюро Реконструкції та Реставрації",
-        "description": "Організація виконання робіт",
-        "btn": "Детальніше"
-      },
-      "byuro-budivelnoyi-khimiyi": {
-        "title": "Бюро Будівельної Хімії",
-        "description": "Продаж перевірених матеріалів",
-        "btn": "Детальніше"
-      }
+      "title": "Unsere Dienstleistungen",
+      "items": [
+        {
+          "title": "Technologiedesign",
+          "description": "Besichtigung Ihrer Einrichtung, Projektentwicklung"
+        },
+        {
+          "title": "'Vertikal' Akademie",
+          "description": "Organisation von Schulungen, Hauptinstallation in Einrichtungen"
+        }, {
+          "title": "Büro für Wiederaufbau und Restaurierung",
+          "description": "Organisation der Arbeitsleistung"
+        },
+        {
+          "title": "Büro für Bauchemie",
+          "description": "Verkauf geprüfter Materialien"
+        }
+      ],
+      "btn": "Mehr Details"
     },
     "form": {
       "title": "Unsere TECHNOLOGIEN für Ihre Projekte",
@@ -110,7 +109,44 @@
     },
     "technologies": {
       "title": "Technologien",
-      "btn": "Показати ще"
+      "items": [{
+          "title": "Гідроізоляція"
+        },
+        {
+          "title": "Мікроцемент та декоративне оздоблення"
+        },
+        {
+          "title": "Утеплення та термомодернізація"
+        },
+        {
+          "title": "Очистка, реставрація та захист фасадів"
+        },
+        {
+          "title": "Промислові та декоративні підлоги"
+        },
+        {
+          "title": "Реконструкція"
+        },
+        {
+          "title": "Піскоструминне очищення"
+        },
+        {
+          "title": "Добавки в бетони та розчини"
+        },
+        {
+          "title": "Склеювання тріщин"
+        },
+        {
+          "title": "Посилення вуглецевими полотнами"
+        },
+        {
+          "title": "Торкретування"
+        },
+        {
+          "title": "Ремонт бетону та залізобетону"
+        }
+      ],
+      "btn": "Mehr"
     },
     "objects": {
       "title": "Objekte, bei denen unsere TECHNOLOGIEN zum Einsatz kommen"
@@ -122,14 +158,14 @@
       "title": "Rezensionen"
     },
     "blog": {
-      "title": "Блог та новини",
-      "btn": "Читати більше"
+      "title": "Blog und Nachrichten",
+      "btn": "Mehr lesen"
     },
     "youtube": {
       "alt": "Канал на YouTube",
-      "subtitle": "Наш YouTube канал",
-      "title": "Вертикаль Будівельних Технологій",
-      "content": "База корисних відеороликів та Лабораторія випробування матеріалів"
+      "subtitle": "Unser YouTube-Kanal",
+      "title": "ВBAUTECHNIK VERTIKAL",
+      "content": "Datenbank mit nützlichen Videos und Materialprüflabor"
     }
   },
   "about": {

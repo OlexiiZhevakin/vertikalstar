@@ -19,7 +19,7 @@ type Props = {
   logo: string
 }
 
-const MenuLinks = ({home, about, services, technologies, shop, blog, contact, logo}: Props) => {
+const MenuLinks = ({ home, about, services, technologies, shop, blog, contact, logo }: Props) => {
 
   const pathname = usePathname();
 
@@ -102,7 +102,12 @@ const MenuLinks = ({home, about, services, technologies, shop, blog, contact, lo
                   <li className={styles.subitem}>
                     <Link href="/services/akademiya-vertykal" onClick={closeMenu}>
                       Академія "Вертикаль"
-                      </Link>
+                    </Link>
+                  </li>
+                  <li className={styles.subitem}>
+                    <Link href="/services/partner-derzhavnoyi-prohramy-yevidnovlennya" onClick={closeMenu} >
+                      Програма єВідновлення
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -121,17 +126,17 @@ const MenuLinks = ({home, about, services, technologies, shop, blog, contact, lo
                   <li className={styles.subitem}>
                     <Link href="/technologies/fasad" onClick={closeMenu}>
                       Очистка, реставрація та захист фасадів
-                      </Link>
+                    </Link>
                   </li>
                   <li className={styles.subitem}>
                     <Link href="/technologies/promyslovi-ta-dekoratyvni-pidlohy" onClick={closeMenu}>
                       Промислові та декоративні підлоги
-                      </Link>
+                    </Link>
                   </li>
                   <li className={styles.subitem}>
                     <Link href="/technologies/rekonstruktsiya" onClick={closeMenu}>
                       Реконструкція
-                      </Link>
+                    </Link>
                   </li>
                   <li className={styles.subitem}>
                     <Link href="/technologies/mikrotsement-ta-dekoratyvne-ozdoblennya" onClick={closeMenu}>
@@ -150,15 +155,15 @@ const MenuLinks = ({home, about, services, technologies, shop, blog, contact, lo
                 <Link href="/contacts" onClick={closeMenu}>{contact}</Link>
               </li>
             </ul>
-            <SwichLang/>
+            <SwichLang />
           </nav>
 
         </div>
       </div>
     </header>
 
-    
-      
+
+
 
   )
 }

@@ -1,5 +1,5 @@
 
-import Services from './section/services/Services';
+// import Services from './section/services/Services';
 import Adaptationt from './section/adaptation/Adaptation';
 import Head from './section/head/Head';
 import Implement from './section/implement/Implement';
@@ -10,6 +10,7 @@ import Teach from './section/teach/Teach';
 import Form from '@/app/[locale]/components/form/Form';
 import { Metadata } from "next";
 import Way from '../components/Way/Way';
+import Services from '../home/section/services/Services';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.vertikalstar.com/about'),

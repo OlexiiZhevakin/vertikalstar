@@ -7,15 +7,16 @@ type Props = {
   image: string,
   title: string,
   link: string,
+  btn: string
 }
 
-const TechnologiesCard = ({image, title, link}: Props) => {
+const TechnologiesCard = ({image, title, link, btn}: Props) => {
   return(
     <article className={styles.card}>
       <Image src={image} alt={title} title={title} width={360} height={270} />
       <div>
         <h3>{title}</h3>
-        <Link className='btn' href={link}>Докладніше</Link>
+        <Link className='btn' href={link}>{btn}</Link>
       </div>
     </article>
   )

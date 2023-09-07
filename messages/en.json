@@ -11,17 +11,17 @@
       "contact": "Contact"
     },
     "footer": {
-      "subtitle1": "Customers",
+      "subtitle1": "To customers",
       "content1": "Reviews",
       "content2": "Technologies",
       "content3": "Brands",
       "subtitle2": "About Us",
       "content4": "About the Company",
       "content5": "Portfolio",
-      "content6": "Vacancies/Jobs",
+      "content6": "Job offers",
       "subtitle3": "Services",
-      "content7": "Materials Sales",
-      "content8": "Training at the Academy",
+      "content7": "Sale of materials",
+      "content8": "Study at the academy",
       "subtitle4": "Contacts"
     },
     "help": {
@@ -37,30 +37,30 @@
       "description2": "We develop a TECHNOLOGY to solve your problem, select materials, prepare estimate.",
       "subtitle3": "Supply of materials",
       "description3": "We organize the prompt delivery of the necessary materials on your object. If necessary, we provide training or installation supervision.",
-      "subtitle4": "Execution",
+      "subtitle4": "Execution of works",
       "description4": "If you order a 'TURNKEY' service, we will organize the execution of work according to the developed TECHNOLOGY and all applicable regulations."
     },
     "services": {
-      "proektuvannya-tekhnolohiy": {
-        "title": "Проектування технологій",
-        "description": "Обстеження вашого об'єкта, розробка проекту",
-        "btn": "Детальніше"
-      },
-      "akademiya-vertykal": {
-        "title": "Академія 'Вертикаль'",
-        "description": "Організація навчання, шеф-монтаж на об'єктах",
-        "btn": "Детальніше"
-      },
-      "byuro-rekonstruktsiyi": {
-        "title": "Бюро Реконструкції та Реставрації",
-        "description": "Організація виконання робіт",
-        "btn": "Детальніше"
-      },
-      "byuro-budivelnoyi-khimiyi": {
-        "title": "Бюро Будівельної Хімії",
-        "description": "Продаж перевірених матеріалів",
-        "btn": "Детальніше"
-      }
+      "title": "Our services",
+      "items": [
+        {
+          "title": "Technology design",
+          "description": "Inspection of your object, project development"
+        },
+        {
+          "title": "'Vertical' Academy",
+          "description": "Organization of training, installation supervision on your object"
+        },
+        {
+          "title": "Bureau of Reconstruction and Restoration",
+          "description": "Organization of work performance"
+        },
+        {
+          "title": "Bureau of Construction Chemistry",
+          "description": "Sale of proven materials"
+        }
+      ],
+      "btn": "More details"
     },
     "form": {
       "title": "Our TECHNOLOGIES for your projects",
@@ -81,55 +81,93 @@
   "home": {
     "head": {
       "alt": "Фонова картинка",
-      "subtitle1": "Група компаній",
-      "title": "Вертикаль будівельних технологій",
-      "subtitle2": "Впроваджуємо сучасні, ефективні технології для професійного будівництва"
+      "subtitle1": "A group of companies",
+      "title": "VERTICAL OF BUILDING TECHNOLOGIES",
+      "subtitle2": "We implement modern, effective technologies for professional construction"
     },
     "services": {
-      "title": "Наші послуги"
+      "title": "Our services"
     },
     "about": {
       "alt": "На цій фотографії зображен диретор компанії Вертикаль будівельних технологій",
-      "title": "Ми працюємо з 1999 року",
-      "content1": "Вважаємо, що унікальні споруди мають бути збережені для нащадків. Прагнемо, щоб нові будинки служили століттями",
-      "content2": "Якщо Ви займаєтеся Професійним будівництвом, Ви обов 'язково знайдете у нас корисні технології для себе.",
-      "content3": "Якщо Ви звернулися до нас вперше – Ви залишитеся з нами надовго, у колі однодумців та професіоналів.",
-      "btn": "Про нас",
-      "content4": "з повагою, засновник компанії Сергій Стародубов"
+      "title": "We have been working since 1999",
+      "content1": "We believe, unique buildings should be preserved for posterity. We strive to ensure that new homes serve for centuries.",
+      "content2": "If you are engaged in professional construction, you will definitely find useful technologies for yourself with us.",
+      "content3": "If you have contacted us for the first time, you will stay with us for along time, in the circle of like-minded people and professionals.",
+      "btn": "About Us",
+      "content4": "Sincerely yours, company founder Serhiy Starodubov"
     },
     "about-us": {
-      "span1": "24 роки",
-      "subtitle1": "Професійного будівництва",
-      "content1": "1999 рік заснування компанії",
+      "span1": "24 years",
+      "subtitle1": "Of professional construction work",
+      "content1": "The company was founded in 1999",
       "span2": "500+",
-      "subtitle2": "Реалізовані проекти",
-      "content2": "з них 46 пам'яток архітектури",
+      "subtitle2": "Completed projects",
+      "content2": "including 46 architectural monuments",
       "span3": "35+",
-      "subtitle3": "технології",
-      "content3": "в активі нашої компанії"
+      "subtitle3": "TECHNOLOGIES",
+      "content3": "in the assets of our company"
     },
     "technologies": {
-      "title": "Технології",
-      "btn": "Показати ще"
+      "title": "Technologies",
+      "items": [
+        {
+          "title": "Waterproofing"
+        },
+        {
+          "title": "Microcement and decorative finish"
+        },
+        {
+          "title": "Warming and thermal modernization"
+        },
+        {
+          "title": "Cleaning, restoration and protection of facades"
+        },
+        {
+          "title": "Industrial and decorative floors"
+        },
+        {
+          "title": "Reconstruction"
+        },
+        {
+          "title": "Піскоструминне очищення"
+        },
+        {
+          "title": "Добавки в бетони та розчини"
+        },
+        {
+          "title": "Склеювання тріщин"
+        },
+        {
+          "title": "Посилення вуглецевими полотнами"
+        },
+        {
+          "title": "Торкретування"
+        },
+        {
+          "title": "Ремонт бетону та залізобетону"
+        }
+      ],
+      "btn": "More details" 
     },
     "objects": {
-      "title": "Об'єкти де застосовані наші ТЕХНОЛОГІЇ"
+      "title": "Objects, in which our TECHNOLOGIES are used"
     },
     "brands": {
-      "title": "Бренди з якими ми працюємо"
+      "title": "Brands we work with"
     },
     "reviews": {
-      "title": "Відгуки"
+      "title": "Reviews"
     },
     "blog": {
-      "title": "Блог та новини",
-      "btn": "Читати більше"
+      "title": "Blog and news",
+      "btn": "Read more"
     },
     "youtube": {
       "alt": "Канал на YouTube",
-      "subtitle": "Наш YouTube канал",
-      "title": "Вертикаль Будівельних Технологій",
-      "content": "База корисних відеороликів та Лабораторія випробування матеріалів"
+      "subtitle": "Our YouTube channel",
+      "title": "VERTICAL OF BUILDING TECHNOLOGIES",
+      "content": "Database of useful videos and material testing laboratory"
     }
   },
   "about": {

@@ -10,9 +10,10 @@ type Props = {
   image: string,
   description: string,
   link: string,
+  btn: string
 }
 
-const ServicesCard = ({ title, image, description, link }: Props) => {
+const ServicesCard = ({ title, image, description, link, btn }: Props) => {
 
 
   return (
@@ -21,7 +22,7 @@ const ServicesCard = ({ title, image, description, link }: Props) => {
       <div className={styles.content}>
         <h3>{title}</h3>
         <p className={styles.descr}>{description}</p>
-        <Link href={link} className='btn'>Детальніше</Link>
+        <Link href={link} className='btn'>{btn}</Link>
       </div>
     </article>
 
