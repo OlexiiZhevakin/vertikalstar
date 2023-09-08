@@ -5,7 +5,10 @@
   flex-direction: column;
   div{
     padding: 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    height: 140px;
   }
   h2{
     font-size: 20px;

@@ -6,11 +6,11 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 20px;
-  height: fit-content;
+  // height: fit-content;
   li{
     max-width: 400px;
     border-bottom: 3px solid var(--orange);
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     height: 400px;
   }
 }

@@ -1,5 +1,10 @@
 const blogData = [
   {
+    image: '/img/blog/partner-derzhavnoyi-prohramy-yevidnovlennya.jpg',
+    link: '/article/partner-derzhavnoyi-prohramy-yevidnovlennya',
+    title: 'ВЕРТИКАЛЬ БУДІВЕЛЬНИХ ТЕХНОЛОГІЙ - партнер державної програми "єВідновлення"'
+  },
+  {
     image: '/img/blog/5-sekretiv-yak-polehshyty-zhyttya-mulyaru.jpg',
     link: '/article/sekreti-yak-polehshyty-zhyttya-mulyaru',
     title: 'Як покращити розчин для цегляної кладки?'
