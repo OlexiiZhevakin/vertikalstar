@@ -107,11 +107,20 @@ const EVidnovlennya = () => {
             Ми допоможемо вам професійно обрати потрібні матеріали та надати всю необхідну інформацію.
           </p>
           <a className={`btn ${styles.btn}`} href="tel:+380675713308">
-            Оформити замовлення легко
+            Зателефонувати нам
           </a>
         </div>
       </div>
       <section className={styles.description}>
+        <div className={styles.background}>
+          <Image
+            src="/img/services/partner-derzhavnoyi-prohramy-yevidnovlennya/ukraine.jpg"
+            fill
+            quality={75}
+            alt="partner-derzhavnoyi-prohramy-yevidnovlennya"
+            priority
+          />
+        </div>
         <div className="container">
           <Title title={'h2'}>
             Вертикаль Будівельних Технологій - ваш надійний партнер у відновленні житла. Разом ми відбудуємо Україну!

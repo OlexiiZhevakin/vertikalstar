@@ -66,6 +66,20 @@
   color: var(--white);
   padding: 12px;
 }
+
+.description {
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+  background-image: url('/img/services/partner-derzhavnoyi-prohramy-yevidnovlennya/ukraine.jpg');
+  background-size: cover;
+  background-position: center;
+  h2{
+    color: var(--white);
+  }
+}
+
+
 @media (max-width: 768px){
   .subtext{
     font-size: 22px;

@@ -1,33 +1,9 @@
 'use client'
-// import Link from 'next-intl/link';
-// import styles from './swich.module.scss'
 
-
-// const SwichLang = () => {
-
-  
-//   return (
-//     <div className={styles.links}>
-//       <Link className={styles.link} href='/' locale='uk'>
-//         ua
-//       </Link>
-//       <Link className={styles.link} href='/' locale='en'>
-//         en
-//       </Link>
-//       <Link className={styles.link} href='/' locale='de'>
-//         de
-//       </Link>
-//       <Link className={styles.link} href='/' locale='ru'>
-//         ru
-//       </Link>
-//     </div>
-//   )
-// }
-
-// export default SwichLang
 import { usePathname, useRouter } from 'next-intl/client';
 import Link from 'next-intl/link';
 import styles from './swich.module.scss';
+
 
 const SwichLang = () => {
   const pathname = usePathname();
